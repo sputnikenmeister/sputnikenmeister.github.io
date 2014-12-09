@@ -1,338 +1,144 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
-<meta name="msapplication-tap-highlight" content="no"/>
-<title>Portfolio/Hammer.js</title>
-<style>
-
-	*, *:after, *:before {
-		box-sizing: border-box;
-		-moz-box-sizing: border-box;
-	}
-
-	html, body {
-		background: #eee;
-		font: 12px/1.5em 'Lucida Grande','Lucida Sans', Calibri, Tahoma, Kalimati, sans-serif;
-	}
-
-	html, body.full {
-		margin: 0;
-		padding: 0;
-		height: 100%;
-		min-height: 100%;
-	}
-
-	body {
-		margin: 0;
-		padding: 20px 0;
-		height: calc(100% - 40px);
-		min-height: calc(100% - 40px);
-	}
-
-	h1 {
-		font-size: 209%;
-		font-weight: 700;
-		line-height: 1;
-		letter-spacing: -0.03em;
-		transform: translateX(-0.05em);
-	}
-	code {
-		font-size-adjust: 0.54;
-	}
-	.clear { clear: both; }
-
-	.viewport {
-		font: 600 40px/1.5 Helvetica, Arial, sans-serif;
-		color: #fff;
-		background: #333;
-		-moz-user-select: none;
-		-webkit-user-select: none;
-		user-select: none;
-	}
-
-	.container {
-		width: 100%;
-		max-width: 740px;
-		margin: 20px auto;
-		padding: 0 20px;
-	}
-	.full .container {
-		min-width: 740px;
-	}
-	.full .container > * {
-		width: 500px;
-		margin: 0 auto;
-	}
-
-	/* carousel layout */
-	.viewport {
-		position: relative;
-		overflow: hidden;
-		width: 100%;
-		height: 100%;
-		max-width: 700px;
-		max-height: 500px;
-		margin: 0 auto;
-	}
-	.full .viewport {
-		min-width: 740px;
-		max-width: none;
-	}
-	.panes {
-		position: relative;
-		width: 100%;
-		height: 100%;
-	}
-	.pane {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-	}
-	.panes.horizontal-panes {
-		width: calc(100% - 6em);
-		margin: 0 -3em;
-		left: 6em;
-	}
-	.panes.vertical-panes {
-		height: calc(100% - 2em);
-		margin: -1em 0;
-		top: 2em;
-	}
-	.horizontal-panes > .pane {
-	}
-	.vertical-panes > .pane {
-		left: 2em;
-		width: calc(100% - 4em);
-		top: 0.5em;
-		height: calc(100% - 1em);
-	}
-	.full .vertical-panes > .pane {
-		width: 500px;
-		left: calc(50% - 250px);
-	}
-	.panes.animate > .pane {
-		transition: all .3s;
-		-webkit-transition: all .3s;
-	}
-
-	/* these don't affect the carousel */
-	.pane-leaf {
-		box-shadow: 0px 24px 24px -12px rgba(0, 0, 0, 0.7);
-	}
-	.pane-label {
-		position: absolute;
-		width: 0.75em;
-		font-size: 50%;
-		text-shadow: 0px 16px 16px rgba(0, 0, 0, 0.8);
-	}
-	.pane-node > .pane-label {
-		top: 4em; left: 2.3em;
-		text-align: right;
-	}
-	.pane-leaf > .pane-label {
-		top: 1em; left: -1em;
-		text-align: left;
-	}
-
-	.pane-node:nth-child(5n+1) { background: hsla(  0, 10%, 50%, 0.5); }
-	.pane-node:nth-child(5n+2) { background: hsla( 80, 10%, 50%, 0.5); }
-	.pane-node:nth-child(5n+3) { background: hsla(160, 10%, 50%, 0.5); }
-	.pane-node:nth-child(5n+4) { background: hsla(240, 10%, 50%, 0.5); }
-	.pane-node:nth-child(5n+5) { background: hsla(320, 10%, 50%, 0.5); }
-
-	.pane-leaf:nth-child(5n+1) { background: hsla(0, 60%, 50%, 0.5); }
-	.pane-leaf:nth-child(5n+2) { background: hsla(20, 60%, 50%, 0.5); }
-	.pane-leaf:nth-child(5n+3) { background: hsla(40, 60%, 50%, 0.5); }
-	.pane-leaf:nth-child(5n+4) { background: hsla(60, 60%, 50%, 0.5); }
-	.pane-leaf:nth-child(5n+5) { background: hsla(80, 60%, 50%, 0.5); }
-
-</style>
-
-</head>
-<body class="full">
-
-<div class="viewport">
-	<div class="panes wrapper horizontal-panes">
-		<div class="pane pane-node bg1">
-			<div class="pane-label">1</div>
-			<div class="panes vertical-panes">
-				<div class="pane pane-leaf"><div class="pane-label">1</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">2</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">3</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">4</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">5</div></div>
-			</div>
-		</div>
-		<div class="pane pane-node bg2">
-			<div class="pane-label">2</div>
-			<div class="panes vertical-panes">
-				<div class="pane pane-leaf"><div class="pane-label">1</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">2</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">3</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">4</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">5</div></div>
-			</div>
-		</div>
-		<div class="pane pane-node bg3">
-			<div class="pane-label">3</div>
-			<div class="panes vertical-panes">
-				<div class="pane pane-leaf"><div class="pane-label">1</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">2</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">3</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">4</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">5</div></div>
-			</div>
-		</div>
-		<div class="pane pane-node bg4">
-			<div class="pane-label">4</div>
-			<div class="panes vertical-panes">
-				<div class="pane pane-leaf"><div class="pane-label">1</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">2</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">3</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">4</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">5</div></div>
-			</div>
-		</div>
-		<div class="pane pane-node bg5">
-			<div class="pane-label">5</div>
-			<div class="panes vertical-panes">
-				<div class="pane pane-leaf"><div class="pane-label">1</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">2</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">3</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">4</div></div>
-				<div class="pane pane-leaf"><div class="pane-label">5</div></div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<h1>Nested <code>pan</code> event recognizers</h1>
-	<p>Nested recognizers are possible with some threshold and with use of <code>requireFailure()</code>.</p>
-</div>
-
-<script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
-<script>
-
-	var reqAnimationFrame = (function() {
-		return window[Hammer.prefixed(window, "requestAnimationFrame")] || function(callback) {
-			setTimeout(callback, 1000 / 60);
-		}
-	})();
-
-	function dirProp(direction, hProp, vProp) {
-		return (direction & Hammer.DIRECTION_HORIZONTAL) ? hProp : vProp
-	}
-
-	/**
-	 * Carousel
-	 * @param container
-	 * @param direction
-	 * @constructor
-	 */
-	function HammerCarousel(container, direction) {
-		this.container = container;
-		this.direction = direction;
-
-		this.panes = Array.prototype.slice.call(this.container.children, 0);
-		this.containerSize = this.container[dirProp(direction, "offsetWidth", "offsetHeight")];
-
-		this.currentIndex = 0;
-
-		this.hammer = new Hammer.Manager(this.container);
-		this.hammer.add(new Hammer.Pan({ direction: this.direction, threshold: 10 }));
-		this.hammer.on("panstart panmove panend pancancel", Hammer.bindFn(this.onPan, this));
-
-		var fnDelegate = Hammer.bindFn(this.onWindowResize, this);
-		window.addEventListener("load", fnDelegate, false);
-		window.addEventListener("orientationchange", fnDelegate, false);
-		window.addEventListener("resize", fnDelegate, false);
-
-		this.show(this.currentIndex);
-	}
-
-	HammerCarousel.prototype = {
-		/**
-		 * show a pane
-		 * @param {Number} showIndex
-		 * @param {Number} [percent] percentage visible
-		 * @param {Boolean} [animate]
-		 */
-		show: function(showIndex, percent, animate){
-			showIndex = Math.max(0, Math.min(showIndex, this.panes.length - 1));
-			percent = percent || 0;
-
-			var className = this.container.className;
-			if(animate) {
-				if(className.indexOf('animate') === -1) {
-					this.container.className += ' animate';
-				}
-			} else {
-				if(className.indexOf('animate') !== -1) {
-					this.container.className = className.replace('animate', '').trim();
-				}
-			}
-
-			var paneIndex, pos, translate;
-			for (paneIndex = 0; paneIndex < this.panes.length; paneIndex++) {
-				pos = (this.containerSize / 100) * (((paneIndex - showIndex) * 100) + percent);
-				if(this.direction & Hammer.DIRECTION_HORIZONTAL) {
-					translate = 'translate3d(' + pos + 'px, 0, 0)';
-					// translate = 'translateX(' + pos + 'px)';
-				} else {
-					translate = 'translate3d(0, ' + pos + 'px, 0)';
-					// translate = 'translateY(' + pos + 'px)';
-				}
-				 this.panes[paneIndex].style.transform = translate;
-				 this.panes[paneIndex].style.mozTransform = translate;
-				 this.panes[paneIndex].style.webkitTransform = translate;
-			}
-
-			this.currentIndex = showIndex;
-		},
-
-		onWindowResize : function (ev) {
-			this.containerSize = this.container[dirProp(this.direction, 'offsetWidth', 'offsetHeight')];
-			this.show(this.currentIndex);
-		},
-
-		/**
-		 * handle pan
-		 * @param {Object} ev
-		 */
-		onPan : function (ev) {
-			var delta = dirProp(this.direction, ev.deltaX, ev.deltaY);
-			var percent = (100 / this.containerSize) * delta;
-			var animate = false;
-
-			if (ev.type == 'panend' || ev.type == 'pancancel') {
-				if (Math.abs(percent) > 20 && ev.type == 'panend') {
-					this.currentIndex += (percent < 0) ? 1 : -1;
-				}
-				percent = 0;
-				animate = true;
-			}
-
-			this.show(this.currentIndex, percent, animate);
-		}
-	};
-
-	// the horizontal pane scroller
-	var outer = new HammerCarousel(document.querySelector(".panes.wrapper"), Hammer.DIRECTION_HORIZONTAL);
-
-	// each pane should contain a vertical pane scroller
-	Hammer.each(document.querySelectorAll(".pane .panes"), function(container) {
-		// setup the inner scroller
-		var inner = new HammerCarousel(container, Hammer.DIRECTION_VERTICAL);
-
-		// only recognize the inner pan when the outer is failing.
-		// they both have a threshold of some px
-		outer.hammer.get('pan').requireFailure(inner.hammer.get('pan'));
-	});
-
-</script>
-
-</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/workspace/assets/css/folio.css" />
+  </head>
+  <body class="xhtml-page app-initial">
+    <div id="container">
+      <div id="header" class="header">
+        <h3>Subheader</h3>
+      </div>
+      <div id="navigation" class="navigation">
+        <div id="nav-root">
+          <h1 id="site-name">
+            <a href="#">Portfolio</a>
+          </h1>
+        </div>
+        <dl id="keyword-list" class="list selectable filterable grouped">
+          <dt id="t9" class="list-group">
+            <span>Agency</span>
+          </dt>
+          <dd id="k125" class="list-item">
+            <a href="#">Siegel+Gale</a>
+          </dd>
+          <dt id="t7" class="list-group">
+            <span>Role</span>
+          </dt>
+          <dd id="k127" class="list-item">
+            <a href="#">Animation</a>
+          </dd>
+          <dd id="k16" class="list-item">
+            <a href="#">Visual Design</a>
+          </dd>
+          <dd id="k15" class="list-item">
+            <a href="#">Interaction Design</a>
+          </dd>
+          <dd id="k14" class="list-item">
+            <a href="#">Information Architecture</a>
+          </dd>
+          <dd id="k13" class="list-item">
+            <a href="#">Identity</a>
+          </dd>
+          <dt id="t8" class="list-group">
+            <span>Type</span>
+          </dt>
+          <dd id="k25" class="list-item">
+            <a href="#">Services Portal</a>
+          </dd>
+          <dd id="k24" class="list-item">
+            <a href="#">Video Platform</a>
+          </dd>
+          <dd id="k22" class="list-item">
+            <a href="#">Desktop Application</a>
+          </dd>
+          <dd id="k21" class="list-item">
+            <a href="#">Corporate Website</a>
+          </dd>
+          <dd id="k20" class="list-item">
+            <a href="#">Web Application</a>
+          </dd>
+          <dt id="t11" class="list-group">
+            <span>Technology</span>
+          </dt>
+          <dd id="k19" class="list-item">
+            <a href="#">Web Standards</a>
+          </dd>
+          <dd id="k18" class="list-item">
+            <a href="#">Adobe Flash</a>
+          </dd>
+          <dd id="k17" class="list-item">
+            <a href="#">Adobe Air</a>
+          </dd>
+        </dl>
+        <ul id="bundle-list" class="list selectable filterable">
+          <li id="b67" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2012-09-19">2012</span>
+            <a class="name" href="#bundles/coopervision">CooperVision</a>
+          </li>
+          <li id="b64" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2010-09-19">2010</span>
+            <a class="name" href="#bundles/freeplay-music">Freeplay Music</a>
+          </li>
+          <li id="b36" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2010-09-19">2010</span>
+            <a class="name" href="#bundles/esj-capital-partners">ESJ Capital Partners</a>
+          </li>
+          <li id="b26" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2010-09-18">2010</span>
+            <a class="name" href="#bundles/milo">Milo</a>
+          </li>
+          <li id="b120" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2009-09-20">2009</span>
+            <a class="name" href="#bundles/le-meridien">Le Meridien</a>
+          </li>
+          <li id="b50" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2009-09-01">2009</span>
+            <a class="name" href="#bundles/emblemhealth">EmblemHealth</a>
+          </li>
+          <li id="b39" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2008-09-19">2008</span>
+            <a class="name" href="#bundles/workfit">Workfit</a>
+          </li>
+          <li id="b65" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2007-09-19">2007</span>
+            <a class="name" href="#bundles/ivy-cms">Ivy CMS</a>
+          </li>
+          <li id="b61" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2007-09-19">2007</span>
+            <a class="name" href="#bundles/ivy-player">Ivy Player</a>
+          </li>
+          <li id="b66" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
+            <a class="name" href="#bundles/ivy-agency">Ivy Agency</a>
+          </li>
+          <li id="b63" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
+            <a class="name" href="#bundles/la-redoute">La Redoute</a>
+          </li>
+          <li id="b62" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
+            <a class="name" href="#bundles/garnier">Garnier</a>
+          </li>
+          <li id="b60" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
+            <a class="name" href="#bundles/alternet">Alternet</a>
+          </li>
+          <li id="b121" class="list-item">
+            <span class="completed meta pubDate" data-datetime="2003-09-20">2003</span>
+            <a class="name" href="#bundles/school-of-visual-arts">School of Visual Arts</a>
+          </li>
+        </ul>
+      </div>
+      <div id="content" class="content viewport"></div>
+      <div id="container-footer"></div>
+    </div>
+    <div id="footer" class="footer mutable-faded">
+      <p class="copyright">© 1995-2014 Pablo Canillas</p>
+    </div>
+    <script type="text/javascript" src="/workspace/assets/js/data.js"></script>
+    <script type="text/javascript" src="/workspace/assets/js/folio.js"></script>
+  </body>
 </html>
