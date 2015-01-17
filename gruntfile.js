@@ -62,7 +62,8 @@ module.exports = function (grunt) {
 //						replacement: "<%= destAssets %>"
 //					},
 					{
-						pattern: /https?:\/\/[^\/\"\']+/g,
+//						pattern: /https?:\/\/[^\/\"\']+/g,
+						pattern: /https?:\/\/folio\.localhost/g,
 						replacement: ""
 					}
 				]
