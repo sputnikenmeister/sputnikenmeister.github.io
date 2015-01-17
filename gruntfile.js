@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 	grunt.config("http", {
 		index: {
 			options: { url: 'http://folio.localhost/' },
-			dest: 'index.html'
+			dest: 'index.xhtml'
 		},
 		styles: {
 			options: { url: 'http://folio.localhost/workspace/assets/css/folio.css' },
@@ -33,7 +33,7 @@ module.exports = function (grunt) {
 	grunt.config("string-replace", {
 		"data-url": {
 			files: {
-				'./': ['index.html']
+				'./': ['index.xhtml']
 			},
 			options: {
 				replacements: [{
@@ -44,18 +44,17 @@ module.exports = function (grunt) {
 		},
 		"root-url": {
 			files: {
-				'./': ['index.html','workspace/assets/css/folio.css','workspace/assets/js/folio-data.js']
+				'./': ['index.xhtml','workspace/assets/css/folio.css','workspace/assets/js/folio-data.js']
 			},
 			options: {
 				replacements: [{
-					pattern: /http:\/\/folio.localhost\//g,
-					replacement: '/'
+					pattern: /http:\/\/folio.localhost/g,
+					replacement: ''
 				}]
 			}
 		}
 	});
 	
-	grunt.registerTask("http-folio-get", ["http:index", "http:styles"]);
 	grunt.registerTask("build", ["http", "string-replace"]);
 	grunt.registerTask("default", ["build"]);
 };
