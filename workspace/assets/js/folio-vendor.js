@@ -1851,31 +1851,6 @@ require = function e(t, n, r) {
             };
         }(jQuery);
     }, {} ],
-    "jquery-hammerjs": [ function(require, module, exports) {
-        !function(factory) {
-            "function" == typeof define && define.amd ? define([ "jquery", "hammerjs" ], factory) : "object" == typeof exports ? factory(require("jquery"), require("hammerjs")) : factory(jQuery, Hammer);
-        }(function($, Hammer) {
-            function hammerify(el, options) {
-                var $el = $(el);
-                $el.data("hammer") || $el.data("hammer", new Hammer($el[0], options));
-            }
-            $.fn.hammer = function(options) {
-                return this.each(function() {
-                    hammerify(this, options);
-                });
-            }, Hammer.Manager.prototype.emit = function(originalEmit) {
-                return function(type, data) {
-                    originalEmit.call(this, type, data), $(this.element).trigger({
-                        type: type,
-                        gesture: data
-                    });
-                };
-            }(Hammer.Manager.prototype.emit);
-        });
-    }, {
-        hammerjs: "hammerjs",
-        jquery: "jquery"
-    } ],
     "jquery.transit": [ function(require, module, exports) {
         !function(root, factory) {
             "function" == typeof define && define.amd ? define([ "jquery" ], factory) : "object" == typeof exports ? module.exports = factory(require("jquery")) : factory(root.jQuery);

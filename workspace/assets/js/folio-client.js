@@ -96,9 +96,9 @@
     }, {} ],
     2: [ function(require) {
         var _ = require("underscore"), $ = require("jquery"), Backbone = require("backbone");
-        window.jQuery = Backbone.$ = $, require("hammerjs"), require("jquery-hammerjs"), 
-        require("jquery.transit"), require("jquery-color"), require("backbone.babysitter"), 
-        require("Backbone.Mutators"), $(document).ready(function() {
+        window.jQuery = Backbone.$ = $, require("hammerjs"), require("jquery.transit"), 
+        require("jquery-color"), require("backbone.babysitter"), require("Backbone.Mutators"), 
+        $(document).ready(function() {
             "use strict";
             var AppView = require("./view/AppView");
             !function() {
@@ -129,7 +129,6 @@
         hammerjs: "hammerjs",
         jquery: "jquery",
         "jquery-color": "jquery-color",
-        "jquery-hammerjs": "jquery-hammerjs",
         "jquery.transit": "jquery.transit",
         underscore: "underscore"
     } ],
@@ -148,10 +147,7 @@
                 }
             },
             initialize: function() {
-                this.listenToOnce(bundles, "all", this.initializeBundleStyles), this.listenTo(bundles, {
-                    "select:one": this._onBundleSelectOne,
-                    "select:none": this._onBundleSelectNone
-                });
+                this.listenToOnce(bundles, "all", this.routeInitialized);
                 var bundleTracer = traceArgs("Bundles 	", "info"), imageTracer = traceArgs("Images  	", "info"), routeTracer = traceArgs("Router  	", "info"), appTracer = traceArgs("App     	", "info");
                 this.listenTo(this, "route", routeTracer), this.listenTo(Backbone, "all", appTracer), 
                 this.listenTo(bundles, {
@@ -198,8 +194,8 @@
                 this._changeSelection();
             },
             _changeSelection: function(bundle, image) {
-                _.isUndefined(bundle) ? bundles.deselect() : (_.isUndefined(image) ? bundle.get("images").deselect() : bundle.get("images").select(image), 
-                bundles.select(bundle));
+                _.isUndefined(bundle) ? (bundles.selected && bundles.selected.get("images").deselect(), 
+                bundles.deselect()) : (bundles.select(bundle), _.isUndefined(image) ? bundle.get("images").deselect() : bundle.get("images").select(image));
             },
             _onBundleSelectOne: function(bundle) {
                 document.title = "Portfolio – " + stripTags(bundle.get("name"));
@@ -207,35 +203,112 @@
             _onBundleSelectNone: function() {
                 document.title = "Portfolio";
             },
-            initializeBundleStyles: function() {
-                var fgColor, bgColor, bgLum, fgLum, bgDefault, fgDefault, attrs, className, styles;
-                bgDefault = Styles.getCSSProperty("body", "background-color"), fgDefault = Styles.getCSSProperty("body", "color"), 
-                bundles.each(function(bundle) {
-                    attrs = bundle.get("attrs"), className = bundle.get("handle"), bgColor = new Color(attrs["background-color"] || bgDefault), 
-                    fgColor = new Color(attrs.color || fgDefault), bgLum = bgColor.lightness(), fgLum = fgColor.lightness(), 
-                    styles = _.pick(attrs, [ "background-color", "background", "color" ]), styles["-webkit-font-smoothing"] = fgLum > bgLum ? "antialiased" : "auto", 
-                    Styles.createCSSRule("body." + className, styles), styles = _.pick(attrs, [ "box-shadow", "border", "border-radius", "background-color" ]), 
-                    Styles.createCSSRule("." + className + " > .image-item img", styles), Styles.createCSSRule("." + className + " > .image-item .placeholder", {
-                        "background-color": bgColor.lightness(.075 * fgLum + .925 * bgLum).toHexString(),
-                        "border-color": bgColor.lightness(.125 * fgLum + .875 * bgLum).toHexString(),
-                        color: bgColor.lightness(.05 * fgLum + .95 * bgLum).toHexString()
-                    }), Styles.createCSSRule("." + className + " .mutable-faded", {
-                        "border-color": fgColor.lightness(.3 * fgLum + .7 * bgLum).toHexString(),
-                        color: fgColor.lightness(.5 * fgLum + .5 * bgLum).toHexString()
-                    });
-                });
-                var $body = Backbone.$("body");
-                $body.addClass(bundles.selected ? "bundle-item" : "bundle-list"), this.listenTo(bundles, {
-                    "deselect:one": function(bundle) {
-                        $body.removeClass(bundle.get("handle"));
-                    },
-                    "select:one": function(bundle) {
-                        $body.removeClass("bundle-list").addClass("bundle-item"), $body.addClass(bundle.get("handle"));
+            routeInitialized: function() {
+                this.initializeBrowserTitle(), this.initializeBundleStyles(), this.inilializeHandlers3();
+            },
+            inilializeHandlers: function() {
+                var $body = Backbone.$("body"), handlers = {
+                    "select:one": function() {
+                        $body.removeClass("bundle-list").addClass("bundle-item");
                     },
                     "select:none": function() {
                         $body.removeClass("bundle-item").addClass("bundle-list");
                     }
+                };
+                this.listenTo(bundles, handlers), bundles.selected ? handlers["select:one"].call(this, bundles.selected) : handlers["select:none"].call(this);
+            },
+            inilializeHandlers2: function() {
+                var $body = Backbone.$("body"), lastBundle = null, lastImage = null, handlers = {};
+                handlers.image = {
+                    "select:one": function(image) {
+                        null === lastImage && ($body.removeClass("image-list"), $body.addClass("image-item")), 
+                        lastImage = image;
+                    },
+                    "select:none": function() {
+                        lastImage && $body.removeClass("image-item"), $body.addClass("image-list"), lastImage = null;
+                    }
+                }, handlers.bundle = {
+                    "select:one": function(bundle) {
+                        var images = bundle.get("images");
+                        lastBundle ? this.stopListening(lastBundle.get("images"), handlers.image) : $body.removeClass("bundle-list").addClass("bundle-item"), 
+                        this.listenTo(images, handlers.image), images.selected ? handlers.image["select:one"].call(this, images.selected) : handlers.image["select:none"].call(this), 
+                        lastBundle = bundle;
+                    },
+                    "select:none": function() {
+                        lastBundle && this.stopListening(lastBundle.get("images"), handlers.image), $body.removeClass("bundle-item").addClass("bundle-list"), 
+                        lastBundle = null;
+                    }
+                }, this.listenTo(bundles, handlers.bundle), bundles.selected ? handlers.bundle["select:one"].call(this, bundles.selected) : handlers.bundle["select:none"].call(this);
+            },
+            inilializeHandlers3: function() {
+                var withBundle, withoutBundle, withImage, withoutImage, toClassName = function(prefix, val) {
+                    return (val ? "with-" : "without-") + prefix;
+                }, $body = Backbone.$("body"), images = null;
+                withImage = function() {
+                    $body.removeClass(toClassName("image", !1)).addClass(toClassName("image", !0)), 
+                    this.listenToOnce(images, "select:none", withoutImage);
+                }, withoutImage = function() {
+                    $body.removeClass(toClassName("image", !0)).addClass(toClassName("image", !1)), 
+                    this.listenToOnce(images, "select:one", withImage);
+                }, withBundle = function() {
+                    $body.removeClass(toClassName("bundle", !1)).addClass(toClassName("bundle", !0)), 
+                    this.listenToOnce(bundles, "select:none", withoutBundle);
+                }, withoutBundle = function() {
+                    $body.removeClass(toClassName("bundle", !0)).addClass(toClassName("bundle", !1)), 
+                    this.listenToOnce(bundles, "select:one", withBundle);
+                };
+                var bundleHandlers = {
+                    "select:one": function(bundle) {
+                        images = bundle.get("images"), (images.selected ? withImage : withoutImage).call(this);
+                    },
+                    "deselect:one": function(bundle) {
+                        images = bundle.get("images"), this.stopListening(images, "select:none", withoutImage), 
+                        this.stopListening(images, "select:one", withImage), images = null;
+                    }
+                };
+                this.listenTo(bundles, bundleHandlers), bundles.selected ? (withBundle.call(this), 
+                images = bundles.selected.get("images"), images.selected ? withImage.call(this) : withoutImage.call(this)) : withoutBundle.call(this);
+            },
+            initializeBrowserTitle: function() {
+                var handlers = {
+                    "select:one": function(bundle) {
+                        document.title = "Portfolio – " + stripTags(bundle.get("name"));
+                    },
+                    "select:none": function() {
+                        document.title = "Portfolio";
+                    }
+                };
+                this.listenTo(bundles, handlers), bundles.selected ? handlers["select:one"].call(this, bundles.selected) : handlers["select:none"].call(this);
+            },
+            initializeBundleStyles: function() {
+                var fgColor, bgColor, bgLum, fgLum, bgDefault, fgDefault, attrs, styles, toBodyClass = function(bundle) {
+                    return "bundle-" + bundle.id;
+                };
+                bgDefault = Styles.getCSSProperty("body", "background-color"), fgDefault = Styles.getCSSProperty("body", "color"), 
+                bundles.each(function(bundle) {
+                    attrs = bundle.get("attrs"), bodySelector = "body." + toBodyClass(bundle), carouselSelector = ".carousel." + bundle.get("handle"), 
+                    bgColor = new Color(attrs["background-color"] || bgDefault), fgColor = new Color(attrs.color || fgDefault), 
+                    bgLum = bgColor.lightness(), fgLum = fgColor.lightness(), styles = _.pick(attrs, [ "background-color", "background", "color" ]), 
+                    styles["-webkit-font-smoothing"] = fgLum > bgLum ? "antialiased" : "auto", Styles.createCSSRule(bodySelector, styles), 
+                    styles = {
+                        "border-color": fgColor.lightness(.3 * fgLum + .7 * bgLum).toHexString(),
+                        color: fgColor.lightness(.5 * fgLum + .5 * bgLum).toHexString()
+                    }, Styles.createCSSRule(bodySelector + " .mutable-faded", styles), styles = _.pick(attrs, [ "box-shadow", "border", "border-radius", "background-color" ]), 
+                    Styles.createCSSRule(carouselSelector + " > .image-item img", styles), styles = {
+                        "background-color": bgColor.lightness(.075 * fgLum + .925 * bgLum).toHexString(),
+                        "border-color": bgColor.lightness(.125 * fgLum + .875 * bgLum).toHexString(),
+                        color: bgColor.lightness(.05 * fgLum + .95 * bgLum).toHexString()
+                    }, Styles.createCSSRule(carouselSelector + " > .image-item .placeholder", styles);
                 });
+                var $body = Backbone.$("body"), handlers = {
+                    "deselect:one": function(bundle) {
+                        $body.removeClass(toBodyClass(bundle));
+                    },
+                    "select:one": function(bundle) {
+                        $body.addClass(toBodyClass(bundle));
+                    }
+                };
+                this.listenTo(bundles, handlers), bundles.selected && handlers["select:one"].call(this, bundles.selected);
             }
         });
         module.exports = new Controller();
@@ -707,6 +780,9 @@
         module.exports = AppView;
         var Cookies = require("cookies-js"), DebugToolbar = Backbone.View.extend({
             initialize: function() {
+                Cookies.defaults = {
+                    domain: String(window.location).match(/^https?\:\/\/([^\/:?#]+)(?:[\/:?#]|$)/i)[1]
+                };
                 var backendEl = this.$("#edit-backend");
                 this.listenTo(bundles, {
                     "select:one": function(bundle) {
@@ -736,13 +812,13 @@
         underscore: "underscore"
     } ],
     22: [ function(require, module) {
-        var _ = require("underscore"), controller = (require("backbone"), require("../control/Controller")), bundles = require("../model/collection/BundleList"), View = require("../helper/View"), Carousel = require("./component/Carousel"), ImageRenderer = (require("./component/SelectableListView"), 
-        require("./component/CollectionStack"), require("./render/ImageRenderer")), CarouselEmptyRenderer = (require("./render/DotNavigationRenderer"), 
-        require("./render/CarouselEmptyRenderer")), bundleDescTemplate = require("./template/CollectionStack.Bundle.tpl"), Globals = (require("./template/CollectionStack.Image.tpl"), 
-        require("../control/Globals").HORIZONTAL_STEP, require("../control/Globals")), ContentView = View.extend({
+        var _ = require("underscore"), controller = (require("hammerjs"), require("backbone"), 
+        require("../control/Controller")), bundles = require("../model/collection/BundleList"), Globals = require("../control/Globals"), View = require("../helper/View"), Carousel = require("./component/Carousel"), CollectionStack = (require("./component/SelectableListView"), 
+        require("./component/CollectionStack")), ImageRenderer = require("./render/ImageRenderer"), CarouselEmptyRenderer = (require("./render/DotNavigationRenderer"), 
+        require("./render/CarouselEmptyRenderer")), bundleDescTemplate = require("./template/CollectionStack.Bundle.tpl"), imageDescTemplate = require("./template/CollectionStack.Image.tpl"), ContentView = View.extend({
             initialize: function() {
-                this.children = [], this.container = document.createElement("div"), this.container.id = "content-detail", 
-                this.$el.append(this.container), this.listenTo(bundles, {
+                _.bindAll(this, "_onPan"), this.children = [], this.container = document.createElement("div"), 
+                this.container.id = "content-detail", this.$el.append(this.container), this.listenTo(bundles, {
                     "select:one": function(bundle) {
                         this.createChildren(bundle, !1);
                     },
@@ -752,8 +828,21 @@
                 }), bundles.selected && this.createChildren(bundles.selected, !0);
             },
             remove: function() {
-                bundles.selected && this.removeChildren(bundles.selected, !0), this.$el.remove(this.container), 
-                View.prototype.remove.apply(this, arguments);
+                bundles.selected && this.removeChildren(bundles.selected, !0), this.hammer.destroy(), 
+                this.$el.remove(this.container), View.prototype.remove.apply(this, arguments);
+            },
+            createChildren: function(bundle, skipAnimation) {
+                var images = bundle.get("images");
+                this.createImageCarousel(images, bundle), this.createLabelCarousel(images), skipAnimation || _.each(this.children, function(child) {
+                    child.$el.css({
+                        opacity: 0
+                    }).delay(3 * Globals.TRANSITION_DELAY).transit({
+                        opacity: 1
+                    }, Globals.TRANSITION_DURATION);
+                });
+            },
+            _onPan: function(ev) {
+                console.log(ev.type, ev.target);
             },
             removeChildren: function(bundle, skipAnimation) {
                 var images = bundle.get("images");
@@ -767,17 +856,9 @@
                     });
                 }), this.children.length = 0;
             },
-            createChildren: function(bundle, skipAnimation) {
-                var view, images = bundle.get("images");
-                view = new Carousel({
-                    className: "label-carousel",
-                    collection: images,
-                    gap: Globals.HORIZONTAL_STEP
-                }), view.render().$el.appendTo(this.el), controller.listenTo(view, {
-                    "view:select:one": controller.selectImage,
-                    "view:select:none": controller.deselectImage
-                }), this.children[this.children.length] = view, view = new Carousel({
-                    className: bundle.get("handle") + " image-carousel",
+            createImageCarousel: function(images, bundle) {
+                return view = new Carousel({
+                    className: "image-carousel " + bundle.get("handle"),
                     collection: images,
                     renderer: ImageRenderer,
                     emptyRenderer: CarouselEmptyRenderer.extend({
@@ -787,13 +868,25 @@
                 }), view.render().$el.appendTo(this.el), controller.listenTo(view, {
                     "view:select:one": controller.selectImage,
                     "view:select:none": controller.deselectImage
-                }), this.children[this.children.length] = view, skipAnimation || _.each(this.children, function(child) {
-                    child.$el.css({
-                        opacity: 0
-                    }).delay(2.5 * Globals.TRANSITION_DELAY).transit({
-                        opacity: 1
-                    }, Globals.TRANSITION_DURATION);
+                }), this.children[this.children.length] = view;
+            },
+            createLabelCarousel: function(images) {
+                return view = new Carousel({
+                    className: "label-carousel",
+                    collection: images,
+                    gap: Globals.HORIZONTAL_STEP
+                }), view.render().$el.appendTo(this.el), controller.listenTo(view, {
+                    "view:select:one": controller.selectImage,
+                    "view:select:none": controller.deselectImage
+                }), this.children[this.children.length] = view;
+            },
+            createImageDetail: function(images) {
+                var view = new CollectionStack({
+                    collection: images,
+                    template: imageDescTemplate,
+                    className: "image-detail"
                 });
+                return view.render().$el.appendTo(this.container), this.children[this.children.length] = view;
             }
         });
         module.exports = ContentView;
@@ -811,6 +904,7 @@
         "./template/CollectionStack.Bundle.tpl": 38,
         "./template/CollectionStack.Image.tpl": 39,
         backbone: "backbone",
+        hammerjs: "hammerjs",
         underscore: "underscore"
     } ],
     23: [ function(require, module) {
@@ -907,12 +1001,13 @@
             initialize: function(options) {
                 this.children = new Container(), _.isNumber(options.gap) && (this.gap = options.gap), 
                 options.renderer && (this.renderer = options.renderer), options.emptyRenderer && (this.emptyRenderer = options.emptyRenderer), 
-                options.direction === Hammer.DIRECTION_VERTICAL && (this.direction = Hammer.DIRECTION_VERTICAL), 
-                options.hammer ? this.hammer = options.hammer : (this.hammer = new Hammer.Manager(this.el), 
+                options.direction === Hammer.DIRECTION_VERTICAL && (this.direction = Hammer.DIRECTION_VERTICAL);
+                var hammerEl = Backbone.$(document.createElement("div")).addClass("pan-area").appendTo(this.el)[0];
+                options.hammer ? (console.log(this.cid, "using external hammer"), this.hammer = options.hammer) : (this.hammer = new Hammer.Manager(hammerEl), 
                 this.hammer.add(new Hammer.Pan({
                     direction: this.direction,
                     threshold: this.panThreshold
-                }))), _.bindAll(this, "_onPan"), this.hammer.on("panstart panmove panend pancancel", this._onPan), 
+                })), this._hammerIsLocal = !0), _.bindAll(this, "_onPan"), this.hammer.on("panstart panmove panend pancancel", this._onPan), 
                 _.bindAll(this, "_onResize"), Backbone.$(window).on("orientationchange resize", this._onResize), 
                 this.listenTo(this.collection, {
                     reset: this._onCollectionReset,
@@ -922,11 +1017,11 @@
                 });
             },
             remove: function() {
-                Backbone.$(window).off("orientationchange resize", this._onResize), this.hammer.off("panstart panmove panend pancancel"), 
-                this.hammer.destroy(), this.removeChildren(), DeferredRenderView.prototype.remove.apply(this);
+                Backbone.$(window).off("orientationchange resize", this._onResize), this.hammer.off("panstart panmove panend pancancel", this._onPan), 
+                this._hammerIsLocal && this.hammer.destroy(), this.removeChildren(), DeferredRenderView.prototype.remove.apply(this);
             },
             _onPan: function(ev) {
-                switch (ev.preventDefault(), ev.type) {
+                switch (ev.type) {
                   case "panstart":
                     return this._onPanStart(ev);
 
@@ -1002,13 +1097,13 @@
                 });
             },
             createEmptyChildView: function() {
-                return child = new this.emptyRenderer({}), this.emptyChild = child, child.$el.on("mouseup", _.bind(function(ev) {
+                var child = new this.emptyRenderer({});
+                return this.emptyChild = child, child.$el.on("mouseup", _.bind(function(ev) {
                     ev.isDefaultPrevented() || this.panning || -1 == this.collection.selectedIndex || this.trigger("view:select:none");
                 }, this)), -1 == this.collection.selectedIndex && this.selectEmptyChildView(), child;
             },
             removeEmptyChildView: function() {
-                this.emptyChild ? (this.emptyChild.$el.off("mouseup"), this.emptyChild.remove(), 
-                delete this.emptyChild) : console.warn("Carousel.removeEmptyChildView called while emptyChild is undefined");
+                this.emptyChild ? (this.emptyChild.remove(), delete this.emptyChild) : console.warn("Carousel.removeEmptyChildView called while emptyChild is undefined");
             },
             createChildView: function(item) {
                 var child = new this.renderer({
@@ -1019,14 +1114,14 @@
                 }, this)), item.selected && child.$el.addClass("selected"), child;
             },
             removeChildView: function(view) {
-                return this.children.remove(view), view.$el.off("mouseup"), view.remove(), view;
+                return this.children.remove(view), view.remove(), view;
             },
             _createChildren: function() {
                 var buffer;
                 this._resetPending && (this.removeChildren(), this._resetPending = !1), this.collection.length && (buffer = document.createDocumentFragment(), 
                 buffer.appendChild(this.createEmptyChildView().el), this.collection.each(function(item, index) {
                     buffer.appendChild(this.createChildView(item, index).el);
-                }, this), this.$el.append(buffer)), this.measure();
+                }, this), this.$el.prepend(buffer)), this.measure();
             },
             createChildrenNow: function() {
                 this._createChildren();
@@ -1042,16 +1137,16 @@
                 this.measure(), this.scrollByNow(0, IMMEDIATE);
             },
             measure: function() {
-                var size, pos = 0, maxAcross = 0, measure = function(child) {
+                var size, pos = 0, maxAcross = 0, maxSize = 0, measure = function(child) {
                     size = this.measureChild(child.render()), size.pos = pos, pos += size.outer + (this.gap || Math.min(size.before, size.after)), 
-                    maxAcross = Math.max(maxAcross, size.across);
+                    maxAcross = Math.max(maxAcross, size.across), maxSize = Math.max(maxSize, size.outer);
                 };
-                measure.call(this, this.emptyChild), maxAcross = 0, this.children.each(measure, this), 
+                measure.call(this, this.emptyChild), maxAcross = maxSize = 0, this.children.each(measure, this), 
                 this.containerSize = this.el[this.dirProp("offsetWidth", "offsetHeight")], this.selectThreshold = Math.min(this.selectThreshold, .1 * this.containerSize), 
                 this.$el.css(this.dirProp("minHeight", "minWidth"), maxAcross > 0 ? maxAcross : "");
             },
             measureChild: function(child) {
-                var sizes = {}, childEl = child.el, contentEl = childEl.firstChild;
+                var sizes = {}, childEl = child.el, contentEl = child.$(".sizing")[0];
                 return sizes.outer = childEl[this.dirProp("offsetWidth", "offsetHeight")], sizes.across = childEl[this.dirProp("offsetHeight", "offsetWidth")], 
                 contentEl ? (sizes.inner = contentEl[this.dirProp("offsetWidth", "offsetHeight")], 
                 sizes.before = contentEl[this.dirProp("offsetLeft", "offsetTop")], sizes.after = sizes.outer - (sizes.inner + sizes.before)) : (sizes.inner = sizes.outer, 
@@ -1542,7 +1637,7 @@
         underscore: "underscore"
     } ],
     35: [ function(require, module) {
-        var _ = require("underscore"), Backbone = require("backbone"), ImageItem = require("../../model/item/ImageItem"), loadImage = (require("../../utils/Styles"), 
+        var _ = require("underscore"), Backbone = require("backbone"), Globals = require("../../control/Globals"), ImageItem = require("../../model/item/ImageItem"), loadImage = (require("../../utils/Styles"), 
         require("../../utils/strings/stripTags"), require("../../utils/net/loadImage")), viewTemplate = (require("../../utils/net/loadImageXHR"), 
         require("../template/ImageRenderer.tpl"));
         module.exports = Backbone.View.extend({
@@ -1550,11 +1645,6 @@
             className: "carousel-item image-item idle",
             model: ImageItem,
             template: viewTemplate,
-            events: {
-                "dragstart img": function(ev) {
-                    ev.preventDefault();
-                }
-            },
             initialize: function() {
                 this._loadImage = _.once(_.bind(this._loadImage, this)), this.createChildren(), 
                 this.addSiblingListeners();
@@ -1562,6 +1652,9 @@
             createChildren: function() {
                 this.$el.html(this.template(this.model.toJSON())), this.$placeholder = this.$(".placeholder"), 
                 this.placeholder = this.$placeholder[0], this.$image = this.$("img"), this.image = this.$image[0];
+            },
+            remove: function() {
+                return this.image.onload = this.image.onerror = this.image.onabort = void 0, Backbone.View.prototype.remove.apply(this, arguments);
             },
             render: function() {
                 var w = this.$placeholder.outerWidth(), h = Math.round(w / this.model.get("w") * this.model.get("h"));
@@ -1579,14 +1672,17 @@
                 });
             },
             _loadImage: function() {
-                this.$el.removeClass("idle").addClass("pending"), loadImage(this.$image[0], this.model.getImageUrl(), this).then(function(url, source, ev) {
-                    this.$el.removeClass("pending").addClass("done"), console.info("ImageRenderer.onLoad: " + this.model.get("f"), ev);
-                }, function(err) {
-                    this.$el.removeClass("pending").addClass("error"), console.error("ImageRenderer.onError: " + err.message, arguments);
-                });
+                this.$el.removeClass("idle").addClass("pending"), _.delay(function(context) {
+                    loadImage(context.image, context.model.getImageUrl(), context).then(function(url, source, ev) {
+                        this.$el.removeClass("pending").addClass("done"), console.info("ImageRenderer.onLoad: " + this.model.get("f"), ev);
+                    }, function(err) {
+                        this.$el.removeClass("pending").addClass("error"), console.error("ImageRenderer.onError: " + err.message, arguments);
+                    });
+                }, Globals.TRANSITION_DELAY, this);
             }
         });
     }, {
+        "../../control/Globals": 4,
         "../../model/item/ImageItem": 12,
         "../../utils/Styles": 15,
         "../../utils/net/loadImage": 17,

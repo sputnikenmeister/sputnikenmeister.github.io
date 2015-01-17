@@ -5,52 +5,67 @@ module.exports = function (grunt) {
 	// grunt.initConfig({});
 	grunt.config("pkg", grunt.file.readJSON("package.json"));
 	
+	grunt.config("srcRoot", "http://folio.localhost");
+	grunt.config("srcAssets", "workspace/assets");
+	grunt.config("destAssets", "workspace/assets");
+	
 	grunt.loadNpmTasks("grunt-http");
 	grunt.config("http", {
+		options: {
+			ignoreErrors: true
+		},
 		index: {
-			options: { url: 'http://folio.localhost/' },
-			dest: 'index.xhtml'
+			options: { url: "<%= srcRoot %>/" },
+			dest: "index.xhtml"
 		},
 		styles: {
-			options: { url: 'http://folio.localhost/workspace/assets/css/folio.css' },
-			dest: 'workspace/assets/css/folio.css'
+			options: { url: "<%= srcRoot %>/<%= srcAssets %>/css/folio.css" },
+			dest: "<%= destAssets %>/css/folio.css"
 		},
-		data: {
-			options: { url: 'http://folio.localhost/json' },
-			dest: 'workspace/assets/js/folio-data.js'
+		"js-vendor": {
+			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio-vendor.js" },
+			dest: "<%= destAssets %>/js/folio-vendor.js"
 		},
-		vendor: {
-			options: { url: 'http://folio.localhost/workspace/assets/js/folio-vendor.js' },
-			dest: 'workspace/assets/js/folio-vendor.js'
+		"js-client": {
+			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio-client.js" },
+			dest: "<%= destAssets %>/js/folio-client.js"
 		},
-		client: {
-			options: { url: 'http://folio.localhost/workspace/assets/js/folio-client.js' },
-			dest: 'workspace/assets/js/folio-client.js'
+		"js-dist": {
+			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio.js" },
+			dest: "<%= destAssets %>/js/folio.js"
 		},
 	});
 	
-	grunt.loadNpmTasks('grunt-string-replace');
+	grunt.loadNpmTasks("grunt-string-replace");
 	grunt.config("string-replace", {
-		"data-url": {
+//		"data-url": {
+//			files: {
+//				"./": ["index.xhtml"]
+//			},
+//			options: {
+//				replacements: [{
+//					pattern: /http:\/\/folio.localhost\/json/,
+//					replacement: "<%= destAssets %>/js/folio-data.js"
+//				}]
+//			}
+//		},
+		"root-urls": {
 			files: {
-				'./': ['index.xhtml']
+				"./": ["index.xhtml",
+					   "<%= destAssets %>/css/*.css",
+					   "<%= destAssets %>/js/*.js"],
 			},
 			options: {
-				replacements: [{
-					pattern: /http:\/\/folio.localhost\/json/,
-					replacement: '/workspace/assets/js/folio-data.js'
-				}]
-			}
-		},
-		"root-url": {
-			files: {
-				'./': ['index.xhtml','workspace/assets/css/folio.css','workspace/assets/js/folio-data.js']
-			},
-			options: {
-				replacements: [{
-					pattern: /http:\/\/folio.localhost/g,
-					replacement: ''
-				}]
+				replacements: [
+//					{
+//						pattern: "<%= srcAssets %>",
+//						replacement: "<%= destAssets %>"
+//					},
+					{
+						pattern: /https?:\/\/[^\/\"\']+/g,
+						replacement: ""
+					}
+				]
 			}
 		}
 	});
