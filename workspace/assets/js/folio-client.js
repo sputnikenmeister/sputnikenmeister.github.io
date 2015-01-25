@@ -162,24 +162,31 @@
             },
             selectImage: function(image) {
                 var bundle = image.get("bundle");
-                this._changeSelection(bundle, image), this._updateLocation();
+                this._goToLocation(bundle, image);
             },
             deselectImage: function() {
                 var bundle = bundles.selected;
-                this._changeSelection(bundle), this._updateLocation();
+                this._goToLocation(bundle);
             },
             selectBundle: function(bundle) {
-                this._changeSelection(bundle), this._updateLocation();
+                this._goToLocation(bundle);
             },
             deselectBundle: function() {
-                this._changeSelection(), this._updateLocation();
+                this._goToLocation();
             },
             _updateLocation: function() {
                 var bundle, imageIndex, location;
                 location = "bundles", bundle = bundles.selected, bundle && (location += "/" + bundle.get("handle"), 
                 imageIndex = bundle.get("images").selectedIndex, imageIndex >= 0 && (location += "/" + imageIndex)), 
-                this.navigate(location, {
+                _.defer(_.bind(this.navigate, this), location, {
                     trigger: !1
+                });
+            },
+            _goToLocation: function(bundle, image) {
+                var imageIndex, location;
+                location = "bundles", bundle && (location += "/" + bundle.get("handle"), imageIndex = bundle.get("images").indexOf(image), 
+                imageIndex >= 0 && (location += "/" + imageIndex)), this.navigate(location, {
+                    trigger: !0
                 });
             },
             toBundleItem: function(bundleHandle, imageIndex) {
@@ -194,53 +201,13 @@
                 this._changeSelection();
             },
             _changeSelection: function(bundle, image) {
-                _.isUndefined(bundle) ? (bundles.selected && bundles.selected.get("images").deselect(), 
-                bundles.deselect()) : (bundles.select(bundle), _.isUndefined(image) ? bundle.get("images").deselect() : bundle.get("images").select(image));
-            },
-            _onBundleSelectOne: function(bundle) {
-                document.title = "Portfolio – " + stripTags(bundle.get("name"));
-            },
-            _onBundleSelectNone: function() {
-                document.title = "Portfolio";
+                _.isUndefined(bundle) ? bundles.deselect() : (_.isUndefined(image) ? bundle.get("images").deselect() : bundle.get("images").select(image), 
+                bundles.select(bundle));
             },
             routeInitialized: function() {
-                this.initializeBrowserTitle(), this.initializeBundleStyles(), this.inilializeHandlers3();
+                this.inilializeHandlers(), this.initializeBundleStyles(), this.initializeBrowserTitle();
             },
             inilializeHandlers: function() {
-                var $body = Backbone.$("body"), handlers = {
-                    "select:one": function() {
-                        $body.removeClass("bundle-list").addClass("bundle-item");
-                    },
-                    "select:none": function() {
-                        $body.removeClass("bundle-item").addClass("bundle-list");
-                    }
-                };
-                this.listenTo(bundles, handlers), bundles.selected ? handlers["select:one"].call(this, bundles.selected) : handlers["select:none"].call(this);
-            },
-            inilializeHandlers2: function() {
-                var $body = Backbone.$("body"), lastBundle = null, lastImage = null, handlers = {};
-                handlers.image = {
-                    "select:one": function(image) {
-                        null === lastImage && ($body.removeClass("image-list"), $body.addClass("image-item")), 
-                        lastImage = image;
-                    },
-                    "select:none": function() {
-                        lastImage && $body.removeClass("image-item"), $body.addClass("image-list"), lastImage = null;
-                    }
-                }, handlers.bundle = {
-                    "select:one": function(bundle) {
-                        var images = bundle.get("images");
-                        lastBundle ? this.stopListening(lastBundle.get("images"), handlers.image) : $body.removeClass("bundle-list").addClass("bundle-item"), 
-                        this.listenTo(images, handlers.image), images.selected ? handlers.image["select:one"].call(this, images.selected) : handlers.image["select:none"].call(this), 
-                        lastBundle = bundle;
-                    },
-                    "select:none": function() {
-                        lastBundle && this.stopListening(lastBundle.get("images"), handlers.image), $body.removeClass("bundle-item").addClass("bundle-list"), 
-                        lastBundle = null;
-                    }
-                }, this.listenTo(bundles, handlers.bundle), bundles.selected ? handlers.bundle["select:one"].call(this, bundles.selected) : handlers.bundle["select:none"].call(this);
-            },
-            inilializeHandlers3: function() {
                 var withBundle, withoutBundle, withImage, withoutImage, toClassName = function(prefix, val) {
                     return (val ? "with-" : "without-") + prefix;
                 }, $body = Backbone.$("body"), images = null;
@@ -262,12 +229,14 @@
                         images = bundle.get("images"), (images.selected ? withImage : withoutImage).call(this);
                     },
                     "deselect:one": function(bundle) {
-                        images = bundle.get("images"), this.stopListening(images, "select:none", withoutImage), 
-                        this.stopListening(images, "select:one", withImage), images = null;
+                        images = bundle.get("images"), $body.removeClass(toClassName("image", !0)).removeClass(toClassName("image", !1)), 
+                        this.stopListening(images, {
+                            "select:none": withoutImage,
+                            "select:one": withImage
+                        }), images = null;
                     }
                 };
-                this.listenTo(bundles, bundleHandlers), bundles.selected ? (withBundle.call(this), 
-                images = bundles.selected.get("images"), images.selected ? withImage.call(this) : withoutImage.call(this)) : withoutBundle.call(this);
+                this.listenTo(bundles, bundleHandlers), (bundles.selected ? withBundle : withoutBundle).call(this);
             },
             initializeBrowserTitle: function() {
                 var handlers = {
@@ -281,7 +250,7 @@
                 this.listenTo(bundles, handlers), bundles.selected ? handlers["select:one"].call(this, bundles.selected) : handlers["select:none"].call(this);
             },
             initializeBundleStyles: function() {
-                var fgColor, bgColor, bgLum, fgLum, bgDefault, fgDefault, attrs, styles, toBodyClass = function(bundle) {
+                var fgColor, bgColor, bgLum, fgLum, bgDefault, fgDefault, attrs, styles, bodySelector, carouselSelector, toBodyClass = function(bundle) {
                     return "bundle-" + bundle.id;
                 };
                 bgDefault = Styles.getCSSProperty("body", "background-color"), fgDefault = Styles.getCSSProperty("body", "color"), 
@@ -323,11 +292,11 @@
         underscore: "underscore"
     } ],
     4: [ function(require, module) {
-        var txDuration = .35, txDelayInterval = .033;
+        var txDuration = 350, txDelayInterval = 50;
         module.exports = {
-            TRANSITION_DURATION: 1e3 * txDuration,
-            TRANSITION_DELAY_INTERVAL: 1e3 * txDelayInterval,
-            TRANSITION_DELAY: 1e3 * (txDuration + txDelayInterval),
+            TRANSITION_DURATION: txDuration,
+            TRANSITION_DELAY_INTERVAL: txDelayInterval,
+            TRANSITION_DELAY: txDuration + txDelayInterval,
             HORIZONTAL_STEP: 20,
             APP_ROOT: window.approot
         };
@@ -442,11 +411,13 @@
     8: [ function(require, module) {
         var SelectableList = require("../../helper/SelectableList"), BundleItem = require("../item/BundleItem"), BundleList = SelectableList.extend({
             model: BundleItem,
+            comparator: function(oa, ob) {
+                var a = oa.get("completed"), b = ob.get("completed");
+                return a > b ? -1 : b > a ? 1 : 0;
+            },
             url: "/json/bundles/"
         });
-        module.exports = new BundleList(void 0, {
-            comparator: "completed"
-        });
+        module.exports = new BundleList();
     }, {
         "../../helper/SelectableList": 6,
         "../item/BundleItem": 11
@@ -713,7 +684,7 @@
             }, deferred.always(function() {
                 image.onload = image.onerror = image.onabort = void 0;
             }), _.defer(function() {
-                image.src = url, deferred.notifyWith(context, [ 0, image ]);
+                image.src = url, deferred.notifyWith(context, [ "start", image ]), deferred.notifyWith(context, [ 0, image ]);
             }), deferred.promise();
         };
     }, {
@@ -722,14 +693,16 @@
     } ],
     18: [ function(require, module) {
         var Deferred = require("jquery").Deferred;
-        module.exports = function(url) {
+        module.exports = function(url, context) {
             var deferred = new Deferred(), request = new XMLHttpRequest();
             return request.open("GET", url, !0), request.responseType = "arraybuffer", request.onload = function(ev) {
-                200 == request.status ? deferred.resolve(window.URL.createObjectURL(new Blob([ request.response ])), request, ev) : deferred.reject(Error("Image didn't load successfully; error code:" + request.statusText), request, ev);
+                200 == request.status ? deferred.resolveWith(context, [ window.URL.createObjectURL(new Blob([ request.response ])), request, ev ]) : deferred.rejectWith(context, [ Error("Image didn't load successfully; error code:" + request.statusText), request, ev ]);
             }, request.onerror = function(ev) {
-                deferred.reject(Error("There was a network error."), request, ev);
+                deferred.rejectWith(context, [ Error("There was a network error."), request, ev ]);
             }, request.onprogress = function(ev) {
-                deferred.notify(ev.loaded / ev.total, request, ev);
+                deferred.notifyWith(context, [ ev.loaded / ev.total, request, ev ]);
+            }, request.onloadstart = function(ev) {
+                deferred.notifyWith(context, [ "start", request, ev ]);
             }, request.onabort = request.ontimeout = request.onerror, request.onloadstart = request.onloadend = request.onprogress, 
             _.defer(_.bind(request.send, request)), deferred.promise();
         };
@@ -749,7 +722,7 @@
         };
     }, {} ],
     21: [ function(require, module) {
-        var _ = require("underscore"), Backbone = require("backbone"), NavigationView = require("./NavigationView"), ContentView = require("./ContentView"), FooterView = require("./FooterView"), bundles = require("../model/collection/BundleList"), AppView = (require("../control/Controller"), 
+        var _ = require("underscore"), Backbone = require("backbone"), Globals = require("../control/Globals"), NavigationView = require("./NavigationView"), ContentView = require("./ContentView"), FooterView = require("./FooterView"), bundles = require("../model/collection/BundleList"), AppView = (require("../control/Controller"), 
         Backbone.View.extend({
             el: "body",
             initialize: function() {
@@ -764,7 +737,7 @@
                 }), Backbone.history.start({
                     pushState: !1,
                     hashChange: !0
-                }), this.navigationView.render();
+                });
                 var $body = this.$el, onViewportResize = function() {
                     $body.addClass("skip-transitions"), _.defer(function() {
                         $body.removeClass("skip-transitions");
@@ -786,10 +759,10 @@
                 var backendEl = this.$("#edit-backend");
                 this.listenTo(bundles, {
                     "select:one": function(bundle) {
-                        backendEl.text("Edit Bundle"), backendEl.attr("href", approot + "symphony/publish/bundles/edit/" + bundle.id);
+                        backendEl.text("Edit Bundle"), backendEl.attr("href", Globals.APP_ROOT + "symphony/publish/bundles/edit/" + bundle.id);
                     },
                     "select:none": function() {
-                        backendEl.text("Edit List"), backendEl.attr("href", approot + "symphony/publish/bundles/");
+                        backendEl.text("Edit List"), backendEl.attr("href", Globals.APP_ROOT + "symphony/publish/bundles/");
                     }
                 });
                 var container = Backbone.$("#container");
@@ -803,6 +776,7 @@
         });
     }, {
         "../control/Controller": 3,
+        "../control/Globals": 4,
         "../model/collection/BundleList": 8,
         "./ContentView": 22,
         "./FooterView": 23,
@@ -812,13 +786,10 @@
         underscore: "underscore"
     } ],
     22: [ function(require, module) {
-        var _ = require("underscore"), controller = (require("hammerjs"), require("backbone"), 
-        require("../control/Controller")), bundles = require("../model/collection/BundleList"), Globals = require("../control/Globals"), View = require("../helper/View"), Carousel = require("./component/Carousel"), CollectionStack = (require("./component/SelectableListView"), 
-        require("./component/CollectionStack")), ImageRenderer = require("./render/ImageRenderer"), CarouselEmptyRenderer = (require("./render/DotNavigationRenderer"), 
-        require("./render/CarouselEmptyRenderer")), bundleDescTemplate = require("./template/CollectionStack.Bundle.tpl"), imageDescTemplate = require("./template/CollectionStack.Image.tpl"), ContentView = View.extend({
+        var _ = require("underscore"), Hammer = require("hammerjs"), Backbone = require("backbone"), controller = require("../control/Controller"), bundles = require("../model/collection/BundleList"), Globals = require("../control/Globals"), View = require("../helper/View"), Carousel = require("./component/Carousel"), SelectableListView = require("./component/SelectableListView"), CollectionStack = require("./component/CollectionStack"), ImageRenderer = require("./render/ImageRenderer"), DotNavigationRenderer = require("./render/DotNavigationRenderer"), CarouselEmptyRenderer = require("./render/CarouselEmptyRenderer"), bundleDescTemplate = require("./template/CollectionStack.Bundle.tpl"), imageDescTemplate = require("./template/CollectionStack.Image.tpl"), ContentView = View.extend({
             initialize: function() {
-                _.bindAll(this, "_onPan"), this.children = [], this.container = document.createElement("div"), 
-                this.container.id = "content-detail", this.$el.append(this.container), this.listenTo(bundles, {
+                _.bindAll(this, "_onPan"), this.children = [], this.container = this.createContainer(), 
+                this.hammer = this.createHammer(this.el), this.listenTo(bundles, {
                     "select:one": function(bundle) {
                         this.createChildren(bundle, !1);
                     },
@@ -833,16 +804,13 @@
             },
             createChildren: function(bundle, skipAnimation) {
                 var images = bundle.get("images");
-                this.createImageCarousel(images, bundle), this.createLabelCarousel(images), skipAnimation || _.each(this.children, function(child) {
+                this.createImageDetail(images), this.createImageCarousel(images, bundle), skipAnimation || _.each(this.children, function(child) {
                     child.$el.css({
                         opacity: 0
                     }).delay(3 * Globals.TRANSITION_DELAY).transit({
                         opacity: 1
                     }, Globals.TRANSITION_DURATION);
                 });
-            },
-            _onPan: function(ev) {
-                console.log(ev.type, ev.target);
             },
             removeChildren: function(bundle, skipAnimation) {
                 var images = bundle.get("images");
@@ -856,6 +824,37 @@
                     });
                 }), this.children.length = 0;
             },
+            registerHammer: function() {
+                var keywordList = Backbone.$("#keyword-list");
+                keywordList && this.hammer.on("panstart panmove panend pancancel", this._onPan);
+            },
+            _onPan: function(ev) {
+                switch (ev.type) {
+                  case "panstart":
+                    break;
+
+                  case "panmove":
+                    break;
+
+                  case "panend":
+                    break;
+
+                  case "pancancel":                }
+            },
+            createHammer: function(touchEl) {
+                var hammer, hammerPan, hammerTap;
+                return hammer = new Hammer.Manager(touchEl), hammerPan = new Hammer.Pan({
+                    direction: Hammer.DIRECTION_HORIZONTAL,
+                    threshold: 15
+                }), hammerTap = new Hammer.Tap({
+                    threshold: 10,
+                    interval: 50
+                }), hammerTap.requireFailure(hammerPan), hammer.add([ hammerPan, hammerTap ]), hammer;
+            },
+            createContainer: function() {
+                var container = document.createElement("div");
+                return container.id = "content-detail", this.$el.append(container), container;
+            },
             createImageCarousel: function(images, bundle) {
                 return view = new Carousel({
                     className: "image-carousel " + bundle.get("handle"),
@@ -864,7 +863,8 @@
                     emptyRenderer: CarouselEmptyRenderer.extend({
                         model: bundle,
                         template: bundleDescTemplate
-                    })
+                    }),
+                    hammer: this.hammer || void 0
                 }), view.render().$el.appendTo(this.el), controller.listenTo(view, {
                     "view:select:one": controller.selectImage,
                     "view:select:none": controller.deselectImage
@@ -875,10 +875,7 @@
                     className: "label-carousel",
                     collection: images,
                     gap: Globals.HORIZONTAL_STEP
-                }), view.render().$el.appendTo(this.el), controller.listenTo(view, {
-                    "view:select:one": controller.selectImage,
-                    "view:select:none": controller.deselectImage
-                }), this.children[this.children.length] = view;
+                }), view.render().$el.appendTo(this.el), this.children[this.children.length] = view;
             },
             createImageDetail: function(images) {
                 var view = new CollectionStack({
@@ -887,6 +884,28 @@
                     className: "image-detail"
                 });
                 return view.render().$el.appendTo(this.container), this.children[this.children.length] = view;
+            },
+            createBundleCarousel: function() {
+                var view = new Carousel({
+                    className: "bundle-carousel",
+                    direction: Carousel.DIRECTION_VERTICAL,
+                    collection: bundles
+                });
+                return view.$el.appendTo(this.el), view.render(), controller.listenTo(view, {
+                    "view:select:one": controller.selectBundle,
+                    "view:select:none": controller.deselectBundle
+                }), this.children[this.children.length] = view;
+            },
+            createImagePager: function(images) {
+                var view = new SelectableListView({
+                    collection: images,
+                    renderer: DotNavigationRenderer,
+                    className: "images-pager dots-fontello mutable-faded"
+                });
+                return view.render().$el.appendTo(this.container), controller.listenTo(view, {
+                    "view:select:one": controller.selectImage,
+                    "view:select:none": controller.deselectImage
+                }), this.children[this.children.length] = view;
             }
         });
         module.exports = ContentView;
@@ -954,7 +973,7 @@
                         key: "tIds"
                     },
                     collapsed: !0
-                }), this.listenTo(bundles, {
+                }), this.keywordsView.$el.wrap('<div id="keyword-list-wrapper"></div>'), this.listenTo(bundles, {
                     "select:one": this.onSelectOne,
                     "select:none": this.onSelectNone
                 });
@@ -966,10 +985,10 @@
                 View.prototype.remove.apply(this, arguments);
             },
             onSelectOne: function() {
-                this.keywordsView.filterBy(bundles.selected), this.bundlesView.setCollapsed(!0);
+                this.bundlesView.setCollapsed(!0), this.keywordsView.filterBy(bundles.selected);
             },
             onSelectNone: function() {
-                this.keywordsView.filterBy(null), this.bundlesView.setCollapsed(!1);
+                this.bundlesView.setCollapsed(!1), this.keywordsView.filterBy(null);
             },
             onSitenameClick: function(ev) {
                 ev.isDefaultPrevented() || ev.preventDefault(), controller.deselectBundle();
@@ -999,17 +1018,11 @@
             renderer: CarouselDefaultRenderer,
             emptyRenderer: CarouselEmptyRenderer,
             initialize: function(options) {
-                this.children = new Container(), _.isNumber(options.gap) && (this.gap = options.gap), 
-                options.renderer && (this.renderer = options.renderer), options.emptyRenderer && (this.emptyRenderer = options.emptyRenderer), 
-                options.direction === Hammer.DIRECTION_VERTICAL && (this.direction = Hammer.DIRECTION_VERTICAL);
-                var hammerEl = Backbone.$(document.createElement("div")).addClass("pan-area").appendTo(this.el)[0];
-                options.hammer ? (console.log(this.cid, "using external hammer"), this.hammer = options.hammer) : (this.hammer = new Hammer.Manager(hammerEl), 
-                this.hammer.add(new Hammer.Pan({
-                    direction: this.direction,
-                    threshold: this.panThreshold
-                })), this._hammerIsLocal = !0), _.bindAll(this, "_onPan"), this.hammer.on("panstart panmove panend pancancel", this._onPan), 
-                _.bindAll(this, "_onResize"), Backbone.$(window).on("orientationchange resize", this._onResize), 
-                this.listenTo(this.collection, {
+                _.isNumber(options.gap) && (this.gap = options.gap), options.renderer && (this.renderer = options.renderer), 
+                options.emptyRenderer && (this.emptyRenderer = options.emptyRenderer), options.direction === Hammer.DIRECTION_VERTICAL && (this.direction = Hammer.DIRECTION_VERTICAL), 
+                this.children = new Container(), this.skipTransitions = !0, _.bindAll(this, "_onTouch", "_onResize"), 
+                this.hammer = options.hammer ? options.hammer : this.createHammer(), this.hammer.on("panstart panmove panend pancancel tap", this._onTouch), 
+                Backbone.$(window).on("orientationchange resize", this._onResize), this.listenTo(this.collection, {
                     reset: this._onCollectionReset,
                     "select:one": this._onSelectOne,
                     "select:none": this._onSelectNone,
@@ -1017,10 +1030,22 @@
                 });
             },
             remove: function() {
-                Backbone.$(window).off("orientationchange resize", this._onResize), this.hammer.off("panstart panmove panend pancancel", this._onPan), 
+                Backbone.$(window).off("orientationchange resize", this._onResize), this.hammer.off("panstart panmove panend pancancel tap", this._onTouch), 
                 this._hammerIsLocal && this.hammer.destroy(), this.removeChildren(), DeferredRenderView.prototype.remove.apply(this);
             },
-            _onPan: function(ev) {
+            createHammer: function() {
+                var hammer, hammerPan, hammerTap, hammerEl = Backbone.$(document.createElement("div")).addClass("pan-area").appendTo(this.el)[0];
+                return hammer = new Hammer.Manager(hammerEl), hammerPan = new Hammer.Pan({
+                    direction: this.direction,
+                    threshold: this.panThreshold
+                }), hammerTap = new Hammer.Tap({
+                    threshold: this.panThreshold / 2,
+                    interval: 250,
+                    time: 200
+                }), hammerTap.requireFailure(hammerPan), hammer.add([ hammerPan, hammerTap ]), this._hammerIsLocal = !0, 
+                hammer;
+            },
+            _onTouch: function(ev) {
                 switch (ev.type) {
                   case "panstart":
                     return this._onPanStart(ev);
@@ -1033,39 +1058,45 @@
 
                   case "pancancel":
                     return this._onPanCancel(ev);
+
+                  case "tap":
+                    return this._onTap(ev);
                 }
             },
+            _onTap: function(ev) {
+                var item, pos = ev.center[this.dirProp("x", "y")];
+                pos < this.contentBefore ? 0 == this.collection.selectedIndex ? this.trigger("view:select:none") : item = this.collection.preceding() : pos > this.contentAfter && (item = -1 == this.collection.selectedIndex ? this.collection.first() : this.collection.following()), 
+                item && this.trigger("view:select:one", item);
+            },
             _onPanStart: function(ev) {
-                this.$el.addClass("panning"), this.panning = !0, this.thresholdOffset = this.getEventDelta(ev) < 0 ? this.panThreshold : -this.panThreshold;
+                this.$el.addClass("panning"), this.panning = !0, this.candidateChild = this.candidateModel = this.indexDelta = void 0, 
+                this.thresholdOffset = this.getEventDelta(ev) < 0 ? this.panThreshold : -this.panThreshold;
             },
             _onPanMove: function(ev) {
                 var delta = this.getEventDelta(ev) + this.thresholdOffset, indexDelta = 0 > delta ? 1 : -1, dirChanged = this.indexDelta != indexDelta;
                 dirChanged && (this.indexDelta = indexDelta, this.candidateChild && (this.candidateChild.$el.removeClass("candidate"), 
-                delete this.candidateChild)), this.isOutOfBounds(delta) ? delta *= .2 : dirChanged && (this.candidateModel = this.collection.at(this.collection.selectedIndex + indexDelta), 
+                this.candidateChild = void 0)), this.isOutOfBounds(delta) ? delta *= .2 : dirChanged && (this.candidateModel = this.collection.at(this.collection.selectedIndex + indexDelta), 
                 this.candidateChild = this.candidateModel ? this.children.findByModel(this.candidateModel) : this.emptyChild, 
                 this.candidateChild.$el.addClass("candidate")), this.scrollByNow(delta, IMMEDIATE);
-            },
-            _onPanCancel: function() {
-                this.scrollByLater(0, ANIMATED), this.cleanupAfterPan();
             },
             _onPanEnd: function(ev) {
                 var delta = this.getEventDelta(ev) + this.thresholdOffset;
                 if (Math.abs(delta) > this.selectThreshold && !this.isOutOfBounds(delta)) {
-                    {
-                        this.candidateModel;
-                    }
-                    this.candidateModel ? this.trigger("view:select:one", this.candidateModel) : this.trigger("view:select:none");
+                    var item = this.candidateModel;
+                    item ? this.trigger("view:select:one", item) : this.trigger("view:select:none");
                 } else this.scrollByLater(0, ANIMATED);
-                this.cleanupAfterPan();
+                this._afterPan();
+            },
+            _onPanCancel: function() {
+                this.scrollByLater(0, ANIMATED), this._afterPan();
+            },
+            _afterPan: function() {
+                this.candidateChild && this.candidateChild.$el.removeClass("candidate"), this.$el.removeClass("panning"), 
+                this.panning = !1;
             },
             getEventDelta: function(ev) {
                 var delta = this.direction & Hammer.DIRECTION_HORIZONTAL ? ev.deltaX : ev.deltaY;
                 return delta;
-            },
-            cleanupAfterPan: function() {
-                this.candidateChild && this.candidateChild.$el.removeClass("candidate"), this.$el.removeClass("panning"), 
-                this.panning = !1, delete this.candidateChild, delete this.candidateModel, delete this.indexDelta, 
-                delete this.thresholdOffset;
             },
             isOutOfBounds: function(delta) {
                 return -1 == this.collection.selectedIndex && delta > 0 || this.collection.selectedIndex == this.collection.length - 1 && 0 > delta;
@@ -1098,20 +1129,15 @@
             },
             createEmptyChildView: function() {
                 var child = new this.emptyRenderer({});
-                return this.emptyChild = child, child.$el.on("mouseup", _.bind(function(ev) {
-                    ev.isDefaultPrevented() || this.panning || -1 == this.collection.selectedIndex || this.trigger("view:select:none");
-                }, this)), -1 == this.collection.selectedIndex && this.selectEmptyChildView(), child;
-            },
-            removeEmptyChildView: function() {
-                this.emptyChild ? (this.emptyChild.remove(), delete this.emptyChild) : console.warn("Carousel.removeEmptyChildView called while emptyChild is undefined");
+                return this.emptyChild = child, this.children.add(child), -1 == this.collection.selectedIndex && this.selectEmptyChildView(), 
+                child;
             },
             createChildView: function(item) {
                 var child = new this.renderer({
                     model: item
                 });
-                return this.children.add(child), child.$el.on("mouseup", _.bind(function(ev) {
-                    ev.isDefaultPrevented() || this.panning || this.collection.selected === item || this.trigger("view:select:one", item);
-                }, this)), item.selected && child.$el.addClass("selected"), child;
+                return this.children.add(child), item.selected && child.$el.addClass("selected"), 
+                child;
             },
             removeChildView: function(view) {
                 return this.children.remove(view), view.remove(), view;
@@ -1130,7 +1156,7 @@
                 this.requestRender("createChildren", _.bind(this._createChildren, this));
             },
             removeChildren: function() {
-                this.removeEmptyChildView(), this.children.each(this.removeChildView, this);
+                this.children.each(this.removeChildView, this);
             },
             _childSizes: {},
             _onResize: function() {
@@ -1139,22 +1165,22 @@
             measure: function() {
                 var size, pos = 0, maxAcross = 0, maxSize = 0, measure = function(child) {
                     size = this.measureChild(child.render()), size.pos = pos, pos += size.outer + (this.gap || Math.min(size.before, size.after)), 
-                    maxAcross = Math.max(maxAcross, size.across), maxSize = Math.max(maxSize, size.outer);
+                    child !== this.emptyChild && (maxAcross = Math.max(maxAcross, size.across), maxSize = Math.max(maxSize, size.outer));
                 };
-                measure.call(this, this.emptyChild), maxAcross = maxSize = 0, this.children.each(measure, this), 
+                this.children.each(measure, this), this.contentBefore = this.emptyChild.el[this.dirProp("offsetLeft", "offsetTop")], 
+                this.contentAfter = this.contentBefore + this.emptyChild.el[this.dirProp("offsetWidth", "offsetHeight")], 
                 this.containerSize = this.el[this.dirProp("offsetWidth", "offsetHeight")], this.selectThreshold = Math.min(this.selectThreshold, .1 * this.containerSize), 
                 this.$el.css(this.dirProp("minHeight", "minWidth"), maxAcross > 0 ? maxAcross : "");
             },
             measureChild: function(child) {
-                var sizes = {}, childEl = child.el, contentEl = child.$(".sizing")[0];
+                var sizes = {}, childEl = child.el, contentEl = childEl.firstChild;
                 return sizes.outer = childEl[this.dirProp("offsetWidth", "offsetHeight")], sizes.across = childEl[this.dirProp("offsetHeight", "offsetWidth")], 
                 contentEl ? (sizes.inner = contentEl[this.dirProp("offsetWidth", "offsetHeight")], 
                 sizes.before = contentEl[this.dirProp("offsetLeft", "offsetTop")], sizes.after = sizes.outer - (sizes.inner + sizes.before)) : (sizes.inner = sizes.outer, 
                 sizes.before = 0, sizes.after = 0), this._childSizes[child.cid] = sizes;
             },
             scrollByLater: function(delta, skipTransitions) {
-                _.isBoolean(skipTransitions) && (this.skipTransitions = this.skipTransitions || skipTransitions), 
-                this.requestRender("scrollBy", _.bind(this._scrollBy, this, delta));
+                this.requestRender("scrollBy", _.bind(this._scrollBy, this, delta, _.isBoolean(skipTransitions) ? skipTransitions : this.skipTransitions));
             },
             scrollByNow: function(delta, skipTransitions) {
                 this._scrollBy(delta, _.isBoolean(skipTransitions) ? skipTransitions : this.skipTransitions);
@@ -1169,7 +1195,7 @@
                     var val = this._getTransformValue(pos);
                     child.el.style.webkitTransform = val, child.el.style.mozTransform = val, child.el.style.transform = val;
                 };
-                scroll.call(this, this.emptyChild), this.children.each(scroll, this);
+                this.children.each(scroll, this);
             },
             _getTransformValue: function(pos) {
                 return this.dirProp("translate3d(" + pos + "px,0,0)", "translate3d(0," + pos + "px,0)");
@@ -1274,7 +1300,7 @@
                 this.render(), this.renderPending = !1;
             },
             render: function() {
-                if (this.skipTransitions) this.$content && (this.$el.removeAttr("style"), this.$content.clearQueue().remove()), 
+                if (this.skipTransitions) this.$content && (this.$el.removeAttr("style"), this.$content.stop()), 
                 this._model && (this.$content = this.$createContentElement(this._model), this.$content.appendTo(this.$el)), 
                 this.skipTransitions = !1; else {
                     if (this.$content) {
@@ -1295,7 +1321,7 @@
                     }
                     this._model && (this.$content = this.$createContentElement(this._model), this.$content.css({
                         opacity: 0
-                    }).delay(700).appendTo(this.$el).transit({
+                    }).delay(700).appendTo(this.el).transit({
                         opacity: 1
                     }, 300));
                 }
@@ -1323,8 +1349,9 @@
                 this.children = new Container(), this.renderer = options.renderer || FilterableListView.FilterableRenderer, 
                 this.itemIds = this.collection.pluck("id"), this.filterKey = options.filterKey, 
                 this.filterBy(options.filterBy), this.setSelection(this.collection.selected), this.setCollapsed(_.isBoolean(options.collapsed) ? options.collapsed : !1), 
-                this.skipTransitions = !0, this.collection.each(this.assignChildView, this), _.bindAll(this, "_onResize"), 
-                Backbone.$(window).on("orientationchange resize", this._onResize), this.listenTo(this.collection, {
+                this.skipTransitions = !1, this.$el.addClass("skip-transitions"), this.collection.each(this.assignChildView, this), 
+                _.bindAll(this, "_onResize"), Backbone.$(window).on("orientationchange resize", this._onResize), 
+                this.listenTo(this.collection, {
                     "select:one": this.setSelection,
                     "select:none": this.setSelection
                 });
@@ -1345,11 +1372,9 @@
                 this._renderLayout();
             },
             _renderLayout: function() {
-                var pos, tx;
-                elt = this.el.firstElementChild, pos = elt.clientTop;
-                do tx = "translate3d(" + elt.clientLeft + "px," + pos + "px,0)", elt.style.position = "absolute", 
-                elt.style.webkitTransform = tx, elt.style.mozTransform = tx, elt.style.transform = tx, 
-                pos += elt.clientHeight; while (elt = elt.nextElementSibling);
+                var tx, elt = this.el.firstElementChild, pos = elt.clientTop;
+                do tx = "translate3d(0," + pos + "px, 0)", elt.style.position = "absolute", elt.style.webkitTransform = tx, 
+                elt.style.mozTransform = tx, elt.style.transform = tx, -1 === elt.className.indexOf("excluded") && (pos += elt.clientHeight); while (elt = elt.nextElementSibling);
                 this.el.style.minHeight = pos + "px";
             },
             assignChildView: function(item) {
@@ -1357,7 +1382,7 @@
                     model: item,
                     el: item.selector()
                 });
-                return this.children.add(view, item.id), this.listenTo(view, "renderer:click", this.onChildClick), 
+                return this.children.add(view), this.listenTo(view, "renderer:click", this.onChildClick), 
                 view;
             },
             onChildClick: function(item) {
@@ -1391,17 +1416,15 @@
                 }
             },
             renderFilterBy: function(newVal, oldVal) {
-                var newIds, oldIds;
-                newVal && (newIds = newVal.get(this.filterKey)), oldVal && (oldIds = oldVal.get(this.filterKey)), 
-                this.renderFiltersById(newIds, oldIds);
+                this.renderFiltersById(newVal && newVal.get(this.filterKey), oldVal && oldVal.get(this.filterKey));
             },
             renderFiltersById: function(newIds, oldIds) {
                 var newIncludes, newExcludes;
                 newIds && (newExcludes = _.difference(oldIds || this.itemIds, newIds), _.each(newExcludes, function(id) {
-                    this.children.findByCustom(id).$el.addClass("excluded");
+                    this.children.findByModel(this.collection.get(id)).$el.addClass("excluded");
                 }, this)), oldIds && (newIncludes = _.difference(newIds || this.itemIds, oldIds), 
                 _.each(newIncludes, function(id) {
-                    this.children.findByCustom(id).$el.removeClass("excluded");
+                    this.children.findByModel(this.collection.get(id)).$el.removeClass("excluded");
                 }, this));
             }
         }, {
@@ -1421,19 +1444,18 @@
         underscore: "underscore"
     } ],
     29: [ function(require, module) {
-        var _ = require("underscore"), Backbone = require("backbone"), Container = require("backbone.babysitter"), FilterableListView = require("./FilterableListView"), GroupingListView = FilterableListView.extend({
+        var _ = require("underscore"), Backbone = require("backbone"), FilterableListView = (require("backbone.babysitter"), 
+        require("./FilterableListView")), GroupingListView = FilterableListView.extend({
             tagName: "dl",
             className: "grouped",
             initialize: function(options) {
                 FilterableListView.prototype.initialize.apply(this, arguments), options.groupings && (this.groupingKey = options.groupings.key, 
-                this.groupingCollection = options.groupings.collection, this.groupingChildren = new Container(), 
+                this.groupingCollection = options.groupings.collection, this.groupingChildren = this.children, 
                 this.groupingRenderer = options.groupings.renderer || GroupingListView.GroupingRenderer, 
                 this.groupingCollection.each(this.assignGroupingView, this));
             },
-            renderFilterBy: function(newAssoc) {
-                FilterableListView.prototype.renderFilterBy.apply(this, arguments);
-                var groupIds;
-                newAssoc && (groupIds = newAssoc.get(this.groupingKey)), this.renderChildrenGroups(groupIds);
+            renderFilterBy: function(newVal) {
+                this.renderChildrenGroups(newVal && newVal.get(this.groupingKey)), FilterableListView.prototype.renderFilterBy.apply(this, arguments);
             },
             renderChildrenGroups: function(modelIds) {
                 modelIds ? this.groupingCollection.each(function(model) {
@@ -1447,7 +1469,7 @@
                     model: item,
                     el: item.selector()
                 });
-                return this.groupingChildren.add(view, item.id), view;
+                return this.groupingChildren.add(view), view;
             }
         }, {
             GroupingRenderer: Backbone.View.extend({
@@ -1654,7 +1676,8 @@
                 this.placeholder = this.$placeholder[0], this.$image = this.$("img"), this.image = this.$image[0];
             },
             remove: function() {
-                return this.image.onload = this.image.onerror = this.image.onabort = void 0, Backbone.View.prototype.remove.apply(this, arguments);
+                return this.image.src = "", this.image.onload = this.image.onerror = this.image.onabort = void 0, 
+                Backbone.View.prototype.remove.apply(this, arguments);
             },
             render: function() {
                 var w = this.$placeholder.outerWidth(), h = Math.round(w / this.model.get("w") * this.model.get("h"));
@@ -1668,17 +1691,22 @@
                     return m === n || m + 1 === n || m - 1 === n;
                 };
                 check(owner.selectedIndex) ? this._loadImage() : this.listenTo(owner, "select:one select:none", function() {
-                    check(owner.selectedIndex) && (this.stopListening(owner), this._loadImage());
+                    check(owner.selectedIndex) && (this.stopListening(owner), _.delay(this._loadImage, 3 * Globals.TRANSITION_DELAY), 
+                    this.$el.on("webkittransitionend transitionend", this._loadImage));
                 });
             },
-            _loadImage: function() {
-                this.$el.removeClass("idle").addClass("pending"), _.delay(function(context) {
-                    loadImage(context.image, context.model.getImageUrl(), context).then(function(url, source, ev) {
-                        this.$el.removeClass("pending").addClass("done"), console.info("ImageRenderer.onLoad: " + this.model.get("f"), ev);
-                    }, function(err) {
-                        this.$el.removeClass("pending").addClass("error"), console.error("ImageRenderer.onError: " + err.message, arguments);
-                    });
-                }, Globals.TRANSITION_DELAY, this);
+            _loadImage: function(ev) {
+                if (arguments[0] instanceof Event) {
+                    if ("transform" != ev.propertyName) return;
+                    this.$el.off("webkittransitionend transitionend");
+                }
+                loadImage(this.image, this.model.getImageUrl(), this).then(function() {
+                    this.$el.removeClass("pending").addClass("done");
+                }, function() {
+                    this.$el.removeClass("pending").addClass("error");
+                }, function(progress) {
+                    "start" == progress && this.$el.removeClass("idle").addClass("pending");
+                });
             }
         });
     }, {
