@@ -1020,9 +1020,10 @@
             initialize: function(options) {
                 _.isNumber(options.gap) && (this.gap = options.gap), options.renderer && (this.renderer = options.renderer), 
                 options.emptyRenderer && (this.emptyRenderer = options.emptyRenderer), options.direction === Hammer.DIRECTION_VERTICAL && (this.direction = Hammer.DIRECTION_VERTICAL), 
-                this.children = new Container(), this.skipTransitions = !0, _.bindAll(this, "_onTouch", "_onResize"), 
-                this.hammer = options.hammer ? options.hammer : this.createHammer(), this.hammer.on("panstart panmove panend pancancel tap", this._onTouch), 
-                Backbone.$(window).on("orientationchange resize", this._onResize), this.listenTo(this.collection, {
+                this.childSizes = {}, this.children = new Container(), this.skipTransitions = !0, 
+                _.bindAll(this, "_onTouch", "_onResize"), this.hammer = options.hammer ? options.hammer : this.createHammer(), 
+                this.hammer.on("panstart panmove panend pancancel tap", this._onTouch), Backbone.$(window).on("orientationchange resize", this._onResize), 
+                this.listenTo(this.collection, {
                     reset: this._onCollectionReset,
                     "select:one": this._onSelectOne,
                     "select:none": this._onSelectNone,
@@ -1158,7 +1159,6 @@
             removeChildren: function() {
                 this.children.each(this.removeChildView, this);
             },
-            _childSizes: {},
             _onResize: function() {
                 this.measure(), this.scrollByNow(0, IMMEDIATE);
             },
@@ -1169,7 +1169,8 @@
                 };
                 this.children.each(measure, this), this.contentBefore = this.emptyChild.el[this.dirProp("offsetLeft", "offsetTop")], 
                 this.contentAfter = this.contentBefore + this.emptyChild.el[this.dirProp("offsetWidth", "offsetHeight")], 
-                this.containerSize = this.el[this.dirProp("offsetWidth", "offsetHeight")], this.selectThreshold = Math.min(this.selectThreshold, .1 * this.containerSize), 
+                this.contentBefore += 100, this.contentAfter -= 100, this.containerSize = this.el[this.dirProp("offsetWidth", "offsetHeight")], 
+                this.selectThreshold = Math.min(this.selectThreshold, .1 * this.containerSize), 
                 this.$el.css(this.dirProp("minHeight", "minWidth"), maxAcross > 0 ? maxAcross : "");
             },
             measureChild: function(child) {
@@ -1177,7 +1178,7 @@
                 return sizes.outer = childEl[this.dirProp("offsetWidth", "offsetHeight")], sizes.across = childEl[this.dirProp("offsetHeight", "offsetWidth")], 
                 contentEl ? (sizes.inner = contentEl[this.dirProp("offsetWidth", "offsetHeight")], 
                 sizes.before = contentEl[this.dirProp("offsetLeft", "offsetTop")], sizes.after = sizes.outer - (sizes.inner + sizes.before)) : (sizes.inner = sizes.outer, 
-                sizes.before = 0, sizes.after = 0), this._childSizes[child.cid] = sizes;
+                sizes.before = 0, sizes.after = 0), this.childSizes[child.cid] = sizes;
             },
             scrollByLater: function(delta, skipTransitions) {
                 this.requestRender("scrollBy", _.bind(this._scrollBy, this, delta, _.isBoolean(skipTransitions) ? skipTransitions : this.skipTransitions));
@@ -1186,14 +1187,14 @@
                 this._scrollBy(delta, _.isBoolean(skipTransitions) ? skipTransitions : this.skipTransitions);
             },
             _scrollBy: function(delta, skipTransitions) {
-                var sChild, sSizes, sizes, pos;
+                var sChild, sSizes, sizes, pos, txVal;
                 skipTransitions ? this.$el.addClass("skip-transitions") : this.$el.removeClass("skip-transitions"), 
                 sChild = this.collection.selected ? this.children.findByModel(this.collection.selected) : this.emptyChild, 
-                sSizes = this._childSizes[sChild.cid];
+                sSizes = this.childSizes[sChild.cid];
                 var scroll = function(child) {
-                    sizes = this._childSizes[child.cid], pos = this._getScrollOffset(sizes, sSizes, delta);
-                    var val = this._getTransformValue(pos);
-                    child.el.style.webkitTransform = val, child.el.style.mozTransform = val, child.el.style.transform = val;
+                    sizes = this.childSizes[child.cid], pos = this._getScrollOffset(sizes, sSizes, delta), 
+                    txVal = this._getTransformValue(pos), child.el.style.webkitTransform = txVal, child.el.style.mozTransform = txVal, 
+                    child.el.style.transform = txVal;
                 };
                 this.children.each(scroll, this);
             },
@@ -1360,7 +1361,7 @@
                 Backbone.$(window).off("orientationchange resize", this._onResize), DeferredRenderView.prototype.remove.apply(this);
             },
             _onResize: function() {
-                this._renderLayout();
+                this.eltSizes = void 0, this.renderLayout();
             },
             render: function() {
                 return this;
@@ -1369,13 +1370,15 @@
                 this.skipTransitions && this.$el.addClass("skip-transitions"), _.defer(_.bind(function() {
                     this.skipTransitions = !1, this.$el.removeClass("skip-transitions");
                 }, this)), this.validateRender("collapsed"), this.validateRender("selection"), this.validateRender("filterBy"), 
-                this._renderLayout();
+                this.renderLayout();
             },
-            _renderLayout: function() {
-                var tx, elt = this.el.firstElementChild, pos = elt.clientTop;
-                do tx = "translate3d(0," + pos + "px, 0)", elt.style.position = "absolute", elt.style.webkitTransform = tx, 
-                elt.style.mozTransform = tx, elt.style.transform = tx, -1 === elt.className.indexOf("excluded") && (pos += elt.clientHeight); while (elt = elt.nextElementSibling);
-                this.el.style.minHeight = pos + "px";
+            renderLayout: function() {
+                var tx, elt, posX, posY;
+                elt = this.el.firstElementChild, posY = elt.clientTop, posX = elt.clientLeft;
+                do tx = "translate3d(" + posX + "px," + posY + "px, 0.1px)", -1 === elt.className.indexOf("excluded") && (posY += elt.clientHeight), 
+                elt.style.position = "absolute", elt.style.webkitTransform = tx, elt.style.mozTransform = tx, 
+                elt.style.transform = tx; while (elt = elt.nextElementSibling);
+                this.el.style.height = posY + "px";
             },
             assignChildView: function(item) {
                 var view = new this.renderer({
