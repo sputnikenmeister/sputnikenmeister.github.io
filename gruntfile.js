@@ -22,18 +22,18 @@ module.exports = function (grunt) {
 			options: { url: "<%= srcRoot %>/<%= srcAssets %>/css/folio.css" },
 			dest: "<%= destAssets %>/css/folio.css"
 		},
-		"js-vendor": {
-			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio-vendor.js" },
-			dest: "<%= destAssets %>/js/folio-vendor.js"
-		},
-		"js-client": {
-			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio-client.js" },
-			dest: "<%= destAssets %>/js/folio-client.js"
-		},
+//		"js-vendor": {
+//			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio-vendor.js" },
+//			dest: "<%= destAssets %>/js/folio-vendor.js"
+//		},
+//		"js-client": {
+//			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio-client.js" },
+//			dest: "<%= destAssets %>/js/folio-client.js"
+//		},
 		"js-dist": {
 			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio.js" },
 			dest: "<%= destAssets %>/js/folio.js"
-		},
+		}
 	});
 	
 	grunt.loadNpmTasks("grunt-string-replace");
@@ -53,7 +53,7 @@ module.exports = function (grunt) {
 			files: {
 				"./": ["index.xhtml",
 					   "<%= destAssets %>/css/*.css",
-					   "<%= destAssets %>/js/*.js"],
+					   "<%= destAssets %>/js/*.js"]
 			},
 			options: {
 				replacements: [
