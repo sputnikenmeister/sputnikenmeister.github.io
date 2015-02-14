@@ -22,6 +22,10 @@ module.exports = function (grunt) {
 			options: { url: "<%= srcRoot %>/<%= srcAssets %>/css/folio.css" },
 			dest: "<%= destAssets %>/css/folio.css"
 		},
+		fonts: {
+			options: { url: "<%= srcRoot %>/<%= srcAssets %>/css/fonts.css" },
+			dest: "<%= destAssets %>/css/fonts.css"
+		},
 //		"js-vendor": {
 //			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio-vendor.js" },
 //			dest: "<%= destAssets %>/js/folio-vendor.js"
@@ -62,8 +66,8 @@ module.exports = function (grunt) {
 //						replacement: "<%= destAssets %>"
 //					},
 					{
-//						pattern: /https?:\/\/[^\/\"\']+/g,
-						pattern: /https?:\/\/folio\.localhost/g,
+						// pattern: /https?:\/\/[^\/\"\']+/g,
+						pattern: /https?:\/\/folio\.(local\.|localhost)/g,
 						replacement: ""
 					}
 				]
