@@ -4,11 +4,11 @@ module.exports = function (grunt) {
 
 	// grunt.initConfig({});
 	grunt.config("pkg", grunt.file.readJSON("package.json"));
-	
-	grunt.config("srcRoot", "http://folio.localhost");
+
+	grunt.config("srcRoot", "http://krupp.local/projects/folio-sym");
 	grunt.config("srcAssets", "workspace/assets");
 	grunt.config("destAssets", "workspace/assets");
-	
+
 	grunt.loadNpmTasks("grunt-http");
 	grunt.config("http", {
 		options: {
@@ -39,7 +39,7 @@ module.exports = function (grunt) {
 			dest: "<%= destAssets %>/js/folio.js"
 		}
 	});
-	
+
 	grunt.loadNpmTasks("grunt-string-replace");
 	grunt.config("string-replace", {
 //		"data-url": {
@@ -67,14 +67,15 @@ module.exports = function (grunt) {
 //					},
 					{
 						// pattern: /https?:\/\/[^\/\"\']+/g,
-						pattern: /https?:\/\/folio\.(local\.|localhost)/g,
-						replacement: ""
+						pattern: "<%= srcRoot %>",
+						// pattern: /https?:\/\/folio\.(local\.|localhost)/g,
+						replacement: "."
 					}
 				]
 			}
 		}
 	});
-	
+
 	grunt.registerTask("build", ["http", "string-replace"]);
 	grunt.registerTask("default", ["build"]);
 };
