@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" class="app-initial">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="msapplication-square70x70logo" content="./workspace/assets/images/favicon/windows-tile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./workspace/assets/images/favicon/windows-tile-150x150.png" />
+    <meta name="msapplication-square310x310logo" content="./workspace/assets/images/favicon/windows-tile-310x310.png" />
+    <meta name="msapplication-TileImage" content="./workspace/assets/images/favicon/windows-tile-144x144.png" />
+    <meta name="msapplication-TileColor" content="#FF0000" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./workspace/assets/images/favicon/apple-touch-icon-152x152-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./workspace/assets/images/favicon/apple-touch-icon-120x120-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./workspace/assets/images/favicon/apple-touch-icon-76x76-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./workspace/assets/images/favicon/apple-touch-icon-60x60-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./workspace/assets/images/favicon/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./workspace/assets/images/favicon/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./workspace/assets/images/favicon/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./workspace/assets/images/favicon/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="./workspace/assets/images/favicon/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="64x64" href="./workspace/assets/images/favicon/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="./workspace/assets/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./workspace/assets/css/folio.css" />
+    <script type="text/javascript" src="./workspace/assets/js/folio.js"></script>
+  </head>
+  <body class="xhtml-page default-layout">
+    <div id="container">
+      <div id="navigation" class="navigation">
+        <div id="site-name-wrapper" class="transform-wrapper">
+          <h1 id="site-name">
+            <a href="./">Portfolio</a>
+          </h1>
+        </div>
+        <div id="bundle-list-wrapper" class="transform-wrapper">
+          <ul id="bundle-list" class="list selectable filterable">
+            <li class="list-item" data-id="123">
+              <a href="./bundles/sap-ten-reasons">
+                <span class="completed meta pubDate" data-datetime="2012-09-30">2012</span>
+                <span class="name display-name">SAP Ten Reasons</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="67">
+              <a href="./bundles/coopervision">
+                <span class="completed meta pubDate" data-datetime="2012-09-19">2012</span>
+                <span class="name">CooperVision</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="122">
+              <a href="./bundles/o-co">
+                <span class="completed meta pubDate" data-datetime="2011-09-20">2011</span>
+                <span class="name">O+CO</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="26">
+              <a href="./bundles/milo">
+                <span class="completed meta pubDate" data-datetime="2011-09-18">2011</span>
+                <span class="name">Milo</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="64">
+              <a href="./bundles/freeplay-app">
+                <span class="completed meta pubDate" data-datetime="2010-09-19">2010</span>
+                <span class="name display-name">Freeplay Music <em>App</em></span>
+              </a>
+            </li>
+            <li class="list-item" data-id="141">
+              <a href="./bundles/freeplay-ixd">
+                <span class="completed meta pubDate" data-datetime="2010-04-01">2010</span>
+                <span class="name display-name">Freeplay Music <em>IxD</em></span>
+              </a>
+            </li>
+            <li class="list-item" data-id="36">
+              <a href="./bundles/esj">
+                <span class="completed meta pubDate" data-datetime="2010-01-01">2010</span>
+                <span class="name display-name">ESJ <small>Capital Partners</small></span>
+              </a>
+            </li>
+            <li class="list-item" data-id="120">
+              <a href="./bundles/le-meridien">
+                <span class="completed meta pubDate" data-datetime="2009-09-20">2009</span>
+                <span class="name">Le Meridien</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="50">
+              <a href="./bundles/emblemhealth">
+                <span class="completed meta pubDate" data-datetime="2009-09-01">2009</span>
+                <span class="name">EmblemHealth</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="39">
+              <a href="./bundles/workfit">
+                <span class="completed meta pubDate" data-datetime="2008-09-19">2008</span>
+                <span class="name">Workfit</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="65">
+              <a href="./bundles/ivy-cms">
+                <span class="completed meta pubDate" data-datetime="2007-09-19">2007</span>
+                <span class="name display-name">Ivy Platform <em>CMS</em></span>
+              </a>
+            </li>
+            <li class="list-item" data-id="61">
+              <a href="./bundles/ivy-player">
+                <span class="completed meta pubDate" data-datetime="2007-09-19">2007</span>
+                <span class="name display-name">Ivy Platform <em>Player</em></span>
+              </a>
+            </li>
+            <li class="list-item" data-id="66">
+              <a href="./bundles/ivy-agency">
+                <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
+                <span class="name">Ivy Agency</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="63">
+              <a href="./bundles/la-redoute">
+                <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
+                <span class="name">La Redoute</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="62">
+              <a href="./bundles/garnier">
+                <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
+                <span class="name">Garnier</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="60">
+              <a href="./bundles/alternet">
+                <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
+                <span class="name">Alternet</span>
+              </a>
+            </li>
+            <li class="list-item" data-id="121">
+              <a href="./bundles/sva">
+                <span class="completed meta pubDate" data-datetime="2003-09-20">2003</span>
+                <span class="name display-name">School of Visual Arts</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="keyword-list-wrapper" class="transform-wrapper">
+          <dl id="keyword-list" class="list selectable filterable grouped">
+            <dt class="list-group" data-id="9">
+              <span class="name">Agency</span>
+            </dt>
+            <dd class="list-item" data-id="125">
+              <a href="./keywords/siegel-gale">
+                <span class="name">Siegel+Gale</span>
+              </a>
+            </dd>
+            <dt class="list-group" data-id="10">
+              <span class="name">Client</span>
+            </dt>
+            <dd class="list-item" data-id="126">
+              <a href="./keywords/o-co">
+                <span class="name">O+Co</span>
+              </a>
+            </dd>
+            <dt class="list-group" data-id="7">
+              <span class="name">Role</span>
+            </dt>
+            <dd class="list-item" data-id="147">
+              <a href="./keywords/web-design">
+                <span class="name">Web Design</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="127">
+              <a href="./keywords/animation">
+                <span class="name">Animation</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="16">
+              <a href="./keywords/visual-design">
+                <span class="name">Visual Design</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="15">
+              <a href="./keywords/interaction-design">
+                <span class="name">Interaction Design</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="14">
+              <a href="./keywords/information-architecture">
+                <span class="name">Information Architecture</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="13">
+              <a href="./keywords/identity">
+                <span class="name">Identity</span>
+              </a>
+            </dd>
+            <dt class="list-group" data-id="8">
+              <span class="name">Type</span>
+            </dt>
+            <dd class="list-item" data-id="25">
+              <a href="./keywords/services-portal">
+                <span class="name">Services Portal</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="22">
+              <a href="./keywords/desktop-application">
+                <span class="name">Desktop Application</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="21">
+              <a href="./keywords/corporate-website">
+                <span class="name">Corporate Website</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="20">
+              <a href="./keywords/web-application">
+                <span class="name">Web Application</span>
+              </a>
+            </dd>
+            <dt class="list-group" data-id="11">
+              <span class="name">Technology</span>
+            </dt>
+            <dd class="list-item" data-id="24">
+              <a href="./keywords/ivy-video-platform">
+                <span class="name">Ivy Video Platform</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="19">
+              <a href="./keywords/web-standards">
+                <span class="name">Web Standards</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="18">
+              <a href="./keywords/adobe-flash">
+                <span class="name">Adobe Flash</span>
+              </a>
+            </dd>
+            <dd class="list-item" data-id="17">
+              <a href="./keywords/adobe-air">
+                <span class="name">Adobe Air</span>
+              </a>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div id="content" class="content viewport"></div>
+    </div>
+    <script type="text/javascript">
+			window.bootstrap = {
+			"types-all":[
+		{"id":9,"handle":"agency","name":"Agency"},
+		{"id":10,"handle":"client","name":"Client"},
+		{"id":7,"handle":"role","name":"Role"},
+		{"id":8,"handle":"type","name":"Type"},
+		{"id":11,"handle":"technology","name":"Technology"}],
+			"keywords-all":[
+		{"id":147,"handle":"web-design","name":"Web Design","tId":7},
+		{"id":127,"handle":"animation","name":"Animation","tId":7},
+		{"id":126,"handle":"o-co","name":"O+Co","tId":10},
+		{"id":125,"handle":"siegel-gale","name":"Siegel+Gale","tId":9},
+		{"id":25,"handle":"services-portal","name":"Services Portal","tId":8},
+		{"id":24,"handle":"ivy-video-platform","name":"Ivy Video Platform","tId":11},
+		{"id":22,"handle":"desktop-application","name":"Desktop Application","tId":8},
+		{"id":21,"handle":"corporate-website","name":"Corporate Website","tId":8},
+		{"id":20,"handle":"web-application","name":"Web Application","tId":8},
+		{"id":19,"handle":"web-standards","name":"Web Standards","tId":11},
+		{"id":18,"handle":"adobe-flash","name":"Adobe Flash","tId":11},
+		{"id":17,"handle":"adobe-air","name":"Adobe Air","tId":11},
+		{"id":16,"handle":"visual-design","name":"Visual Design","tId":7},
+		{"id":15,"handle":"interaction-design","name":"Interaction Design","tId":7},
+		{"id":14,"handle":"information-architecture","name":"Information Architecture","tId":7},
+		{"id":13,"handle":"identity","name":"Identity","tId":7}],
+			"bundles-all":[
+		{"id":123,"handle":"sap-ten-reasons","name":"SAP Ten Reasons","completed":"2012-09-30","kIds":[125,15,18],"desc":"<p>Eademque ratione ne temperantiam <em>SAP Touchscreen</em> quidem propter se expetendam esse dicemus, sed quia pacem animis afferat et eos quasi concordia quadam placet ac leniat. temperantia est enim, quae in rebus aut expetendis aut fugiendis ut rationem sequamur monet. nec enim satis est iudicare quid faciendum non faciendumve sit, sed stare etiam oportet in eo, quod sit iudicatum.</p><p>Plerique autem, quod tenere atque servare id, quod ipsi statuerunt, non possunt, victi et debilitati obiecta specie voluptatis tradunt se libidinibus constringendos nec quid eventurum sit provident ob eamque causam propter voluptatem.</p>","attrs":["background-color:hsl(45; 5%; 95%)","color:hsl(45; 5%; 35%)"]},
+		{"id":67,"handle":"coopervision","name":"CooperVision","completed":"2012-09-19","kIds":[125,147,21],"desc":"<p>Contra  <em>CooperVision</em>  quos omnis dicendum breviter existimo. Quam philosophiae quidem vituperatoribus satis responsum est eo libro, quo a nobis philosophia defensa et collaudata est, cum esset accusata et vituperata ab Hortensio. qui liber cum et tibi probatus videretur et iis, quos ego posse iudicare arbitrarer, plura suscepi veritus ne movere hominum studia viderer, retinere non posse. Qui autem, si maxime hoc placeat, moderatius tamen id volunt fieri, difficilem quandam temperantiam postulant.</p>","attrs":["@classname:browser-safari"]},
+		{"id":122,"handle":"o-co","name":"O+CO","completed":"2011-09-20","kIds":[126,127,18,21],"desc":"<p>A quibus tantum dissentio, ut, cum <em>Oppenheimer and Company</em> vel optime scripserit Electram, tamen male conversam Atilii mihi legendam putem, de quo Lucilius: 'ferreum scriptorem', verum, opinor, scriptorem tamen, ut legendus sit. rudem enim esse omnino in nostris poetis aut inertissimae segnitiae est aut fastidii delicatissimi. mihi quidem nulli satis eruditi videntur, quibus nostra ignota sunt. an 'Utinam ne in nemore ...' nihilo minus legimus quam hoc idem Graecum, quae autem de bene beateque vivendo a Platone disputata sunt, haec explicari non placebit Latine?</p>","attrs":["background-color:hsl(224; 4%; 17%)","border:1px solid hsl(224; 3%; 20%)","box-shadow:none","color:hsl(224; 3%; 55%)"]},
+		{"id":26,"handle":"milo","name":"Milo","completed":"2011-09-18","kIds":[15,16,19,20],"desc":"<p><em>Milo</em> was said to be an associate of <em>Pythagoras</em>. One story tells of the wrestler saving the philosopher's life when a roof was about to collapse upon him and another that Milo may have married the philosopher's daughter Myia. Like other successful athletes of ancient Greece, Milo was the subject of fantastic tales of strength and power, some, perhaps, based upon misinterpretations of his statues. Among other tales, he was said to have carried a bull on his shoulders and to have burst a band about his brow by simply inflating the veins of his temples.</p>","attrs":["@classname:browser-safari","background-color:hsl(210; 3%; 20%)","color:hsl(210; 4%; 75%)"]},
+		{"id":64,"handle":"freeplay-app","name":"Freeplay Music <em>App</em>","completed":"2010-09-19","kIds":[14,15,17,22],"desc":"<p>Quamquam, si plane sic verterem <em>Freeplay Music</em> Platonem aut Aristotelem, ut verterunt nostri poetae fabulas, male, credo, mererer de meis civibus, si ad eorum cognitionem divina illa ingenia transferrem. sed id neque feci adhuc nec mihi tamen, ne faciam, interdictum puto. locos quidem quosdam, si videbitur, transferam, et maxime ab iis, quos modo nominavi, cum inciderit, ut id apte fieri possit, ut ab Homero Ennius, Afranius a Menandro solet. </p>","attrs":["background-color:hsl(210; 3%; 18%)","border-radius:3px","color:hsl(210; 4%; 70%)"]},
+		{"id":141,"handle":"freeplay-ixd","name":"Freeplay Music <em>IxD</em>","completed":"2010-04-01","kIds":[14,15,22],"desc":"<p><em>Freeplay Music specifications</em>, interaction design, information architecture. Ego autem quem timeam lectorem, cum ad te ne Graecis quidem cedentem in philosophia audeam scribere? quamquam a te ipso id quidem facio provocatus gratissimo mihi libro, quem ad me de virtute misisti. Sed ex eo credo quibusdam usu venire; ut abhorreant a Latinis, quod inciderint in inculta quaedam et horrida, de malis Graecis Latine scripta deterius.</p>","attrs":["background-color:hsl(45; 25%; 90%)","box-shadow:0px 7px 9px -6px rgba(0;0;0;0.4)","color:hsl(45; 5%; 35%)"]},
+		{"id":36,"handle":"esj","name":"ESJ <small>Capital Partners</small>","completed":"2010-01-01","kIds":[13,16,21],"desc":"<p>Epicurus autem, in quibus sequitur Democritum, non fere labitur. quamquam utriusque cum multa non probo, tum illud in primis, quod, cum in rerum natura duo quaerenda sint, unum, quae materia sit, ex qua quaeque res efficiatur, alterum, quae vis sit, quae quidque efficiat, de materia disseruerunt, vim et causam efficiendi reliquerunt. sed hoc commune vitium, illae Epicuri propriae ruinae: censet enim eadem illa individua et solida corpora ferri deorsum suo pondere ad lineam, hunc naturalem esse omnium corporum motum.</p>","attrs":["@classname:browser-safari"]},
+		{"id":120,"handle":"le-meridien","name":"Le Meridien","completed":"2009-09-20","kIds":[16,24],"desc":"<p>Sed ut omittam pericula, labores, dolorem etiam, quem optimus quisque pro patria et pro suis suscipit, ut non modo nullam captet, sed etiam praetereat omnes voluptates, dolores denique quosvis suscipere malit quam deserere ullam officii partem, ad ea, quae hoc non minus declarant, sed videntur leviora, veniamus.</p><p>Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones.</p>","attrs":["@classname:browser-safari","background-color:hsl(45; 5%; 75%)","color:hsl(45; 5%; 35%)"]},
+		{"id":50,"handle":"emblemhealth","name":"EmblemHealth","completed":"2009-09-01","kIds":[125,16,19,25],"desc":"<p>Certe, inquam, pertinax non ero tibique, si mihi probabis ea, quae dices, libenter assentiar. Probabo, inquit, modo ista sis aequitate, quam ostendis. sed uti oratione perpetua malo quam interrogare aut interrogari. Ut placet, inquam. Tum dicere exorsus est. Primum igitur, inquit, sic agam, ut ipsi auctori huius disciplinae placet: constituam, quid et quale sit id, de quo quaerimus, non quo ignorare vos arbitrer, sed ut ratione et via procedat oratio. quaerimus igitur, quid sit extremum et ultimum bonorum, quod omnium philosophorum sententia tale debet esse, ut ad id omnia referri oporteat, ipsum autem nusquam.</p>","attrs":["@classname:browser-generic","background-color:hsl(10; 2%; 95%)","color:hsl(10; 4%; 30%)"]},
+		{"id":39,"handle":"workfit","name":"Workfit","completed":"2008-09-19","kIds":[15,16,24],"desc":"<p>Sunt autem quidam e nostris, qui haec subtilius velint tradere et negent satis esse, quid bonum sit aut quid malum, sensu iudicari, sed animo etiam ac ratione intellegi posse et voluptatem ipsam per se esse expetendam et dolorem ipsum per se esse fugiendum. itaque aiunt hanc quasi naturalem atque insitam in animis nostris inesse notionem, ut alterum esse appetendum, alterum aspernandum sentiamus.</p><p>Alii autem, quibus ego assentior, cum a philosophis compluribus permulta dicantur, cur nec voluptas in bonis sit numeranda nec in malis dolor, non existimant oportere nimium nos causae confidere, sed et argumentandum et accurate disserendum et rationibus conquisitis de voluptate et dolore disputandum putant.</p>","attrs":["@classname:browser-safari","@renderer:sequence","background-color:hsl(210; 2%; 20%)","color:hsl(210; 2%; 70%)"]},
+		{"id":65,"handle":"ivy-cms","name":"Ivy Platform <em>CMS</em>","completed":"2007-09-19","kIds":[16,19,20],"desc":"<p>At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. et harum quidem rerum facilis est et expedita distinctio.</p><p>Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>","attrs":["@classname:browser-generic"]},
+		{"id":61,"handle":"ivy-player","name":"Ivy Platform <em>Player</em>","completed":"2007-09-19","kIds":[16,24],"desc":"<p>In quo enim maxime consuevit iactare vestra se oratio, tua praesertim, qui studiose antiqua persequeris, claris et fortibus viris commemorandis eorumque factis non emolumento aliquo, sed ipsius honestatis decore laudandis, id totum evertitur eo delectu rerum, quem modo dixi, constituto, ut aut voluptates omittantur maiorum voluptatum adipiscendarum causa aut dolores suscipiantur maiorum dolorum effugiendorum gratia.</p>","attrs":["@classname:browser-safari"]},
+		{"id":66,"handle":"ivy-agency","name":"Ivy Agency","completed":"2006-09-19","kIds":[16,21],"desc":"<p>Itaque non placuit <em>Ivy Agency</em> medium esse quiddam inter dolorem et voluptatem; illud enim ipsum, quod quibusdam medium videretur, cum omni dolore careret, non modo voluptatem esse, verum etiam summam voluptatem. quisquis enim sentit, quem ad modum sit affectus, eum necesse est aut in voluptate esse aut in dolore. omnis autem privatione doloris putat Epicurus terminari summam voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit.</p>","attrs":["@classname:browser-safari","background-color:hsl(51; 3%; 30%)","color:hsl(51; 3%; 60%)"]},
+		{"id":63,"handle":"la-redoute","name":"La Redoute","completed":"2006-09-19","kIds":[16,24],"desc":"<p>Extremum autem esse bonorum voluptatem ex hoc facillime perspici potest: Constituamus aliquem magnis, multis, perpetuis fruentem et animo et corpore voluptatibus nullo dolore nec impediente nec inpendente, quem tandem hoc statu praestabiliorem aut magis expetendum possimus dicere? inesse enim necesse est in eo, qui ita sit affectus, et firmitatem animi nec mortem nec dolorem timentis, quod mors sensu careat, dolor in longinquitate levis, in gravitate brevis soleat esse, ut eius magnitudinem celeritas, diuturnitatem allevatio consoletur.</p>","attrs":["@classname:browser-safari","background-color:hsl(10; 10%; 99%)","color:hsl(10; 5%; 38%)"]},
+		{"id":62,"handle":"garnier","name":"Garnier","completed":"2006-09-19","kIds":[16,18,24],"desc":"<p>Praeterea et appetendi et refugiendi et omnino rerum gerendarum initia proficiscuntur aut a voluptate aut a dolore. quod cum ita sit, perspicuum est omnis rectas res atque laudabilis eo referri, ut cum voluptate vivatur. quoniam autem id est vel summum bonorum vel ultimum vel extremum — quod Graeci telos nominant —, quod ipsum nullam ad aliam rem, ad id autem res referuntur omnes, fatendum est summum esse bonum iucunde vivere.</p>","attrs":["background-color:hsl(45; 2%; 18%)","box-shadow:0px 6px 12px -3px rgb(0;0;0)","color:hsl(45; 2%; 70%)"]},
+		{"id":60,"handle":"alternet","name":"Alternet","completed":"2006-09-19","kIds":[127,16,18,21],"desc":"<p>Id qui in una virtute ponunt et splendore nominis capti quid natura postulet non intellegunt, errore maximo, si Epicurum audire voluerint, liberabuntur: istae enim vestrae eximiae pulchraeque virtutes nisi voluptatem efficerent, quis eas aut laudabilis aut expetendas arbitraretur?</p><p>Ut enim medicorum scientiam non ipsius artis, sed bonae valetudinis causa probamus, et gubernatoris ars, quia bene navigandi rationem habet, utilitate, non arte laudatur, sic sapientia, quae ars vivendi putanda est, non expeteretur, si nihil efficeret; nunc expetitur, quod est tamquam artifex conquirendae et comparandae voluptatis.</p>","attrs":["@classname:browser-safari"]},
+		{"id":121,"handle":"sva","name":"School of Visual Arts","completed":"2003-09-20","kIds":[15,16,19,21],"desc":"<p>Computer art graduate department at the <em>School of Visual Arts</em>, New York. Ex cupiditatibus odia, discidia, discordiae, seditiones, bella nascuntur, nec eae se foris solum iactant nec tantum in alios caeco impetu incurrunt, sed intus etiam in animis inclusae inter se dissident atque discordant, ex quo vitam amarissimam necesse est effici, ut sapiens solum amputata circumcisaque inanitate omni et errore naturae finibus contentus sine aegritudine possit et sine metu vivere.</p><p>Quodsi vitam omnem perturbari videmus errore et inscientia, sapientiamque esse solam, quae nos a libidinum impetu et a formidinum terrore vindicet et ipsius fortunae modice ferre doceat iniurias et omnis monstret vias, quae ad quietem et ad tranquillitatem ferant, quid est cur dubitemus dicere et sapientiam propter voluptates expetendam et insipientiam propter molestias esse fugiendam?</p>"}],
+			"media-all":[
+		{"bId":123,"id":181,"o":7,"src":"sap-topten_540_0_last.png","w":960,"h":540,"desc":"<p>Reason 1</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_0_last.png","mime":"image/png"},{"src":"sap-topten_540_0_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_0_2000k.webm","mime":"video/webm"}]},
+		{"bId":123,"id":180,"o":16,"src":"sap-topten_540_9_last.png","w":960,"h":540,"desc":"<p>Reason 10</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_9_last.png","mime":"image/png"},{"src":"sap-topten_540_9_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_9_2000k.webm","mime":"video/webm"}]},
+		{"bId":123,"id":179,"o":15,"src":"sap-topten_540_8_last.png","w":960,"h":540,"desc":"<p>Reason 9</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_8_last.png","mime":"image/png"},{"src":"sap-topten_540_8_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_8_2000k.webm","mime":"video/webm"}]},
+		{"bId":123,"id":178,"o":14,"src":"sap-topten_540_7_last.png","w":960,"h":540,"desc":"<p>Reason 8</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_7_last.png","mime":"image/png"},{"src":"sap-topten_540_7_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_7_2000k.webm","mime":"video/webm"}]},
+		{"bId":123,"id":177,"o":13,"src":"sap-topten_540_6_last.png","w":960,"h":540,"desc":"<p>Reason 7</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_6_last.png","mime":"image/png"},{"src":"sap-topten_540_6_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_6_2000k.webm","mime":"video/webm"}]},
+		{"bId":123,"id":176,"o":11,"src":"sap-topten_540_4_last.png","w":960,"h":540,"desc":"<p>Reason 5</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_4_last.png","mime":"image/png"},{"src":"sap-topten_540_4_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_4_2000k.webm","mime":"video/webm"}]},
+		{"bId":123,"id":175,"o":12,"src":"sap-topten_540_5_last.png","w":960,"h":540,"desc":"<p>Reason 6</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_5_last.png","mime":"image/png"},{"src":"sap-topten_540_5_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_5_2000k.webm","mime":"video/webm"}]},
+		{"bId":123,"id":174,"o":10,"src":"sap-topten_540_3_last.png","w":960,"h":540,"desc":"<p>Reason 4</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_3_last.png","mime":"image/png"},{"src":"sap-topten_540_3_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_3_2000k.webm","mime":"video/webm"}]},
+		{"bId":123,"id":173,"o":9,"src":"sap-topten_540_2_last.png","w":960,"h":540,"desc":"<p>Reason 3</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_2_last.png","mime":"image/png"},{"src":"sap-topten_540_2_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_2_2000k.webm","mime":"video/webm"}]},
+		{"bId":123,"id":172,"o":8,"src":"sap-topten_540_1_last.png","w":960,"h":540,"desc":"<p>Reason 2</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_1_last.png","mime":"image/png"},{"src":"sap-topten_540_1_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_1_2000k.webm","mime":"video/webm"}]},
+		{"bId":122,"id":166,"o":85,"src":"oandco_1_002.png","w":976,"h":594,"desc":"<p>Homepage animation</p>","attrs":["@classname:browser-safari","@renderer:video","@video-loop:loop"],"srcset":[{"src":"oandco_1_002.png","mime":"image/png"},{"src":"oandco_1_crf20.mp4","mime":"video/mp4"},{"src":"oandco_1_2000k.webm","mime":"video/webm"}]},
+		{"bId":122,"id":155,"o":86,"src":"oandco_3_006_1.png","w":956,"h":716,"desc":"<p>Homepage animation -- <em>enlarged</em></p>","attrs":["@renderer:video","@video-loop:loop"],"srcset":[{"src":"oandco_3_006_1.png","mime":"image/png"},{"src":"oandco_3_crf21_compat_1.mp4","mime":"video/mp4"},{"src":"oandco_3-vp8_1500k.webm","mime":"video/webm"}]},
+		{"bId":141,"id":146,"o":84,"src":"fpm_fe-specs-2009-05-08-10.png","w":1575,"h":1152,"desc":"<p>Special Lists</p>","srcset":[{"src":"fpm_fe-specs-2009-05-08-10.png","mime":"image/png"}]},
+		{"bId":141,"id":145,"o":83,"src":"fpm_fe-specs-2009-05-08-9.png","w":1575,"h":1152,"desc":"<p>Lists</p>","srcset":[{"src":"fpm_fe-specs-2009-05-08-9.png","mime":"image/png"}]},
+		{"bId":50,"id":144,"o":26,"src":"eh-finddoctorlong.png","w":1000,"h":934,"desc":"<p>Directory Search</p>","srcset":[{"src":"eh-finddoctorlong.png","mime":"image/png"}]},
+		{"bId":50,"id":143,"o":37,"src":"eh-11a-members.png","w":1000,"h":800,"desc":"<p>Members Home</p>","srcset":[{"src":"eh-11a-members.png","mime":"image/png"}]},
+		{"bId":50,"id":142,"o":35,"src":"eh-10-ourplans.png","w":1000,"h":800,"desc":"<p>Members area, Our Plans</p>","srcset":[{"src":"eh-10-ourplans.png","mime":"image/png"}]},
+		{"bId":141,"id":140,"o":82,"src":"fpm_fe-specs-2009-05-08_11.png","w":1575,"h":1152,"desc":"<p>Player &amp; Item Detail</p>","srcset":[{"src":"fpm_fe-specs-2009-05-08_11.png","mime":"image/png"}]},
+		{"bId":141,"id":139,"o":81,"src":"fpm_fe-specs-2009-05-08_8.png","w":1575,"h":1152,"desc":"<p>Catalog Keyword Browser</p>","srcset":[{"src":"fpm_fe-specs-2009-05-08_8.png","mime":"image/png"}]},
+		{"bId":141,"id":138,"o":80,"src":"fpm_fe-specs-2009-05-08_6.png","w":1575,"h":1152,"desc":"<p>Advanced Search Editor</p>","srcset":[{"src":"fpm_fe-specs-2009-05-08_6.png","mime":"image/png"}]},
+		{"bId":141,"id":137,"o":79,"src":"fpm_fe-specs-2009-05-08_3.png","w":1575,"h":1152,"desc":"<p>Sidebar</p>","srcset":[{"src":"fpm_fe-specs-2009-05-08_3.png","mime":"image/png"}]},
+		{"bId":67,"id":136,"o":69,"src":"cv_0011_a1-magenta_crop.png","w":1024,"h":750,"desc":"<p>Country page, magenta</p>","srcset":[{"src":"cv_0011_a1-magenta_crop.png","mime":"image/png"}]},
+		{"bId":67,"id":135,"o":68,"src":"cv_0009_b303-purple_crop.png","w":1024,"h":750,"desc":"<p>Country page, purple</p>","srcset":[{"src":"cv_0009_b303-purple_crop.png","mime":"image/png"}]},
+		{"bId":67,"id":134,"o":67,"src":"cv_0002_b103-blue_crop.png","w":1024,"h":750,"desc":"<p>Country page</p>","srcset":[{"src":"cv_0002_b103-blue_crop.png","mime":"image/png"}]},
+		{"bId":121,"id":124,"o":78,"src":"sva-mfaca-home.png","w":768,"h":533,"desc":"<p>Homepage</p>","srcset":[{"src":"sva-mfaca-home.png","mime":"image/png"}]},
+		{"bId":61,"id":119,"o":42,"src":"ivy-helvetica40th_0002_register.png","w":1100,"h":850,"desc":"<p>Registration form</p>","srcset":[{"src":"ivy-helvetica40th_0002_register.png","mime":"image/png"}]},
+		{"bId":61,"id":118,"o":43,"src":"ivy-helvetica40th_0001_playback-info.png","w":1100,"h":850,"desc":"<p>Playback, information drawer</p>","srcset":[{"src":"ivy-helvetica40th_0001_playback-info.png","mime":"image/png"}]},
+		{"bId":61,"id":117,"o":44,"src":"ivy-helvetica40th_0000_playback.png","w":1100,"h":850,"desc":"<p>Playback state</p>","srcset":[{"src":"ivy-helvetica40th_0000_playback.png","mime":"image/png"}]},
+		{"bId":120,"id":115,"o":71,"src":"ivy-lemeridien_0006_playback-banner.png","w":1100,"h":850,"desc":"<p>A banner during playback</p>","attrs":["@renderer:sequence"],"srcset":[{"src":"ivy-lemeridien_0006_playback-banner.png","mime":"image/png"},{"src":"ivy-lemeridien_0007_playback-banner-expanded.png","mime":"image/png"},{"src":"ivy-lemeridien_0000_playback.png","mime":"image/png"}]},
+		{"bId":120,"id":114,"o":74,"src":"ivy-lemeridien_0002_browser.png","w":1100,"h":850,"desc":"<p>Browsing for videos</p>","attrs":["@renderer:sequence"],"srcset":[{"src":"ivy-lemeridien_0002_browser.png","mime":"image/png"},{"src":"ivy-lemeridien_0000_playback.png","mime":"image/png"},{"src":"ivy-lemeridien_0001_playback-breadcrumbs.png","mime":"image/png"}]},
+		{"bId":120,"id":109,"o":75,"src":"ivy-lemeridien_0003_browser-alt1.png","w":1100,"h":850,"desc":"<p>Video Browser Alternates</p>","attrs":["@renderer:sequence"],"srcset":[{"src":"ivy-lemeridien_0003_browser-alt1.png","mime":"image/png"},{"src":"ivy-lemeridien_0004_browser-alt2.png","mime":"image/png"},{"src":"ivy-lemeridien_0005_browser-alt3.png","mime":"image/png"},{"src":"ivy-lemeridien_0002_browser.png","mime":"image/png"}]},
+		{"bId":120,"id":107,"o":70,"src":"ivy-lemeridien_0000_playback.png","w":1100,"h":850,"desc":"<p>Video playback</p>","srcset":[{"src":"ivy-lemeridien_0000_playback.png","mime":"image/png"}]},
+		{"bId":63,"id":106,"o":52,"src":"ivy-laredoute_0004_full-channels-tiles.png","w":1100,"h":850,"desc":"<p>Channel content list</p>","srcset":[{"src":"ivy-laredoute_0004_full-channels-tiles.png","mime":"image/png"}]},
+		{"bId":63,"id":105,"o":51,"src":"ivy-laredoute_0003_full-channels.png","w":1100,"h":850,"desc":"<p>Channels interface</p>","srcset":[{"src":"ivy-laredoute_0003_full-channels.png","mime":"image/png"}]},
+		{"bId":63,"id":104,"o":50,"src":"ivy-laredoute_0002_full-relatedcontent-floating.png","w":1100,"h":850,"desc":"<p>Related content, alternate 2</p>","srcset":[{"src":"ivy-laredoute_0002_full-relatedcontent-floating.png","mime":"image/png"}]},
+		{"bId":63,"id":103,"o":49,"src":"ivy-laredoute_0001_full-relatedcontent-fullframe.png","w":1100,"h":850,"desc":"<p>Related content,\n<em>Alternate 1</em></p>","srcset":[{"src":"ivy-laredoute_0001_full-relatedcontent-fullframe.png","mime":"image/png"}]},
+		{"bId":63,"id":102,"o":48,"src":"ivy-laredoute_0000_full-playback.png","w":1100,"h":850,"desc":"<p>Playback state</p>","srcset":[{"src":"ivy-laredoute_0000_full-playback.png","mime":"image/png"}]},
+		{"bId":62,"id":101,"o":47,"src":"ivy-garnier_0006_video-related-content.png","w":1100,"h":924,"desc":"<p>Related content</p>","srcset":[{"src":"ivy-garnier_0006_video-related-content.png","mime":"image/png"}]},
+		{"bId":62,"id":96,"o":46,"src":"ivy-garnier_0001_wizard-1.png","w":1100,"h":924,"desc":"<p>The Shade Game</p>","attrs":["@renderer:sequence"],"srcset":[{"src":"ivy-garnier_0001_wizard-1.png","mime":"image/png"},{"src":"ivy-garnier_0002_wizard-2.png","mime":"image/png"},{"src":"ivy-garnier_0003_wizard-3.png","mime":"image/png"},{"src":"ivy-garnier_0004_wizard-4.png","mime":"image/png"},{"src":"ivy-garnier_0005_wizard-5.png","mime":"image/png"}]},
+		{"bId":62,"id":95,"o":45,"src":"ivy-garnier_0000_player.png","w":1100,"h":924,"desc":"<p>Player</p>","attrs":["@classname:browser-safari"],"srcset":[{"src":"ivy-garnier_0000_player.png","mime":"image/png"}]},
+		{"bId":66,"id":94,"o":66,"src":"ivy-agency_0004_alt.png","w":1099,"h":791,"desc":"<p>Homepage, full-width <em>hero</em> image</p>","srcset":[{"src":"ivy-agency_0004_alt.png","mime":"image/png"}]},
+		{"bId":66,"id":93,"o":65,"src":"ivy-agency_0003_inner.png","w":1099,"h":791,"desc":"<p>Sample inner page</p>","srcset":[{"src":"ivy-agency_0003_inner.png","mime":"image/png"}]},
+		{"bId":66,"id":92,"o":64,"src":"ivy-agency_0002_home3.png","w":1099,"h":791,"desc":"<p>Homepage, alternate state</p>","srcset":[{"src":"ivy-agency_0002_home3.png","mime":"image/png"}]},
+		{"bId":66,"id":91,"o":63,"src":"ivy-agency_0001_home2.png","w":1099,"h":791,"desc":"<p>Homepage, with site navigation</p>","srcset":[{"src":"ivy-agency_0001_home2.png","mime":"image/png"}]},
+		{"bId":66,"id":89,"o":62,"src":"ivy-agency_0000_home1.png","w":1099,"h":791,"desc":"<p>Homepage</p>","srcset":[{"src":"ivy-agency_0000_home1.png","mime":"image/png"}]},
+		{"bId":65,"id":88,"o":60,"src":"ivy-adminb.png","w":1100,"h":1190,"desc":"<p>Backend Interface</p>","attrs":["@classname:browser-safari"],"srcset":[{"src":"ivy-adminb.png","mime":"image/png"}]},
+		{"bId":65,"id":87,"o":61,"src":"ivy-admina.png","w":1100,"h":780,"desc":"<p>Alternate</p>","srcset":[{"src":"ivy-admina.png","mime":"image/png"}]},
+		{"bId":64,"id":84,"o":56,"src":"fpm_0009_forms-signin.png","w":960,"h":677,"desc":"<p>Forms &amp; Dialogs</p>","attrs":["@renderer:sequence"],"srcset":[{"src":"fpm_0009_forms-signin.png","mime":"image/png"},{"src":"fpm_0010_forms-error.png","mime":"image/png"}]},
+		{"bId":64,"id":81,"o":54,"src":"fpm_0001_list-table_infoalbum.png","w":960,"h":677,"desc":"<p>Listings</p>","attrs":["@renderer:sequence","border-radius:3px"],"srcset":[{"src":"fpm_0001_list-table_infoalbum.png","mime":"image/png"},{"src":"fpm_0006_list-table_infosong.png","mime":"image/png"},{"src":"fpm_0005_list-table_keywords.png","mime":"image/png"},{"src":"fpm_0007_list-tiles_keywords.png","mime":"image/png"},{"src":"fpm_0008_list-covers.png","mime":"image/png"}]},
+		{"bId":64,"id":78,"o":58,"src":"fpm_0004_user-downloads.png","w":960,"h":677,"desc":"<p>Downloads</p>","srcset":[{"src":"fpm_0004_user-downloads.png","mime":"image/png"}]},
+		{"bId":64,"id":77,"o":57,"src":"fpm_0003_user-cart.png","w":960,"h":677,"desc":"<p>User shopping cart</p>","srcset":[{"src":"fpm_0003_user-cart.png","mime":"image/png"}]},
+		{"bId":64,"id":76,"o":55,"src":"fpm_0002_forms-search.png","w":960,"h":677,"desc":"<p>Filters &amp; Search</p>","srcset":[{"src":"fpm_0002_forms-search.png","mime":"image/png"}]},
+		{"bId":64,"id":74,"o":53,"src":"fpm_0000_template-half.png","w":960,"h":677,"desc":"<p>Section landing state</p>","attrs":["@renderer:sequence"],"srcset":[{"src":"fpm_0000_template-half.png","mime":"image/png"},{"src":"fpm_0011_template-full.png","mime":"image/png"}]},
+		{"bId":50,"id":73,"o":33,"src":"eh-public.png","w":1024,"h":637,"desc":"<p>Public homepage, Final Version</p>","srcset":[{"src":"eh-public.png","mime":"image/png"}]},
+		{"bId":50,"id":71,"o":29,"src":"eh-public-alt.png","w":1000,"h":778,"desc":"<p>Public homepage, first alternate</p>","srcset":[{"src":"eh-public-alt.png","mime":"image/png"}]},
+		{"bId":60,"id":70,"o":41,"src":"baixas_0002_services.png","w":1025,"h":769,"desc":"<p>Services</p>","srcset":[{"src":"baixas_0002_services.png","mime":"image/png"}]},
+		{"bId":60,"id":69,"o":40,"src":"baixas_0001_case-study.png","w":1025,"h":769,"desc":"<p>Case Study</p>","srcset":[{"src":"baixas_0001_case-study.png","mime":"image/png"}]},
+		{"bId":60,"id":68,"o":39,"src":"baixas_0000_about.png","w":1025,"h":769,"desc":"<p>About</p>","srcset":[{"src":"baixas_0000_about.png","mime":"image/png"}]},
+		{"bId":50,"id":53,"o":30,"src":"eh-broker_0002_proposal-new.png","w":1024,"h":1551,"desc":"<p>Brokers Portal: New Proposal</p>","srcset":[{"src":"eh-broker_0002_proposal-new.png","mime":"image/png"}]},
+		{"bId":39,"id":48,"o":24,"src":"ivy-workfit_0009_profile.png","w":1100,"h":850,"desc":"<p>User Profile</p>","attrs":["@renderer:sequence"],"srcset":[{"src":"ivy-workfit_0009_profile.png","mime":"image/png"},{"src":"ivy-workfit_0005_playback-tabs.png","mime":"image/png"},{"src":"ivy-workfit_0008_playback-tabs-profile.png","mime":"image/png"}]},
+		{"bId":39,"id":46,"o":23,"src":"ivy-workfit_0007_channels.png","w":1100,"h":850,"desc":"<p>Content Browsing</p>","attrs":["@renderer:sequence","@sequence-interval:1500ms"],"srcset":[{"src":"ivy-workfit_0007_channels.png","mime":"image/png"},{"src":"ivy-workfit_0005_playback-tabs.png","mime":"image/png"},{"src":"ivy-workfit_0006_playback-tabs-channels.png","mime":"image/png"}]},
+		{"bId":39,"id":37,"o":22,"src":"ivy-workfit_0000_playback.png","w":1100,"h":850,"desc":"<p>Playback</p>","attrs":["@renderer:sequence","@sequence-interval:1500ms"],"srcset":[{"src":"ivy-workfit_0000_playback.png","mime":"image/png"},{"src":"ivy-workfit_0002_playback-bannera.png","mime":"image/png"},{"src":"ivy-workfit_0001_playback-bannerb.png","mime":"image/png"},{"src":"ivy-workfit_0003_rc-video-list.png","mime":"image/png"},{"src":"ivy-workfit_0004_rc-video-embedded.png","mime":"image/png"}]},
+		{"bId":36,"id":35,"o":90,"src":"esj-sans_0000.png","w":820,"h":600,"desc":"<p>Homepage alternate</p>","srcset":[{"src":"esj-sans_0000.png","mime":"image/png"}]},
+		{"bId":36,"id":34,"o":89,"src":"esj-emblem_0002_properties.png","w":820,"h":600,"desc":"<p>Properties</p>","srcset":[{"src":"esj-emblem_0002_properties.png","mime":"image/png"}]},
+		{"bId":36,"id":33,"o":88,"src":"esj-emblem_0001_mgmt.png","w":820,"h":600,"desc":"<p>Management</p>","srcset":[{"src":"esj-emblem_0001_mgmt.png","mime":"image/png"}]},
+		{"bId":36,"id":32,"o":87,"src":"esj-emblem_0000_home.png","w":820,"h":600,"desc":"<p>Homepage</p>","srcset":[{"src":"esj-emblem_0000_home.png","mime":"image/png"}]},
+		{"bId":26,"id":31,"o":21,"src":"milo_0004_trail-dd.png","w":1024,"h":1021,"desc":"<p>Trail (user dropdown)</p>","srcset":[{"src":"milo_0004_trail-dd.png","mime":"image/png"}]},
+		{"bId":26,"id":30,"o":20,"src":"milo_0003_trail-player.png","w":1024,"h":1021,"desc":"<p>Trail Player</p>","srcset":[{"src":"milo_0003_trail-player.png","mime":"image/png"}]},
+		{"bId":26,"id":29,"o":19,"src":"milo_0002_trail-scroll.png","w":1024,"h":1021,"desc":"<p>Trail summary, scrolling</p>","srcset":[{"src":"milo_0002_trail-scroll.png","mime":"image/png"}]},
+		{"bId":26,"id":28,"o":18,"src":"milo_0001_trail-summary.png","w":1024,"h":1021,"desc":"<p>Trail summary</p>","srcset":[{"src":"milo_0001_trail-summary.png","mime":"image/png"}]},
+		{"bId":26,"id":27,"o":17,"src":"milo_0000_wellpage.png","w":1024,"h":1021,"desc":"<p>Homepage, <em>Wellpage</em></p>","srcset":[{"src":"milo_0000_wellpage.png","mime":"image/png"}]}]
+			};
+			window.mediadir = "./workspace/uploads";
+			window.approot = "./";
+			window.DEBUG = true;
+			</script>
+  </body>
+</html>
