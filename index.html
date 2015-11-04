@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Portfolio</title>
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="alternate" type="application/rss+xml" href="./rss" />
     <meta name="msapplication-square70x70logo" content="./workspace/assets/images/favicon/windows-tile-70x70.png" />
     <meta name="msapplication-square150x150logo" content="./workspace/assets/images/favicon/windows-tile-150x150.png" />
     <meta name="msapplication-square310x310logo" content="./workspace/assets/images/favicon/windows-tile-310x310.png" />
@@ -33,6 +34,12 @@
         </div>
         <div id="bundle-list-wrapper" class="transform-wrapper">
           <ul id="bundle-list" class="list selectable filterable">
+            <li class="list-item" data-id="912">
+              <a href="./bundles/error-testing">
+                <span class="completed meta pubDate" data-datetime="2015-09-22">2015</span>
+                <span class="name">Error Testing</span>
+              </a>
+            </li>
             <li class="list-item" data-id="123">
               <a href="./bundles/sap-ten-reasons">
                 <span class="completed meta pubDate" data-datetime="2012-09-30">2012</span>
@@ -234,6 +241,14 @@
                 <span class="name">Adobe Air</span>
               </a>
             </dd>
+            <dt class="list-group" data-id="914">
+              <span class="name">Private</span>
+            </dt>
+            <dd class="list-item" data-id="915">
+              <a href="./keywords/error-testing">
+                <span class="name">Error Testing</span>
+              </a>
+            </dd>
           </dl>
         </div>
       </div>
@@ -246,8 +261,10 @@
 		{"id":10,"handle":"client","name":"Client"},
 		{"id":7,"handle":"role","name":"Role"},
 		{"id":8,"handle":"type","name":"Type"},
-		{"id":11,"handle":"technology","name":"Technology"}],
+		{"id":11,"handle":"technology","name":"Technology"},
+		{"id":914,"handle":"private","name":"Private"}],
 			"keywords-all":[
+		{"id":915,"handle":"error-testing","name":"Error Testing","tId":914},
 		{"id":147,"handle":"web-design","name":"Web Design","tId":7},
 		{"id":127,"handle":"animation","name":"Animation","tId":7},
 		{"id":126,"handle":"o-co","name":"O+Co","tId":10},
@@ -265,9 +282,10 @@
 		{"id":14,"handle":"information-architecture","name":"Information Architecture","tId":7},
 		{"id":13,"handle":"identity","name":"Identity","tId":7}],
 			"bundles-all":[
+		{"id":912,"handle":"error-testing","name":"Error Testing","completed":"2015-09-22","kIds":[915,16,19,21],"desc":"<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>","attrs":["background-color:hsl(210; 0%; 80%)","color:hsl(210; 0%; 30%)"]},
 		{"id":123,"handle":"sap-ten-reasons","name":"SAP Ten Reasons","completed":"2012-09-30","kIds":[125,15,18],"desc":"<p>Eademque ratione ne temperantiam <em>SAP Touchscreen</em> quidem propter se expetendam esse dicemus, sed quia pacem animis afferat et eos quasi concordia quadam placet ac leniat. temperantia est enim, quae in rebus aut expetendis aut fugiendis ut rationem sequamur monet. nec enim satis est iudicare quid faciendum non faciendumve sit, sed stare etiam oportet in eo, quod sit iudicatum.</p><p>Plerique autem, quod tenere atque servare id, quod ipsi statuerunt, non possunt, victi et debilitati obiecta specie voluptatis tradunt se libidinibus constringendos nec quid eventurum sit provident ob eamque causam propter voluptatem.</p>","attrs":["background-color:hsl(45; 5%; 95%)","color:hsl(45; 5%; 35%)"]},
 		{"id":67,"handle":"coopervision","name":"CooperVision","completed":"2012-09-19","kIds":[125,147,21],"desc":"<p>Contra  <em>CooperVision</em>  quos omnis dicendum breviter existimo. Quam philosophiae quidem vituperatoribus satis responsum est eo libro, quo a nobis philosophia defensa et collaudata est, cum esset accusata et vituperata ab Hortensio. qui liber cum et tibi probatus videretur et iis, quos ego posse iudicare arbitrarer, plura suscepi veritus ne movere hominum studia viderer, retinere non posse. Qui autem, si maxime hoc placeat, moderatius tamen id volunt fieri, difficilem quandam temperantiam postulant.</p>","attrs":["@classname:browser-safari"]},
-		{"id":122,"handle":"o-co","name":"O+CO","completed":"2011-09-20","kIds":[126,127,18,21],"desc":"<p>A quibus tantum dissentio, ut, cum <em>Oppenheimer and Company</em> vel optime scripserit Electram, tamen male conversam Atilii mihi legendam putem, de quo Lucilius: 'ferreum scriptorem', verum, opinor, scriptorem tamen, ut legendus sit. rudem enim esse omnino in nostris poetis aut inertissimae segnitiae est aut fastidii delicatissimi. mihi quidem nulli satis eruditi videntur, quibus nostra ignota sunt. an 'Utinam ne in nemore ...' nihilo minus legimus quam hoc idem Graecum, quae autem de bene beateque vivendo a Platone disputata sunt, haec explicari non placebit Latine?</p>","attrs":["background-color:hsl(224; 4%; 17%)","border:1px solid hsl(224; 3%; 20%)","box-shadow:none","color:hsl(224; 3%; 55%)"]},
+		{"id":122,"handle":"o-co","name":"O+CO","completed":"2011-09-20","kIds":[126,127,18,21],"desc":"<p>A quibus tantum dissentio, ut, cum <em>Oppenheimer and Company</em> vel optime scripserit Electram, tamen male conversam Atilii mihi legendam putem, de quo Lucilius: 'ferreum scriptorem', verum, opinor, scriptorem tamen, ut legendus sit. rudem enim esse omnino in nostris poetis aut inertissimae segnitiae est aut fastidii delicatissimi. mihi quidem nulli satis eruditi videntur, quibus nostra ignota sunt. an 'Utinam ne in nemore ...' nihilo minus legimus quam hoc idem Graecum, quae autem de bene beateque vivendo a Platone disputata sunt, haec explicari non placebit Latine?</p>","attrs":["background-color:hsl(224; 4%; 17%)","border:0px solid hsl(224; 3%; 20%)","box-shadow:none","color:hsl(224; 3%; 55%)"]},
 		{"id":26,"handle":"milo","name":"Milo","completed":"2011-09-18","kIds":[15,16,19,20],"desc":"<p><em>Milo</em> was said to be an associate of <em>Pythagoras</em>. One story tells of the wrestler saving the philosopher's life when a roof was about to collapse upon him and another that Milo may have married the philosopher's daughter Myia. Like other successful athletes of ancient Greece, Milo was the subject of fantastic tales of strength and power, some, perhaps, based upon misinterpretations of his statues. Among other tales, he was said to have carried a bull on his shoulders and to have burst a band about his brow by simply inflating the veins of his temples.</p>","attrs":["@classname:browser-safari","background-color:hsl(210; 3%; 20%)","color:hsl(210; 4%; 75%)"]},
 		{"id":64,"handle":"freeplay-app","name":"Freeplay Music <em>App</em>","completed":"2010-09-19","kIds":[14,15,17,22],"desc":"<p>Quamquam, si plane sic verterem <em>Freeplay Music</em> Platonem aut Aristotelem, ut verterunt nostri poetae fabulas, male, credo, mererer de meis civibus, si ad eorum cognitionem divina illa ingenia transferrem. sed id neque feci adhuc nec mihi tamen, ne faciam, interdictum puto. locos quidem quosdam, si videbitur, transferam, et maxime ab iis, quos modo nominavi, cum inciderit, ut id apte fieri possit, ut ab Homero Ennius, Afranius a Menandro solet. </p>","attrs":["background-color:hsl(210; 3%; 18%)","border-radius:3px","color:hsl(210; 4%; 70%)"]},
 		{"id":141,"handle":"freeplay-ixd","name":"Freeplay Music <em>IxD</em>","completed":"2010-04-01","kIds":[14,15,22],"desc":"<p><em>Freeplay Music specifications</em>, interaction design, information architecture. Ego autem quem timeam lectorem, cum ad te ne Graecis quidem cedentem in philosophia audeam scribere? quamquam a te ipso id quidem facio provocatus gratissimo mihi libro, quem ad me de virtute misisti. Sed ex eo credo quibusdam usu venire; ut abhorreant a Latinis, quod inciderint in inculta quaedam et horrida, de malis Graecis Latine scripta deterius.</p>","attrs":["background-color:hsl(45; 25%; 90%)","box-shadow:0px 7px 9px -6px rgba(0;0;0;0.4)","color:hsl(45; 5%; 35%)"]},
@@ -283,6 +301,14 @@
 		{"id":60,"handle":"alternet","name":"Alternet","completed":"2006-09-19","kIds":[127,16,18,21],"desc":"<p>Id qui in una virtute ponunt et splendore nominis capti quid natura postulet non intellegunt, errore maximo, si Epicurum audire voluerint, liberabuntur: istae enim vestrae eximiae pulchraeque virtutes nisi voluptatem efficerent, quis eas aut laudabilis aut expetendas arbitraretur?</p><p>Ut enim medicorum scientiam non ipsius artis, sed bonae valetudinis causa probamus, et gubernatoris ars, quia bene navigandi rationem habet, utilitate, non arte laudatur, sic sapientia, quae ars vivendi putanda est, non expeteretur, si nihil efficeret; nunc expetitur, quod est tamquam artifex conquirendae et comparandae voluptatis.</p>","attrs":["@classname:browser-safari"]},
 		{"id":121,"handle":"sva","name":"School of Visual Arts","completed":"2003-09-20","kIds":[15,16,19,21],"desc":"<p>Computer art graduate department at the <em>School of Visual Arts</em>, New York. Ex cupiditatibus odia, discidia, discordiae, seditiones, bella nascuntur, nec eae se foris solum iactant nec tantum in alios caeco impetu incurrunt, sed intus etiam in animis inclusae inter se dissident atque discordant, ex quo vitam amarissimam necesse est effici, ut sapiens solum amputata circumcisaque inanitate omni et errore naturae finibus contentus sine aegritudine possit et sine metu vivere.</p><p>Quodsi vitam omnem perturbari videmus errore et inscientia, sapientiamque esse solam, quae nos a libidinum impetu et a formidinum terrore vindicet et ipsius fortunae modice ferre doceat iniurias et omnis monstret vias, quae ad quietem et ad tranquillitatem ferant, quid est cur dubitemus dicere et sapientiam propter voluptates expetendam et insipientiam propter molestias esse fugiendam?</p>"}],
 			"media-all":[
+		{"bId":912,"id":943,"o":4,"src":"_mad-hatter_400kb.jpg","w":1638,"h":1024,"desc":"<p>Alice in Wonderland -- 0.4Mb</p>","attrs":["@renderer:sequence"],"srcset":[{"src":"_mad-hatter_400kb.jpg","mime":"image/jpeg"},{"src":"_red-queen_400kb.jpg","mime":"image/jpeg"},{"src":"_alice_400kb.jpg","mime":"image/jpeg"},{"src":"_tweedledee_400kb.jpg","mime":"image/jpeg"}]},
+		{"bId":912,"id":942,"o":10,"src":"_dictator-hagiographer_030.png","w":640,"h":480,"desc":"<p>Dictator~Hagiographer</p>","attrs":["@renderer:video"],"srcset":[{"src":"_dictator-hagiographer_030.png","mime":"image/png"},{"src":"_dictator-hagiographer_028.png","mime":"image/png"},{"src":"_dictator-hagiographer_012.png","mime":"image/png"},{"src":"_dictator-hagiographer.mp4","mime":"video/mp4"}]},
+		{"bId":912,"id":936,"o":5,"src":"_mad-hatter_3500kb.jpg","w":2560,"h":1600,"desc":"<p>Alice in Wonderland -- 3.5Mb</p>","attrs":["@renderer:sequence"],"srcset":[{"src":"_mad-hatter_3500kb.jpg","mime":"image/jpeg"},{"src":"_red-queen_3500kb.jpg","mime":"image/jpeg"},{"src":"_alice_3500kb.jpg","mime":"image/jpeg"},{"src":"_tweedledee_3500kb.jpg","mime":"image/jpeg"}]},
+		{"bId":912,"id":931,"o":2,"src":"_477_metropolitan_ave_timelapse_int_33_66.png","w":1280,"h":720,"desc":"<p>477 Metropolitan Ave -- <em>Video Loop</em></p>","attrs":["@renderer:video","@video-loop:loop"],"srcset":[{"src":"_477_metropolitan_ave_timelapse_int_33_66.png","mime":"image/png"},{"src":"_477_metropolitan_ave_timelapse_int_33_66.mp4","mime":"video/mp4"}]},
+		{"bId":912,"id":928,"o":3,"src":"_intlfairs-nycsf-1939_nyc-aquacade.png","w":640,"h":480,"desc":"<p>1939 World Fair Aquacade, <abbr>NYC</abbr></p>","attrs":["@renderer:video"],"srcset":[{"src":"_intlfairs-nycsf-1939_nyc-aquacade.png","mime":"image/png"},{"src":"_intlfairs-nycsf-1939_nyc-aquacade_avc.mp4","mime":"video/mp4"}]},
+		{"bId":912,"id":927,"o":1,"src":"_esb_timelapse-nyc911_640x420_last.png","w":640,"h":420,"desc":"<p>Timelapse -- <em>Working Video</em></p>","attrs":["@renderer:video"],"srcset":[{"src":"_esb_timelapse-nyc911_640x420_last.png","mime":"image/png"},{"src":"_esb_timelapse-nyc911_640x420_crf20.mp4","mime":"video/mp4"},{"src":"_esb_timelapse-nyc911_640x420_750k.webm","mime":"video/webm"}]},
+		{"bId":912,"id":921,"o":6,"src":"_bureaucrate-1280.png","w":1280,"h":800,"desc":"<p>Bureaucrate Image -- <em><abbr>HTTP 404</abbr></em></p>","srcset":[{"src":"_bureaucrate-1280.png","mime":"image/png"}]},
+		{"bId":912,"id":917,"o":7,"src":"_intlfairs-nycsf-1939_nyc-aquacade.png","w":640,"h":480,"desc":"<p>1939 World Fair Aquacade, <abbr>NYC</abbr> -- <em><abbr>HEVC</abbr></em></p>","attrs":["@renderer:video"],"srcset":[{"src":"_intlfairs-nycsf-1939_nyc-aquacade.png","mime":"image/png"},{"src":"_intlfairs-nycsf-1939_nyc-aquacade_hevc.mp4","mime":"video/mp4"}]},
 		{"bId":123,"id":181,"o":7,"src":"sap-topten_540_0_last.png","w":960,"h":540,"desc":"<p>Reason 1</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_0_last.png","mime":"image/png"},{"src":"sap-topten_540_0_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_0_2000k.webm","mime":"video/webm"}]},
 		{"bId":123,"id":180,"o":16,"src":"sap-topten_540_9_last.png","w":960,"h":540,"desc":"<p>Reason 10</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_9_last.png","mime":"image/png"},{"src":"sap-topten_540_9_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_9_2000k.webm","mime":"video/webm"}]},
 		{"bId":123,"id":179,"o":15,"src":"sap-topten_540_8_last.png","w":960,"h":540,"desc":"<p>Reason 9</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_8_last.png","mime":"image/png"},{"src":"sap-topten_540_8_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_8_2000k.webm","mime":"video/webm"}]},
@@ -293,7 +319,7 @@
 		{"bId":123,"id":174,"o":10,"src":"sap-topten_540_3_last.png","w":960,"h":540,"desc":"<p>Reason 4</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_3_last.png","mime":"image/png"},{"src":"sap-topten_540_3_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_3_2000k.webm","mime":"video/webm"}]},
 		{"bId":123,"id":173,"o":9,"src":"sap-topten_540_2_last.png","w":960,"h":540,"desc":"<p>Reason 3</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_2_last.png","mime":"image/png"},{"src":"sap-topten_540_2_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_2_2000k.webm","mime":"video/webm"}]},
 		{"bId":123,"id":172,"o":8,"src":"sap-topten_540_1_last.png","w":960,"h":540,"desc":"<p>Reason 2</p>","attrs":["@renderer:video"],"srcset":[{"src":"sap-topten_540_1_last.png","mime":"image/png"},{"src":"sap-topten_540_1_crf20.mp4","mime":"video/mp4"},{"src":"sap-topten_540_1_2000k.webm","mime":"video/webm"}]},
-		{"bId":122,"id":166,"o":85,"src":"oandco_1_002.png","w":976,"h":594,"desc":"<p>Homepage animation</p>","attrs":["@classname:browser-safari","@renderer:video","@video-loop:loop"],"srcset":[{"src":"oandco_1_002.png","mime":"image/png"},{"src":"oandco_1_crf20.mp4","mime":"video/mp4"},{"src":"oandco_1_2000k.webm","mime":"video/webm"}]},
+		{"bId":122,"id":166,"o":85,"src":"oandco_1_002.png","w":976,"h":594,"desc":"<p>Homepage animation</p>","attrs":["@renderer:video","@video-loop:loop"],"srcset":[{"src":"oandco_1_002.png","mime":"image/png"},{"src":"oandco_1_crf20.mp4","mime":"video/mp4"},{"src":"oandco_1_2000k.webm","mime":"video/webm"}]},
 		{"bId":122,"id":155,"o":86,"src":"oandco_3_006_1.png","w":956,"h":716,"desc":"<p>Homepage animation -- <em>enlarged</em></p>","attrs":["@renderer:video","@video-loop:loop"],"srcset":[{"src":"oandco_3_006_1.png","mime":"image/png"},{"src":"oandco_3_crf21_compat_1.mp4","mime":"video/mp4"},{"src":"oandco_3-vp8_1500k.webm","mime":"video/webm"}]},
 		{"bId":141,"id":146,"o":84,"src":"fpm_fe-specs-2009-05-08-10.png","w":1575,"h":1152,"desc":"<p>Special Lists</p>","srcset":[{"src":"fpm_fe-specs-2009-05-08-10.png","mime":"image/png"}]},
 		{"bId":141,"id":145,"o":83,"src":"fpm_fe-specs-2009-05-08-9.png","w":1575,"h":1152,"desc":"<p>Lists</p>","srcset":[{"src":"fpm_fe-specs-2009-05-08-9.png","mime":"image/png"}]},

@@ -1,81 +1,72 @@
 /*global module*/
 module.exports = function (grunt) {
 	"use strict";
-
-	// grunt.initConfig({});
+	
 	grunt.config("pkg", grunt.file.readJSON("package.json"));
-
-	grunt.config("srcRoot", "http://krupp.local/projects/folio-sym");
-	grunt.config("srcAssets", "workspace/assets");
-	grunt.config("destAssets", "workspace/assets");
-
+	
+	grunt.config("paths", {
+		"srcRoot": "http://krupp.local/projects/folio-sym",
+		"srcAssets": "workspace/assets",
+		"destAssets": "workspace/assets",
+	});
+	
 	grunt.loadNpmTasks("grunt-http");
 	grunt.config("http", {
 		options: {
 			ignoreErrors: true
 		},
 		index: {
-			options: { url: "<%= srcRoot %>/" },
-			dest: "index.xhtml"
+			options: { url: "<%= paths.srcRoot %>/" },
+			dest: "index.html"
 		},
 		styles: {
-			options: { url: "<%= srcRoot %>/<%= srcAssets %>/css/folio.css" },
-			dest: "<%= destAssets %>/css/folio.css"
+			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/folio.css" },
+			dest: "<%= paths.destAssets %>/css/folio.css"
 		},
 		fonts: {
-			options: { url: "<%= srcRoot %>/<%= srcAssets %>/css/fonts.css" },
-			dest: "<%= destAssets %>/css/fonts.css"
+			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/fonts.css" },
+			dest: "<%= paths.destAssets %>/css/fonts.css"
 		},
-//		"js-vendor": {
-//			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio-vendor.js" },
-//			dest: "<%= destAssets %>/js/folio-vendor.js"
-//		},
-//		"js-client": {
-//			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio-client.js" },
-//			dest: "<%= destAssets %>/js/folio-client.js"
-//		},
-		"js-dist": {
-			options: { url: "<%= srcRoot %>/<%= srcAssets %>/js/folio.js" },
-			dest: "<%= destAssets %>/js/folio.js"
-		}
+		"scripts-dist": {
+			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio.js" },
+			dest: "<%= paths.destAssets %>/js/folio.js"
+		},
+		// "scripts-vendor": {
+		// 	options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio-vendor.js" },
+		// 	dest: "<%= paths.destAssets %>/js/folio-vendor.js"
+		// },
+		// "scripts-client": {
+		// 	options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio-client.js" },
+		// 	dest: "<%= paths.destAssets %>/js/folio-client.js"
+		// },
 	});
-
+	
+	function toPattern(s) {
+		s = grunt.template.process(s, grunt.config());
+		s = s.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+		return new RegExp(s, "g");
+	}
 	grunt.loadNpmTasks("grunt-string-replace");
 	grunt.config("string-replace", {
-//		"data-url": {
-//			files: {
-//				"./": ["index.xhtml"]
-//			},
-//			options: {
-//				replacements: [{
-//					pattern: /http:\/\/folio.localhost\/json/,
-//					replacement: "<%= destAssets %>/js/folio-data.js"
-//				}]
-//			}
-//		},
-		"root-urls": {
+		"http-root": {
 			files: {
-				"./": ["index.xhtml",
-					   "<%= destAssets %>/css/*.css",
-					   "<%= destAssets %>/js/*.js"]
+				"./": [
+					"index.html",
+					"<%= paths.destAssets %>/css/*.css",
+					"<%= paths.destAssets %>/js/*.js"
+				]
 			},
 			options: {
 				replacements: [
-//					{
-//						pattern: "<%= srcAssets %>",
-//						replacement: "<%= destAssets %>"
-//					},
-					{
-						// pattern: /https?:\/\/[^\/\"\']+/g,
-						pattern: "<%= srcRoot %>",
-						// pattern: /https?:\/\/folio\.(local\.|localhost)/g,
-						replacement: "."
-					}
+					// { pattern: "<%= paths.srcAssets %>", replacement: "<%= paths.destAssets %>"},
+					// { pattern: /https?:\/\/[^\/\"\']+/g}, replacement: "./" },
+					// { pattern: /https?:\/\/folio\.(local\.|localhost)/g}, replacement: "./" },
+					{ pattern: toPattern("<%= paths.srcRoot %>/"), replacement: "./" },
 				]
 			}
 		}
 	});
 
-	grunt.registerTask("build", ["http", "string-replace"]);
+	grunt.registerTask("build", ["http", "string-replace:http-root"]);
 	grunt.registerTask("default", ["build"]);
 };
