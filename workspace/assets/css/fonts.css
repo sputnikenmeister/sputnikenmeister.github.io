@@ -1,1 +1,63 @@
-@font-face{font-family:'Franklin Gothic FS';src:url('../fonts/FranklinGothic-Book-webfont.eot?1445617780');src:url('../fonts/FranklinGothic-Book-webfont.eot?&1445617780#iefix') format("embedded-opentype"),url('../fonts/FranklinGothic-Book-webfont.woff2?1445617780') format("woff2"),url('../fonts/FranklinGothic-Book-webfont.woff?1445617780') format("woff"),url('../fonts/FranklinGothic-Book-webfont.ttf?1445617780') format("truetype"),url('../fonts/FranklinGothic-Book-webfont.svg?1446222342#franklin_gothic_fsbook') format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'Franklin Gothic FS';src:url('../fonts/FranklinGothic-BookIt-webfont.eot?1445617780');src:url('../fonts/FranklinGothic-BookIt-webfont.eot?&1445617780#iefix') format("embedded-opentype"),url('../fonts/FranklinGothic-BookIt-webfont.woff2?1445617780') format("woff2"),url('../fonts/FranklinGothic-BookIt-webfont.woff?1445617780') format("woff"),url('../fonts/FranklinGothic-BookIt-webfont.ttf?1445617780') format("truetype"),url('../fonts/FranklinGothic-BookIt-webfont.svg?1445617780#franklin_gothic_fsbook_italic') format("svg");font-weight:normal;font-style:italic}@font-face{font-family:'Franklin Gothic FS';src:url('../fonts/FranklinGothic-Demi-webfont.eot?1445617780');src:url('../fonts/FranklinGothic-Demi-webfont.eot?&1445617780#iefix') format("embedded-opentype"),url('../fonts/FranklinGothic-Demi-webfont.woff2?1445617780') format("woff2"),url('../fonts/FranklinGothic-Demi-webfont.woff?1445617780') format("woff"),url('../fonts/FranklinGothic-Demi-webfont.ttf?1445617780') format("truetype"),url('../fonts/FranklinGothic-Demi-webfont.svg?1445617780#franklin_gothic_fsdemi') format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'Franklin Gothic FS';src:url('../fonts/FranklinGothic-DemiIt-webfont.eot?1445617780');src:url('../fonts/FranklinGothic-DemiIt-webfont.eot?&1445617780#iefix') format("embedded-opentype"),url('../fonts/FranklinGothic-DemiIt-webfont.woff2?1445617780') format("woff2"),url('../fonts/FranklinGothic-DemiIt-webfont.woff?1445617780') format("woff"),url('../fonts/FranklinGothic-DemiIt-webfont.ttf?1445617780') format("truetype"),url('../fonts/FranklinGothic-DemiIt-webfont.svg?1445617780#franklin_gothic_fsdemi_italic') format("svg");font-weight:bold;font-style:italic}@font-face{font-family:"ITCFranklinGothicStd-Compressed";src:url('../fonts/ITCFranklinGothicStd-BkCp.eot?1445012059');src:url('../fonts/ITCFranklinGothicStd-BkCp.eot?&1445012059#iefix') format("embedded-opentype"),url('../fonts/ITCFranklinGothicStd-BkCp.woff?1445012060') format("woff"),url('../fonts/ITCFranklinGothicStd-BkCp.ttf?1445012059') format("truetype"),url('../fonts/ITCFranklinGothicStd-BkCp.svg?1445012060#ITCFranklinGothicStd-Compressed') format("svg");font-weight:400;font-style:normal}@font-face{font-family:"ITCFranklinGothicStd-Compressed";src:url('../fonts/ITCFranklinGothicStd-BkCpIt.eot?1445012060');src:url('../fonts/ITCFranklinGothicStd-BkCpIt.eot?&1445012060#iefix') format("embedded-opentype"),url('../fonts/ITCFranklinGothicStd-BkCpIt.woff?1445012060') format("woff"),url('../fonts/ITCFranklinGothicStd-BkCpIt.ttf?1445012060') format("truetype"),url('../fonts/ITCFranklinGothicStd-BkCpIt.svg?1445012060#ITCFranklinGothicStd-Compressed') format("svg");font-weight:400;font-style:italic}@font-face{font-family:"ITCFranklinGothicStd-Compressed";src:url('../fonts/ITCFranklinGothicStd-DmCp.eot?1445012061');src:url('../fonts/ITCFranklinGothicStd-DmCp.eot?&1445012061#iefix') format("embedded-opentype"),url('../fonts/ITCFranklinGothicStd-DmCp.woff?1445012061') format("woff"),url('../fonts/ITCFranklinGothicStd-DmCp.ttf?1445012061') format("truetype"),url('../fonts/ITCFranklinGothicStd-DmCp.svg?1445012061#ITCFranklinGothicStd-Compressed') format("svg");font-weight:600;font-style:normal}@font-face{font-family:"ITCFranklinGothicStd-Compressed";src:url('../fonts/ITCFranklinGothicStd-DmCpIt.eot?1445012062');src:url('../fonts/ITCFranklinGothicStd-DmCpIt.eot?&1445012062#iefix') format("embedded-opentype"),url('../fonts/ITCFranklinGothicStd-DmCpIt.woff?1445012062') format("woff"),url('../fonts/ITCFranklinGothicStd-DmCpIt.ttf?1445012062') format("truetype"),url('../fonts/ITCFranklinGothicStd-DmCpIt.svg?1445012062#ITCFranklinGothicStd-Compressed') format("svg");font-weight:600;font-style:italic}@font-face{font-family:'FolioFigures-Regular';src:url('../fonts/FolioFigures-Regular.eot?1446382879');src:url('../fonts/FolioFigures-Regular.eot?&1446382879#iefix') format("embedded-opentype"),url('../fonts/FolioFigures-Regular.woff2?1446382879') format("woff2"),url('../fonts/FolioFigures-Regular.woff?1446382878') format("woff"),url('../fonts/FolioFigures-Regular.ttf?1446382872') format("truetype");font-weight:normal;font-style:normal}
+@font-face {
+  font-family: 'Franklin Gothic FS';
+  src: url('../fonts/FranklinGothic-Book-webfont.eot?1445617780');
+  src: url('../fonts/FranklinGothic-Book-webfont.eot?&1445617780#iefix') format("embedded-opentype"), url('../fonts/FranklinGothic-Book-webfont.woff2?1445617780') format("woff2"), url('../fonts/FranklinGothic-Book-webfont.woff?1445617780') format("woff"), url('../fonts/FranklinGothic-Book-webfont.ttf?1445617780') format("truetype"), url('../fonts/FranklinGothic-Book-webfont.svg?1446222342#franklin_gothic_fsbook') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Franklin Gothic FS';
+  src: url('../fonts/FranklinGothic-BookIt-webfont.eot?1445617780');
+  src: url('../fonts/FranklinGothic-BookIt-webfont.eot?&1445617780#iefix') format("embedded-opentype"), url('../fonts/FranklinGothic-BookIt-webfont.woff2?1445617780') format("woff2"), url('../fonts/FranklinGothic-BookIt-webfont.woff?1445617780') format("woff"), url('../fonts/FranklinGothic-BookIt-webfont.ttf?1445617780') format("truetype"), url('../fonts/FranklinGothic-BookIt-webfont.svg?1445617780#franklin_gothic_fsbook_italic') format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Franklin Gothic FS';
+  src: url('../fonts/FranklinGothic-Demi-webfont.eot?1445617780');
+  src: url('../fonts/FranklinGothic-Demi-webfont.eot?&1445617780#iefix') format("embedded-opentype"), url('../fonts/FranklinGothic-Demi-webfont.woff2?1445617780') format("woff2"), url('../fonts/FranklinGothic-Demi-webfont.woff?1445617780') format("woff"), url('../fonts/FranklinGothic-Demi-webfont.ttf?1445617780') format("truetype"), url('../fonts/FranklinGothic-Demi-webfont.svg?1445617780#franklin_gothic_fsdemi') format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Franklin Gothic FS';
+  src: url('../fonts/FranklinGothic-DemiIt-webfont.eot?1445617780');
+  src: url('../fonts/FranklinGothic-DemiIt-webfont.eot?&1445617780#iefix') format("embedded-opentype"), url('../fonts/FranklinGothic-DemiIt-webfont.woff2?1445617780') format("woff2"), url('../fonts/FranklinGothic-DemiIt-webfont.woff?1445617780') format("woff"), url('../fonts/FranklinGothic-DemiIt-webfont.ttf?1445617780') format("truetype"), url('../fonts/FranklinGothic-DemiIt-webfont.svg?1445617780#franklin_gothic_fsdemi_italic') format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "ITCFranklinGothicStd-Compressed";
+  src: url('../fonts/ITCFranklinGothicStd-BkCp.eot?1445012059');
+  src: url('../fonts/ITCFranklinGothicStd-BkCp.eot?&1445012059#iefix') format("embedded-opentype"), url('../fonts/ITCFranklinGothicStd-BkCp.woff?1445012060') format("woff"), url('../fonts/ITCFranklinGothicStd-BkCp.ttf?1445012059') format("truetype"), url('../fonts/ITCFranklinGothicStd-BkCp.svg?1445012060#ITCFranklinGothicStd-Compressed') format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ITCFranklinGothicStd-Compressed";
+  src: url('../fonts/ITCFranklinGothicStd-BkCpIt.eot?1445012060');
+  src: url('../fonts/ITCFranklinGothicStd-BkCpIt.eot?&1445012060#iefix') format("embedded-opentype"), url('../fonts/ITCFranklinGothicStd-BkCpIt.woff?1445012060') format("woff"), url('../fonts/ITCFranklinGothicStd-BkCpIt.ttf?1445012060') format("truetype"), url('../fonts/ITCFranklinGothicStd-BkCpIt.svg?1445012060#ITCFranklinGothicStd-Compressed') format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "ITCFranklinGothicStd-Compressed";
+  src: url('../fonts/ITCFranklinGothicStd-DmCp.eot?1445012061');
+  src: url('../fonts/ITCFranklinGothicStd-DmCp.eot?&1445012061#iefix') format("embedded-opentype"), url('../fonts/ITCFranklinGothicStd-DmCp.woff?1445012061') format("woff"), url('../fonts/ITCFranklinGothicStd-DmCp.ttf?1445012061') format("truetype"), url('../fonts/ITCFranklinGothicStd-DmCp.svg?1445012061#ITCFranklinGothicStd-Compressed') format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ITCFranklinGothicStd-Compressed";
+  src: url('../fonts/ITCFranklinGothicStd-DmCpIt.eot?1445012062');
+  src: url('../fonts/ITCFranklinGothicStd-DmCpIt.eot?&1445012062#iefix') format("embedded-opentype"), url('../fonts/ITCFranklinGothicStd-DmCpIt.woff?1445012062') format("woff"), url('../fonts/ITCFranklinGothicStd-DmCpIt.ttf?1445012062') format("truetype"), url('../fonts/ITCFranklinGothicStd-DmCpIt.svg?1445012062#ITCFranklinGothicStd-Compressed') format("svg");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'FolioFigures-Regular';
+  src: url('../fonts/FolioFigures-Regular.eot?1446382879');
+  src: url('../fonts/FolioFigures-Regular.eot?&1446382879#iefix') format("embedded-opentype"), url('../fonts/FolioFigures-Regular.woff2?1446382879') format("woff2"), url('../fonts/FolioFigures-Regular.woff?1446382878') format("woff"), url('../fonts/FolioFigures-Regular.ttf?1446382872') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
