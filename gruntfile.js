@@ -1,15 +1,15 @@
 /*global module*/
-module.exports = function (grunt) {
+module.exports = function(grunt) {
 	"use strict";
-	
+
 	grunt.config("pkg", grunt.file.readJSON("package.json"));
-	
+
 	grunt.config("paths", {
-		"srcRoot": "http://krupp.local/projects/folio-sym",
+		"srcRoot": "http://localhost/projects/folio-sym",
 		"srcAssets": "workspace/assets",
 		"destAssets": "workspace/assets",
 	});
-	
+
 	grunt.loadNpmTasks("grunt-http");
 	grunt.config("http", {
 		options: {
@@ -40,7 +40,7 @@ module.exports = function (grunt) {
 		// 	dest: "<%= paths.destAssets %>/js/folio-client.js"
 		// },
 	});
-	
+
 	function toPattern(s) {
 		s = grunt.template.process(s, grunt.config());
 		s = s.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
