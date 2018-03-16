@@ -10,6 +10,9 @@ module.exports = function(grunt) {
 		"destAssets": "workspace/assets",
 	});
 
+	// grunt.loadNpmTasks('grunt-git');
+	// grunt.config("gitcommit")
+
 	grunt.loadNpmTasks("grunt-http");
 	grunt.config("http", {
 		options: {
