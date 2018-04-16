@@ -7,6 +7,7 @@ module.exports = function(grunt) {
 	grunt.config("paths", {
 		"srcRoot": "http://localhost/projects/folio-sym",
 		"srcAssets": "workspace/assets",
+		"destRoot": "http://" + grunt.file.read("CNAME") + "/",
 		"destAssets": "workspace/assets",
 	});
 
@@ -44,6 +45,7 @@ module.exports = function(grunt) {
 		// },
 	});
 
+
 	function toPattern(s) {
 		s = grunt.template.process(s, grunt.config());
 		s = s.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
@@ -64,7 +66,7 @@ module.exports = function(grunt) {
 					// { pattern: "<%= paths.srcAssets %>", replacement: "<%= paths.destAssets %>"},
 					// { pattern: /https?:\/\/[^\/\"\']+/g}, replacement: "./" },
 					// { pattern: /https?:\/\/folio\.(local\.|localhost)/g}, replacement: "./" },
-					{ pattern: toPattern("<%= paths.srcRoot %>/"), replacement: "./" },
+					{ pattern: toPattern("<%= paths.srcRoot %>/"), replacement: "<%= paths.destRoot %>" },
 				]
 			}
 		}
