@@ -5,11 +5,11 @@ module.exports = function(grunt) {
 	grunt.config("pkg", grunt.file.readJSON("package.json"));
 
 	grunt.config("paths", {
-		"srcRoot": "http://localhost/projects/folio-sym",
 		"srcAssets": "workspace/assets",
-		"destRoot": "./",
-		// "destRoot": "http://" + grunt.file.read("CNAME") + "/",
 		"destAssets": "workspace/assets",
+		"destRoot": "./",
+		"srcRoot": "http://localhost/projects/folio-sym",
+		// "destRoot": "http://" + grunt.file.read("CNAME") + "/",
 	});
 
 	// grunt.loadNpmTasks('grunt-git');
