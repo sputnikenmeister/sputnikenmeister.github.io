@@ -1,2 +1,2 @@
 #!/bin/sh
-git add . && git commit --amend -m '---' && git push
+git add . && git commit -m '---' && git push
