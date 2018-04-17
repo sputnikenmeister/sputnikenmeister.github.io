@@ -5,8 +5,8 @@ module.exports = function(grunt) {
 	grunt.config("pkg", grunt.file.readJSON("package.json"));
 
 	grunt.config("paths", {
-		"srcAssets": "workspace/assets",
 		"destAssets": "workspace/assets",
+		"srcAssets": "workspace/assets",
 		"destRoot": "./",
 		"srcRoot": "http://localhost/projects/folio-sym",
 		// "destRoot": "http://" + grunt.file.read("CNAME") + "/",
