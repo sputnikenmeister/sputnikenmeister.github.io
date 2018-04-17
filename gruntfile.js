@@ -7,7 +7,8 @@ module.exports = function(grunt) {
 	grunt.config("paths", {
 		"srcRoot": "http://localhost/projects/folio-sym",
 		"srcAssets": "workspace/assets",
-		"destRoot": "http://" + grunt.file.read("CNAME") + "/",
+		"destRoot": "./",
+		// "destRoot": "http://" + grunt.file.read("CNAME") + "/",
 		"destAssets": "workspace/assets",
 	});
 
