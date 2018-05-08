@@ -5,7 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Portfolio</title>
     <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1" />
-    <link rel="alternate" type="application/rss+xml" href="./rss" />
+    <script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		window.ga_debug = { trace: false };
+		window.ga('create', 'UA-9123564-7', 'auto');
+		if (/(?:(localhost|\.local))$/.test(location.hostname)) window.ga('set', 'sendHitTask', null);
+		</script>
     <meta name="msapplication-square70x70logo" content="./workspace/assets/images/favicons/square/windows-tile-70x70.png" />
     <meta name="msapplication-square150x150logo" content="./workspace/assets/images/favicons/square/windows-tile-150x150.png" />
     <meta name="msapplication-square310x310logo" content="./workspace/assets/images/favicons/square/windows-tile-310x310.png" />
@@ -23,9 +32,24 @@
     <link rel="icon" type="image/png" sizes="64x64" href="./workspace/assets/images/favicons/circle/favicon.png" />
     <link id="folio" rel="stylesheet" type="text/css" href="./workspace/assets/css/folio.css" />
     <link id="fonts" rel="stylesheet" type="text/css" href="./workspace/assets/css/fonts.css" />
+<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="./workspace/assets/css/ie.css"/>
+<![endif]-->
     <script type="text/javascript" src="./workspace/assets/js/folio.js"></script>
   </head>
+<!--IE conditional comments-->
+<!--[if lt IE 9]>
+	<body class="ie ie8 app-initial route-initial>
+<![endif]-->
+<!--[if IE 9]>
+	<body class="ie ie9 app-initial route-initial>
+<![endif]-->
+<!--[if gt IE 9]>
+	<body class="ie app-initial route-initial>
+<![endif]-->
+<!--[if !IE]><!-->
   <body class="app-initial route-initial">
+<!--<![endif]-->
     <div id="container">
       <div id="navigation" class="navigation">
         <div id="site-name-wrapper" class="transform-wrapper">
@@ -278,23 +302,23 @@
 		{'id':951,'handle':'animation-design','name':'Animation Design','tId':7},
 		{'id':952,'handle':'animation-development','name':'Animation Development','tId':7}],
 			'bundles-all':[
-		{'id':123,'handle':'sap','name':'SAP Ten Reasons','completed':'2012-09-30','kIds':[18,125,951,952],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['background-color:hsl(45; 5%; 95%)','color:hsl(45; 5%; 35%)']},
-		{'id':67,'handle':'coopervision','name':'CooperVision','completed':'2012-09-19','kIds':[147,19,21,125],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['@classname:browser-safari']},
+		{'id':123,'handle':'sap','name':'SAP Ten Reasons','completed':'2012-09-30','kIds':[18,125,951,952],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['background-color:hsl(45; 5%; 95%)','color:hsl(45; 5%; 35%)']},
+		{'id':67,'handle':'coopervision','name':'CooperVision','completed':'2012-09-19','kIds':[147,19,21,125],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['@classname:browser-safari']},
 		{'id':122,'handle':'o-co','name':'O+CO','completed':'2011-09-20','kIds':[18,21,126,951,952],'desc':'<p>For their company website, O+CO, a brand consultancy in New York City, was looking for a unique experience of their own brand.</p><p>Using vector shapes to define particle boundaries, grey-scale bitmaps for particle densities, voronoi diagrams for circle-packing areas and collision, in partnership with the team at O+CO, we devised a fully parametric animation. The result was subtle but striking, a brand experience that only the digital medium could provide.</p>','attrs':['background-color:hsl(224; 4%; 17%)','border:0px solid hsl(224; 3%; 20%)','box-shadow:none','color:hsl(224; 3%; 55%)']},
 		{'id':26,'handle':'milo','name':'Milo Health','completed':'2011-09-18','kIds':[15,16,19,20],'desc':'<h4>Milo Health is a healthcare tool to help employers and employees stay healthy.</h4><p>Engaging tracking employees</p>','attrs':['@classname:browser-generic','background-color:hsl(210; 3%; 20%)','color:hsl(210; 4%; 75%)']},
-		{'id':64,'handle':'freeplay-app','name':'Freeplay Music <em>App</em>','completed':'2010-09-19','kIds':[15,14,17,22],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['background-color:hsl(210; 3%; 18%)','border-radius:3px 3px 1px 1px','color:hsl(210; 4%; 70%)']},
-		{'id':141,'handle':'freeplay-ixd','name':'Freeplay Music <em>IxD</em>','completed':'2010-04-01','kIds':[15,14,22],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['--link-color:#ffffff','background-color:hsl(45; 7%; 78%)','box-shadow:0px 7px 9px -6px rgba(0;0;0;0.4)','color:hsl(45; 5%; 35%)']},
-		{'id':36,'handle':'esj','name':'ESJ <small>Capital Partners</small>','completed':'2010-01-01','kIds':[13,16,19,21],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['@classname:browser-safari']},
-		{'id':120,'handle':'le-meridien','name':'Le Meridien','completed':'2009-09-20','kIds':[16,18,24],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['--link-color:#ffffff','@classname:browser-safari','background-color:hsl(45; 5%; 75%)','color:hsl(45; 5%; 35%)']},
+		{'id':64,'handle':'freeplay-app','name':'Freeplay Music <em>App</em>','completed':'2010-09-19','kIds':[15,14,17,22],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['background-color:hsl(210; 3%; 18%)','border-radius:3px 3px 1px 1px','color:hsl(210; 4%; 70%)']},
+		{'id':141,'handle':'freeplay-ixd','name':'Freeplay Music <em>IxD</em>','completed':'2010-04-01','kIds':[15,14,22],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['--link-color:#ffffff','background-color:hsl(45; 7%; 78%)','box-shadow:0px 7px 9px -6px rgba(0;0;0;0.4)','color:hsl(45; 5%; 35%)']},
+		{'id':36,'handle':'esj','name':'ESJ <small>Capital Partners</small>','completed':'2010-01-01','kIds':[13,16,19,21],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['@classname:browser-safari']},
+		{'id':120,'handle':'le-meridien','name':'Le Meridien','completed':'2009-09-20','kIds':[16,18,24],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['--link-color:#ffffff','@classname:browser-safari','background-color:hsl(45; 5%; 75%)','color:hsl(45; 5%; 35%)']},
 		{'id':50,'handle':'emblemhealth','name':'EmblemHealth','completed':'2009-09-01','kIds':[16,19,25,125],'desc':'<h5>We created a <strong>comprehensive</strong> brand architecture and naming system to organize the new brand’s services in a way customers could clearly understand.</h5><p>We then brought the brand to life with a compelling visual system. With these key brand assets in place, we designed and launched a new website and new tools to help both brokers and employees articulate the new brand purpose and promise.</p>','attrs':['@classname:browser-generic','background-color:hsl(10; 2%; 95%)','color:hsl(10; 4%; 30%)']},
-		{'id':39,'handle':'workfit','name':'Workfit','completed':'2008-09-19','kIds':[15,16,18,24],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['@classname:browser-generic','@renderer:sequence','background-color:hsl(210; 2%; 20%)','color:hsl(210; 2%; 70%)']},
-		{'id':65,'handle':'ivy-cms','name':'Ivy Platform <em>CMS</em>','completed':'2007-09-19','kIds':[16,19,20],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['--link-color:#fff','@classname:browser-generic','background-color:#dad9d8','color:#433e3d']},
-		{'id':61,'handle':'ivy-player','name':'Ivy Platform <em>Player</em>','completed':'2007-09-19','kIds':[16,18,24],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['@classname:browser-safari']},
-		{'id':66,'handle':'ivy-agency','name':'Ivy Agency','completed':'2006-09-19','kIds':[16,21],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['--link-color:hsl(28; 100%; 50%)','@classname:browser-safari','background-color:hsl(51; 3%; 30%)','color:hsl(51; 3%; 60%)']},
-		{'id':63,'handle':'la-redoute','name':'La Redoute','completed':'2006-09-19','kIds':[16,18,24],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['@classname:browser-safari','background-color:hsl(10; 10%; 99%)','color:hsl(10; 5%; 38%)']},
-		{'id':62,'handle':'garnier','name':'Garnier','completed':'2006-09-19','kIds':[16,18,24],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['--link-color:#ffffff','background-color:hsl(45; 2%; 18%)','box-shadow:0px 6px 12px -3px rgb(0;0;0)','color:hsl(45; 2%; 65%)']},
-		{'id':60,'handle':'alternet','name':'Alternet','completed':'2006-09-19','kIds':[127,16,18,21],'desc':'<p><span class="lorem">I still have to write a few words of introduction for this project… </span></p>','attrs':['@classname:browser-safari']},
-		{'id':121,'handle':'sva','name':'School of Visual Arts','completed':'2003-09-20','kIds':[15,16,19,18,21],'desc':'<h6>When an update for the Graduate Computer Art Department at SVA website was required, one of their most important recruiting tools, I tried to let shine one of their most important assets, past student work.</h6>'}],
+		{'id':39,'handle':'workfit','name':'Workfit','completed':'2008-09-19','kIds':[15,16,18,24],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['@classname:browser-generic','@renderer:sequence','background-color:hsl(210; 2%; 20%)','color:hsl(210; 2%; 70%)']},
+		{'id':65,'handle':'ivy-cms','name':'Ivy Platform <em>CMS</em>','completed':'2007-09-19','kIds':[16,19,20],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['--link-color:#fff','@classname:browser-generic','background-color:#dad9d8','color:#433e3d']},
+		{'id':61,'handle':'ivy-player','name':'Ivy Platform <em>Player</em>','completed':'2007-09-19','kIds':[16,18,24],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['@classname:browser-safari']},
+		{'id':66,'handle':'ivy-agency','name':'Ivy Agency','completed':'2006-09-19','kIds':[16,21],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['--link-color:hsl(28; 100%; 50%)','@classname:browser-safari','background-color:hsl(51; 3%; 30%)','color:hsl(51; 3%; 60%)']},
+		{'id':63,'handle':'la-redoute','name':'La Redoute','completed':'2006-09-19','kIds':[16,18,24],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['@classname:browser-safari','background-color:hsl(10; 10%; 99%)','color:hsl(10; 5%; 38%)']},
+		{'id':62,'handle':'garnier','name':'Garnier','completed':'2006-09-19','kIds':[16,18,24],'desc':'<p><span class="lorem">A few words of introduction for this project are coming <em>very</em> soon… </span></p>','attrs':['--link-color:#ffffff','background-color:hsl(45; 2%; 18%)','box-shadow:0px 6px 12px -3px rgb(0;0;0)','color:hsl(45; 2%; 65%)']},
+		{'id':60,'handle':'alternet','name':'Alternet','completed':'2006-09-19','kIds':[127,16,18,21],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['@classname:browser-safari']},
+		{'id':121,'handle':'sva','name':'School of Visual Arts','completed':'2003-09-20','kIds':[15,16,19,18,21],'desc':'<h6>When an update for the Graduate Computer Art Department at SVA website was required, one of their most important recruiting tools, I tried to let shine one of their most important assets, past student work.</h6><p>All while avoiding being overwhelmed by SVA’s already powerful brand, yet allowing to transpire the spirit of the department in the small details.</p>'}],
 			'media-all':[
 		{'bId':912,'id':943,'o':4,'name':'Alice in Wonderland — <em>4 × 0.4Mb</em>','attrs':['@renderer:sequence'],'srcset':[{'src':'mad-hatter_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'red-queen_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'alice_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'tweedledee_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024}],'srcIdx':0},
 		{'bId':912,'id':936,'o':5,'name':'Alice in Wonderland — <em>3 × 3.5Mb @ 200kbps</em>','attrs':['@classname:browser-generic','@debug-bandwidth:200','@renderer:sequence','border-radius:3px'],'srcset':[{'src':'mad-hatter_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600},{'src':'red-queen_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600},{'src':'tweedledee_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600}],'srcIdx':0},
