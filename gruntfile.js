@@ -3,6 +3,7 @@ module.exports = function(grunt) {
 	"use strict";
 
 	grunt.config("pkg", grunt.file.readJSON("package.json"));
+	grunt.config("ga", grunt.file.readJSON("ga.json"));
 
 	grunt.config("paths", {
 		"destAssets": "workspace/assets",
@@ -23,6 +24,10 @@ module.exports = function(grunt) {
 		index: {
 			options: { url: "<%= paths.srcRoot %>/" },
 			dest: "index.html"
+		},
+		data: {
+			options: { url: "<%= paths.srcRoot %>/json" },
+			dest: "<%= paths.destAssets %>/js/data.js"
 		},
 		styles: {
 			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/folio.css" },

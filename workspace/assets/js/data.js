@@ -1,287 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Portfolio</title>
-    <meta name="viewport" content="user-scalable=no, width=704, height=540, initial-scale=1, maximum-scale=1" />
-<!--msapplication begin-->
-    <meta name="msapplication-square70x70logo" content="./workspace/assets/images/favicons/windows-tile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="./workspace/assets/images/favicons/windows-tile-150x150.png" />
-    <meta name="msapplication-square310x310logo" content="./workspace/assets/images/favicons/windows-tile-310x310.png" />
-    <meta name="msapplication-TileImage" content="./workspace/assets/images/favicons/windows-tile-144x144.png" />
-    <meta name="msapplication-TileColor" content="#000000" />
-<!--msapplication end-->
-<!--apple-touch-icon begin-->
-    <link rel="apple-touch-icon" href="./workspace/assets/images/favicons/apple-touch-icon-152x152.png" sizes="152x152" />
-    <link rel="apple-touch-icon" href="./workspace/assets/images/favicons/apple-touch-icon-144x144.png" sizes="144x144" />
-    <link rel="apple-touch-icon" href="./workspace/assets/images/favicons/apple-touch-icon-120x120.png" sizes="120x120" />
-    <link rel="apple-touch-icon" href="./workspace/assets/images/favicons/apple-touch-icon-114x114.png" sizes="114x114" />
-    <link rel="apple-touch-icon" href="./workspace/assets/images/favicons/apple-touch-icon-72x72.png" sizes="72x72" />
-    <link rel="apple-touch-icon" href="./workspace/assets/images/favicons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" href="./workspace/assets/images/favicons/apple-touch-icon-57x57.png" />
-<!--apple-touch-icon end-->
-<!--favicon begin-->
-    <link rel="shortcut icon" href="./workspace/assets/images/favicons/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="64x64" href="./workspace/assets/images/favicons/favicon.png" />
-<!--favicon end-->
-    <link rel="alternate" type="application/rss+xml" href="./rss" />
-    <link id="fonts" rel="stylesheet" type="text/css" href="./workspace/assets/css/fonts.css" />
-    <link id="folio" rel="stylesheet" type="text/css" href="./workspace/assets/css/folio.css" />
-<!--[if lte IE 9]>
-	<link rel="stylesheet" type="text/css" href="./workspace/assets/css/folio-ie.css"/>
-<![endif]-->
-    <script type="text/javascript" async="" src="./workspace/assets/js/folio.js"></script>
-    <script type="text/javascript" async="true" src="https://www.google-analytics.com/analytics.js"></script>
-  </head>
-<!--IE conditional comments-->
-<!--[if lt IE 9]>
-	<body class="ie ie8 app-initial route-initial>
-<![endif]-->
-<!--[if IE 9]>
-	<body class="ie ie9 app-initial route-initial>
-<![endif]-->
-<!--[if gt IE 9]>
-	<body class="ie app-initial route-initial>
-<![endif]-->
-<!--[if !IE]><!-->
-  <body class="app-initial route-initial">
-<!--<![endif]-->
-    <div id="container">
-      <div id="navigation" class="navigation">
-        <div id="site-name-wrapper" class="transform-wrapper">
-          <h1 id="site-name">
-            <a href="./#">Portfolio</a>
-          </h1>
-        </div>
-        <div id="article-list-wrapper" class="transform-wrapper">
-          <h2 id="about" class="article-button">
-            <a href="./#about">About</a>
-          </h2>
-        </div>
-        <div id="bundle-list-wrapper" class="transform-wrapper">
-          <ul id="bundle-list" class="list selectable filterable">
-            <li class="list-item" data-id="123">
-              <a href="./#bundles/sap">
-                <span class="completed meta pubDate" data-datetime="2012-09-30">2012</span>
-                <span class="name label display-name">SAP Ten Reasons</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="67">
-              <a href="./#bundles/coopervision">
-                <span class="completed meta pubDate" data-datetime="2012-09-19">2012</span>
-                <span class="name label">CooperVision</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="122">
-              <a href="./#bundles/o-co">
-                <span class="completed meta pubDate" data-datetime="2011-09-20">2011</span>
-                <span class="name label">O+CO</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="26">
-              <a href="./#bundles/milo">
-                <span class="completed meta pubDate" data-datetime="2011-09-18">2011</span>
-                <span class="name label display-name">Milo Health</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="64">
-              <a href="./#bundles/freeplay-app">
-                <span class="completed meta pubDate" data-datetime="2010-09-19">2010</span>
-                <span class="name label display-name">Freeplay Music <em>App</em></span>
-              </a>
-            </li>
-            <li class="list-item" data-id="141">
-              <a href="./#bundles/freeplay-ixd">
-                <span class="completed meta pubDate" data-datetime="2010-04-01">2010</span>
-                <span class="name label display-name">Freeplay Music <em>IxD</em></span>
-              </a>
-            </li>
-            <li class="list-item" data-id="36">
-              <a href="./#bundles/esj">
-                <span class="completed meta pubDate" data-datetime="2010-01-01">2010</span>
-                <span class="name label display-name">ESJ <small>Capital Partners</small></span>
-              </a>
-            </li>
-            <li class="list-item" data-id="120">
-              <a href="./#bundles/le-meridien">
-                <span class="completed meta pubDate" data-datetime="2009-09-20">2009</span>
-                <span class="name label">Le Meridien</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="50">
-              <a href="./#bundles/emblemhealth">
-                <span class="completed meta pubDate" data-datetime="2009-09-01">2009</span>
-                <span class="name label">EmblemHealth</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="39">
-              <a href="./#bundles/workfit">
-                <span class="completed meta pubDate" data-datetime="2008-09-19">2008</span>
-                <span class="name label">Workfit</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="65">
-              <a href="./#bundles/ivy-cms">
-                <span class="completed meta pubDate" data-datetime="2007-09-19">2007</span>
-                <span class="name label display-name">Ivy Platform <em>CMS</em></span>
-              </a>
-            </li>
-            <li class="list-item" data-id="61">
-              <a href="./#bundles/ivy-player">
-                <span class="completed meta pubDate" data-datetime="2007-09-19">2007</span>
-                <span class="name label display-name">Ivy Platform <em>Player</em></span>
-              </a>
-            </li>
-            <li class="list-item" data-id="66">
-              <a href="./#bundles/ivy-agency">
-                <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
-                <span class="name label">Ivy Agency</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="63">
-              <a href="./#bundles/la-redoute">
-                <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
-                <span class="name label">La Redoute</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="62">
-              <a href="./#bundles/garnier">
-                <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
-                <span class="name label">Garnier</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="60">
-              <a href="./#bundles/alternet">
-                <span class="completed meta pubDate" data-datetime="2006-09-19">2006</span>
-                <span class="name label">Alternet</span>
-              </a>
-            </li>
-            <li class="list-item" data-id="121">
-              <a href="./#bundles/sva">
-                <span class="completed meta pubDate" data-datetime="2003-09-20">2003</span>
-                <span class="name label display-name">School of Visual Arts</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="keyword-list-wrapper" class="transform-wrapper">
-          <dl id="keyword-list" class="list selectable filterable grouped">
-            <dt class="list-group" data-id="8">
-              <span class="name label">
-                <span>Type</span>
-              </span>
-            </dt>
-            <dd class="list-item" data-id="25">
-              <a href="./#keywords/services-portal">
-                <span class="name label">Services Portal</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="21">
-              <a href="./#keywords/corporate-website">
-                <span class="name label">Corporate Website</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="24">
-              <a href="./#keywords/video-delivery-platform">
-                <span class="name label">Video Delivery Platform</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="22">
-              <a href="./#keywords/desktop-application">
-                <span class="name label">Desktop Application</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="20">
-              <a href="./#keywords/web-application">
-                <span class="name label">Web Application</span>
-              </a>
-            </dd>
-            <dt class="list-group" data-id="7">
-              <span class="name label">
-                <span>Role</span>
-              </span>
-            </dt>
-            <dd class="list-item" data-id="127">
-              <a href="./#keywords/animation">
-                <span class="name label">Animation</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="13">
-              <a href="./#keywords/identity">
-                <span class="name label">Identity</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="15">
-              <a href="./#keywords/interaction-design">
-                <span class="name label">Interaction Design</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="14">
-              <a href="./#keywords/information-architecture">
-                <span class="name label">Information Architecture</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="147">
-              <a href="./#keywords/web-design">
-                <span class="name label">Web Design</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="16">
-              <a href="./#keywords/visual-design">
-                <span class="name label">Visual Design</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="951">
-              <a href="./#keywords/animation-design">
-                <span class="name label">Animation Design</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="952">
-              <a href="./#keywords/animation-development">
-                <span class="name label">Animation Development</span>
-              </a>
-            </dd>
-            <dt class="list-group" data-id="11">
-              <span class="name label">
-                <span>Technology</span>
-              </span>
-            </dt>
-            <dd class="list-item" data-id="19">
-              <a href="./#keywords/web-standards">
-                <span class="name label">Web Standards</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="18">
-              <a href="./#keywords/adobe-flash">
-                <span class="name label">Adobe Flash</span>
-              </a>
-            </dd>
-            <dd class="list-item" data-id="17">
-              <a href="./#keywords/adobe-air">
-                <span class="name label">Adobe Air</span>
-              </a>
-            </dd>
-          </dl>
-        </div>
-      </div>
-      <div id="content" class="content viewport"></div>
-      <div id="unsupported" class="system-view" data-id="950">
-        <h2 class="color-ln">Portfolio</h2>
-        <p>A layout for mobile-sized screens is not yet ready… Please use a tablet or computer to view this website.</p>
-        <p>You can reach me through <a href="https://www.linkedin.com/in/pablo-canillas" rel="noopener noreferrer" target="_blank">my profile on LinkedIn</a>.</p>
-      </div>
-    </div>
-    <script type="text/javascript">
-			window.DEBUG = false;
-			window.approot = './';
-			window.mediadir = './workspace/uploads';
-			window.bootstrap = {
-			'types-all':[
+
+window.approot = './';
+window.mediadir = './workspace/uploads';
+window.bootstrap = {
+	'articles-all':[
+		{'id':949,'handle':'about','name':'Pablo Canillas','text':'<h2>A few lines about who I am and what I do. Quisque ut nisi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.</h2><p><span class="lorem">A few lines about who I am and what I do coming soon… </span></p><h3>A few ways of getting in contact with me</h3><p>Phasellus volutpat, metus eget egestas mollis, <a href="mailto:nobody@nullhost.tld">nobody@nullhost.tld</a> lacus lacus blandit dui, id egestas quam mauris ut lacus. Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu quis ante. In consectetuer turpis ut velit. Nulla sit amet est. <a href="#">Praesent metus</a> tellus, <a href="http://google.com/">elementum eu</a>, semper a, adipiscing nec, purus. Jump to <a href="#bundles/le-meridien">Le Meridien</a>.</p>'}],
+	'types-all':[
 		{'id':8,'handle':'type','name':'Type'},
 		{'id':7,'handle':'role','name':'Role'},
 		{'id':11,'handle':'technology','name':'Technology'}],
-			'keywords-all':[
+	'keywords-all':[
 		{'id':127,'handle':'animation','name':'Animation','tId':7},
 		{'id':13,'handle':'identity','name':'Identity','tId':7},
 		{'id':15,'handle':'interaction-design','name':'Interaction Design','tId':7},
@@ -298,7 +25,7 @@
 		{'id':20,'handle':'web-application','name':'Web Application','tId':8},
 		{'id':951,'handle':'animation-design','name':'Animation Design','tId':7},
 		{'id':952,'handle':'animation-development','name':'Animation Development','tId':7}],
-			'bundles-all':[
+	'bundles-all':[
 		{'id':123,'handle':'sap','name':'SAP Ten Reasons','completed':'2012-09-30','kIds':[18,125,951,952],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['background-color:hsl(45; 5%; 95%)','color:hsl(45; 5%; 35%)']},
 		{'id':67,'handle':'coopervision','name':'CooperVision','completed':'2012-09-19','kIds':[147,19,21,125],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['@classname:browser-safari']},
 		{'id':122,'handle':'o-co','name':'O+CO','completed':'2011-09-20','kIds':[18,21,126,951,952],'desc':'<p>For their company website, O+CO, a brand consultancy in New York City, was looking for a unique experience of their own brand.</p><p>Using vector shapes to define particle boundaries, grey-scale bitmaps for particle densities, voronoi diagrams for circle-packing areas and collision, in partnership with the team at O+CO, we devised a fully parametric animation. The result was subtle but striking, a brand experience that only the digital medium could provide.</p>','attrs':['background-color:hsl(224; 4%; 17%)','border:0px solid hsl(224; 3%; 20%)','box-shadow:none','color:hsl(224; 3%; 55%)']},
@@ -316,11 +43,11 @@
 		{'id':62,'handle':'garnier','name':'Garnier','completed':'2006-09-19','kIds':[16,18,24],'desc':'<p><span class="lorem">A few words of introduction for this project are coming <em>very</em> soon… </span></p>','attrs':['--link-color:#ffffff','background-color:hsl(45; 2%; 18%)','box-shadow:0px 6px 12px -3px rgb(0;0;0)','color:hsl(45; 2%; 65%)']},
 		{'id':60,'handle':'alternet','name':'Alternet','completed':'2006-09-19','kIds':[127,16,18,21],'desc':'<p><span class="lorem">A few words of introduction for this project are coming very soon… </span></p>','attrs':['@classname:browser-safari']},
 		{'id':121,'handle':'sva','name':'School of Visual Arts','completed':'2003-09-20','kIds':[15,16,19,18,21],'desc':'<h6>When an update for the Graduate Computer Art Department at SVA website was required, one of their most important recruiting tools, I tried to let shine one of their most important assets, past student work.</h6><p>All while avoiding being overwhelmed by SVA’s already powerful brand, yet allowing to transpire the spirit of the department in the small details.</p>'}],
-			'media-all':[
+	'media-all':[
 		{'bId':912,'id':943,'o':4,'name':'Alice in Wonderland — <em>4 × 0.4Mb @ 1fps</em>','attrs':['@renderer:sequence','@sequence-interval:1000ms'],'srcset':[{'src':'mad-hatter_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'red-queen_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'alice_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'tweedledee_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024}],'srcIdx':0},
 		{'bId':912,'id':936,'o':5,'name':'Alice in Wonderland — <em>3 × 3.5Mb @ 500kbps / 1fps</em>','attrs':['@classname:browser-generic','@debug-bandwidth:500','@renderer:sequence','@sequence-interval:1000ms','border-radius:3px'],'srcset':[{'src':'mad-hatter_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600},{'src':'red-queen_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600},{'src':'tweedledee_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600}],'srcIdx':0},
 		{'bId':912,'id':931,'o':2,'name':'477 Metropolitan Ave, Brooklyn — <em>Timelapse Loop</em>','attrs':['@renderer:video','@video-loop:loop'],'srcset':[{'src':'477_metropolitan_ave_timelapse_int_33_66.png','mime':'image/png','w':1280,'h':720},{'src':'477_metropolitan_ave_timelapse_int_33_66.mp4','mime':'video/mp4'}],'srcIdx':0},
-		{'bId':912,'id':928,'o':3,'name':'The Billy Rose Aquacade, 1939 New York World’s Fair<br /><em>Corona Park, Queens</em>','attrs':['@classname:browser-generic','@renderer:video'],'srcset':[{'src':'intlfairs-nycsf-1939_nyc-aquacade.png','mime':'image/png','w':640,'h':480},{'src':'intlfairs-nycsf-1939_nyc-aquacade_avc.mp4','mime':'video/mp4'}],'srcIdx':0},
+		{'bId':912,'id':928,'o':3,'name':'The Billy Rose Aquacade, 1939 New York World’s Fair<br/><em>Corona Park, Queens</em>','attrs':['@classname:browser-generic','@renderer:video'],'srcset':[{'src':'intlfairs-nycsf-1939_nyc-aquacade.png','mime':'image/png','w':640,'h':480},{'src':'intlfairs-nycsf-1939_nyc-aquacade_avc.mp4','mime':'video/mp4'}],'srcIdx':0},
 		{'bId':912,'id':927,'o':1,'name':'Empire State Building — <em>Timelapse Loop @100Mbps</em>','attrs':['@debug-bandwidth:100','@renderer:video','@video-loop:loop'],'srcset':[{'src':'esb_timelapse-nyc911_640x420_last.png','mime':'image/png','w':640,'h':420},{'src':'esb_timelapse-nyc911_640x420_crf20.mp4','mime':'video/mp4'},{'src':'esb_timelapse-nyc911_640x420_750k.webm','mime':'video/webm'}],'srcIdx':0},
 		{'bId':912,'id':921,'o':6,'name':'Bureaucrate Image — <em><abbr>HTTP 404</abbr></em>','srcset':[{'src':'bureaucrate-1280.png','mime':'image/png','w':1280,'h':800}],'srcIdx':0},
 		{'bId':912,'id':917,'o':7,'name':'<em><abbr>HEVC</abbr></em> — 1939 World Fair Aquacade','attrs':['@renderer:video'],'srcset':[{'src':'intlfairs-nycsf-1939_nyc-aquacade.png','mime':'image/png','w':640,'h':480},{'src':'intlfairs-nycsf-1939_nyc-aquacade_hevc.mp4','mime':'video/mp4'}],'srcIdx':0},
@@ -394,11 +121,5 @@
 		{'bId':26,'id':30,'o':20,'name':'Trail Player','srcset':[{'src':'milo_0003_trail-player.png','mime':'image/png','w':1024,'h':1021}],'srcIdx':0},
 		{'bId':26,'id':29,'o':19,'name':'Trail summary, scrolling','srcset':[{'src':'milo_0002_trail-scroll.png','mime':'image/png','w':1024,'h':1021}],'srcIdx':0},
 		{'bId':26,'id':28,'o':18,'name':'Trail summary','srcset':[{'src':'milo_0001_trail-summary.png','mime':'image/png','w':1024,'h':1021}],'srcIdx':0},
-		{'bId':26,'id':27,'o':17,'name':'Homepage, <em>Wellpage</em>','srcset':[{'src':'milo_0000_wellpage.png','mime':'image/png','w':1024,'h':1021}],'srcIdx':0}],
-			'articles-all':[
-		{'id':949,'handle':'about','name':'Pablo Canillas','text':'<h2>A few lines about who I am and what I do. Quisque ut nisi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.</h2><p><span class="lorem">A few lines about who I am and what I do coming soon… </span></p><h3>A few ways of getting in contact with me</h3><p>Phasellus volutpat, metus eget egestas mollis, <a href="mailto:nobody@nullhost.tld">nobody@nullhost.tld</a> lacus lacus blandit dui, id egestas quam mauris ut lacus. Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu quis ante. In consectetuer turpis ut velit. Nulla sit amet est. <a href="#">Praesent metus</a> tellus, <a href="http://google.com/">elementum eu</a>, semper a, adipiscing nec, purus. Jump to <a href="#bundles/le-meridien">Le Meridien</a>.</p>'}]
-			};
-			window.GA_ID = 'UA-9123564-7';
-		</script>
-  </body>
-</html>
+		{'bId':26,'id':27,'o':17,'name':'Homepage, <em>Wellpage</em>','srcset':[{'src':'milo_0000_wellpage.png','mime':'image/png','w':1024,'h':1021}],'srcIdx':0}]
+};

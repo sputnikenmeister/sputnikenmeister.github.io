@@ -1,2 +1,5 @@
 #!/bin/sh
-git add . && git commit -m '---' && git push
+git add index.html
+git add workspace/assets
+git commit -m '---'
+git push
