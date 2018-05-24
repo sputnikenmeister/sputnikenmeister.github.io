@@ -27,7 +27,7 @@
   font-style: italic;
 }
 @font-face {
-  font-family: 'FolioFigures';
+  font-family: "FolioFigures";
   src: url('../fonts/FolioFigures-Regular.eot?1526394393');
   src: url('../fonts/FolioFigures-Regular.eot?&1526394393#iefix') format("embedded-opentype"), url('../fonts/FolioFigures-Regular.woff2?1526394393') format("woff2"), url('../fonts/FolioFigures-Regular.woff?1526394393') format("woff"), url('../fonts/FolioFigures-Regular.ttf?1526394393') format("ttf"), url('../fonts/FolioFigures-Regular.svg?1526394393#FolioFigures') format("svg");
   font-style: normal;

@@ -4,9 +4,8 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "@folio/workspace": "*",
+    "@folio/workspace": "file:../folio-sym/workspace",
     "grunt": "^0.4.5",
-    "grunt-git": "^1.0.9",
     "grunt-http": "^1.5.0",
     "grunt-string-replace": "^1.0.0"
   },
