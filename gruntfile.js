@@ -10,11 +10,61 @@ module.exports = function(grunt) {
 		"srcAssets": "workspace/assets",
 		"destRoot": "./",
 		"srcRoot": "http://localhost/projects/folio-sym",
+		"fontFiles": "{eot,otf,svg,ttf,woff,woff2}",
+		"mediaFiles": "{ico,gif,jpg,jpeg,mp4,png,svg,webp,webm}",
 		// "destRoot": "http://" + grunt.file.read("CNAME") + "/",
 	});
 
-	// grunt.loadNpmTasks('grunt-git');
-	// grunt.config("gitcommit")
+	/* --------------------------------
+	/* clean:resources
+	/* -------------------------------- */
+
+	grunt.loadNpmTasks("grunt-contrib-clean");
+	grunt.config("clean", {
+		resources: {
+			src: [
+				"workspace/assets/fonts",
+				"workspace/assets/images"
+			]
+		},
+		uploads: {
+			src: [
+				"workspace/uploads"
+			]
+		},
+	});
+
+	/* --------------------------------
+	 * copy:resources
+	 * -------------------------------- */
+
+	grunt.loadNpmTasks("grunt-contrib-copy");
+	grunt.config("copy", {
+		resources: {
+			files: [{
+				expand: true,
+				dest: "workspace/assets/",
+				cwd: "node_modules/@folio/workspace-assets/",
+				src: [
+					"fonts/**/*.<%= paths.fontFiles %>",
+					"images/*.<%= paths.mediaFiles %>",
+					"images/{mockup,favicons,symbols}/*.<%= paths.mediaFiles %>",
+				]
+			}]
+		},
+		uploads: {
+			files: [{
+				expand: true,
+				dest: "workspace/uploads/",
+				cwd: "node_modules/@folio/workspace-uploads/",
+				src: "*.<%= paths.mediaFiles %>"
+			}]
+		},
+	});
+
+	/* --------------------------------
+	 * http
+	 * -------------------------------- */
 
 	grunt.loadNpmTasks("grunt-http");
 	grunt.config("http", {
@@ -78,6 +128,6 @@ module.exports = function(grunt) {
 		}
 	});
 
-	grunt.registerTask("build", ["http", "string-replace:http-root"]);
+	grunt.registerTask("build", ["clean", "copy", "http", "string-replace:http-root"]);
 	grunt.registerTask("default", ["build"]);
 };
