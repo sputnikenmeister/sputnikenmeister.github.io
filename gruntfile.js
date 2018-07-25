@@ -3,16 +3,16 @@ module.exports = function(grunt) {
 	"use strict";
 
 	grunt.config("pkg", grunt.file.readJSON("package.json"));
-	grunt.config("ga", grunt.file.readJSON("ga.json"));
+	grunt.config("properties", grunt.file.readJSON("properties.json"));
+	grunt.config("CNAME", grunt.file.read("CNAME", { encoding: 'utf8' }));
 
 	grunt.config("paths", {
 		"destAssets": "workspace/assets",
 		"srcAssets": "workspace/assets",
-		"destRoot": "./",
+		"destRoot": "",
 		"srcRoot": "http://localhost/projects/folio-sym",
 		"fontFiles": "{eot,otf,svg,ttf,woff,woff2}",
 		"mediaFiles": "{ico,gif,jpg,jpeg,mp4,png,svg,webp,webm}",
-		// "destRoot": "http://" + grunt.file.read("CNAME") + "/",
 	});
 
 	/* --------------------------------
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
 				src: [
 					"fonts/**/*.<%= paths.fontFiles %>",
 					"images/*.<%= paths.mediaFiles %>",
-					"images/{mockup,favicons,symbols}/*.<%= paths.mediaFiles %>",
+					"images/{mockup,favicons/black,symbols}/*.<%= paths.mediaFiles %>",
 				]
 			}]
 		},
@@ -63,7 +63,7 @@ module.exports = function(grunt) {
 	});
 
 	/* --------------------------------
-	 * http
+	 * grunt-http
 	 * -------------------------------- */
 
 	grunt.loadNpmTasks("grunt-http");
@@ -71,61 +71,89 @@ module.exports = function(grunt) {
 		options: {
 			ignoreErrors: true
 		},
-		index: {
-			options: { url: "<%= paths.srcRoot %>/" },
+		"index": {
+			options: { url: "<%= paths.srcRoot %>/?force-nodebug" },
 			dest: "index.html"
 		},
-		data: {
-			options: { url: "<%= paths.srcRoot %>/json" },
-			dest: "<%= paths.destAssets %>/js/data.js"
-		},
-		styles: {
-			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/folio.css" },
-			dest: "<%= paths.destAssets %>/css/folio.css"
-		},
-		fonts: {
-			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/fonts.css" },
-			dest: "<%= paths.destAssets %>/css/fonts.css"
-		},
-		"scripts-dist": {
+		// "data-json": {
+		// 	options: { url: "<%= paths.srcRoot %>/json" },
+		// 	dest: "<%= paths.destAssets %>/js/data.json"
+		// },
+		// "data-jsonp": {
+		// 	options: { url: "<%= paths.srcRoot %>/json?callback=bootstrap" },
+		// 	dest: "<%= paths.destAssets %>/js/data.js"
+		// },
+		"scripts": {
 			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio.js" },
 			dest: "<%= paths.destAssets %>/js/folio.js"
 		},
-		// "scripts-vendor": {
-		// 	options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio-vendor.js" },
-		// 	dest: "<%= paths.destAssets %>/js/folio-vendor.js"
-		// },
-		// "scripts-client": {
-		// 	options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio-client.js" },
-		// 	dest: "<%= paths.destAssets %>/js/folio-client.js"
+		"styles": {
+			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/folio.css" },
+			dest: "<%= paths.destAssets %>/css/folio.css"
+		},
+		// "fonts": {
+		// 	options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/fonts.css" },
+		// 	dest: "<%= paths.destAssets %>/css/fonts.css"
 		// },
 	});
 
+	/* --------------------------------
+	 * copy/process
+	 * -------------------------------- */
 
-	function toPattern(s) {
+	var toPattern = function(s) {
 		s = grunt.template.process(s, grunt.config());
 		s = s.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+		s += "\\/?";
+		grunt.log.writeln("RegExp: /" + s + "/g");
 		return new RegExp(s, "g");
-	}
+	};
+
 	grunt.loadNpmTasks("grunt-string-replace");
 	grunt.config("string-replace", {
 		"http-root": {
 			files: {
 				"./": [
 					"index.html",
-					"<%= paths.destAssets %>/css/*.css",
-					"<%= paths.destAssets %>/js/*.js"
+					"<%= paths.destAssets %>/css/*",
+					"<%= paths.destAssets %>/js/*"
 				]
 			},
 			options: {
 				replacements: [
-					// { pattern: "<%= paths.srcAssets %>", replacement: "<%= paths.destAssets %>"},
-					// { pattern: /https?:\/\/[^\/\"\']+/g}, replacement: "./" },
-					// { pattern: /https?:\/\/folio\.(local\.|localhost)/g}, replacement: "./" },
-					{ pattern: toPattern("<%= paths.srcRoot %>/"), replacement: "<%= paths.destRoot %>" },
+					{
+						pattern: toPattern("<%= paths.srcRoot %>"),
+						replacement: "<%= paths.destRoot %>"
+					},
+					{
+						pattern: "UA-0000000-0",
+						replacement: "<%= properties.ga.id %>"
+					},
 				]
 			}
 		}
+	});
+
+	/* --------------------------------
+	 * minify html
+	 * -------------------------------- */
+
+	grunt.loadNpmTasks('grunt-contrib-htmlmin');
+	grunt.config("htmlmin", {
+		main: {
+			options: {
+				minifyCSS: true,
+				minifyJS: true,
+				removeComments: true,
+				collapseWhitespace: true,
+				// collapseInlineTagWhitespace: true,
+				preserveLineBreaks: true,
+				keepClosingSlash: true,
+			},
+			files: {
+				'index.html': 'index.html',
+			}
+		},
 	});
 
 	grunt.registerTask("build", ["clean", "copy", "http", "string-replace:http-root"]);
