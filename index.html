@@ -86,23 +86,23 @@
     <script src="workspace/assets/js/folio.js"></script>
     <script src="https://www.google-analytics.com/analytics.js" async="true"></script>
   </head>
-  <body>
-    <div id="container">
-      <div id="navigation" class="navigation">
-        <div id="site-name-wrapper" class="transform-wrapper">
-          <h1 id="site-name">
-            <a href="#">
-              <span class="label">Portfolio</span>
-            </a>
-          </h1>
-        </div>
-        <div id="article-list-wrapper" class="transform-wrapper">
-          <h2 id="about-button" class="article-button" data-handle="about">
-            <a href="#about">
-              <span class="label">About</span>
-            </a>
-          </h2>
-        </div>
+  <body id="container" class="container">
+    <div id="navigation" class="navigation">
+      <div id="site-name-wrapper" class="transform-wrapper">
+        <h1 id="site-name">
+          <a href="#">
+            <span class="label">Portfolio</span>
+          </a>
+        </h1>
+      </div>
+      <div id="article-list-wrapper" class="transform-wrapper">
+        <h2 id="about-button" class="article-button" data-handle="about">
+          <a href="#about">
+            <span class="label">About</span>
+          </a>
+        </h2>
+      </div>
+      <div id="vpan-group">
         <div id="bundle-list-wrapper" class="transform-wrapper">
           <ul id="bundle-list" class="list selectable filterable">
             <li class="list-item" data-id="123" data-handle="sap">
@@ -207,12 +207,6 @@
                 <span class="name label display-name">School of Visual Arts</span>
               </a>
             </li>
-            <li class="list-item" data-id="912" data-handle="error-testing">
-              <a href="#bundles/error-testing">
-                <span class="completed meta pubDate" data-datetime="1990-09-22">1990</span>
-                <span class="name label">Error Testing</span>
-              </a>
-            </li>
           </ul>
         </div>
         <div id="keyword-list-wrapper" class="transform-wrapper">
@@ -312,21 +306,11 @@
                 <span class="name label">Adobe Air</span>
               </a>
             </dd>
-            <dt class="list-group" data-id="914" data-handle="private">
-              <span class="name label">
-                <span>Private</span>
-              </span>
-            </dt>
-            <dd class="list-item" data-id="915" data-handle="error-testing">
-              <a href="">
-                <span class="name label">Error Testing</span>
-              </a>
-            </dd>
           </dl>
         </div>
       </div>
-      <div id="content" class="content"></div>
     </div>
+    <div id="content" class="content"></div>
     <script id="bootstrap-data" type="text/javascript">
 		window.DEBUG = false;
 		window.GA_ID = 'UA-9123564-7';
@@ -338,32 +322,31 @@
 		{'id':949,'handle':'about','name':'Pablo Canillas','text':'<h2>A few lines about who I am and what I do. Quisque ut nisi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.</h2><p>Quisque ut nisi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Etiam sollicitudin, ipsum eu pulvinar rutrum,  tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Proin magna. Duis vel nibh at velit scelerisque suscipit. Curabitur turpis. Vestibulum suscipit nulla quis orci. Fusce ac felis sit amet ligula pharetra condimentum. Maecenas egestas arcu quis ligula mattis placerat.</p><h3>A few ways of getting in contact with me</h3><p>Phasellus volutpat, metus eget egestas mollis, <a href="mailto:nobody@nullhost.tld">nobody@nullhost.tld</a> lacus lacus blandit dui, id egestas quam mauris ut lacus. Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu quis ante. In consectetuer turpis ut velit. Nulla sit amet est. <a href="#">Praesent metus</a> tellus, <a href="http://google.com/" target="_blank">elementum eu</a>, semper a, adipiscing nec, purus. Jump to <a href="#bundles/le-meridien">Le Meridien</a>.</p>'}
 	],
 	'bundles-all': [
-		{'id':123,'handle':'sap','name':'SAP Ten Reasons','completed':'2012-09-30','kIds':[18,125,951,952],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming soon… </span></h6>','attrs':['background-color:hsl(45; 5%; 95%)','color:hsl(45; 5%; 35%)']},
-		{'id':67,'handle':'coopervision','name':'CooperVision','completed':'2012-09-19','kIds':[147,19,21,125],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming soon… </span></h6>','attrs':['@classname:browser-safari']},
-		{'id':122,'handle':'o-co','name':'O+CO','completed':'2011-09-20','kIds':[18,21,126,951,952],'desc':'<h3>For their company website, O+CO, a brand consultancy in New York City, was looking for a unique experience of their own brand.</h3><h5>Using vector shapes to define particle boundaries, grey-scale bitmaps for particle densities, voronoi diagrams for circle-packing areas and collision, in partnership with the team at O+CO, we devised a fully parametric animation. The result was subtle but striking, a brand experience that only the digital medium could provide.</h5>','attrs':['background-color:hsl(224; 4%; 17%)','border:0px solid hsl(224; 3%; 20%)','box-shadow:none','color:hsl(224; 3%; 55%)']},
+		{'id':123,'handle':'sap','name':'SAP Ten Reasons','completed':'2012-09-30','kIds':[18,125,951,952],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['background-color:hsl(45; 5%; 95%)','color:hsl(45; 5%; 35%)']},
+		{'id':67,'handle':'coopervision','name':'CooperVision','completed':'2012-09-19','kIds':[147,19,21,125],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['@classname:browser-safari']},
+		{'id':122,'handle':'o-co','name':'O+CO','completed':'2011-09-20','kIds':[18,21,126,951,952],'desc':'<h4>For their company website, O+CO, a brand consultancy in New York City, was looking for a unique experience of their own brand.</h4><h4>Using vector shapes to define particle boundaries, grey-scale bitmaps for particle densities, voronoi diagrams for circle-packing areas and collision, in partnership with the team at O+CO, we devised a fully parametric animation. The result was subtle but striking, a brand experience that only the digital medium could provide.</h4>','attrs':['background-color:hsl(224; 4%; 17%)','border:0px solid hsl(224; 3%; 20%)','box-shadow:none','color:hsl(224; 3%; 55%)']},
 		{'id':26,'handle':'milo','name':'Milo Health','completed':'2011-09-18','kIds':[15,16,19,20],'desc':'<h2>Milo Health is a healthcare tool to help employers and employees stay healthy.</h2>','attrs':['@classname:browser-generic','background-color:hsl(210; 3%; 20%)','color:hsl(210; 4%; 75%)']},
-		{'id':64,'handle':'freeplay-app','name':'Freeplay Music <em>App</em>','completed':'2010-09-19','kIds':[15,14,17,22],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming soon… </span></h6>','attrs':['background-color:hsl(210; 3%; 18%)','border-radius:3px 3px 1px 1px','color:hsl(210; 4%; 70%)']},
-		{'id':141,'handle':'freeplay-ixd','name':'Freeplay Music <em>IxD</em>','completed':'2010-04-01','kIds':[15,14,22],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming very soon… </span></h6>','attrs':['background-color:hsl(45; 7%; 78%)','box-shadow:0px 7px 9px -6px rgba(0;0;0;0.4)','color:hsl(45; 5%; 35%)','link-color:#ffffff']},
-		{'id':36,'handle':'esj','name':'ESJ <small>Capital Partners</small>','completed':'2010-01-01','kIds':[13,16,19,21],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming soon… </span></h6>','attrs':['@classname:browser-safari']},
-		{'id':120,'handle':'le-meridien','name':'Le Meridien','completed':'2009-09-20','kIds':[16,18,24],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming very soon… </span></h6>','attrs':['@classname:browser-safari','background-color:hsl(45; 5%; 75%)','color:hsl(45; 5%; 35%)','link-color:#ffffff']},
+		{'id':64,'handle':'freeplay-app','name':'Freeplay Music <em>App</em>','completed':'2010-09-19','kIds':[15,14,17,22],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['background-color:hsl(210; 3%; 18%)','border-radius:3px 3px 1px 1px','color:hsl(210; 4%; 70%)']},
+		{'id':141,'handle':'freeplay-ixd','name':'Freeplay Music <em>IxD</em>','completed':'2010-04-01','kIds':[15,14,22],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['background-color:hsl(45; 7%; 78%)','box-shadow:0px 7px 9px -6px rgba(0;0;0;0.4)','color:hsl(45; 5%; 35%)','link-color:#ffffff']},
+		{'id':36,'handle':'esj','name':'ESJ <small>Capital Partners</small>','completed':'2010-01-01','kIds':[13,16,19,21],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['@classname:browser-safari']},
+		{'id':120,'handle':'le-meridien','name':'Le Meridien','completed':'2009-09-20','kIds':[16,18,24],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['@classname:browser-safari','background-color:hsl(45; 5%; 75%)','color:hsl(45; 5%; 35%)','link-color:#ffffff']},
 		{'id':50,'handle':'emblemhealth','name':'EmblemHealth','completed':'2009-09-01','kIds':[16,19,25,125],'desc':'<h3>We created a <strong>comprehensive</strong> brand architecture and naming system to organize the new brand’s services in a way customers could clearly understand.</h3><h5>We then brought the brand to life with a compelling visual system. With these key brand assets in place, we designed and launched a new website and new tools to help both brokers and employees articulate the new brand purpose and promise.</h5>','attrs':['@classname:browser-generic','background-color:hsl(10; 2%; 95%)','color:hsl(10; 4%; 30%)']},
-		{'id':39,'handle':'workfit','name':'Workfit','completed':'2008-09-19','kIds':[15,16,18,24],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming soon… </span></h6>','attrs':['@classname:browser-generic','@renderer:sequence','background-color:hsl(210; 2%; 20%)','color:hsl(210; 2%; 70%)']},
-		{'id':65,'handle':'ivy-cms','name':'Ivy Platform <em>CMS</em>','completed':'2007-09-19','kIds':[16,19,20],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming very soon… </span></h6>','attrs':['@classname:browser-generic','background-color:#dad9d8','color:#433e3d','link-color:#ffffff']},
-		{'id':61,'handle':'ivy-player','name':'Ivy Platform <em>Player</em>','completed':'2007-09-19','kIds':[16,18,24],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming soon… </span></h6>','attrs':['@classname:browser-safari']},
-		{'id':66,'handle':'ivy-agency','name':'Ivy Agency','completed':'2006-09-19','kIds':[16,21],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming very soon… </span></h6>','attrs':['@classname:browser-safari','background-color:hsl(51; 3%; 30%)','color:hsl(51; 3%; 60%)','link-color:hsl(28; 100%; 50%)']},
-		{'id':63,'handle':'la-redoute','name':'La Redoute','completed':'2006-09-19','kIds':[16,18,24],'desc':'<h2>La Redoute makes french style accessible to all</h2><p>La Redoute makes french style accessible to all — with stylish looks and timeless pieces - plus guidance and advice on how to look good. You get a great choice of clothes that fit well and flatter —the way only the French seem to know how. All our communications; website, catalogue, mailings and emails, give you useful ideas, tips and best buys. The prices make it great value too and it’s all delivered straight to your door. That’s what we call French style made easy.</p><ol><li><a href="https://www.laredoute-corporate.com/en/" target="_blank">La Redoute Corporate</a></li><li><a href="https://www.laredoute.co.uk/" target="_blank">La Redoute UK</a></li></ol>','attrs':['@classname:browser-safari','background-color:hsl(10; 10%; 99%)','color:hsl(10; 5%; 38%)']},
-		{'id':62,'handle':'garnier','name':'Garnier','completed':'2006-09-19','kIds':[16,18,24],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming very soon… </span></h6>','attrs':['background-color:hsl(45; 2%; 18%)','box-shadow:0px 6px 12px -3px rgb(0;0;0)','color:hsl(45; 2%; 65%)','link-color:#ffffff']},
-		{'id':60,'handle':'alternet','name':'Alternet','completed':'2006-09-19','kIds':[127,16,18,21],'desc':'<h6><span class="lorem">A few words of introduction for this project are coming soon… </span></h6>','attrs':['@classname:browser-safari']},
-		{'id':121,'handle':'sva','name':'School of Visual Arts','completed':'2003-09-20','sub':'<p>Graduate Computer Art Department</p>','kIds':[15,16,19,18,21],'desc':'<h3>When an update for the Graduate Computer Art Department at SVA website was required, one of their most important recruiting tools, I tried to let shine one of their most important assets, past student work.</h3><h5>All while avoiding being overwhelmed by SVA’s already powerful brand, yet allowing to transpire the spirit of the department in the small details.</h5>'},
-		{'id':912,'handle':'error-testing','name':'Error Testing','completed':'1990-09-22','sub':'<p><em>Lorem ipsum dolor sit amet</em></p>','kIds':[915,16,19,21],'desc':'<h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h2><h5>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</h5>','attrs':['@debug-only','background-color:hsl(210; 1%; 80%)','color:hsl(210; 0%; 30%)','link-color:#ffffff']}
+		{'id':39,'handle':'workfit','name':'Workfit','completed':'2008-09-19','kIds':[15,16,18,24],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['@classname:browser-generic','@renderer:sequence','background-color:hsl(210; 2%; 20%)','color:hsl(210; 2%; 70%)']},
+		{'id':65,'handle':'ivy-cms','name':'Ivy Platform <em>CMS</em>','completed':'2007-09-19','kIds':[16,19,20],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['@classname:browser-generic','background-color:hsl(30; 3%; 77%)','color:hsl(10; 5%; 25%)','link-color:#ffffff']},
+		{'id':61,'handle':'ivy-player','name':'Ivy Platform <em>Player</em>','completed':'2007-09-19','kIds':[16,18,24],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['@classname:browser-safari']},
+		{'id':66,'handle':'ivy-agency','name':'Ivy Agency','completed':'2006-09-19','kIds':[16,21],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['@classname:browser-safari','background-color:hsl(51; 3%; 30%)','color:hsl(51; 3%; 60%)','link-color:hsl(28; 100%; 50%)']},
+		{'id':63,'handle':'la-redoute','name':'La Redoute','completed':'2006-09-19','kIds':[16,18,24],'desc':'<h2>La Redoute makes french style accessible to all</h2><p>La Redoute makes french style accessible to all — with stylish looks and timeless pieces - plus guidance and advice on how to look good. You get a great choice of clothes that fit well and flatter —the way only the French seem to know how. All our communications; website, catalogue, mailings and emails, give you useful ideas, tips and best buys. The prices make it great value too and it’s all delivered straight to your door. That’s what we call French style made easy.</p>','attrs':['@classname:browser-safari','background-color:hsl(10; 10%; 99%)','color:hsl(10; 5%; 38%)']},
+		{'id':62,'handle':'garnier','name':'Garnier','completed':'2006-09-19','kIds':[16,18,24],'desc':'<h4><span class="lorem">A few words of introduction for this project are coming very soon… </span></h4>','attrs':['background-color:hsl(45; 2%; 18%)','box-shadow:0px 6px 12px -3px rgb(0;0;0)','color:hsl(45; 2%; 60%)','link-color:hsl(45; 3%;90%)']},
+		{'id':60,'handle':'alternet','name':'Alternet','completed':'2006-09-19','kIds':[127,16,18,21],'desc':'<h3><span class="lorem">A few words of introduction for this project are coming very soon… </span></h3>','attrs':['@classname:browser-safari']},
+		{'id':121,'handle':'sva','name':'School of Visual Arts','completed':'2003-09-20','sub':'<p>Graduate Computer Art Department</p>','kIds':[15,16,19,18,21],'desc':'<h3>When an update for the Graduate Computer Art Department at SVA website was required, one of their most important recruiting tools, I tried to let shine one of their most important assets, past student work.</h3><h3>All while avoiding being overwhelmed by SVA’s already powerful brand, yet allowing to transpire the spirit of the department in the small details.</h3>'}
 	],
 	'media-all': [
-		{'id':954,'o':4,'name':'Slideshow','sub':'<p>Tall images</p><p><em>Alice in Wonderland</em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'wallpaper-3.jpg','mime':'image/jpeg','w':640,'h':960},{'src':'wallpaper-4.jpg','mime':'image/jpeg','w':640,'h':960}],'attrs':['@renderer:sequence']},
-		{'id':943,'o':5,'name':'Slideshow','sub':'<p>4 × 0.4Mb @ 1.5fps</p><p><em>Alice in Wonderland</em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'mad-hatter_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'red-queen_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'alice_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'tweedledee_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024}],'attrs':['@renderer:sequence','@sequence-interval:1500ms']},
-		{'id':936,'o':6,'name':'Slideshow','sub':'<p>3 × 3.5Mb @ 500kbps / 1.5fps</p><p><em>Alice in Wonderland</em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'mad-hatter_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600},{'src':'red-queen_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600},{'src':'tweedledee_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600}],'attrs':['@classname:browser-generic','@debug-bandwidth:500','@renderer:sequence','@sequence-interval:1500ms','border-radius:3px']},
-		{'id':931,'o':2,'name':'477 Metropolitan Ave, Brooklyn','sub':'<p><em>Timelapse Loop</em></p><p><strong>And a second line</strong></p><p><strong><em>and a Third</em></strong></p>','bId':912,'srcIdx':0,'srcset':[{'src':'477_metropolitan_ave_timelapse_int_33_66.png','mime':'image/png','w':1280,'h':720},{'src':'477_metropolitan_ave_timelapse_int_33_66.mp4','mime':'video/mp4'}],'attrs':['@renderer:video','@video-loop:loop']},
-		{'id':928,'o':3,'name':'The Billy Rose Aquacade','sub':'<p><em>1939 New York World’s Fair, Corona Park, Queens</em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'intlfairs-nycsf-1939_nyc-aquacade.png','mime':'image/png','w':640,'h':480},{'src':'intlfairs-nycsf-1939_nyc-aquacade_avc.mp4','mime':'video/mp4'}],'attrs':['@classname:browser-generic','@renderer:video']},
-		{'id':927,'o':1,'name':'Empire State Building <em>Timelapse Loop @100Mbps</em>','bId':912,'srcIdx':0,'srcset':[{'src':'esb_timelapse-nyc911_640x420_last.png','mime':'image/png','w':640,'h':420},{'src':'esb_timelapse-nyc911_640x420_crf20.mp4','mime':'video/mp4'},{'src':'esb_timelapse-nyc911_640x420_750k.webm','mime':'video/webm'}],'attrs':['@debug-bandwidth:100','@renderer:video','@video-loop:loop']},
+		{'id':954,'o':1,'name':'Alice in Wonderland, <em>Slideshow, Tall Images</em>','bId':912,'srcIdx':0,'srcset':[{'src':'wallpaper-3.jpg','mime':'image/jpeg','w':640,'h':960},{'src':'wallpaper-4.jpg','mime':'image/jpeg','w':640,'h':960}],'attrs':['@renderer:sequence']},
+		{'id':943,'o':2,'name':'Alice in Wonderland, <em>Slideshow, 4 × 0.4Mb @ 1.5fps</em>','bId':912,'srcIdx':0,'srcset':[{'src':'mad-hatter_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'red-queen_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'alice_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024},{'src':'tweedledee_400kb.jpg','mime':'image/jpeg','w':1638,'h':1024}],'attrs':['@renderer:sequence','@sequence-interval:1500ms']},
+		{'id':936,'o':3,'name':'Alice in Wonderland','sub':'<p><em>Slideshow, 3 × 3.5Mb @ 500kbps / 1.5fps</em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'mad-hatter_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600},{'src':'red-queen_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600},{'src':'tweedledee_3500kb.jpg','mime':'image/jpeg','w':2560,'h':1600}],'attrs':['@debug-bandwidth:500','@renderer:sequence','@sequence-interval:1500ms','border-radius:3px']},
+		{'id':931,'o':5,'name':'477 Metropolitan Ave, Brooklyn','sub':'<p><em>Timelapse</em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'477_metropolitan_ave_timelapse_int_33_66.png','mime':'image/png','w':1280,'h':720},{'src':'477_metropolitan_ave_timelapse_int_33_66.mp4','mime':'video/mp4'}],'attrs':['@renderer:video','@video-loop:loop']},
+		{'id':928,'o':6,'name':'The Billy Rose Aquacade','sub':'<p><em>1939 New York World’s Fair, Corona Park, Queens</em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'intlfairs-nycsf-1939_nyc-aquacade.png','mime':'image/png','w':640,'h':480},{'src':'intlfairs-nycsf-1939_nyc-aquacade_avc.mp4','mime':'video/mp4'}],'attrs':['@classname:browser-generic','@renderer:video']},
+		{'id':927,'o':4,'name':'Empire State Building','sub':'<p><em>Timelapse Loop @ 100kbps</em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'esb_timelapse-nyc911_640x420_last.png','mime':'image/png','w':640,'h':420},{'src':'esb_timelapse-nyc911_640x420_crf20.mp4','mime':'video/mp4'},{'src':'esb_timelapse-nyc911_640x420_750k.webm','mime':'video/webm'}],'attrs':['@debug-bandwidth:100','@renderer:video','@video-loop:loop']},
 		{'id':921,'o':7,'name':'Bureaucrate Image','sub':'<p><em><abbr>HTTP 404</abbr></em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'bureaucrate-1280.png','mime':'image/png','w':1280,'h':800}]},
 		{'id':917,'o':8,'name':'1939 World Fair Aquacade','sub':'<p><em><abbr>HEVC</abbr></em></p>','bId':912,'srcIdx':0,'srcset':[{'src':'intlfairs-nycsf-1939_nyc-aquacade.png','mime':'image/png','w':640,'h':480},{'src':'intlfairs-nycsf-1939_nyc-aquacade_hevc.mp4','mime':'video/mp4'}],'attrs':['@renderer:video']},
 		{'id':181,'o':7,'name':'Reason 1','bId':123,'srcIdx':0,'srcset':[{'src':'sap-topten_540_0_last.png','mime':'image/png','w':960,'h':540},{'src':'sap-topten_540_0_crf20.mp4','mime':'video/mp4'},{'src':'sap-topten_540_0_2000k.webm','mime':'video/webm'}],'attrs':['@renderer:video']},
@@ -405,7 +388,7 @@
 		{'id':102,'o':48,'name':'Playback state','bId':63,'srcIdx':0,'srcset':[{'src':'ivy-laredoute_0000_full-playback.png','mime':'image/png','w':1100,'h':850}]},
 		{'id':101,'o':47,'name':'Related content','bId':62,'srcIdx':0,'srcset':[{'src':'ivy-garnier_0006_video-related-content.png','mime':'image/png','w':1100,'h':924}]},
 		{'id':96,'o':46,'name':'The Shade Game','bId':62,'srcIdx':0,'srcset':[{'src':'ivy-garnier_0001_wizard-1.png','mime':'image/png','w':1100,'h':924},{'src':'ivy-garnier_0002_wizard-2.png','mime':'image/png','w':1100,'h':924},{'src':'ivy-garnier_0003_wizard-3.png','mime':'image/png','w':1100,'h':924},{'src':'ivy-garnier_0004_wizard-4.png','mime':'image/png','w':1100,'h':924},{'src':'ivy-garnier_0005_wizard-5.png','mime':'image/png','w':1100,'h':924}],'attrs':['@renderer:sequence']},
-		{'id':95,'o':45,'name':'Player','bId':62,'srcIdx':0,'srcset':[{'src':'ivy-garnier_0000_player.png','mime':'image/png','w':1100,'h':924}],'attrs':['@classname:browser-safari']},
+		{'id':95,'o':45,'name':'Player','bId':62,'srcIdx':0,'srcset':[{'src':'ivy-garnier_0000_player.png','mime':'image/png','w':1100,'h':924}]},
 		{'id':94,'o':66,'name':'Homepage, full-width <em>hero</em> image','bId':66,'srcIdx':0,'srcset':[{'src':'ivy-agency_0004_alt.png','mime':'image/png','w':1099,'h':791}]},
 		{'id':93,'o':65,'name':'Sample inner page','bId':66,'srcIdx':0,'srcset':[{'src':'ivy-agency_0003_inner.png','mime':'image/png','w':1099,'h':791}]},
 		{'id':92,'o':64,'name':'Homepage, alternate state','bId':66,'srcIdx':0,'srcset':[{'src':'ivy-agency_0002_home3.png','mime':'image/png','w':1099,'h':791}]},
@@ -439,7 +422,6 @@
 		{'id':27,'o':17,'name':'Homepage, <em>Wellpage</em>','bId':26,'srcIdx':0,'srcset':[{'src':'milo_0000_wellpage.png','mime':'image/png','w':1024,'h':1021}]}
 	],
 	'keywords-all': [
-		{'id':915,'handle':'error-testing','name':'Error Testing','tId':914},
 		{'id':127,'handle':'animation','name':'Animation','tId':7},
 		{'id':13,'handle':'identity','name':'Identity','tId':7},
 		{'id':15,'handle':'interaction-design','name':'Interaction Design','tId':7},
@@ -460,8 +442,7 @@
 	'types-all': [
 		{'id':8,'handle':'type','name':'Type'},
 		{'id':7,'handle':'role','name':'Role'},
-		{'id':11,'handle':'technology','name':'Technology'},
-		{'id':914,'handle':'private','name':'Private'}
+		{'id':11,'handle':'technology','name':'Technology'}
 	]
 };
 		</script>
