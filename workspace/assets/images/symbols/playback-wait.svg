@@ -1,27 +1,27 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-200 -200 400 400" preserveAspectRatio="xMidYMid meet">
-	<!--  style="fill:none;stroke:none" vector-effect="non-scaling-stroke"  -->
-<!-- <defs>
-	<g id="rr2">
-		<rect id="r1" x="52" y="-6" width="38" height="12" rx="6"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-200 -200 400 400" preserveAspectRatio="xMidYMid meet" style="stroke:none">
+<defs>
+	<g id="rr">
+		<rect id="r1" x="50" y="-7" width="40" height="14" rx="7"/>
 		<use xlink:href="#r1" transform="rotate( 30 0 0)"/>
 		<use xlink:href="#r1" transform="rotate( 60 0 0)"/>
 		<use xlink:href="#r1" transform="rotate( 90 0 0)"/>
 		<use xlink:href="#r1" transform="rotate(120 0 0)"/>
 		<use xlink:href="#r1" transform="rotate(150 0 0)"/>
-		<use xlink:href="#rs1" transform="rotate(180 0 0)"/>
+		<use xlink:href="#r1" transform="rotate(180 0 0)"/>
 		<use xlink:href="#r1" transform="rotate(210 0 0)"/>
 		<use xlink:href="#r1" transform="rotate(240 0 0)"/>
 		<use xlink:href="#r1" transform="rotate(270 0 0)"/>
 		<use xlink:href="#r1" transform="rotate(300 0 0)"/>
 		<use xlink:href="#r1" transform="rotate(330 0 0)"/>
-		<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 0 0" to="360 0 0" dur="3s" repeatCount="indefinite" />
 	</g>
-</defs> -->
-<!-- <rect x="-200" y="-200" width="400" height="400" rx="12" style="fill:#000000;fill-opacity:0.2"/> -->
-<!-- <use xlink:href="#rr" style="fill:#000000" transform="translate(5 5)"/> -->
-<!-- <use xlink:href="#rr" style="fill:#ffffff"/> -->
-<path vector-effect="non-scaling-stroke" style="fill:none;stroke:#fff;" d="M 0 -90 A 90 90 0 1 0 0.00001 -90"/>
-<!-- <path id="waiting-symbol" style="fill:#fff" d="M 57.850884871788544 -68.94399988070802 A 90 90 0 1 1 -57.85088487178855 -68.943999880708 L -38.56725658119237 -45.96266658713867 A 60 60 0 1 0 38.56725658119236 -45.96266658713868 L 57.850884871788544 -68.94399988070802 Z"/> -->
-<!-- <path id="waiting-symbol" style="fill:none;stroke:#fff" d="M 20.70552360820166 -77.27406610312546 A 80 80 0 1 1 -20.705523608201652 -77.27406610312546" vector-effect="non-scaling-stroke" stroke-width="10"/> -->
-<!-- <path id="rr" d="M160,100 L200,100 Z M151.961524,130 L186.60254,150 Z M130,151.961524 L150,186.60254 Z M100,160 L100,200 Z M70,151.961524 L50,186.60254 Z M48.0384758,130 L13.3974596,150 Z M40,100 L0,100 Z M48.0384758,70 L13.3974596,50 Z M70,48.0384758 L50,13.3974596 Z M100,40 L100,0 Z M130,48.0384758 L150,13.3974596 Z M151.961524,70 L186.60254,50" transform="translate(-100 -100)" style="stroke:#ffffff;stroke-width:10px"/> -->
+</defs>
+<rect x="-200" y="-200" width="400" height="400" rx="10" style="fill:#000;fill-opacity:0.2"/>
+<g>
+	<use xlink:href="#rr" style="fill:#000" transform="translate(5 5)"/>
+	<animateTransform attributeName="transform" type="rotate" from="0 5 5" to="360 5 5" begin="0s" dur="3s" repeatCount="indefinite" />
+</g>
+<g>
+	<use xlink:href="#rr" style="fill:#fff"/>
+	<animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" begin="0s" dur="3s" repeatCount="indefinite" />
+</g>
 </svg>

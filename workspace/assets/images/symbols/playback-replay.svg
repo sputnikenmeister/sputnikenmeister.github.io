@@ -1,9 +1,8 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-200 -200 400 400" preserveAspectRatio="xMidYMid meet" style="stroke:none">
 <defs>
-	<path id="rr" d="M-40 -50 L65 0 L-40 50 Z M -115.64241071304285 9.101255104430107 A 116 116 0 1 0 -82.02438661763954 -82.02438661763951 L -93.33809511662429 -93.33809511662426 A 132 132 0 1 1 -125.53946015096028 -40.79024325749301 L -91.0821765099233 12.962913338257646 Z"></path>
-	<!-- <path id="rr" d="M-40 -50 L65 0 L-40 50 Z M -132 -1.6e-14 A 132 132 0 1 0 -93.33809511662416 -93.33809511662439 L -76.36753236814704 -76.36753236814722 A 108 108 0 1 1 -108 -1.3e-14 H-85 L -120 -40 L -155 13e-14 Z"/> -->
+	<path id="rr" d="M-40 -50 L65 0 L-40 50 Z M -132 -1.6e-14 A 132 132 0 1 0 -93.33809511662416 -93.33809511662439 L -76.36753236814704 -76.36753236814722 A 108 108 0 1 1 -108 -1.3e-14 H-85 L -120 -40 L -155 13e-14 Z"/>
 </defs>
-<!-- <rect x="-200" y="-200" width="400" height="400" rx="10" style="fill:#000;fill-opacity:0.2"/> -->
+<rect x="-200" y="-200" width="400" height="400" rx="10" style="fill:#000;fill-opacity:0.2"/>
 <use xlink:href="#rr" style="fill:#000" transform="translate(5 5)"/>
 <use xlink:href="#rr" style="fill:#fff"/>
 </svg>
