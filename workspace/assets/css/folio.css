@@ -859,12 +859,12 @@ body {
       opacity: 1; }
     .playable-renderer .started.paused.ended .play-toggle {
       opacity: 1; }
-    :not(.scrolling) .playable-renderer .started.playing .play-toggle {
-      -webkit-animation: 0.7s ease-in-out flashOdd;
-              animation: 0.7s ease-in-out flashOdd; }
     :not(.scrolling) .playable-renderer .started.paused .play-toggle {
       -webkit-animation: 0.7s ease-in-out flashEven;
               animation: 0.7s ease-in-out flashEven; }
+    :not(.scrolling) .playable-renderer .started.playing .play-toggle {
+      -webkit-animation: 0.7s ease-in-out flashOdd;
+              animation: 0.7s ease-in-out flashOdd; }
   .playable-renderer .play-toggle-symbol {
     width: 49px;
     height: 49px;
