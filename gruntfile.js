@@ -72,7 +72,7 @@ module.exports = function(grunt) {
 			ignoreErrors: true
 		},
 		"index": {
-			options: { url: "<%= paths.srcRoot %>/?force-nodebug" },
+			options: { url: "<%= paths.srcRoot %>/?force-nodebug=%40debug-only" },
 			dest: "index.html"
 		},
 		// "data-json": {
