@@ -862,9 +862,12 @@ body {
     :not(.scrolling) .playable-renderer .started.paused .play-toggle {
       -webkit-animation: 0.7s ease-in-out flashEven;
               animation: 0.7s ease-in-out flashEven; }
-    :not(.scrolling) .playable-renderer .started.playing .play-toggle {
+    :not(.scrolling) .playable-renderer .started.playing:not(.waiting) .play-toggle {
       -webkit-animation: 0.7s ease-in-out flashOdd;
               animation: 0.7s ease-in-out flashOdd; }
+    :not(.scrolling) .playable-renderer .started.playing.waiting .waiting-symbol {
+      -webkit-animation: 0.7s ease-in-out flashEven;
+              animation: 0.7s ease-in-out flashEven; }
   .playable-renderer .play-toggle-symbol {
     width: 49px;
     height: 49px;
