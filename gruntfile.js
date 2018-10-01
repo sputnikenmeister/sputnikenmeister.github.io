@@ -87,6 +87,10 @@ module.exports = function(grunt) {
 			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio.js" },
 			dest: "<%= paths.destAssets %>/js/folio.js"
 		},
+		"scripts-map": {
+			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio.js.map" },
+			dest: "<%= paths.destAssets %>/js/folio.js.map"
+		},
 		"styles": {
 			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/folio.css" },
 			dest: "<%= paths.destAssets %>/css/folio.css"
