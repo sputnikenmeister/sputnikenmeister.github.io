@@ -21,6 +21,12 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks("grunt-contrib-clean");
 	grunt.config("clean", {
+		scripts: {
+			src: [
+				"workspace/assets/js",
+				"workspace/assets/css"
+			]
+		},
 		resources: {
 			src: [
 				"workspace/assets/fonts",
@@ -47,8 +53,7 @@ module.exports = function(grunt) {
 				cwd: "node_modules/@folio/workspace-assets/",
 				src: [
 					"fonts/**/*.<%= paths.fontFiles %>",
-					"images/*.<%= paths.mediaFiles %>",
-					"images/{mockup,favicons/black,symbols}/*.<%= paths.mediaFiles %>",
+					"images/{mockup,symbols,favicons/black}/*.<%= paths.mediaFiles %>",
 				]
 			}]
 		},
@@ -67,7 +72,18 @@ module.exports = function(grunt) {
 	 * -------------------------------- */
 
 	grunt.loadNpmTasks("grunt-http");
-	grunt.config("http", {
+	grunt.config("http", [
+		"css/folio.css",
+		"css/folio.css.map",
+		"js/folio.js",
+		"js/folio.js.map"
+		].reduce((o, s, i, a) => {
+		o[s.replace(/[\/\.]/g, "-")] = {
+			options: { url: `<%= paths.srcRoot %>/<%= paths.srcAssets %>/${s}` },
+			dest: `<%= paths.destAssets %>/${s}`
+		};
+		return o;
+	}, {
 		options: {
 			ignoreErrors: true
 		},
@@ -83,23 +99,13 @@ module.exports = function(grunt) {
 		// 	options: { url: "<%= paths.srcRoot %>/json?callback=bootstrap" },
 		// 	dest: "<%= paths.destAssets %>/js/data.js"
 		// },
-		"scripts": {
-			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio.js" },
-			dest: "<%= paths.destAssets %>/js/folio.js"
-		},
-		"scripts-map": {
-			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/js/folio.js.map" },
-			dest: "<%= paths.destAssets %>/js/folio.js.map"
-		},
-		"styles": {
-			options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/folio.css" },
-			dest: "<%= paths.destAssets %>/css/folio.css"
-		},
-		// "fonts": {
-		// 	options: { url: "<%= paths.srcRoot %>/<%= paths.srcAssets %>/css/fonts.css" },
-		// 	dest: "<%= paths.destAssets %>/css/fonts.css"
-		// },
-	});
+	}));
+
+	grunt.registerTask("http-assets",
+		Object.keys(grunt.config("http"))
+		.filter(key => key !== "options")
+		.map(key => `http:${key}`)
+	);
 
 	/* --------------------------------
 	 * copy/process
@@ -160,6 +166,6 @@ module.exports = function(grunt) {
 		},
 	});
 
-	grunt.registerTask("build", ["clean", "copy", "http", "string-replace:http-root"]);
+	grunt.registerTask("build", ["clean:resources", "clean:scripts", "copy", "http-assets", "http:index", "string-replace", "htmlmin"]);
 	grunt.registerTask("default", ["build"]);
 };

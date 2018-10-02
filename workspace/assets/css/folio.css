@@ -294,7 +294,6 @@ $breakpoints: (
   background-color: rgba(0, 242, 255, 0.18); }
 
 .article-view.mdown h3, .article-view.mdown h4 {
-  font-family: "FranklinGothicFS", "Helvetica", sans-serif;
   font-weight: 600; }
 
 .mdown .lorem::after {
@@ -1456,3 +1455,5 @@ HTML.xsmall-stretch {
   margin-top: 0.5rem; }
   .app.xsmall-stretch #keyword-list .list-group:first-child {
     margin-top: 0; }
+
+/*# sourceMappingURL=folio.css.map */
