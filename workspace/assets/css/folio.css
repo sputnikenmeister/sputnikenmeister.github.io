@@ -741,6 +741,13 @@ body {
   background-image: url("../images/mockup/browser-generic.svg"); }
 .media-item.browser-generic-dark .media-border {
   background-image: url("../images/mockup/browser-generic-dark.svg"); }
+.media-item.none .media-border {
+  background-image: none;
+  padding-top: 0; }
+.media-item.no-shadow .media-border {
+  padding-top: 0;
+  background-image: none;
+  box-shadow: none; }
 
 .media-item .error-message {
   position: absolute;
