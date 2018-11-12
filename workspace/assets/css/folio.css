@@ -897,7 +897,8 @@ body {
     border-radius: 0.125em; }
     .playable-item .overlay .fullscreen-toggle svg.fullscreen-symbol {
       stroke-width: 2px;
-      padding: 0.35em; }
+      padding: 0.35em;
+      overflow: visible; }
     .playable-item .overlay .fullscreen-toggle:hover {
       opacity: 1;
       background-color: rgba(0, 0, 0, 0.25); }
