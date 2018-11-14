@@ -136,7 +136,7 @@ module.exports = function(grunt) {
 						replacement: "<%= paths.destRoot %>"
 					},
 					{
-						pattern: "UA-0000000-0",
+						pattern: /UA\-\d+\-\d+/g,
 						replacement: "<%= properties.ga.id %>"
 					},
 				]
