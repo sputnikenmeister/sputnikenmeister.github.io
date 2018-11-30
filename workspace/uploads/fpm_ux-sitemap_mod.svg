@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="27 89.5 701 414" width="701pt" height="414pt">
+	<!-- viewBox="0 0 756 553" -->
+	<style>
+		/* <![CDATA[ */  text,  tspan {  font-family: Helvetica, sans-serif;  }  /* ]]> */
+	</style>
+	<defs>
+		<marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="SharpArrow_Marker" viewBox="-4 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+			<g>
+				<path d="M 5 0 L -3 -3 L 0 0 L 0 0 L -3 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+			</g>
+		</marker>
+		<marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="SharpArrow_Marker_2" viewBox="-6 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+			<g>
+				<path d="M -5 0 L 3 3 L 0 0 L 0 0 L 3 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+			</g>
+		</marker>
+		<marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="SharpBackArrow_Marker" viewBox="-18 -4 19 8" markerWidth="19" markerHeight="8" color="black">
+			<g>
+				<path d="M -17 0 L -5 0 L -8 3 L 0 0 L -8 -3 L -5 0" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+			</g>
+		</marker>
+	</defs>
+	<!-- <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+			<title>Page</title>
+			<line x1="27" y1="513" x2="729" y2="513" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".25"/>
+			<text transform="translate(27 525.5)" fill="#191919"><tspan font-size="8" font-weight="700" fill="#191919" x="0" y="6">Front-end Functional Specifications</tspan></text>
+			<text transform="translate(558 525.5)" fill="#191919"><tspan font-size="8" font-weight="700" fill="#191919" x="145.352005" y="6">Page 2</tspan></text>
+			<text transform="translate(387 27)" fill="#191919"><tspan font-size="18" font-weight="700" fill="#191919" x="273.33002" y="13">Sitemap</tspan></text>
+			<text transform="translate(27 27)" fill="#191919"><tspan font-size="18" font-weight="300" fill="#191919" x="0" y="13">Freeplay Music</tspan></text>
+	</g> -->
+	<g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+		<title>Sitemap</title>
+
+		<g>
+			<rect x="27" y="144" width="396" height="360" rx="5" ry="5" fill="#e6e6e6"/>
+			<rect x="432" y="144" width="296" height="360" rx="5" ry="5" fill="#e6e6e6"/>
+		</g>
+		<g>
+			<rect x="49.5" y="454.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+
+			<rect x="127.5" y="226.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="124.5" y="223.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="121.5" y="220.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+
+			<g>
+				<rect x="199.5" y="397.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="196.5" y="394.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="193.5" y="391.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			</g>
+
+			<rect x="193.5" y="301.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="193.5" y="220.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+
+			<g>
+				<rect x="199.5" y="460.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="196.5" y="457.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="193.5" y="454.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			</g>
+			<g>
+				<rect x="271.5" y="226.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="268.5" y="223.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="265.5" y="220.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			</g>
+
+			<rect x="328.5" y="220.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="364.5" y="90" width="54" height="36" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="468" y="391.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+
+			<g>
+				<rect x="55.5" y="226.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="52.5" y="223.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="49.5" y="220.5" width="48" height="34.75" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			</g>
+
+			<rect x="526.5" y="220.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="526.5" y="301.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="531" y="391.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+
+			<rect x="558" y="94.5" width="49.5" height="31.5" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="589.5" y="220.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="594" y="391.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="612" y="94.5" width="49.5" height="31.5" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<g>
+				<rect x="661.5" y="220.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="666" y="94.5" width="49.5" height="31.5" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+				<rect x="657" y="391.5" width="54" height="36" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			</g>
+			<circle cx="447" cy="190.5" r="6" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<circle cx="493.5" cy="318" r="6" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<circle cx="586.5" cy="190.5" r="6" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<circle cx="618" cy="318" r="6" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+		</g>
+
+
+		<g>
+			<path d="M 106.5 193.5 L 46.5 193.5 C 43.18629 193.5 40.5 196.1863 40.5 199.5 L 40.5 264 C 40.5 267.31372 43.18629 270 46.5 270 L 106.5 270 C 109.813705 270 112.5 267.31372 112.5 264 L 112.5 199.5 C 112.5 196.1863 109.813705 193.5 106.5 193.5 Z"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".25"/>
+			<path d="M 148.5002 261.00009 L 148.5002 267.50009 L 148.5002 378 L 198 378 L 220.50009 378 L 220.50009 385 L 220.50009 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 162.00029 261.00009 L 162.00029 267.50009 L 162.00029 319.5 L 187 319.5 L 189.8 319.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 178.5 193.5 L 118.5 193.5 C 115.186295 193.5 112.5 196.1863 112.5 199.5 L 112.5 264 C 112.5 267.31372 115.186295 270 118.5 270 L 178.5 270 C 181.81371 270 184.5 267.31372 184.5 264 L 184.5 199.5 C 184.5 196.1863 181.81371 193.5 178.5 193.5 Z"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".25"/>
+			<path d="M 180 135 L 153 135 L 76.5 135 L 76.5 214 L 76.5 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 189.8 409.5 L 76.5 409.5 L 76.5 449.3 L 76.5 450.8" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpArrow_Marker_2)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 189.8 472.5 L 108.7 472.5 L 107.2 472.5" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpArrow_Marker_2)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 220.5 135 L 220.5 214 L 220.5 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 220.5 256.5 L 220.5 263 L 220.5 265 L 220.5 271.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 220.5 271.5 L 226.5 277.5 L 220.5 283.5 L 214.5 277.5 Z" fill="white"/>
+			<path d="M 220.5 271.5 L 226.5 277.5 L 220.5 283.5 L 214.5 277.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<path d="M 220.5 292 L 220.5 293.5 L 220.50002 291.5 L 220.50002 301.5" marker-start="url(#SharpBackArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 220.5 343.5 L 226.5 349.5 L 220.5 355.5 L 214.5 349.5 Z" fill="white"/>
+			<path d="M 220.5 343.5 L 226.5 349.5 L 220.5 355.5 L 214.5 349.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<path d="M 220.5 364 L 220.5 365.5 L 220.50009 381.5 L 220.50009 391.5" marker-start="url(#SharpBackArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 220.50002 337.5 L 220.50002 344 L 220.5 337 L 220.5 343.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 220.50009 435.69992 L 220.50009 437.19992 L 220.50009 449.3 L 220.50009 450.8" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpArrow_Marker_2)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 235 277.5 L 236.5 277.5 L 265.5 277.5 L 265.5 279 L 265.5 305.49997 C 270.5 305.49997 270.5 324.50003 265.5 324.50003 L 265.5 378 L 225 378 L 220.50009 378 L 220.50009 381.5 L 220.50009 387.79999"  marker-end="url(#SharpArrow_Marker)"  marker-start="url(#SharpBackArrow_Marker)"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".5"/>
+			<path d="M 235 349.5 L 236.5 349.5 L 257.5 349.5 L 257.5 328.5 L 251.20001 328.5" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpBackArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 247.5 409.5 L 279 409.5 L 279 319.5 L 254 319.5 L 251.2 319.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 279.00009 264.7001 L 279.00009 266.2001 L 279.00009 310.5 L 252.70001 310.5 L 251.20001 310.5"  marker-end="url(#SharpArrow_Marker)"  marker-start="url(#SharpArrow_Marker_2)"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".5"  stroke-dasharray="2,2"/>
+			<path d="M 292.50018 261.00009 L 292.50018 267.50009 L 292.50018 472.5 L 251.20001 472.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 355.5 256.5 L 355.5 290.5 L 355.5 293.29999" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5" stroke-dasharray="2,2"/>
+			<!-- here -->
+			<g>
+				<path d="M 373.5 312.6052 C 373.5 309.2558 373.0936 308.84143 370.12497 305.52667 L 370.0936 305.4924 C 367.10928 302.143 367.07825 302.143 364.01553 302.143 C 359.93744 302.143 341.5 302.143 341.5 302.143 L 341.5 337.50012 L 373.5 337.50012 L 373.5 312.6052 Z" fill="white"></path>
+				<path d="M 373.5 312.6052 C 373.5 309.2558 373.0936 308.84143 370.12497 305.52667 L 370.0936 305.4924 C 367.10928 302.143 367.07825 302.143 364.01553 302.143 C 359.93744 302.143 341.5 302.143 341.5 302.143 L 341.5 337.50012 L 373.5 337.50012 L 373.5 312.6052 Z M 373.5 312.43265 C 373.5 309.2558 373.46863 309.2558 367.07825 309.2558 L 367.07825 309.2558 C 367.07825 302.17767 367.07825 302.143 364.20303 302.143" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".75"></path>
+				<path d="M 371.5 310.0332 C 371.5 306.6838 371.0936 306.26941 368.12497 302.95471 L 368.0936 302.92041 C 365.10928 299.57101 365.07825 299.57101 362.01553 299.57101 C 357.93744 299.57101 339.5 299.57101 339.5 299.57101 L 339.5 334.92813 L 371.5 334.92813 L 371.5 310.0332 Z" fill="white"></path>
+				<path d="M 371.5 310.0332 C 371.5 306.6838 371.0936 306.26941 368.12497 302.95471 L 368.0936 302.92041 C 365.10928 299.57101 365.07825 299.57101 362.01553 299.57101 C 357.93744 299.57101 339.5 299.57101 339.5 299.57101 L 339.5 334.92813 L 371.5 334.92813 L 371.5 310.0332 Z M 371.5 309.86066 C 371.5 306.6838 371.46863 306.6838 365.07825 306.6838 L 365.07825 306.6838 C 365.07825 299.60568 365.07825 299.57101 362.20303 299.57101" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".75"></path>
+				<path d="M 369.5 307.46219 C 369.5 304.1128 369.0936 303.69843 366.12497 300.38367 L 366.0936 300.3494 C 363.10928 297 363.07825 297 360.01553 297 C 355.93744 297 337.5 297 337.5 297 L 337.5 332.35712 L 369.5 332.35712 L 369.5 307.46219 Z" fill="white"></path>
+				<path d="M 369.5 307.46219 C 369.5 304.1128 369.0936 303.69843 366.12497 300.38367 L 366.0936 300.3494 C 363.10928 297 363.07825 297 360.01553 297 C 355.93744 297 337.5 297 337.5 297 L 337.5 332.35712 L 369.5 332.35712 L 369.5 307.46219 Z M 369.5 307.28964 C 369.5 304.1128 369.46863 304.1128 363.07825 304.1128 L 363.07825 304.1128 C 363.07825 297.03467 363.07825 297 360.20303 297" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".75"></path>
+			</g>
+			<path d="M 382.5 238.5 L 389 238.5 L 400.5 238.5 L 400.5 333 L 400.5 400.5 L 452.5 400.5 L 455.3 400.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5" stroke-dasharray="2,2"/>
+			<path d="M 385.5 193.5 L 262.5 193.5 C 259.18628 193.5 256.5 196.1863 256.5 199.5 L 256.5 264 C 256.5 267.31372 259.18628 270 262.5 270 L 385.5 270 C 388.81372 270 391.5 267.31372 391.5 264 L 391.5 199.5 C 391.5 196.1863 388.81372 193.5 385.5 193.5 Z"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".25"/>
+			<path d="M 391.5 126 L 391.5 132.5 L 391.5 135 L 180 135 L 148.5002 135 L 148.5002 214.00002 L 148.5002 220.50002" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 391.5 126 L 391.5 132.5 L 391.5 135 L 409.5 135 L 520 135 L 520 146.5 L 520 153" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 391.5 126 L 391.5 132.5 L 391.5 135 L 513 135 L 636.75 135 L 636.75 132.5 L 636.75 126" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 414 207 L 319.5 207 L 292.50018 207 L 292.50018 214.00002 L 292.50018 220.50002" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 447 196.5 L 447 203 L 447 207 L 490.5 207 L 493.5 207 L 493.5 224.5 L 493.5 231" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 447 196.5 L 447 203 L 447 378 L 535.5 378 L 558 378 L 558 385 L 558 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 447 207 L 414 207 L 355.5 207 L 355.5 214 L 355.5 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 447 207 L 447 378 L 580.5 378 L 684 378 L 684 385 L 684 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 486.5 274.5 L 493.5 263.5 L 500.5 274.5 Z" fill="white"/>
+			<path d="M 486.5 274.5 L 493.5 263.5 L 500.5 274.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<path d="M 493.5 231 L 499.5 237 L 493.5 243 L 487.5 237 Z" fill="white"/>
+			<path d="M 493.5 231 L 499.5 237 L 493.5 243 L 487.5 237 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<path d="M 493.5 243 L 493.5 249.5 L 493.5 257 L 493.5 263.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 493.5 283 L 493.5 284.5 L 493.5 302 L 493.5 308.29999" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpBackArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 493.5 288 L 535.5 288 L 553.5 288 L 553.5 295 L 553.5 297.79999" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 495 378 L 495 385 L 495 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 513 135 L 544.5 135 L 582.75 135 L 582.75 132.5 L 582.75 126" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 513 164 L 520 153 L 527 164 Z" fill="white"/>
+			<path d="M 513 164 L 520 153 L 527 164 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<path d="M 520 164 L 520 170.5 L 520 175.5 L 580.5 175.5 L 586.5 175.5 L 586.5 178 L 586.5 184.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 520 175.5 L 468 175.5 L 447 175.5 L 447 178 L 447 184.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 526.5 319.5 L 526.5 318 L 506 318 L 503.2 318" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 544.5 135 L 675 135 L 690.75 135 L 690.75 132.5 L 690.75 126" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 558 378 L 621 378 L 621 385 L 621 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 586.5 196.5 L 586.5 203 L 586.5 207 L 571.5 207 L 553.5 207 L 553.5 214 L 553.5 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 586.5 207 L 603 207 L 616.49994 207 L 616.49994 214 L 616.49994 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 589.5 238.5 L 583 238.5 L 587 238.5 L 584.2 238.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 616.5 256.5 L 618 256.5 L 618 259 L 618 265.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 618 265.5 L 624 271.5 L 618 277.5 L 612 271.5 Z" fill="white"/>
+			<path d="M 618 265.5 L 624 271.5 L 618 277.5 L 612 271.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<path d="M 618 277.5 L 618 284 L 618 305.5 L 618 308.29999" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 624 271.5 L 630.5 271.5 L 652.5 271.5 L 652.5 256.5 L 652.5 247.49998 L 650 247.49998 L 647.2 247.49998" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 643.5 238.49998 L 650 238.49998 L 655 238.5 L 657.8 238.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 714 364.5 L 465 364.5 C 461.68628 364.5 459 367.18628 459 370.5 L 459 430.5 C 459 433.81372 461.68628 436.5 465 436.5 L 714 436.5 C 717.3137 436.5 720 433.81372 720 430.5 L 720 370.5 C 720 367.18628 717.3137 364.5 714 364.5 Z"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".25"/>
+			<path d="M 76.5 261.00009 L 76.5 267.50009 L 76.5 378 L 135 378 L 220.50009 378 L 220.50009 385 L 220.50009 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 89.999985 261.00009 L 89.999985 267.50009 L 89.999985 328.5 L 143.5002 328.5 C 143.5002 333.5 153.50018 333.5 153.50018 328.5 L 187 328.5 L 189.8 328.5"  marker-end="url(#SharpArrow_Marker)"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".5"/>
+
+		</g>
+
+		<g>
+			<rect x="488" y="295.18701" width="11" height="7" fill="#e6e6e6"/>
+			<rect x="507.5" y="283.5" width="11" height="9" fill="#e6e6e6"/>
+			<rect x="611.5" y="286.126" width="13" height="7" fill="#e6e6e6"/>
+			<rect x="631.6358" y="268" width="11" height="7" fill="#e6e6e6"/>
+			<rect x="215" y="292.0098" width="11" height="7" fill="#e6e6e6"/>
+			<rect x="215" y="368.66187" width="11" height="7" fill="#e6e6e6"/>
+			<rect x="236.6236" y="274" width="13" height="7" fill="#e6e6e6"/>
+			<rect x="237.46593" y="346" width="13" height="7" fill="#e6e6e6"/>
+		</g>
+
+		<g>
+			<text transform="translate(117.5 199.325)" fill="black"><tspan font-size="6" font-weight="500" x="0" y="4">Highlights</tspan></text>
+			<text transform="translate(124.5 235.59276)" fill="black"><tspan font-size="7" font-weight="500" x="5.0502005" y="5">Templates</tspan></text>
+			<text transform="translate(169 276.5)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".7459984" y="4">perform simple</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="19.886" y="11">search?</tspan></text>
+			<text transform="translate(173 348.5)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".9939995" y="4">stack another</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="7.2159996" y="11">constraint?</tspan></text>
+			<text transform="translate(196.5 232.3)" fill="black"><tspan font-size="7" font-weight="500" x="14.9210005" y="5">Quick</tspan><tspan font-size="7" font-weight="500" x="13.045" y="13">Search</tspan></text>
+			<text transform="translate(196.5 313.29999)" fill="black"><tspan font-size="7" font-weight="500" x="8.2465" y="5">Advanced</tspan><tspan font-size="7" font-weight="500" x="13.045" y="13">Search</tspan></text>
+			<text transform="translate(196.5 406.59265)" fill="black"><tspan font-size="7" font-weight="500" x="13.674099" y="5">Lists</tspan></text>
+			<text transform="translate(196.5 465.59277)" fill="black"><tspan font-size="7" font-weight="500" x="14.1256" y="5">Item</tspan><tspan font-size="7" font-weight="500" x="12.120099" y="13">Detail</tspan></text>
+			<text transform="translate(217 292.7098)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".110000134" y="4">no</tspan></text>
+			<text transform="translate(217 369.36188)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".110000134" y="4">no</tspan></text>
+			<text transform="translate(238.6236 274.7)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".0029997826" y="4">yes</tspan></text>
+			<text transform="translate(239.46593 346.7)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".0029997826" y="4">yes</tspan></text>
+			<text transform="translate(261.5 199.325)" fill="black"><tspan font-size="6" font-weight="500" x="0" y="4">User Selections</tspan></text>
+			<text transform="translate(268.5 235.59276)" fill="black"><tspan font-size="7" font-weight="500" x="5.379201" y="5">User Lists</tspan></text>
+			<text transform="translate(331.5 232.3)" fill="black"><tspan font-size="7" font-weight="500" x="4.2985" y="5">Downloads /</tspan><tspan font-size="7" font-weight="500" x="1.2465" y="13">Shopping Cart</tspan></text>
+			<text transform="translate(340.5 308.44641)" fill="black"><tspan font-size="7" font-weight="500" x="3.9244995" y="5">Audio</tspan><tspan font-size="7" font-weight="500" x="5.8075" y="13">Files</tspan></text>
+			<text transform="translate(35 152)" fill="black"><tspan font-size="7" font-weight="500" x="338.76999" y="5">Content Area</tspan></text>
+			<text transform="translate(367.5 105.8)" fill="black"><tspan font-size="7" font-weight="500" x="14.599" y="5">Home</tspan></text>
+			<text transform="translate(431.5 265)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x="26.16" y="4">download</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="30.612" y="11">activity?</tspan></text>
+			<text transform="translate(440 152)" fill="black"><tspan font-size="7" font-weight="500" x="0" y="5">User Area</tspan></text>
+			<text transform="translate(443.96 188.2)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".2750001" y="4">a1</tspan></text>
+			<text transform="translate(45.5 199.325)" fill="black"><tspan font-size="6" font-weight="500" x="0" y="4">Catalog</tspan></text>
+			<text transform="translate(457 235.3)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".32600021" y="4">Sign out?</tspan></text>
+			<text transform="translate(462 185)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="4">authenticated</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="11">branch</tspan></text>
+			<text transform="translate(464 370.1)" fill="black"><tspan font-size="6" font-weight="500" x="204.992" y="4">Account Settings</tspan></text>
+			<text transform="translate(471 407.3)" fill="black"><tspan font-size="7" font-weight="500" x="11.554" y="5">Contact</tspan></text>
+			<text transform="translate(490 295.88702)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".110000134" y="4">no</tspan></text>
+			<text transform="translate(490.46 315.7)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".2750001" y="4">a2</tspan></text>
+			<text transform="translate(492 268.25)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".22099996" y="4">b</tspan></text>
+			<text transform="translate(508.557 284.95001)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".0029997826" y="4">yes</tspan></text>
+			<text transform="translate(518.5 157.2)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".44300008" y="4">a</tspan></text>
+			<text transform="translate(52.5 235.59276)" fill="black"><tspan font-size="7" font-weight="500" x="5.4456997" y="5">Keywords</tspan></text>
+			<text transform="translate(52.5 470.3)" fill="black"><tspan font-size="7" font-weight="500" x="14.2804995" y="5">Player</tspan></text>
+			<text transform="translate(529.5 236.3)" fill="black"><tspan font-size="7" font-weight="500" x="5.205" y="5">Registration</tspan></text>
+			<text transform="translate(529.5 313.3)" fill="black"><tspan font-size="7" font-weight="500" x="10.3185005" y="5">Sign Out</tspan><tspan font-size="7" font-weight="500" x="3.8400002" y="13">Confirmation</tspan></text>
+			<text transform="translate(534 153.5)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="4">authentication</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="11">state</tspan></text>
+			<text transform="translate(534 407.3)" fill="black"><tspan font-size="7" font-weight="500" x="14.5395" y="5">Billing</tspan></text>
+			<text transform="translate(561 104.825)" fill="black"><tspan font-size="6" font-weight="500" x="8.97" y="4">Licensing</tspan><tspan font-size="6" font-weight="500" x="6.5249996" y="11">Information</tspan></text>
+			<text transform="translate(571 268.5)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".20600128" y="4">authentication</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="6.5599995" y="11">successful?</tspan></text>
+			<text transform="translate(583.46 188.2)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".2750001" y="4">a2</tspan></text>
+			<text transform="translate(592.5 236.3)" fill="black"><tspan font-size="7" font-weight="500" x="13.1744995" y="5">Sign In</tspan></text>
+			<text transform="translate(597 185)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="4">unauthenticated</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="11">branch</tspan></text>
+			<text transform="translate(597 403.3)" fill="black"><tspan font-size="7" font-weight="500" x="9.349" y="5">Purchase</tspan><tspan font-size="7" font-weight="500" x="12.919" y="13">History</tspan></text>
+			<text transform="translate(613.5 286.82602)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".0029997826" y="4">yes</tspan></text>
+			<text transform="translate(615 315.7)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".2750001" y="4">a1</tspan></text>
+			<text transform="translate(615 104.825)" fill="black"><tspan font-size="6" font-weight="500" x="12.189" y="4">Submit</tspan><tspan font-size="6" font-weight="500" x="13.692" y="11">Music</tspan></text>
+			<text transform="translate(633.6358 268.7)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".110000134" y="4">no</tspan></text>
+			<text transform="translate(660 407.3)" fill="black"><tspan font-size="7" font-weight="500" x="5.397499" y="5">Preferences</tspan></text>
+			<text transform="translate(664.5 232.3)" fill="black"><tspan font-size="7" font-weight="500" x="8.5125" y="5">Password</tspan><tspan font-size="7" font-weight="500" x="10.392" y="13">Retrieval</tspan></text>
+			<text transform="translate(669 104.825)" fill="black"><tspan font-size="6" font-weight="500" x="8.358" y="4">Contact &amp;</tspan><tspan font-size="6" font-weight="500" x="10.9139996" y="11">Support</tspan></text>
+		</g>
+		<!-- <g opacity="0">
+			<title>Sitemap</title>
+			<rect x="27" y="144" width="396" height="360" rx="5" ry="5" fill="#e6e6e6"/>
+			<text transform="translate(35 152)" fill="black"><tspan font-size="7" font-weight="500" x="338.76999" y="5">Content Area</tspan></text>
+			<rect x="432" y="144" width="296" height="360" rx="5" ry="5" fill="#e6e6e6"/>
+			<text transform="translate(440 152)" fill="black"><tspan font-size="7" font-weight="500" x="0" y="5">User Area</tspan></text>
+			<path d="M 178.5 193.5 L 118.5 193.5 C 115.186295 193.5 112.5 196.1863 112.5 199.5 L 112.5 264 C 112.5 267.31372 115.186295 270 118.5 270 L 178.5 270 C 181.81371 270 184.5 267.31372 184.5 264 L 184.5 199.5 C 184.5 196.1863 181.81371 193.5 178.5 193.5 Z"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".25"/>
+			<text transform="translate(117.5 199.325)" fill="black"><tspan font-size="6" font-weight="500" x="0" y="4">Highlights</tspan></text>
+			<path d="M 493.5 231 L 499.5 237 L 493.5 243 L 487.5 237 Z" fill="white"/>
+			<path d="M 493.5 231 L 499.5 237 L 493.5 243 L 487.5 237 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(457 235.3)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".32600021" y="4">Sign out?</tspan></text>
+			<text transform="translate(534 153.5)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="4">authentication</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="11">state</tspan></text>
+			<path d="M 526.5 319.5 L 526.5 318 L 506 318 L 503.2 318" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="271.501" y="226.286" width="48" height="34.75" fill="white"/>
+			<rect x="271.501" y="226.286" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="268.5" y="223.392" width="48" height="34.75" fill="white"/>
+			<rect x="268.5" y="223.392" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="265.5" y="220.5" width="48" height="34.75" fill="white"/>
+			<rect x="265.5" y="220.5" width="48" height="34.75" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(268.5 235.59276)" fill="black"><tspan font-size="7" font-weight="500" x="5.379201" y="5">User Lists</tspan></text>
+			<path d="M 385.5 193.5 L 262.5 193.5 C 259.18628 193.5 256.5 196.1863 256.5 199.5 L 256.5 264 C 256.5 267.31372 259.18628 270 262.5 270 L 385.5 270 C 388.81372 270 391.5 267.31372 391.5 264 L 391.5 199.5 C 391.5 196.1863 388.81372 193.5 385.5 193.5 Z"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".25"/>
+			<text transform="translate(261.5 199.325)" fill="black"><tspan font-size="6" font-weight="500" x="0" y="4">User Selections</tspan></text>
+			<path d="M 279.00009 264.7001 L 279.00009 266.2001 L 279.00009 310.5 L 252.70001 310.5 L 251.20001 310.5"  marker-end="url(#SharpArrow_Marker)"  marker-start="url(#SharpArrow_Marker_2)"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".5"  stroke-dasharray="2,2"/>
+			<path d="M 162.00029 261.00009 L 162.00029 267.50009 L 162.00029 319.5 L 187 319.5 L 189.8 319.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 89.999985 261.00009 L 89.999985 267.50009 L 89.999985 328.5 L 143.5002 328.5 C 143.5002 333.5 153.50018 333.5 153.50018 328.5 L 187 328.5 L 189.8 328.5"  marker-end="url(#SharpArrow_Marker)"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".5"/>
+			<path d="M 247.5 409.5 L 279 409.5 L 279 319.5 L 254 319.5 L 251.2 319.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 714 364.5 L 465 364.5 C 461.68628 364.5 459 367.18628 459 370.5 L 459 430.5 C 459 433.81372 461.68628 436.5 465 436.5 L 714 436.5 C 717.3137 436.5 720 433.81372 720 430.5 L 720 370.5 C 720 367.18628 717.3137 364.5 714 364.5 Z"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".25"/>
+			<text transform="translate(464 370.1)" fill="black"><tspan font-size="6" font-weight="500" x="204.992" y="4">Account Settings</tspan></text>
+			<rect x="468" y="391.5" width="54" height="36" fill="white"/>
+			<rect x="468" y="391.5" width="54" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(471 407.29999)" fill="black"><tspan font-size="7" font-weight="500" x="11.554" y="5">Contact</tspan></text>
+			<path d="M 495 378 L 495 385 L 495 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 235 277.5 L 236.5 277.5 L 265.5 277.5 L 265.5 279 L 265.5 305.49997 C 270.5 305.49997 270.5 324.50003 265.5 324.50003 L 265.5 378 L 225 378 L 220.50009 378 L 220.50009 381.5 L 220.50009 387.79999"  marker-end="url(#SharpArrow_Marker)"  marker-start="url(#SharpBackArrow_Marker)"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".5"/>
+			<rect x="364.5" y="90" width="54" height="36" fill="white"/>
+			<rect x="364.5" y="90" width="54" height="36" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(367.5 105.8)" fill="black"><tspan font-size="7" font-weight="500" x="14.599" y="5">Home</tspan></text>
+			<rect x="589.5" y="220.5" width="54" height="36" fill="white"/>
+			<rect x="589.5" y="220.5" width="54" height="36" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(592.5 236.3)" fill="black"><tspan font-size="7" font-weight="500" x="13.1744995" y="5">Sign In</tspan></text>
+			<path d="M 106.5 193.5 L 46.5 193.5 C 43.18629 193.5 40.5 196.1863 40.5 199.5 L 40.5 264 C 40.5 267.31372 43.18629 270 46.5 270 L 106.5 270 C 109.813705 270 112.5 267.31372 112.5 264 L 112.5 199.5 C 112.5 196.1863 109.813705 193.5 106.5 193.5 Z"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".25"/>
+			<text transform="translate(45.5 199.325)" fill="black"><tspan font-size="6" font-weight="500" x="0" y="4">Catalog</tspan></text>
+			<path d="M 180 135 L 153 135 L 76.5 135 L 76.5 214 L 76.5 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 586.5 207 L 603 207 L 616.49994 207 L 616.49994 214 L 616.49994 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 586.5 196.5 L 586.5 203 L 586.5 207 L 571.5 207 L 553.5 207 L 553.5 214 L 553.5 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 414 207 L 319.5 207 L 292.50018 207 L 292.50018 214.00002 L 292.50018 220.50002" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="526.5" y="220.5" width="54" height="36" fill="white"/>
+			<rect x="526.5" y="220.5" width="54" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(529.5 236.3)" fill="black"><tspan font-size="7" font-weight="500" x="5.205" y="5">Registration</tspan></text>
+			<rect x="193.5" y="220.5" width="54" height="36" fill="white"/>
+			<rect x="193.5" y="220.5" width="54" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(196.5 232.3)" fill="black"><tspan font-size="7" font-weight="500" x="14.9210005" y="5">Quick</tspan><tspan font-size="7" font-weight="500" x="13.045" y="13">Search</tspan></text>
+			<path d="M 220.5 135 L 220.5 214 L 220.5 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 391.5 126 L 391.5 132.5 L 391.5 135 L 180 135 L 148.5002 135 L 148.5002 214.00002 L 148.5002 220.50002" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="127.501" y="226.286" width="48" height="34.75" fill="white"/>
+			<rect x="127.501" y="226.286" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="124.49999" y="223.392" width="48" height="34.75" fill="white"/>
+			<rect x="124.49999" y="223.392" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="121.49999" y="220.5" width="48" height="34.75" fill="white"/>
+			<rect x="121.49999" y="220.5" width="48" height="34.75" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(124.5 235.59276)" fill="black"><tspan font-size="7" font-weight="500" x="5.0502005" y="5">Templates</tspan></text>
+			<rect x="55.500595" y="226.286" width="48" height="34.75" fill="white"/>
+			<rect x="55.500595" y="226.286" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="52.500298" y="223.392" width="48" height="34.75" fill="white"/>
+			<rect x="52.500298" y="223.392" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="49.5" y="220.5" width="48" height="34.75" fill="white"/>
+			<rect x="49.5" y="220.5" width="48" height="34.75" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(52.5 235.59276)" fill="black"><tspan font-size="7" font-weight="500" x="5.4456997" y="5">Keywords</tspan></text>
+			<path d="M 292.50018 261.00009 L 292.50018 267.50009 L 292.50018 472.5 L 251.20001 472.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="594" y="391.5" width="54" height="36" fill="white"/>
+			<rect x="594" y="391.5" width="54" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(597 403.29999)" fill="black"><tspan font-size="7" font-weight="500" x="9.349" y="5">Purchase</tspan><tspan font-size="7" font-weight="500" x="12.919" y="13">History</tspan></text>
+			<rect x="657" y="391.5" width="54" height="36" fill="white"/>
+			<rect x="657" y="391.5" width="54" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(660 407.29999)" fill="black"><tspan font-size="7" font-weight="500" x="5.397499" y="5">Preferences</tspan></text>
+			<rect x="531" y="391.5" width="54" height="36" fill="white"/>
+			<rect x="531" y="391.5" width="54" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(534 407.29999)" fill="black"><tspan font-size="7" font-weight="500" x="14.5395" y="5">Billing</tspan></text>
+			<path d="M 558 378 L 621 378 L 621 385 L 621 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 447 196.5 L 447 203 L 447 378 L 535.5 378 L 558 378 L 558 385 L 558 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="199.50101" y="460.286" width="48" height="34.75" fill="white"/>
+			<rect x="199.50101" y="460.286" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="196.5" y="457.392" width="48" height="34.75" fill="white"/>
+			<rect x="196.5" y="457.392" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="193.5" y="454.5" width="48" height="34.75" fill="white"/>
+			<rect x="193.5" y="454.5" width="48" height="34.75" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(196.5 465.59277)" fill="black"><tspan font-size="7" font-weight="500" x="14.1256" y="5">Item</tspan><tspan font-size="7" font-weight="500" x="12.120099" y="13">Detail</tspan></text>
+			<rect x="49.5" y="454.5" width="54" height="36" fill="white"/>
+			<rect x="49.5" y="454.5" width="54" height="36" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(52.5 470.3)" fill="black"><tspan font-size="7" font-weight="500" x="14.2804995" y="5">Player</tspan></text>
+			<rect x="199.50101" y="397.286" width="48" height="34.75" fill="white"/>
+			<rect x="199.50101" y="397.286" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="196.5" y="394.393" width="48" height="34.75" fill="white"/>
+			<rect x="196.5" y="394.393" width="48" height="34.75" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<rect x="193.5" y="391.5" width="48" height="34.75" fill="white"/>
+			<rect x="193.5" y="391.5" width="48" height="34.75" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(196.5 406.59265)" fill="black"><tspan font-size="7" font-weight="500" x="13.674099" y="5">Lists</tspan></text>
+			<path d="M 220.5 256.5 L 220.5 263 L 220.5 265 L 220.5 271.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="193.5" y="301.5" width="54" height="36" fill="white"/>
+			<rect x="193.5" y="301.5" width="54" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(196.5 313.29999)" fill="black"><tspan font-size="7" font-weight="500" x="8.2465" y="5">Advanced</tspan><tspan font-size="7" font-weight="500" x="13.045" y="13">Search</tspan></text>
+			<rect x="328.5" y="220.5" width="54" height="36" fill="white"/>
+			<rect x="328.5" y="220.5" width="54" height="36" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(331.5 232.3)" fill="black"><tspan font-size="7" font-weight="500" x="4.2985" y="5">Downloads /</tspan><tspan font-size="7" font-weight="500" x="1.2465" y="13">Shopping Cart</tspan></text>
+			<path d="M 447 207 L 447 378 L 580.5 378 L 684 378 L 684 385 L 684 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 447 207 L 414 207 L 355.5 207 L 355.5 214 L 355.5 220.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 382.5 238.5 L 389 238.5 L 400.5 238.5 L 400.5 333 L 400.5 400.5 L 452.5 400.5 L 455.3 400.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5" stroke-dasharray="2,2"/>
+			<path d="M 373.5 312.6052 C 373.5 309.2558 373.0936 308.84143 370.12497 305.52667 L 370.0936 305.4924 C 367.10928 302.143 367.07825 302.143 364.01553 302.143 C 359.93744 302.143 341.5 302.143 341.5 302.143 L 341.5 337.50012 L 373.5 337.50012 L 373.5 312.6052 Z"  fill="white"/>
+			<path d="M 373.5 312.6052 C 373.5 309.2558 373.0936 308.84143 370.12497 305.52667 L 370.0936 305.4924 C 367.10928 302.143 367.07825 302.143 364.01553 302.143 C 359.93744 302.143 341.5 302.143 341.5 302.143 L 341.5 337.50012 L 373.5 337.50012 L 373.5 312.6052 Z M 373.5 312.43265 C 373.5 309.2558 373.46863 309.2558 367.07825 309.2558 L 367.07825 309.2558 C 367.07825 302.17767 367.07825 302.143 364.20303 302.143"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".75"/>
+			<path d="M 371.5 310.0332 C 371.5 306.6838 371.0936 306.26941 368.12497 302.95471 L 368.0936 302.92041 C 365.10928 299.57101 365.07825 299.57101 362.01553 299.57101 C 357.93744 299.57101 339.5 299.57101 339.5 299.57101 L 339.5 334.92813 L 371.5 334.92813 L 371.5 310.0332 Z"  fill="white"/>
+			<path d="M 371.5 310.0332 C 371.5 306.6838 371.0936 306.26941 368.12497 302.95471 L 368.0936 302.92041 C 365.10928 299.57101 365.07825 299.57101 362.01553 299.57101 C 357.93744 299.57101 339.5 299.57101 339.5 299.57101 L 339.5 334.92813 L 371.5 334.92813 L 371.5 310.0332 Z M 371.5 309.86066 C 371.5 306.6838 371.46863 306.6838 365.07825 306.6838 L 365.07825 306.6838 C 365.07825 299.60568 365.07825 299.57101 362.20303 299.57101"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".75"/>
+			<path d="M 369.5 307.46219 C 369.5 304.1128 369.0936 303.69843 366.12497 300.38367 L 366.0936 300.3494 C 363.10928 297 363.07825 297 360.01553 297 C 355.93744 297 337.5 297 337.5 297 L 337.5 332.35712 L 369.5 332.35712 L 369.5 307.46219 Z"  fill="white"/>
+			<path d="M 369.5 307.46219 C 369.5 304.1128 369.0936 303.69843 366.12497 300.38367 L 366.0936 300.3494 C 363.10928 297 363.07825 297 360.01553 297 C 355.93744 297 337.5 297 337.5 297 L 337.5 332.35712 L 369.5 332.35712 L 369.5 307.46219 Z M 369.5 307.28964 C 369.5 304.1128 369.46863 304.1128 363.07825 304.1128 L 363.07825 304.1128 C 363.07825 297.03467 363.07825 297 360.20303 297"  stroke="black"  stroke-linecap="butt"  stroke-linejoin="miter"  stroke-width=".75"/>
+			<text transform="translate(340.5 308.44641)" fill="black"><tspan font-size="7" font-weight="500" x="3.9244995" y="5">Audio</tspan><tspan font-size="7" font-weight="500" x="5.8075" y="13">Files</tspan></text>
+			<path d="M 220.50009 435.69992 L 220.50009 437.19992 L 220.50009 449.3 L 220.50009 450.8" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpArrow_Marker_2)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 76.5 261.00009 L 76.5 267.50009 L 76.5 378 L 135 378 L 220.50009 378 L 220.50009 385 L 220.50009 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 220.50002 337.5 L 220.50002 344 L 220.5 337 L 220.5 343.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 355.5 256.5 L 355.5 290.5 L 355.5 293.29999" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5" stroke-dasharray="2,2"/>
+			<path d="M 189.8 472.5 L 108.7 472.5 L 107.2 472.5" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpArrow_Marker_2)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="666" y="94.5" width="49.5" height="31.5" fill="white"/>
+			<rect x="666" y="94.5" width="49.5" height="31.5" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(669 104.825)" fill="black"><tspan font-size="6" font-weight="500" x="8.358" y="4">Contact &amp;</tspan><tspan font-size="6" font-weight="500" x="10.9139996" y="11">Support</tspan></text>
+			<path d="M 544.5 135 L 675 135 L 690.75 135 L 690.75 132.5 L 690.75 126" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="526.5" y="301.5" width="54" height="36" fill="white"/>
+			<rect x="526.5" y="301.5" width="54" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(529.5 313.29999)" fill="black"><tspan font-size="7" font-weight="500" x="10.3185005" y="5">Sign Out</tspan><tspan font-size="7" font-weight="500" x="3.8400002" y="13">Confirmation</tspan></text>
+			<path d="M 447 196.5 L 447 203 L 447 207 L 490.5 207 L 493.5 207 L 493.5 224.5 L 493.5 231" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 513 164 L 520 153 L 527 164 Z" fill="white"/>
+			<path d="M 513 164 L 520 153 L 527 164 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(518.5 157.2)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".44300008" y="4">a</tspan></text>
+			<path d="M 624 271.5 L 630.5 271.5 L 652.5 271.5 L 652.5 256.5 L 652.5 247.49998 L 650 247.49998 L 647.2 247.49998" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 220.5 271.5 L 226.5 277.5 L 220.5 283.5 L 214.5 277.5 Z" fill="white"/>
+			<path d="M 220.5 271.5 L 226.5 277.5 L 220.5 283.5 L 214.5 277.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(169 276.5)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".7459984" y="4">perform simple</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="19.886" y="11">search?</tspan></text>
+			<path d="M 220.5 292 L 220.5 293.5 L 220.50002 291.5 L 220.50002 301.5" marker-start="url(#SharpBackArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="236.6236" y="274" width="13" height="7" fill="#e6e6e6"/>
+			<text transform="translate(238.6236 274.70001)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".0029997826" y="4">yes</tspan></text>
+			<rect x="215.00002" y="292.0098" width="11" height="7" fill="#e6e6e6"/>
+			<text transform="translate(217.00002 292.7098)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".110000134" y="4">no</tspan></text>
+			<path d="M 220.5 343.5 L 226.5 349.5 L 220.5 355.5 L 214.5 349.5 Z" fill="white"/>
+			<path d="M 220.5 343.5 L 226.5 349.5 L 220.5 355.5 L 214.5 349.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(173 348.5)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".9939995" y="4">stack another</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="7.2159996" y="11">constraint?</tspan></text>
+			<path d="M 235 349.5 L 236.5 349.5 L 257.5 349.5 L 257.5 328.5 L 251.20001 328.5" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpBackArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="237.46593" y="346" width="13" height="7" fill="#e6e6e6"/>
+			<text transform="translate(239.46593 346.70001)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".0029997826" y="4">yes</tspan></text>
+			<path d="M 220.5 364 L 220.5 365.5 L 220.50009 381.5 L 220.50009 391.5" marker-start="url(#SharpBackArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="215.00003" y="368.66187" width="11" height="7" fill="#e6e6e6"/>
+			<text transform="translate(217.00003 369.36188)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".110000134" y="4">no</tspan></text>
+			<circle cx="586.5" cy="190.5" r="6.0000272" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(583.46002 188.2)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".2750001" y="4">a2</tspan></text>
+			<circle cx="447" cy="190.5" r="6.000001" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(443.96 188.2)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".2750001" y="4">a1</tspan></text>
+			<path d="M 520 175.5 L 468 175.5 L 447 175.5 L 447 178 L 447 184.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 618 265.5 L 624 271.5 L 618 277.5 L 612 271.5 Z" fill="white"/>
+			<path d="M 618 265.5 L 624 271.5 L 618 277.5 L 612 271.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(571 268.5)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".20600128" y="4">authentication</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="6.5599995" y="11">successful?</tspan></text>
+			<path d="M 391.5 126 L 391.5 132.5 L 391.5 135 L 409.5 135 L 520 135 L 520 146.5 L 520 153" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 589.5 238.5 L 583 238.5 L 587 238.5 L 584.2 238.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="631.6358" y="268" width="11" height="7" fill="#e6e6e6"/>
+			<text transform="translate(633.6358 268.70001)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".110000134" y="4">no</tspan></text>
+			<rect x="661.5" y="220.5" width="54" height="36" fill="white"/>
+			<rect x="661.5" y="220.5" width="54" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(664.5 232.3)" fill="black"><tspan font-size="7" font-weight="500" x="8.5125" y="5">Password</tspan><tspan font-size="7" font-weight="500" x="10.392" y="13">Retrieval</tspan></text>
+			<path d="M 643.5 238.49998 L 650 238.49998 L 655 238.5 L 657.8 238.5" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 493.5 288 L 535.5 288 L 553.5 288 L 553.5 295 L 553.5 297.79999" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="507.557" y="283.5" width="11" height="9" fill="#e6e6e6"/>
+			<text transform="translate(508.557 284.95001)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".0029997826" y="4">yes</tspan></text>
+			<rect x="558" y="94.5" width="49.5" height="31.5" fill="white"/>
+			<rect x="558" y="94.5" width="49.5" height="31.5" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(561 104.825)" fill="black"><tspan font-size="6" font-weight="500" x="8.97" y="4">Licensing</tspan><tspan font-size="6" font-weight="500" x="6.5249996" y="11">Information</tspan></text>
+			<path d="M 513 135 L 544.5 135 L 582.75 135 L 582.75 132.5 L 582.75 126" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 493.5 243 L 493.5 249.5 L 493.5 257 L 493.5 263.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 616.5 256.5 L 618 256.5 L 618 259 L 618 265.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 486.5 274.5 L 493.5 263.5 L 500.5 274.5 Z" fill="white"/>
+			<path d="M 486.5 274.5 L 493.5 263.5 L 500.5 274.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(492 268.25)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".22099996" y="4">b</tspan></text>
+			<path d="M 520 164 L 520 170.5 L 520 175.5 L 580.5 175.5 L 586.5 175.5 L 586.5 178 L 586.5 184.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<text transform="translate(597 185)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="4">unauthenticated</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="11">branch</tspan></text>
+			<text transform="translate(431.5 265)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x="26.16" y="4">download</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="30.612" y="11">activity?</tspan></text>
+			<text transform="translate(462 185)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="4">authenticated</tspan><tspan font-size="6" font-style="italic" font-weight="500" x="0" y="11">branch</tspan></text>
+			<circle cx="493.5" cy="318" r="5.9999976" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(490.46 315.70001)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".2750001" y="4">a2</tspan></text>
+			<circle cx="618" cy="318" r="6.000024" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width=".75"/>
+			<text transform="translate(614.96002 315.70001)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".2750001" y="4">a1</tspan></text>
+			<path d="M 618 277.5 L 618 284 L 618 305.5 L 618 308.29999" marker-end="url(#SharpArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="611.5" y="286.126" width="13" height="7" fill="#e6e6e6"/>
+			<text transform="translate(613.5 286.82602)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".0029997826" y="4">yes</tspan></text>
+			<path d="M 493.5 283 L 493.5 284.5 L 493.5 302 L 493.5 308.29999" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpBackArrow_Marker)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<rect x="488" y="295.18701" width="11" height="7" fill="#e6e6e6"/>
+			<text transform="translate(490 295.88702)" fill="black"><tspan font-size="6" font-style="italic" font-weight="500" x=".110000134" y="4">no</tspan></text>
+			<rect x="612" y="94.5" width="49.5" height="31.5" fill="white"/>
+			<rect x="612" y="94.5" width="49.5" height="31.5" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="1"/>
+			<text transform="translate(615 104.825)" fill="black"><tspan font-size="6" font-weight="500" x="12.189" y="4">Submit</tspan><tspan font-size="6" font-weight="500" x="13.692" y="11">Music</tspan></text>
+			<path d="M 391.5 126 L 391.5 132.5 L 391.5 135 L 513 135 L 636.75 135 L 636.75 132.5 L 636.75 126" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 189.8 409.5 L 76.5 409.5 L 76.5 449.3 L 76.5 450.8" marker-end="url(#SharpArrow_Marker)" marker-start="url(#SharpArrow_Marker_2)" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+			<path d="M 148.5002 261.00009 L 148.5002 267.50009 L 148.5002 378 L 198 378 L 220.50009 378 L 220.50009 385 L 220.50009 391.5" stroke="black" stroke-linecap="butt" stroke-linejoin="miter" stroke-width=".5"/>
+		</g> -->
+	</g>
+</svg>

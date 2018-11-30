@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640px" height="259px" viewBox="0 0 640 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fpm-keyword-drawer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="104" height="248"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="104" height="248" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="104" height="248"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="104" height="248" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="7.10542736e-15" y="0" width="104" height="248"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="104" height="248" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Catalog-Keyword" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-26.000000, -119.000000)">
+            <g id="fpm-keyword-drawer" transform="translate(31.000000, 122.000000)">
+                <g id="desc-toggle" transform="translate(554.000000, 4.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="21.375" cy="6.125" r="3.375024"></circle>
+                    <circle id="Oval" stroke="#4C4C4C" stroke-width="2" cx="21.375" cy="6.125" r="3.375024"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="32.625" cy="6.125" r="3.375024"></circle>
+                    <circle id="Oval" stroke="#4C4C4C" stroke-width="2" cx="32.625" cy="6.125" r="3.375024"></circle>
+                    <path d="M29.25,9.5 L36,2.75" id="Shape" stroke="#4C4C4C"></path>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="18" y="16.25" width="63" height="27"></rect>
+                    <g id="Group" transform="translate(18.000000, 14.250000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                        <text id="A-toggle-button-hides">
+                            <tspan x="0" y="6">A toggle button hides</tspan>
+                        </text>
+                        <text id="and-reveals-non-">
+                            <tspan x="0" y="13">and reveals non-</tspan>
+                        </text>
+                        <text id="matching-keywords.">
+                            <tspan x="0" y="20">matching keywords.</tspan>
+                        </text>
+                        <text id="Notice-that-parent-and">
+                            <tspan x="0" y="27">Notice that parent and</tspan>
+                        </text>
+                        <text id="children-are-displayed">
+                            <tspan x="0" y="34">children are displayed</tspan>
+                        </text>
+                        <text id="when-any-in-the">
+                            <tspan x="0" y="41">when any in the</tspan>
+                        </text>
+                        <text id="relationship-is">
+                            <tspan x="0" y="48">relationship is</tspan>
+                        </text>
+                        <text id="matched.">
+                            <tspan x="0" y="55">matched.</tspan>
+                        </text>
+                    </g>
+                    <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="0 11.75 9 11.75 9 0.5 0 0.5"></polyline>
+                </g>
+                <g id="desc-multi" transform="translate(329.000000, 128.500000)">
+                    <text id="Multiple-selection-is" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="18" y="6">Multiple selection is</tspan>
+                    </text>
+                    <text id="allowed-with-the-[Ctrl" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="18" y="13">allowed with the [Ctrl</tspan>
+                    </text>
+                    <text id="+-left-click]-or-[Com-" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="18" y="20">+ left click] or [Com-</tspan>
+                    </text>
+                    <text id="mand-+-left-click]." fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="18" y="27">mand + left click].</tspan>
+                    </text>
+                    <text id="Selecting-a-parent" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="18" y="34">Selecting a parent</tspan>
+                    </text>
+                    <text id="also-selects-the" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="18" y="41">also selects the</tspan>
+                    </text>
+                    <text id="children." fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="18" y="48">children.</tspan>
+                    </text>
+                    <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="0 110 9 110 9 2 0 2"></polyline>
+                </g>
+                <g id="desc-populate" transform="translate(113.000000, 128.000000)">
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0" y="2.5" width="9" height="9"></rect>
+                    <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="0 11.5 9 11.5 9 2.5 0 2.5"></polyline>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="18" y="2.5" width="58.5" height="27"></rect>
+                    <g id="Group" transform="translate(18.000000, 0.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                        <text id="The-main-content">
+                            <tspan x="0" y="6">The main content</tspan>
+                        </text>
+                        <text id="panel-is-populated">
+                            <tspan x="0" y="13">panel is populated</tspan>
+                        </text>
+                        <text id="as-soon-as-any-key-">
+                            <tspan x="0" y="20">as soon as any key-</tspan>
+                        </text>
+                        <text id="wor">
+                            <tspan x="0" y="27">wor</tspan>
+                        </text>
+                        <text id="d-is-clicked.">
+                            <tspan x="10.2299995" y="27">d is clicked.</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="desc-clear-filter" transform="translate(329.000000, 4.000000)">
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="18" y="16.25" width="63" height="27"></rect>
+                    <g id="Group" transform="translate(18.000000, 14.250000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                        <text id="Results-can-be">
+                            <tspan x="0" y="6">Results can be</tspan>
+                        </text>
+                        <text id="cleared-at-any-time-by">
+                            <tspan x="0" y="13">cleared at any time by</tspan>
+                        </text>
+                        <text id="pressing-this-button">
+                            <tspan x="0" y="20">pressing this button</tspan>
+                        </text>
+                        <text id="on-the-input-box.-The">
+                            <tspan x="0" y="27">on the input box. The</tspan>
+                        </text>
+                        <text id="button-will-appear">
+                            <tspan x="0" y="34">button will appear</tspan>
+                        </text>
+                        <text id="only-if-there-is-some">
+                            <tspan x="0" y="41">only if there is some</tspan>
+                        </text>
+                        <text id="text-in-it.">
+                            <tspan x="0" y="48">text in it.</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0" y="0.5" width="9" height="11.25"></rect>
+                    <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="0 11.75 9 11.75 9 0.5 0 0.5"></polyline>
+                    <circle id="Oval" fill="#999999" cx="21.375" cy="6.125" r="3.3750005"></circle>
+                    <circle id="Oval" stroke="#999999" stroke-width="2" cx="21.375" cy="6.125" r="3.3750005"></circle>
+                    <path d="M19.375,8.125 L23.375,4.125" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
+                    <path d="M19.375,4.125 L23.375,8.125" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
+                </g>
+                <g id="desc-filter-as-you-type" transform="translate(126.000000, 56.000000)">
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="72.5" y="2.5" width="9" height="18"></rect>
+                    <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="81.5 20.5 72.5 20.5 72.5 2.5 81.5 2.5"></polyline>
+                    <g id="Group" transform="translate(0.500000, 0.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                        <text id="As-soon-as-the-first">
+                            <tspan x="9.75" y="6">As soon as the first</tspan>
+                        </text>
+                        <text id="letters-are-typed,-the">
+                            <tspan x="5.7540016" y="13">letters are typed, the</tspan>
+                        </text>
+                        <text id="list-scrolls-to-the-first">
+                            <tspan x="5.4120026" y="20">list scrolls to the first</tspan>
+                        </text>
+                        <text id="match,-and-all-match-">
+                            <tspan x="2.6520004" y="27">match, and all match-</tspan>
+                        </text>
+                        <text id="es-are-highlighted.">
+                            <tspan x="12.0839996" y="34">es are highlighted.</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="desc-filter" transform="translate(113.000000, 2.000000)">
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0" y="2.5" width="9" height="11.25"></rect>
+                    <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="0 13.75 9 13.75 9 2.5 0 2.5"></polyline>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="85.5" y="2.5" width="9" height="11.25"></rect>
+                    <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="94.5 13.75 85.5 13.75 85.5 2.5 94.5 2.5"></polyline>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="18" y="2.5" width="58.5" height="27"></rect>
+                    <g id="Group" transform="translate(18.000000, 0.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                        <text id="An-input-box-allows">
+                            <tspan x="0" y="6">An input box allows</tspan>
+                        </text>
+                        <text id="filtering-as-you-type.">
+                            <tspan x="0" y="13">filtering as-you-type.</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="keywords-filtered-hidden" transform="translate(441.000000, 0.000000)">
+                    <g fill-rule="evenodd">
+                        <g id="Group">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="103.5" height="247.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="103.5" height="247.5"></rect>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="20.25" width="103.5" height="227.25"></rect>
+                        <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="20.25" width="103.5" height="227.25"></rect>
+                        <rect id="Rectangle-path" fill="#000000" x="0.5" y="58.5" width="103.5" height="9"></rect>
+                        <g id="Group" transform="translate(5.500000, 23.250000)" font-size="6">
+                            <text id="Bewildered" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="0" y="6">Bewildered</tspan>
+                            </text>
+                            <text id="Determined" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="15">Determined</tspan>
+                            </text>
+                            <text id="Quixotic" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="24">Quixotic</tspan>
+                            </text>
+                            <text id="Restless" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="33">Restless</tspan>
+                            </text>
+                            <text id="Blank" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="0" y="42">Blank</tspan>
+                            </text>
+                            <text id="Blissful" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="0" y="51">Blissful</tspan>
+                            </text>
+                            <text id="Optimistic" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="60">Optimistic</tspan>
+                            </text>
+                            <text id="Pleased" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="69">Pleased</tspan>
+                            </text>
+                            <text id="Cunning" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="78">Cunning</tspan>
+                            </text>
+                            <text id="Bittersweet" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="10" y="87">Bittersweet</tspan>
+                            </text>
+                            <text id="Depressed" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="96">Depressed</tspan>
+                            </text>
+                            <text id="Determined" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="105">Determined</tspan>
+                            </text>
+                            <text id="Mad" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="114">Mad</tspan>
+                            </text>
+                            <text id="Bitchy" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="10" y="123">Bitchy</tspan>
+                            </text>
+                        </g>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.25 31.5 7.25 54 11 54"></polyline>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.25 78.75 7.25 90 11 90"></polyline>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.25 141.75 7.25 144 11 144"></polyline>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.25 121.5 7.25 126 11 126"></polyline>
+                        <path d="M7.25,105.75 L7.25,121.5" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.25,117 L11,117" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.25,108 L11,108" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.25,81 L11,81" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.25,45 L11,45" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.25,36 L11,36" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                    </g>
+                    <g id="keywords-scrollbar" transform="translate(95.000000, 20.000000)" fill-rule="evenodd">
+                        <g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="0.000120000001" y="0.24988" width="8.9417725" height="227.25"></rect>
+                            <polygon id="Shape" fill="#000000" points="2.52032 6.27783 4.44208 3.31171 6.36383 6.27783"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="2.52032 6.27783 4.44208 3.31171 6.36383 6.27783"></polygon>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.000120000001" y="9.33987" width="8.9417725" height="209.07001"></rect>
+                            <polygon id="Shape" fill="#000000" points="6.36383 221.4717 4.44208 224.43784 2.52032 221.4717"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="6.36383 221.4717 4.44208 224.43784 2.52032 221.4717"></polygon>
+                            <rect id="Rectangle-path" stroke="#808080" stroke-width="0.5" x="-0.00024" y="0.25021" width="9.0004883" height="227.25"></rect>
+                        </g>
+                    </g>
+                    <g id="keywords-filter-field" fill-rule="evenodd">
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="0" width="103.5" height="20.25"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0.5" y="0" width="103.5" height="20.25"></rect>
+                        <path d="M10.62503,4.5 L80.37524,4.5 C83.48187,4.5 86.00024,7.018394 86.00024,10.125 L86.00024,10.125 C86.00024,13.2316 83.48187,15.75 80.37524,15.75 L10.62503,15.75 C7.51843,15.75 5.00003,13.2316 5.00003,10.125 L5.00003,10.125 L5.00003,10.125 C5.00003,7.018394 7.51843,4.5 10.62503,4.5 L10.62503,4.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M10.62503,4.5 L80.37524,4.5 C83.48187,4.5 86.00024,7.018394 86.00024,10.125 L86.00024,10.125 C86.00024,13.2316 83.48187,15.75 80.37524,15.75 L10.62503,15.75 C7.51843,15.75 5.00003,13.2316 5.00003,10.125 L5.00003,10.125 L5.00003,10.125 C5.00003,7.018394 7.51843,4.5 10.62503,4.5 L10.62503,4.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(10.000000, 6.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="B">
+                                <tspan x="0" y="6">B</tspan>
+                            </text>
+                        </g>
+                        <circle id="Oval" fill="#FFFFFF" cx="93.875" cy="10.125" r="3.375024"></circle>
+                        <circle id="Oval" stroke="#4C4C4C" stroke-width="2" cx="93.875" cy="10.125" r="3.375024"></circle>
+                        <path d="M90.5,13.5 L97.25,6.75" id="Shape" stroke="#4C4C4C"></path>
+                        <circle id="Oval" fill="#999999" cx="80.375" cy="10.125" r="3.375024"></circle>
+                        <circle id="Oval" stroke="#999999" stroke-width="2" cx="80.375" cy="10.125" r="3.375024"></circle>
+                        <path d="M78.375,12.125 L82.375,8.125" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
+                        <path d="M78.375,8.125 L82.375,12.125" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
+                    </g>
+                    <use id="Rectangle-path" stroke="#000000" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                </g>
+                <g id="keywords-filtered" transform="translate(216.000000, 0.000000)">
+                    <g fill-rule="evenodd">
+                        <g id="Group">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="103.5" height="247.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="103.5" height="247.5"></rect>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="20.25" width="103.5" height="227.25"></rect>
+                        <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="20.25" width="103.5" height="227.25"></rect>
+                        <rect id="Rectangle-path" fill="#000000" x="0.5" y="202.5" width="103.5" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#000000" x="0.5" y="130.5" width="103.5" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#666666" x="0.5" y="211.5" width="103.5" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#666666" x="0.5" y="220.5" width="103.5" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#666666" x="0.5" y="229.5" width="103.5" height="9"></rect>
+                        <g id="Group" transform="translate(5.499000, 23.250000)" font-size="6">
+                            <text id="Bewildered" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="0" y="6">Bewildered</tspan>
+                            </text>
+                            <text id="Determined" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="15">Determined</tspan>
+                            </text>
+                            <text id="Quixotic" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="24">Quixotic</tspan>
+                            </text>
+                            <text id="Restless" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="33">Restless</tspan>
+                            </text>
+                            <text id="Blank" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="0" y="42">Blank</tspan>
+                            </text>
+                            <text id="Blissful" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="0" y="51">Blissful</tspan>
+                            </text>
+                            <text id="Optimistic" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="60">Optimistic</tspan>
+                            </text>
+                            <text id="Pleased" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="69">Pleased</tspan>
+                            </text>
+                            <text id="Calm" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="78">Calm</tspan>
+                            </text>
+                            <text id="Cheerful" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="87">Cheerful</tspan>
+                            </text>
+                            <text id="Energetic" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="96">Energetic</tspan>
+                            </text>
+                            <text id="Grateful" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="105">Grateful</tspan>
+                            </text>
+                            <text id="Hopeful" fill="#FFFFFF" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="114">Hopeful</tspan>
+                            </text>
+                            <text id="Confused" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="123">Confused</tspan>
+                            </text>
+                            <text id="Content" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="132">Content</tspan>
+                            </text>
+                            <text id="Accomplished" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="141">Accomplished</tspan>
+                            </text>
+                            <text id="Crappy" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="150">Crappy</tspan>
+                            </text>
+                            <text id="Disappointed" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="159">Disappointed</tspan>
+                            </text>
+                            <text id="Enraged" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="168">Enraged</tspan>
+                            </text>
+                            <text id="Curious" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="177">Curious</tspan>
+                            </text>
+                            <text id="Cunning" fill="#FFFFFF" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="186">Cunning</tspan>
+                            </text>
+                            <text id="Bittersweet" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="10" y="195">Bittersweet</tspan>
+                            </text>
+                            <text id="Depressed" fill="#FFFFFF" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="204">Depressed</tspan>
+                            </text>
+                            <text id="Determined" fill="#FFFFFF" font-family="Helvetica" font-weight="normal">
+                                <tspan x="10" y="213">Determined</tspan>
+                            </text>
+                            <text id="Devious" fill="#999999" font-family="Helvetica" font-weight="normal">
+                                <tspan x="0" y="222">Devious</tspan>
+                            </text>
+                        </g>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.249 31.5 7.249 54 10.999 54"></polyline>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.249 78.75 7.249 90 10.999 90"></polyline>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.249 159.75 7.249 162 10.999 162"></polyline>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.249 177.75 7.249 189 10.999 189"></polyline>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.249 130.5 7.249 135 10.999 135"></polyline>
+                        <path d="M7.249,180 L10.999,180" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.249,114.75 L7.249,130.5" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.249,126 L10.999,126" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.249,117 L10.999,117" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.249 213.75 7.249 234 10.999 234"></polyline>
+                        <path d="M7.249,225 L10.999,225" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.249,216 L10.999,216" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.249,81 L10.999,81" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.249,45 L10.999,45" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.249,36 L10.999,36" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                    </g>
+                    <g id="keywords-scrollbar" transform="translate(95.000000, 20.000000)" fill-rule="evenodd">
+                        <g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="0.000120000001" y="0.24988" width="8.9417725" height="227.25"></rect>
+                            <polygon id="Shape" fill="#000000" points="2.52032 6.27783 4.44208 3.31171 6.36383 6.27783"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="2.52032 6.27783 4.44208 3.31171 6.36383 6.27783"></polygon>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.000120000001" y="9.33987" width="8.9417725" height="209.07001"></rect>
+                            <polygon id="Shape" fill="#000000" points="6.36383 221.4717 4.44208 224.43784 2.52032 221.4717"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="6.36383 221.4717 4.44208 224.43784 2.52032 221.4717"></polygon>
+                            <rect id="Rectangle-path" stroke="#808080" stroke-width="0.5" x="-0.00024" y="0.25021" width="9.0004883" height="227.25"></rect>
+                        </g>
+                    </g>
+                    <g id="keywords-filter-field" fill-rule="evenodd">
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.499" y="0" width="103.5" height="20.25"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0.499" y="0" width="103.5" height="20.25"></rect>
+                        <path d="M10.624,4.5 L80.37418,4.5 C83.48077,4.5 85.99918,7.018394 85.99918,10.125 L85.99918,10.125 C85.99918,13.2316 83.48077,15.75 80.37418,15.75 L10.624,15.75 C7.5174,15.75 4.999,13.2316 4.999,10.125 L4.999,10.125 L4.999,10.125 C4.999,7.018394 7.5174,4.5 10.624,4.5 L10.624,4.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M10.624,4.5 L80.37418,4.5 C83.48077,4.5 85.99918,7.018394 85.99918,10.125 L85.99918,10.125 C85.99918,13.2316 83.48077,15.75 80.37418,15.75 L10.624,15.75 C7.5174,15.75 4.999,13.2316 4.999,10.125 L4.999,10.125 L4.999,10.125 C4.999,7.018394 7.5174,4.5 10.624,4.5 L10.624,4.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(9.999000, 6.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="B">
+                                <tspan x="0" y="6">B</tspan>
+                            </text>
+                        </g>
+                        <circle id="Oval" fill="#FFFFFF" cx="93.875" cy="10.125" r="3.3750005"></circle>
+                        <circle id="Oval" stroke="#4C4C4C" stroke-width="2" cx="93.875" cy="10.125" r="3.3750005"></circle>
+                        <circle id="Oval" fill="#999999" cx="80.375" cy="10.125" r="3.3750005"></circle>
+                        <circle id="Oval" stroke="#999999" stroke-width="2" cx="80.375" cy="10.125" r="3.3750005"></circle>
+                        <path d="M78.375,12.125 L82.375,8.125" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
+                        <path d="M78.375,8.125 L82.375,12.125" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
+                    </g>
+                    <use id="Rectangle-path" stroke="#000000" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                </g>
+                <g id="keywords-normal">
+                    <g fill-rule="evenodd">
+                        <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="103.5" height="247.5"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="0" width="103.5" height="247.5"></rect>
+                        <text id="Accepted" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="29.25">Accepted</tspan>
+                        </text>
+                        <text id="Accomplished" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="38.25">Accomplished</tspan>
+                        </text>
+                        <text id="Aggravated" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="47.25">Aggravated</tspan>
+                        </text>
+                        <text id="Alone" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="56.25">Alone</tspan>
+                        </text>
+                        <text id="Amused" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="65.25">Amused</tspan>
+                        </text>
+                        <text id="Content" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="15.500198" y="74.25">Content</tspan>
+                        </text>
+                        <text id="Pleased" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="15.500198" y="83.25">Pleased</tspan>
+                        </text>
+                        <text id="Playful" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="15.500198" y="92.25">Playful</tspan>
+                        </text>
+                        <text id="Angry" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="101.25">Angry</tspan>
+                        </text>
+                        <text id="Annoyed" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="110.25">Annoyed</tspan>
+                        </text>
+                        <text id="Anxious" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="119.25">Anxious</tspan>
+                        </text>
+                        <text id="Apathetic" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="128.25">Apathetic</tspan>
+                        </text>
+                        <text id="Jubilant" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="15.500198" y="137.25">Jubilant</tspan>
+                        </text>
+                        <text id="Mischievous" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="15.500198" y="146.25">Mischievous</tspan>
+                        </text>
+                        <text id="Ashamed" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="155.25">Ashamed</tspan>
+                        </text>
+                        <text id="Awake" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="164.25">Awake</tspan>
+                        </text>
+                        <text id="Bewildered" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="173.25">Bewildered</tspan>
+                        </text>
+                        <text id="Determined" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="15.500198" y="182.25">Determined</tspan>
+                        </text>
+                        <text id="Quixotic" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="15.500198" y="191.25">Quixotic</tspan>
+                        </text>
+                        <text id="Restless" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="15.500198" y="200.25">Restless</tspan>
+                        </text>
+                        <text id="Bitchy" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="209.25">Bitchy</tspan>
+                        </text>
+                        <text id="Bittersweet" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="218.25">Bittersweet</tspan>
+                        </text>
+                        <text id="Mad" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="15.500198" y="227.25">Mad</tspan>
+                        </text>
+                        <text id="Blah" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="236.25">Blah</tspan>
+                        </text>
+                        <text id="Blank" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.500198" y="245.25">Blank</tspan>
+                        </text>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.250198 222.75 7.250198 225 11.000198 225"></polyline>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.250198 67.5 7.250198 90 11.000198 90"></polyline>
+                        <path d="M7.250198,81 L11.000198,81" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.250198,72 L11.000198,72" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.250198 132.75 7.250198 144 11.000198 144"></polyline>
+                        <path d="M7.250198,135 L11.000198,135" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <polyline id="Shape" stroke="#CCCCCC" stroke-width="0.5" points="7.250198 175.5 7.250198 198 11.000198 198"></polyline>
+                        <path d="M7.250198,189 L11.000198,189" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                        <path d="M7.250198,180 L11.000198,180" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
+                    </g>
+                    <g id="keywords-scrollbar" transform="translate(95.000000, 20.000000)" fill-rule="evenodd">
+                        <g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="0.000120000001" y="0.24988" width="8.9417725" height="227.25"></rect>
+                            <polygon id="Shape" fill="#000000" points="2.52032 6.27783 4.44208 3.31171 6.36383 6.27783"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="2.52032 6.27783 4.44208 3.31171 6.36383 6.27783"></polygon>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.000120000001" y="9.33987" width="8.9417725" height="209.07001"></rect>
+                            <polygon id="Shape" fill="#000000" points="6.36383 221.4717 4.44208 224.43784 2.52032 221.4717"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="6.36383 221.4717 4.44208 224.43784 2.52032 221.4717"></polygon>
+                            <rect id="Rectangle-path" stroke="#808080" stroke-width="0.5" x="-0.00024" y="0.25021" width="9.0004883" height="227.25"></rect>
+                        </g>
+                    </g>
+                    <g id="keywords-filter-field" fill-rule="evenodd" transform="translate(0.000000, -0.500000)">
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="0.5" width="103.5" height="20.25"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0.5" y="0.5" width="103.5" height="20.25"></rect>
+                        <path d="M10.625,5 L80.3752,5 C83.481804,5 86.0002,7.518394 86.0002,10.625 L86.0002,10.625 C86.0002,13.7316 83.481804,16.25 80.3752,16.25 L10.625,16.25 C7.518398,16.25 5,13.7316 5,10.625 L5,10.625 L5,10.625 C5,7.518394 7.518398,5 10.625,5 L10.625,5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M10.625,5 L80.3752,5 C83.481804,5 86.0002,7.518394 86.0002,10.625 L86.0002,10.625 C86.0002,13.7316 83.481804,16.25 80.3752,16.25 L10.625,16.25 C7.518398,16.25 5,13.7316 5,10.625 L5,10.625 L5,10.625 C5,7.518394 7.518398,5 10.625,5 L10.625,5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <text id="Filter-Keywords" fill="#999999" font-family="Helvetica-Oblique, Helvetica" font-size="6" font-style="italic" font-weight="normal">
+                            <tspan x="10" y="13">Filter Keywords</tspan>
+                        </text>
+                        <circle id="Oval" fill="#FFFFFF" cx="93.87499" cy="10.625" r="3.3750072"></circle>
+                        <circle id="Oval" stroke="#4C4C4C" stroke-width="2" cx="93.87499" cy="10.625" r="3.3750072"></circle>
+                    </g>
+                    <use id="Rectangle-path" stroke="#000000" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

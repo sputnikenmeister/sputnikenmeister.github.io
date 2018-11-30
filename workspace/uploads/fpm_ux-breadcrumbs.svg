@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="571px" height="373px" viewBox="0 0 571 373" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fpm_ux-breadcrumbs</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.5,0 L540.5,0 L540.5,50.39999 C378.5,44.10001 162.5,69.3 0.5,56.7 L0.5,0 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.061617e-15%" y1="50%" x2="10.9176636%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="0" y="0" width="200" height="67"></rect>
+        <path d="M0.5,0 L540.5,0 L540.5,50.4 C378.5,44.1 162.5,69.29999 0.5,56.70001 L0.5,0 Z" id="path-7"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="200" height="67"></rect>
+        <path d="M0.5,0.5 L540.5,0.5 L540.5,50.9 C378.5,44.6 162.5,69.79999 0.5,57.2 L0.5,0.5 Z" id="path-11"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="89.0366367%" y1="0%" x2="100%" y2="0%" id="linearGradient-13">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-14" x="0" y="0.75" width="219" height="15.75"></rect>
+        <rect id="path-16" x="0.25" y="0.75" width="219" height="15.75"></rect>
+        <rect id="path-18" x="0.25" y="0.75" width="219" height="15.75"></rect>
+        <rect id="path-20" x="0.25" y="0.75" width="219" height="15.75"></rect>
+        <rect id="path-22" x="0.25" y="0.75" width="219" height="15.75"></rect>
+        <rect id="path-24" x="0.25" y="0" width="219" height="15.75"></rect>
+        <rect id="path-26" x="0" y="0" width="219" height="15"></rect>
+        <rect id="path-28" x="0" y="0" width="219" height="15"></rect>
+        <rect id="path-30" x="0" y="0" width="219" height="15"></rect>
+    </defs>
+    <g id="Breadcrumbs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fpm_ux-breadcrumbs">
+            <g id="header-1" transform="translate(30.000000, 0.000000)">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-path" fill="#E6E6E6" x="225.5" y="31.5" width="315" height="13.5"></rect>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="225.5" y="31.5" width="315" height="13.5"></rect>
+                <g id="Group" transform="translate(245.500000, 34.175000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                    <text id="Bewildered-+-Quixotic">
+                        <tspan x="0" y="6">Bewildered + Quixotic</tspan>
+                    </text>
+                </g>
+                <path d="M238.93533,34.13731 L238.93533,35.946335 C238.93533,36.16032 239.0755,36.33398 239.24817,36.33398 C239.42084,36.33398 239.561,36.16032 239.561,35.946335 L239.561,34.13731 C239.561,33.923325 239.42084,33.74966 239.24817,33.74966 C239.0755,33.74966 238.93533,33.923325 238.93533,34.13731" id="Shape" fill="#000000"></path>
+                <path d="M238.93533,40.55331 L238.93533,42.362335 C238.93533,42.57632 239.0755,42.74998 239.24817,42.74998 C239.42084,42.74998 239.561,42.57632 239.561,42.362335 L239.561,40.55331 C239.561,40.339325 239.42084,40.16566 239.24817,40.16566 C239.0755,40.16566 238.93533,40.339325 238.93533,40.55331" id="Shape" fill="#999999"></path>
+                <path d="M243.13403,37.91901 L241.42517,37.91901 C241.22305,37.91901 241.05899,38.06737 241.05899,38.25017 C241.05899,38.43297 241.22305,38.58133 241.42517,38.58133 L243.13403,38.58133 C243.33615,38.58133 243.50021,38.43297 243.50021,38.25017 C243.50021,38.06737 243.33615,37.91901 243.13403,37.91901" id="Shape" fill="#999999"></path>
+                <path d="M237.07303,37.91901 L235.36417,37.91901 C235.16205,37.91901 234.99799,38.06737 234.99799,38.25017 C234.99799,38.43297 235.16205,38.58133 235.36417,38.58133 L237.07303,38.58133 C237.27515,38.58133 237.43921,38.43297 237.43921,38.25017 C237.43921,38.06737 237.27515,37.91901 237.07303,37.91901" id="Shape" fill="#666666"></path>
+                <path d="M240.92899,34.55263 L240.0672,36.1505 C239.96527,36.33951 240.00156,36.5571 240.14822,36.636185 C240.29486,36.71527 240.49661,36.62607 240.59854,36.43706 L241.46033,34.83919 C241.56226,34.65018 241.52597,34.43259 241.3793,34.3535 C241.23267,34.27441 241.03091,34.36362 240.92899,34.55263" id="Shape" fill="#999999"></path>
+                <path d="M237.89899,40.10863 L237.0372,41.7065 C236.93527,41.89551 236.97156,42.1131 237.11823,42.19218 C237.26486,42.27127 237.46661,42.18207 237.56854,41.99306 L238.43033,40.39519 C238.53226,40.20618 238.49597,39.98859 238.3493,39.9095 C238.20267,39.83041 238.00092,39.91962 237.89899,40.10863" id="Shape" fill="#999999"></path>
+                <path d="M242.41318,35.99707 L240.96957,36.89069 C240.79883,36.9964 240.74191,37.21414 240.84259,37.376755 C240.94324,37.53935 241.16351,37.58554 241.33426,37.47983 L242.77786,36.58621 C242.94861,36.4805 243.00552,36.26276 242.90485,36.10014 C242.8042,35.93755 242.58392,35.89136 242.41318,35.99707" id="Shape" fill="#999999"></path>
+                <path d="M237.16415,39.20607 L235.72055,40.09969 C235.5498,40.2054 235.49289,40.42314 235.59357,40.58575 C235.69421,40.74835 235.91449,40.79454 236.08524,40.68883 L237.52884,39.79521 C237.69958,39.6895 237.7565,39.47176 237.65582,39.30914 C237.55518,39.14655 237.3349,39.10036 237.16415,39.20607" id="Shape" fill="#7F7F7F"></path>
+                <path d="M242.77786,40.09969 L241.33426,39.20607 C241.16351,39.10036 240.94324,39.14655 240.84259,39.30914 C240.74191,39.47176 240.79883,39.6895 240.96957,39.79521 L242.41318,40.68883 C242.58392,40.79454 242.8042,40.74835 242.90485,40.58575 C243.00552,40.42314 242.94861,40.2054 242.77786,40.09969" id="Shape" fill="#999999"></path>
+                <path d="M237.52884,36.89069 L236.08524,35.99707 C235.91449,35.89136 235.69421,35.93755 235.59357,36.10014 C235.49289,36.26276 235.5498,36.4805 235.72055,36.58621 L237.16415,37.47983 C237.3349,37.58554 237.55518,37.53935 237.65582,37.376755 C237.7565,37.21414 237.69958,36.9964 237.52884,36.89069" id="Shape" fill="#4C4C4C"></path>
+                <path d="M241.46033,41.7065 L240.59854,40.10863 C240.49661,39.91962 240.29486,39.83041 240.14822,39.9095 C240.00156,39.98859 239.96527,40.20618 240.0672,40.39519 L240.92899,41.99306 C241.03091,42.18207 241.23267,42.27127 241.3793,42.19218 C241.52597,42.1131 241.56226,41.89551 241.46033,41.7065" id="Shape" fill="#999999"></path>
+                <path d="M238.43033,36.1505 L237.56854,34.55263 C237.46661,34.36362 237.26486,34.27441 237.11823,34.3535 C236.97156,34.43259 236.93527,34.65018 237.0372,34.83919 L237.89899,36.43706 C238.00092,36.62607 238.20267,36.71527 238.3493,36.636185 C238.49597,36.5571 238.53226,36.33951 238.43033,36.1505" id="Shape" fill="#333333"></path>
+                <polygon id="Shape" fill="#4C4C4C" points="156.00008 31.50444 156 45.00029 227.99979 44.99962 232.49939 38.24944 227.99979 31.499985"></polygon>
+                <polygon id="Shape" stroke="#FFFFFF" points="156.00008 31.50444 156 45.00029 227.99979 44.99962 232.49939 38.24944 227.99979 31.499985"></polygon>
+                <g id="Group" transform="translate(187.000000, 34.500305)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                    <text id="Current-Level">
+                        <tspan x="0.3774" y="6">Current Level</tspan>
+                    </text>
+                </g>
+                <polygon id="Shape" fill="#7F7F7F" points="126.5 31.50293 126.5 45 178.25073 44.99992 182.75 38.24963 178.25073 31.5"></polygon>
+                <polygon id="Shape" stroke="#FFFFFF" points="126.5 31.50293 126.5 45 178.25073 44.99992 182.75 38.24963 178.25073 31.5"></polygon>
+                <g id="Group" transform="translate(139.500000, 34.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                    <text id="Parent-Level">
+                        <tspan x="0.6780014" y="6">Parent Level</tspan>
+                    </text>
+                </g>
+                <polygon id="Shape" fill="#7F7F7F" points="104 31.50284 104 45 130.99969 44.99982 135.49979 38.24977 130.99969 31.5"></polygon>
+                <polygon id="Shape" stroke="#FFFFFF" points="104 31.50284 104 45 130.99969 44.99982 135.49979 38.24977 130.99969 31.5"></polygon>
+                <g id="Group" transform="translate(110.499800, 34.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                    <text id="Home">
+                        <tspan x="0.55400085" y="6">Home</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-path" fill="url(#linearGradient-3)" x="0.5" y="0" width="540" height="31.5"></rect>
+                <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="0.5" y="0" width="540" height="31.5"></rect>
+                <g id="Group" transform="translate(8.500000, 15.000000)" font-size="10" font-family="Helvetica" fill="#000000" font-weight="normal">
+                    <text id="Freeplay-Music">
+                        <tspan x="0" y="10">Freeplay Music</tspan>
+                    </text>
+                </g>
+                <circle id="Oval" fill="#FFFFFF" cx="8" cy="7.5" r="3.0000055"></circle>
+                <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="8" cy="7.5" r="3.0000055"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="17" cy="7.5" r="3.0000055"></circle>
+                <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="17" cy="7.5" r="3.0000055"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="26" cy="7.5" r="3.0000055"></circle>
+                <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="26" cy="7.5" r="3.0000055"></circle>
+                <polyline id="Shape" stroke="#000000" points="540.5 51.187 540.5 0 0.5 0 0.5 55.12601"></polyline>
+                <path d="M104,31.5 L104,59.062" id="Shape" stroke="#000000" stroke-width="0.25"></path>
+                <g id="Group" transform="translate(362.000000, 4.000000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                    <text id="Licensing-&amp;-Pricing-Information-Submit-Music-Contact-&amp;-Support">
+                        <tspan x="0" y="6">Licensing &amp; Pricing Information Submit Music Contact &amp; Support</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(469.000000, 16.000000)" font-size="9" font-family="Helvetica" fill="#000000" font-weight="normal">
+                    <text id="Register-Sign-In">
+                        <tspan x="0" y="9">Register Sign In</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="If-the-user-is-authe" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold" fill="#000000">
+                <tspan x="493.316406" y="239">If the user is authenticated, </tspan>
+                <tspan x="486.985352" y="246">any browsing location can be </tspan>
+                <tspan x="517.960938" y="253">saved as a search.</tspan>
+            </text>
+            <g id="header-3" transform="translate(371.000000, 168.000000)">
+                <g transform="translate(7.000000, -6.000000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                    <g mask="url(#mask-6)">
+                        <g transform="translate(-348.000000, 6.000000)">
+                            <g id="Shape" stroke="none" fill="none">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            </g>
+                            <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="216.5" y="31.5" width="324" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="216.5" y="31.5" width="324" height="13.5"></rect>
+                            <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="156.00008 31.50446 156 45.00027 227.99979 44.9996 232.49939 38.24942 227.99979 31.5"></polygon>
+                            <rect id="Rectangle-path" stroke="none" fill="url(#linearGradient-3)" fill-rule="evenodd" x="0.5" y="0" width="540" height="31.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" fill="none" x="0.5" y="0" width="540" height="31.5"></rect>
+                            <circle id="Oval" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="8" cy="7.5" r="3.0000145"></circle>
+                            <circle id="Oval" stroke="#000000" stroke-width="0.5" fill="none" cx="8" cy="7.5" r="3.0000145"></circle>
+                            <circle id="Oval" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="17" cy="7.5" r="3.0000145"></circle>
+                            <circle id="Oval" stroke="#000000" stroke-width="0.5" fill="none" cx="17" cy="7.5" r="3.0000145"></circle>
+                            <circle id="Oval" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="26" cy="7.5" r="3.0000145"></circle>
+                            <circle id="Oval" stroke="#000000" stroke-width="0.5" fill="none" cx="26" cy="7.5" r="3.0000145"></circle>
+                            <polyline id="Shape" stroke="#000000" stroke-width="1" fill="none" points="540.5 51.18701 540.5 0 0.5 0 0.5 55.126"></polyline>
+                            <path d="M104,31.5 L104,59.06201" id="Shape" stroke="#000000" stroke-width="0.25" fill="none"></path>
+                            <text id="Licensing-&amp;-Pricing-Information-Submit-Music-Contact-&amp;-Support" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="362" y="10">Licensing &amp; Pricing Information Submit Music Contact &amp; Support</tspan>
+                            </text>
+                            <text id="Account-Settings-Sign-out" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="9" font-weight="normal">
+                                <tspan x="430" y="25">Account Settings Sign out</tspan>
+                            </text>
+                            <text id="Search-from-here..." stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="471" y="40">Search from here...</tspan>
+                            </text>
+                            <g id="loupe" stroke="none" fill="none" transform="translate(526.000000, 34.000000)" stroke-width="1" fill-rule="evenodd">
+                                <g>
+                                    <circle id="Oval" fill="#FFFFFF" cx="3.09674" cy="2.8468" r="2.3667917"></circle>
+                                    <circle id="Oval" stroke="#333333" cx="3.09674" cy="2.8468" r="2.3667917"></circle>
+                                    <path d="M6.495,6.5 L5.04974,4.94626" id="Shape" stroke="#333333" stroke-width="1.5"></path>
+                                </g>
+                            </g>
+                            <text id="Save" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="439.158" y="40">Save</tspan>
+                            </text>
+                            <path d="M457.507002,33.500911 C456.862574,33.5010332 456.50014,33.8278397 456.5,34.4955083 L456.5,41.3787782 C456.50014,42.0034444 456.825997,42.3304655 457.469567,42.3311689 L464.52045,42.3311689 C465.165082,42.3304655 465.491437,42.0197304 465.491889,41.3787782 L465.491889,34.4955083 C465.491437,33.8441258 465.165082,33.5010332 464.499861,33.500911 C464.499861,33.500911 457.505083,33.4988612 457.507002,33.500911 L457.507002,33.500911 L457.507002,33.500911 Z" id="Fill-1" stroke="none" fill="#000000" fill-rule="evenodd"></path>
+                            <polyline id="Fill-3" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="463.427348 36.3305572 463.427348 40.2263672 459.453622 40.2263672 458.141525 38.9418326 461.166274 38.9418326 458.195806 36.0296093 459.156014 35.086394 462.117123 37.9876072 462.117123 35.0405178 463.427348 36.3305572"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <text id="At-any-point-during" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold" fill="#000000">
+                <tspan x="486.006836" y="144">At any point during browsing, </tspan>
+                <tspan x="484.624023" y="151">contextual search is available.</tspan>
+            </text>
+            <g id="header-2" transform="translate(371.000000, 73.000000)">
+                <g transform="translate(7.000000, -2.000000)">
+                    <mask id="mask-10" fill="white">
+                        <use xlink:href="#path-9"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-4)" xlink:href="#path-9"></use>
+                    <g mask="url(#mask-10)">
+                        <g transform="translate(-348.000000, 2.000000)">
+                            <g id="Shape" stroke="none" fill="none">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            </g>
+                            <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="216.5" y="32" width="324" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="216.5" y="32" width="324" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="none" fill="url(#linearGradient-3)" fill-rule="evenodd" x="0.5" y="0.5" width="540" height="31.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" fill="none" x="0.5" y="0.5" width="540" height="31.5"></rect>
+                            <polyline id="Shape" stroke="#000000" stroke-width="1" fill="none" points="540.5 51.687 540.5 0.5 0.5 0.5 0.5 55.626"></polyline>
+                            <text id="Licensing-&amp;-Pricing-Information-Submit-Music-Contact-&amp;-Support" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="362" y="10.5">Licensing &amp; Pricing Information Submit Music Contact &amp; Support</tspan>
+                            </text>
+                            <text id="Register-Sign-In" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="9" font-weight="normal">
+                                <tspan x="469" y="25.5">Register Sign In</tspan>
+                            </text>
+                            <text id="Search-from-here..." stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="471.023998" y="41">Search from here...</tspan>
+                            </text>
+                            <g id="loupe" stroke="none" fill="none" transform="translate(526.000000, 35.000000)" stroke-width="1" fill-rule="evenodd">
+                                <g>
+                                    <circle id="Oval" fill="#FFFFFF" cx="3.09674" cy="2.8468" r="2.3667917"></circle>
+                                    <circle id="Oval" stroke="#333333" cx="3.09674" cy="2.8468" r="2.3667917"></circle>
+                                    <path d="M6.495,6.5 L5.04974,4.94626" id="Shape" stroke="#333333" stroke-width="1.5"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="bc-variations" transform="translate(0.000000, 110.000000)">
+                <g id="Group-5">
+                    <g id="bc-labels" transform="translate(131.000000, 0.000000)">
+                        <g id="Group-8">
+                            <mask id="mask-15" fill="white">
+                                <use xlink:href="#path-14"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-13)" xlink:href="#path-14"></use>
+                            <g mask="url(#mask-15)">
+                                <g transform="translate(3.000000, 2.000000)">
+                                    <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="49.5" y="0" width="166.5" height="13.5"></rect>
+                                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="49.5" y="0" width="166.5" height="13.5"></rect>
+                                    <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="9 0.00293 9 13.5 60.75073 13.49994 65.25 6.74963 60.75073 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="9 0.00293 9 13.5 60.75073 13.49994 65.25 6.74963 60.75073 0"></polygon>
+                                    <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(38.000000, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                        <text id="Labels" fill="#FFFFFF">
+                                            <tspan x="0.908001" y="6">Labels</tspan>
+                                        </text>
+                                    </g>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="0 0.00284 0 13.5 26.999706 13.49982 31.4998 6.74976 26.999706 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="0 0.00284 0 13.5 26.999706 13.49982 31.4998 6.74976 26.999706 0"></polygon>
+                                    <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(6.499802, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                        <text id="Home" fill="#FFFFFF">
+                                            <tspan x="0.55400085" y="6">Home</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="bc-head">
+                        <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(70.000000, 0.000000)">
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="6.001" y="5.143" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="6.001" y="5.143" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="3.25" y="2.57101" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="3.25" y="2.57101" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="-2.84217094e-14" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="0.5" y="-2.84217094e-14" width="43.999207" height="30.856873"></rect>
+                            <g id="Group" transform="translate(15.500000, 11.471280)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Lists">
+                                    <tspan x="-7.2872125" y="6">Categories</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="Categories" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                            <tspan x="41.3891163" y="17.82501">Home</tspan>
+                        </text>
+                        <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="52.5 31.5 61.5 31.5 61.5 0 52.5 0"></polyline>
+                        <path d="M61.5,15.75 L66.8,15.75" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                    </g>
+                </g>
+                <g id="Group-4" transform="translate(0.000000, 58.000000)">
+                    <g id="bc-catalog" transform="translate(130.000000, 0.000000)">
+                        <g id="Group-13">
+                            <mask id="mask-17" fill="white">
+                                <use xlink:href="#path-16"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-13)" xlink:href="#path-16"></use>
+                            <g mask="url(#mask-17)">
+                                <g transform="translate(1.000000, 2.000000)">
+                                    <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="103.5" y="0" width="112.5" height="13.5"></rect>
+                                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="103.5" y="0" width="112.5" height="13.5"></rect>
+                                    <text id="3-songs" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="122.5" y="8.675">3 songs</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="49.5 0.00235 49.5 13.49976 114.7499 13.5 119.24951 6.7503 114.7503 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="49.5 0.00235 49.5 13.49976 114.7499 13.5 119.24951 6.7503 114.7503 0"></polygon>
+                                    <text id="Theremin" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="84.353497" y="9">Theremin</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="22.5 0.00293 22.5 13.5 74.25073 13.49994 78.75 6.74963 74.25073 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="22.5 0.00293 22.5 13.5 74.25073 13.49994 78.75 6.74963 74.25073 0"></polygon>
+                                    <text id="Instruments" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="36.8580017" y="9">Instruments</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <text id="Home" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="6.05379085" y="9">Home</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-12" transform="translate(0.000000, 18.000000)">
+                            <mask id="mask-19" fill="white">
+                                <use xlink:href="#path-18"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-13)" xlink:href="#path-18"></use>
+                            <g mask="url(#mask-19)">
+                                <g transform="translate(1.000000, 2.000000)">
+                                    <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="121.5" y="0" width="94.5" height="13.5"></rect>
+                                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="121.5" y="0" width="94.5" height="13.5"></rect>
+                                    <text id="31-songs" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="140.5" y="8.675">31 songs</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="13.5 0.0028 13.5 13.50012 132.7494 13.49976 137.24902 6.74997 132.74963 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="13.5 0.0028 13.5 13.50012 132.7494 13.49976 137.24902 6.74997 132.74963 0"></polygon>
+                                    <text id="Rock,-Folk,-Bluegrass" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="67.769" y="9.0001">Rock, Folk, Bluegrass</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="6.75 0.00293 6.75 13.5 58.50073 13.49994 63 6.74963 58.50073 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="6.75 0.00293 6.75 13.5 58.50073 13.49994 63 6.74963 58.50073 0"></polygon>
+                                    <text id="Genre" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="37.218" y="9">Genre</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <text id="Home" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="6.05379085" y="9">Home</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-10" transform="translate(0.000000, 54.000000)">
+                            <mask id="mask-21" fill="white">
+                                <use xlink:href="#path-20"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-13)" xlink:href="#path-20"></use>
+                            <g mask="url(#mask-21)">
+                                <g transform="translate(1.000000, 2.000000)">
+                                    <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="94.5" y="0" width="121.5" height="13.5"></rect>
+                                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="94.5" y="0" width="121.5" height="13.5"></rect>
+                                    <text id="59-songs" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="112.5" y="8.675">59 songs</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="56.251 0.00305 56.251 13.4989 103.49985 13.49957 107.99948 6.74942 103.50021 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="56.251 0.00305 56.251 13.4989 103.49985 13.49957 107.99948 6.74942 103.50021 0"></polygon>
+                                    <text id="Terror-(All)" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="70.3135" y="8.9996">Terror (All)</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="9 0.00293 9 13.5 60.75073 13.4999 65.25 6.74963 60.75073 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="9 0.00293 9 13.5 60.75073 13.4999 65.25 6.74963 60.75073 0"></polygon>
+                                    <text id="Moods" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="37.02" y="9">Moods</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <text id="Home" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="6.05379085" y="9">Home</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-9" transform="translate(0.000000, 72.000000)">
+                            <mask id="mask-23" fill="white">
+                                <use xlink:href="#path-22"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-13)" xlink:href="#path-22"></use>
+                            <g mask="url(#mask-23)">
+                                <g transform="translate(1.000000, 2.000000)">
+                                    <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="157.5" y="0" width="58.5" height="13.5"></rect>
+                                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="157.5" y="0" width="58.5" height="13.5"></rect>
+                                    <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(176.500000, 2.675000)" font-size="6" font-family="Helvetica" font-weight="normal">
+                                        <text id="34-songs" fill="#000000">
+                                            <tspan x="0" y="6">34 songs</tspan>
+                                        </text>
+                                    </g>
+                                    <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="49.5 0.00284 49.5 13.50015 168.7494 13.4998 173.24902 6.75 168.74963 3e-05"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="49.5 0.00284 49.5 13.50015 168.7494 13.4998 173.24902 6.75 168.74963 3e-05"></polygon>
+                                    <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(69.500000, 3.000100)" font-size="6" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                        <text id="Inspirational,-Thoughful...-(5-more)" fill="#FFFFFF">
+                                            <tspan x="0.375" y="6">Inspirational, Thoughful... (5 more)</tspan>
+                                        </text>
+                                    </g>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="9 0.00293 9 13.5 60.75073 13.4999 65.25 6.74963 60.75073 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="9 0.00293 9 13.5 60.75073 13.4999 65.25 6.74963 60.75073 0"></polygon>
+                                    <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(37.000000, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                        <text id="Moods" fill="#FFFFFF">
+                                            <tspan x="0.02" y="6">Moods</tspan>
+                                        </text>
+                                    </g>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5.499790, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                        <text id="Home" fill="#FFFFFF">
+                                            <tspan x="0.55400085" y="6">Home</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-11" transform="translate(0.000000, 37.000000)">
+                            <mask id="mask-25" fill="white">
+                                <use xlink:href="#path-24"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-13)" xlink:href="#path-24"></use>
+                            <g mask="url(#mask-25)">
+                                <g transform="translate(1.000000, 1.000000)">
+                                    <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="166.5" y="0" width="49.5" height="13.5"></rect>
+                                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="166.5" y="0" width="49.5" height="13.5"></rect>
+                                    <text id="5-songs" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="185.5" y="8.675">5 songs</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="56.251 0.00284 56.251 13.50015 175.50037 13.4998 180.00003 6.75 175.50064 3e-05"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="56.251 0.00284 56.251 13.50015 175.50037 13.4998 180.00003 6.75 175.50064 3e-05"></polygon>
+                                    <text id="Terror-+-Suspense,-Terror-+-Climatic" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="70.3140035" y="9.0001">Terror + Suspense, Terror + Climatic</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="9 0.00293 9 13.5 60.75073 13.4999 65.25 6.74963 60.75073 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="9 0.00293 9 13.5 60.75073 13.4999 65.25 6.74963 60.75073 0"></polygon>
+                                    <text id="Moods" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="37.02" y="9">Moods</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="0 0.00284 0 13.5 26.99973 13.49982 31.49982 6.74976 26.99973 0"></polygon>
+                                    <text id="Home" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="6.05379085" y="9">Home</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="bc-head">
+                        <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(70.000000, 0.000000)">
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="6.001" y="5.143" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="6.001" y="5.143" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="3.25" y="2.57101" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="3.25" y="2.57101" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="-2.84217094e-14" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="0.5" y="-2.84217094e-14" width="43.999207" height="30.856873"></rect>
+                            <g id="Group" transform="translate(15.500000, 11.471280)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Lists">
+                                    <tspan x="1.05214297" y="6">Lists</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="Categories" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                            <tspan x="28.3783741" y="17.82501">Categories</tspan>
+                        </text>
+                        <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="52.5 31.5 61.5 31.5 61.5 0 52.5 0"></polyline>
+                        <path d="M61.5,15.75 L66.8,15.75" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                    </g>
+                </g>
+                <g id="Group-3" transform="translate(0.000000, 169.000000)">
+                    <g id="bc-user" transform="translate(131.000000, 0.000000)">
+                        <g id="Group-15">
+                            <mask id="mask-27" fill="white">
+                                <use xlink:href="#path-26"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-13)" xlink:href="#path-26"></use>
+                            <g mask="url(#mask-27)">
+                                <g transform="translate(2.000000, 1.000000)">
+                                    <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="67.5" y="0" width="148.5" height="13.5"></rect>
+                                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="67.5" y="0" width="148.5" height="13.5"></rect>
+                                    <text id="12-songs" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="87.5" y="8.675">12 songs</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="4.5 0.003 4.5 13.5 81.0006 13.5 85.4995 6.74963 81.00037 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="4.5 0.003 4.5 13.5 81.0006 13.5 85.4995 6.74963 81.00037 0"></polygon>
+                                    <text id="New-Additions" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="37.155499" y="9">New Additions</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="0 0.00284 0 13.5 26.9997 13.49982 31.49976 6.74976 26.9997 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="0 0.00284 0 13.5 26.9997 13.49982 31.49976 6.74976 26.9997 0"></polygon>
+                                    <text id="Home" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="7.05376085" y="9">Home</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-16" transform="translate(0.000000, 18.000000)">
+                            <mask id="mask-29" fill="white">
+                                <use xlink:href="#path-28"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-13)" xlink:href="#path-28"></use>
+                            <g mask="url(#mask-29)">
+                                <g transform="translate(2.000000, 1.000000)">
+                                    <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="72" y="0" width="144" height="13.5"></rect>
+                                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="72" y="0" width="144" height="13.5"></rect>
+                                    <text id="23-Songs" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="92" y="8.675">23 Songs</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="7 0.003 7 13.5 83.5006 13.5 87.9995 6.74963 83.50037 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="7 0.003 7 13.5 83.5006 13.5 87.9995 6.74963 83.50037 0"></polygon>
+                                    <text id="Untitled-Playlist" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="36.763496" y="9">Untitled Playlist</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="0 0.00284 0 13.5 26.9997 13.49982 31.49976 6.74976 26.9997 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="0 0.00284 0 13.5 26.9997 13.49982 31.49976 6.74976 26.9997 0"></polygon>
+                                    <text id="Home" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="7.05376085" y="9">Home</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="bc-head-double">
+                        <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(70.000000, 0.000000)">
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="6.001" y="5.143" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="6.001" y="5.143" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="3.25" y="2.57101" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="3.25" y="2.57101" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="-2.84217094e-14" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="0.5" y="-2.84217094e-14" width="43.999207" height="30.856873"></rect>
+                            <g id="Group" transform="translate(15.500000, 11.471280)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Lists">
+                                    <tspan x="1.05214297" y="6">Lists</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="From-2" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                            <tspan x="14.4824219" y="21.5">User Selections</tspan>
+                        </text>
+                        <text id="From-1" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                            <tspan x="29.1542969" y="14.5">Templates</tspan>
+                        </text>
+                        <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="52.5 31.5 61.5 31.5 61.5 0 52.5 0"></polyline>
+                        <path d="M61.5,15.75 L66.8,15.75" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(0.000000, 227.000000)">
+                    <g id="bc-search" transform="translate(131.000000, 0.000000)">
+                        <g id="Group-14">
+                            <mask id="mask-31" fill="white">
+                                <use xlink:href="#path-30"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-13)" xlink:href="#path-30"></use>
+                            <g mask="url(#mask-31)">
+                                <g transform="translate(2.000000, 1.000000)">
+                                    <rect id="Rectangle-path" stroke="none" fill="#E6E6E6" fill-rule="evenodd" x="103.5" y="0" width="112.5" height="13.5"></rect>
+                                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" fill="none" x="103.5" y="0" width="112.5" height="13.5"></rect>
+                                    <text id="105-Songs" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="123.5" y="8.67499">105 Songs</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="18.00098 0.003 18.00098 13.5 117.18854 13.5 121.5 6.7496 117.1881 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="18.00098 0.003 18.00098 13.5 117.18854 13.5 121.5 6.7496 117.1881 0"></polygon>
+                                    <text id="Results-for-search-&quot;H.-Solo&quot;" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="36.135982" y="9">Results for search "H. Solo"</tspan>
+                                    </text>
+                                    <polygon id="Shape" stroke="none" fill="#7F7F7F" fill-rule="evenodd" points="0 0.00284 0 13.5 26.9997 13.49982 31.49976 6.74976 26.9997 0"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" fill="none" points="0 0.00284 0 13.5 26.9997 13.49982 31.49976 6.74976 26.9997 0"></polygon>
+                                    <text id="Home" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="7.05376085" y="9">Home</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="bc-head-double">
+                        <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(70.000000, 0.000000)">
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="6.001" y="5.143" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="6.001" y="5.143" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="3.25" y="2.57101" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="3.25" y="2.57101" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="-2.84217094e-14" width="43.999207" height="30.856873"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" x="0.5" y="-2.84217094e-14" width="43.999207" height="30.856873"></rect>
+                            <g id="Group" transform="translate(15.500000, 11.471280)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Lists">
+                                    <tspan x="1.05214297" y="6">Lists</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="From-2" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                            <tspan x="9.13574219" y="21.5">Advanced Search</tspan>
+                        </text>
+                        <text id="From-1" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                            <tspan x="20.4853516" y="14.5">Quick Search</tspan>
+                        </text>
+                        <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="52.5 31.5 61.5 31.5 61.5 0 52.5 0"></polyline>
+                        <path d="M61.5,15.75 L66.8,15.75" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                    </g>
+                </g>
+            </g>
+            <text id="Breadcrumbs-provide" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold" fill="#000000">
+                <tspan x="135" y="79">Breadcrumbs provide access to parent navigation levels, </tspan>
+                <tspan x="135" y="86">and may also display a visual clue to denote any ongoing </tspan>
+                <tspan x="135" y="93">network/processing operation.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

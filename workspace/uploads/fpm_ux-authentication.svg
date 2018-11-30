@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="645px" height="236px" viewBox="0 0 645 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fpm-authentication</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L540,0 L540,115.2 C378,100.8 162,158.4 0,129.6 L0,0 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="355.5" height="72"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M13.5,5 L247.5,5 L247.5,51.79999 C177.3,45.95001 83.7,69.35 13.5,57.65 L13.5,5 Z" id="path-6"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="-1.11022302e-14%" x2="0%" y2="0%" id="linearGradient-8">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M13.5,5 L247.5,5 L247.5,51.79999 C177.3,45.95001 83.7,69.35 13.5,57.65 L13.5,5 Z" id="path-9"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Authentication" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-27.000000, -120.000000)">
+            <g id="fpm-authentication" transform="translate(27.000000, 121.000000)">
+                <g id="signin-panel-desc" transform="translate(567.000000, 0.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                    <text id="If-authentication-is">
+                        <tspan x="0" y="6">If authentication is</tspan>
+                    </text>
+                    <text id="required,-a-modal-drawer">
+                        <tspan x="0" y="13">required, a modal drawer</tspan>
+                    </text>
+                    <text id="asks-the-user-to-sign-in.-No">
+                        <tspan x="0" y="20">asks the user to sign in. No</tspan>
+                    </text>
+                    <text id="other-action-can-be-taken">
+                        <tspan x="0" y="27">other action can be taken</tspan>
+                    </text>
+                    <text id="than-starting-registration,">
+                        <tspan x="0" y="34">than starting registration,</tspan>
+                    </text>
+                    <text id="signing-in,-or-dismissing">
+                        <tspan x="0" y="41">signing in, or dismissing</tspan>
+                    </text>
+                    <text id="the-drawer,-in-with-case-the">
+                        <tspan x="0" y="48">the drawer, in with case the</tspan>
+                    </text>
+                    <text id="triggering-operation-is-can-">
+                        <tspan x="0" y="55">triggering operation is can-</tspan>
+                    </text>
+                    <text id="celed.">
+                        <tspan x="0" y="62">celed.</tspan>
+                    </text>
+                </g>
+                <g id="signin-panel" transform="translate(18.000000, 1.000000)">
+                    <g>
+                        <g id="app-frame">
+                            <g id="Shape">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#EFEFEF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M103.5,32.51601 L103.5,134.71" id="Shape" stroke="#000000" stroke-width="0.25"></path>
+                            <rect id="Rectangle-path" fill="url(#linearGradient-3)" x="0" y="0" width="540" height="31.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="0" y="0" width="540" height="31.5"></rect>
+                            <polyline id="Shape" stroke="#000000" points="540 116.129 540 0 0 0 0 129.103"></polyline>
+                            <text id="Freeplay-Music" fill="#000000" font-family="Helvetica" font-size="10" font-weight="normal">
+                                <tspan x="8" y="25">Freeplay Music</tspan>
+                            </text>
+                            <text id="Licensing-&amp;-Pricing-Information-Submit-Music-Contact-&amp;-Support" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="356.920898" y="10">Licensing &amp; Pricing Information Submit Music Contact &amp; Support</tspan>
+                            </text>
+                            <text id="Register-Sign-In" fill="#000000" font-family="Helvetica" font-size="9" font-weight="normal">
+                                <tspan x="463.967285" y="25">Register Sign In</tspan>
+                            </text>
+                            <circle id="Oval" fill="#FFFFFF" cx="7.5" cy="7.5" r="3.0000055"></circle>
+                            <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="7.5" cy="7.5" r="3.0000055"></circle>
+                            <circle id="Oval" fill="#FFFFFF" cx="16.500004" cy="7.5" r="3.0000043"></circle>
+                            <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="16.500004" cy="7.5" r="3.0000043"></circle>
+                            <circle id="Oval" fill="#FFFFFF" cx="25.5" cy="7.5" r="3.0000043"></circle>
+                            <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="25.5" cy="7.5" r="3.0000043"></circle>
+                        </g>
+                        <g id="modal-frame-auth" transform="translate(171.000000, 36.000000)">
+                            <g id="Rectangle-path">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            </g>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="0" y="0" width="355.5" height="72"></rect>
+                            <path d="M171,0 L171,72" id="Shape" stroke="#000000" stroke-width="0.25"></path>
+                            <g id="btn-signin" transform="translate(301.000000, 49.000000)">
+                                <path d="M3.5,0.5 L42.5,0.5 C44.15686,0.5 45.5,1.84314 45.5,3.5 L45.5,11 C45.5,12.65686 44.15686,14 42.5,14 L3.5,14 C1.84314,14 0.5,12.65686 0.5,11 L0.5,11 L0.5,3.5 C0.5,1.84314 1.84314,0.5 3.5,0.5 L3.5,0.5 Z" id="Shape" fill="#FFFFFF"></path>
+                                <path d="M3.5,0.5 L42.5,0.5 C44.15686,0.5 45.5,1.84314 45.5,3.5 L45.5,11 C45.5,12.65686 44.15686,14 42.5,14 L3.5,14 C1.84314,14 0.5,12.65686 0.5,11 L0.5,11 L0.5,3.5 C0.5,1.84314 1.84314,0.5 3.5,0.5 L3.5,0.5 Z" id="Shape" stroke="#000000"></path>
+                                <text id="Sign-In" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="7" font-weight="bold">
+                                    <tspan x="4.5" y="9.5">Sign In</tspan>
+                                </text>
+                                <polygon id="Shape" fill="#000000" points="36.5 5 41 7.25 36.5 9.5"></polygon>
+                            </g>
+                            <g id="btn-reg" transform="translate(108.000000, 49.000000)">
+                                <path d="M3,0.5 L51,0.5 C52.65686,0.5 54,1.84314 54,3.5 L54,11 C54,12.65686 52.65686,14 51,14 L3,14 C1.34314,14 0,12.65686 0,11 L0,11 L0,3.5 C0,1.84314 1.34314,0.5 3,0.5 L3,0.5 Z" id="Shape" fill="#FFFFFF"></path>
+                                <path d="M3,0.5 L51,0.5 C52.65686,0.5 54,1.84314 54,3.5 L54,11 C54,12.65686 52.65686,14 51,14 L3,14 C1.34314,14 0,12.65686 0,11 L0,11 L0,3.5 C0,1.84314 1.34314,0.5 3,0.5 L3,0.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                                <text id="Register-now" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="7" font-weight="bold">
+                                    <tspan x="4" y="9.5">Register now</tspan>
+                                </text>
+                            </g>
+                            <g id="notice" transform="translate(40.000000, 10.000000)" font-size="7" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="You-need-to-sign-in-to-your-account-in">
+                                    <tspan x="0" y="6">You need to sign in to your account in</tspan>
+                                </text>
+                                <text id="order-to-do-that.-If-you-do-not-have-a">
+                                    <tspan x="0" y="14">order to do that. If you do not have a</tspan>
+                                </text>
+                                <text id="Freeplay-account,-you-can-register-to">
+                                    <tspan x="0" y="22">Freeplay account, you can register to</tspan>
+                                </text>
+                                <text id="create-a-new-one.">
+                                    <tspan x="0" y="30">create a new one.</tspan>
+                                </text>
+                            </g>
+                            <g id="check-forgot" transform="translate(217.500000, 45.000000)" fill="#000000">
+                                <polygon id="Shape" points="0.5 2.191 2.5 3.49977 0.5 4.80855"></polygon>
+                                <text id="Forgot-your-password?" font-family="Helvetica-Bold, Helvetica" font-size="5" font-weight="bold">
+                                    <tspan x="5" y="5">Forgot your password?</tspan>
+                                </text>
+                            </g>
+                            <g id="field-email" transform="translate(188.500000, 9.000000)">
+                                <path d="M34.25,0 L151.25,0 C154.9779,0 158,3.02208 158,6.75 L158,6.75 C158,10.47792 154.9779,13.5 151.25,13.5 L34.25,13.5 C30.52206,13.5 27.5,10.47792 27.5,6.75 L27.5,6.75 L27.5,6.75 C27.5,3.02208 30.52206,0 34.25,0 L34.25,0 Z" id="Shape" fill="#FFFFFF"></path>
+                                <path d="M34.25,0 L151.25,0 C154.9779,0 158,3.02208 158,6.75 L158,6.75 C158,10.47792 154.9779,13.5 151.25,13.5 L34.25,13.5 C30.52206,13.5 27.5,10.47792 27.5,6.75 L27.5,6.75 L27.5,6.75 C27.5,3.02208 30.52206,0 34.25,0 L34.25,0 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                                <text id="E-mail" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                    <tspan x="0.438" y="9">E-mail</tspan>
+                                </text>
+                            </g>
+                            <g id="field-passwd" transform="translate(178.500000, 27.000000)">
+                                <path d="M44.25,0 L161.25,0 C164.9779,0 168,3.02208 168,6.75 L168,6.75 C168,10.47792 164.9779,13.5 161.25,13.5 L44.25,13.5 C40.52206,13.5 37.5,10.47792 37.5,6.75 L37.5,6.75 L37.5,6.75 C37.5,3.02208 40.52206,0 44.25,0 L44.25,0 Z" id="Shape" fill="#FFFFFF"></path>
+                                <path d="M44.25,0 L161.25,0 C164.9779,0 168,3.02208 168,6.75 L168,6.75 C168,10.47792 164.9779,13.5 161.25,13.5 L44.25,13.5 C40.52206,13.5 37.5,10.47792 37.5,6.75 L37.5,6.75 L37.5,6.75 C37.5,3.02208 40.52206,0 44.25,0 L44.25,0 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                                <text id="Password" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                    <tspan x="0.5380001" y="9">Password</tspan>
+                                </text>
+                            </g>
+                            <g id="check-remember" transform="translate(216.000000, 56.000000)">
+                                <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.581" y="0.83099" width="7.838684" height="7.8387146"></rect>
+                                <rect id="Rectangle-path" fill="#FFFFFF" x="0.581" y="0.83099" width="7.838684" height="7.8387146"></rect>
+                                <text id="Remember-me" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="5" font-weight="bold">
+                                    <tspan x="11" y="7">Remember me</tspan>
+                                </text>
+                            </g>
+                            <g id="btn-no-reg" transform="translate(40.500000, 49.500000)">
+                                <path d="M3,0 L55.5,0 C57.15686,0 58.5,1.34314 58.5,3 L58.5,10.5 C58.5,12.15686 57.15686,13.5 55.5,13.5 L3,13.5 C1.34314,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.34314,0 3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
+                                <path d="M3,0 L55.5,0 C57.15686,0 58.5,1.34314 58.5,3 L58.5,10.5 C58.5,12.15686 57.15686,13.5 55.5,13.5 L3,13.5 C1.34314,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.34314,0 3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.25"></path>
+                                <text id="Not-at-this-time" fill="#000000" font-family="Helvetica" font-size="7" font-weight="normal">
+                                    <tspan x="5.390501" y="9">Not at this time</tspan>
+                                </text>
+                            </g>
+                            <g id="id-check-black" transform="translate(9.000000, 10.000000)">
+                                <g id="Shape">
+                                    <path d="M5.63408279,0.019899654 C2.06271635,0.0223183391 0.0526817474,1.87101817 0.0493079585,5.6461955 L0.0493079585,44.5839099 C0.0526817474,48.1192906 1.85986159,49.9692041 5.43685104,49.9714533 L44.5302734,49.9714533 C48.1079628,49.9692041 49.9179092,48.2114184 49.9178192,44.5839099 L49.9178192,5.6461955 C49.9179092,1.96314619 48.1079628,0.0223183391 44.4264715,0.019899654 C44.4264715,0.019899654 5.62603832,0.0100320069 5.63408279,0.019899654 L5.63408279,0.019899654 L5.63408279,0.019899654 Z" fill="#000000"></path>
+                                    <path d="M9.84861505,10.6081315 L15.8070934,10.6081315 C16.6231851,10.6106375 17.280276,11.1481825 17.281141,11.8953296 L17.281141,18.0821799 C17.280276,18.9916064 16.9519905,19.5239611 15.9212803,19.5250882 L15.4333901,19.5250882 L15.4333901,21.850346 C15.4333901,22.6211073 14.8174732,23.1401384 14.2188581,22.7119394 L9.84861505,19.2759533 L9.84861505,10.6081315 L9.84861505,10.6081315 Z M11.4887543,11.5216263 L15.8486151,11.5216263 C16.0900528,11.5226618 16.4184265,11.6884939 16.4195502,12.0198971 L16.4195502,18.1548443 C16.4184265,18.4460199 16.2132353,18.6533737 15.9212803,18.6531142 L15.4333901,18.6531142 L15.4333901,15.0925606 C15.4333901,14.7148763 15.3512984,14.3002569 14.8209343,13.88841 L11.4887543,11.5216263 L11.4887543,11.5216263 Z M24.11159,24.9126315 L24.11159,34.0164369 L34.066609,20.8122837 L23.9870251,20.8122837 C22.670936,20.802769 21.8229247,21.375776 21.0389265,22.3382362 L17.8001721,26.6773365 L13.1911756,23.0129758 C11.0502604,21.4273339 8.64965398,24.4926453 10.7309689,26.1064022 L16.7724913,30.8814888 C18.0623711,31.8083901 19.1004334,31.3974905 19.6583045,30.8399663 L24.11159,24.9126315 L24.11159,24.9126315 Z M23.5821791,8.91609083 L34.481833,8.91609083 L34.481833,11.9679939 L25.6790666,11.9679939 L23.5821791,8.91609083 L23.5821791,8.91609083 Z M34.5233564,12.9333919 L25.7724905,12.9333919 L24.0077855,15.1444645 L26.0735294,15.1444645 C26.0724922,17.6101185 28.0032016,19.3339948 30.2569196,19.338237 C32.4276825,19.3339948 34.5192059,17.6101185 34.5233564,15.0614204 L34.5233564,12.9333919 L34.5233564,12.9333919 Z M36.5683374,20.8434265 C37.7256929,20.8477509 39.4061445,21.4402223 39.4022483,23.9783737 L39.4022483,41.3036332 L24.1323529,41.3036332 L24.1323529,36.6323529 L35.2499991,36.6323529 L35.2499991,34.4524221 L26.4368503,34.4524221 L36.5683374,20.8434265 L36.5683374,20.8434265 Z" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="header-auth-desc" transform="translate(567.000000, 171.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                    <text id="After-sign-in,-the">
+                        <tspan x="0" y="6">After sign in, the</tspan>
+                    </text>
+                    <text id="user-has-access-to">
+                        <tspan x="0" y="13">user has access to</tspan>
+                    </text>
+                    <text id="these-sections.">
+                        <tspan x="0" y="20">these sections.</tspan>
+                    </text>
+                </g>
+                <g id="header-detail" transform="translate(310.000000, 167.000000)">
+                    <g id="Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    </g>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-3)" fill-rule="evenodd" x="13.5" y="5" width="234" height="31.5"></rect>
+                    <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="13.5" y="5" width="234" height="31.5"></rect>
+                    <text id="Register-Sign-In" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="9" font-weight="normal">
+                        <tspan x="125.938965" y="30">Account Settings   Sign Out</tspan>
+                    </text>
+                    <polyline id="Shape" stroke="#000000" stroke-width="1" points="247.5 52.531 247.5 5 13.5 5"></polyline>
+                    <text id="Licensing-&amp;-Pricing" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                        <tspan x="54.9189453" y="15">Licensing &amp; Pricing   Information   Submit Music   Contact &amp; Support</tspan>
+                    </text>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-8)" fill-rule="evenodd" x="14.399998" y="0.5" width="21.600006" height="67.5"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="evenodd" x="1.10000001e-05" y="0.5" width="14.4000015" height="67.5"></rect>
+                </g>
+                <g id="header-unauth-desc" transform="translate(256.500000, 171.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                    <text id="An-unauthenticated">
+                        <tspan x="0" y="6">An unauthenticated</tspan>
+                    </text>
+                    <text id="user-has-access-to">
+                        <tspan x="0" y="13">user has access to</tspan>
+                    </text>
+                    <text id="these-sections.">
+                        <tspan x="0" y="20">these sections.</tspan>
+                    </text>
+                </g>
+                <g id="header-detail" transform="translate(0.000000, 167.000000)">
+                    <g id="Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-3)" fill-rule="evenodd" x="13.5" y="5" width="234" height="31.5"></rect>
+                    <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="13.5" y="5" width="234" height="31.5"></rect>
+                    <text id="Register-Sign-In" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="9" font-weight="normal">
+                        <tspan x="172.297285" y="30">Register Sign In</tspan>
+                    </text>
+                    <polyline id="Shape" stroke="#000000" stroke-width="1" points="247.5 52.531 247.5 5 13.5 5"></polyline>
+                    <text id="Licensing-&amp;-Pricing" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                        <tspan x="54.9189453" y="15">Licensing &amp; Pricing   Information   Submit Music   Contact &amp; Support</tspan>
+                    </text>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-8)" fill-rule="evenodd" x="14.399998" y="0.5" width="21.600006" height="67.5"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="evenodd" x="1.10000001e-05" y="0.5" width="14.4000015" height="67.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

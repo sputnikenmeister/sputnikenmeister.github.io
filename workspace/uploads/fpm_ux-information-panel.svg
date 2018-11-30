@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="541px" height="340px" viewBox="0 0 541 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fpm-information-panel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.5" y="0" width="103.5" height="13.5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="103.5" height="13.5" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="113" y="0.25" width="324" height="13.5"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="324" height="13.5" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0" width="437" height="14"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="437" height="14" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Information-Panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-31.000000, -121.000000)">
+            <g id="information-panel" transform="translate(31.000000, 122.000000)">
+                <g id="Information-Panel">
+                    <rect id="base" fill="#F3F3F3" x="0.5" y="0" width="540" height="337.5"></rect>
+                    <g id="status" transform="translate(0.000000, 324.000000)">
+                        <rect id="base" stroke="#000000" stroke-width="0.25" x="0.5" y="0" width="103.5" height="13.5"></rect>
+                        <text id="Application-Status" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.5" y="9">Application Status</tspan>
+                        </text>
+                        <use id="border" stroke="#000000" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="player-min" transform="translate(104.000000, 324.000000)">
+                        <g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="0" y="0" width="437" height="14"></rect>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="113" y="0.25" width="324" height="13.5"></rect>
+                            <use id="Rectangle-path" stroke="#FFFFFF" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                            <text id="Nightwalk" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="133" y="9.25">Nightwalk</tspan>
+                            </text>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="383" y="0.25" width="13.5" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#FFFFFF" x="383" y="0.25" width="13.5" height="13.5"></rect>
+                            <polygon id="Shape" fill="#E6E6E6" points="54.499977 0.25 54.4999 13.74712 124 13.74979 128.50009 6.99953 124 0.25"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" points="54.499977 0.25 54.4999 13.74712 124 13.74979 128.50009 6.99953 124 0.25"></polygon>
+                            <text id="Untitled-Playlist" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="78.944099" y="9.2498">Untitled Playlist</tspan>
+                            </text>
+                            <polygon id="Shape" fill="#E6E6E6" points="41 0.25 41 13.74707 67.749924 13.74979 72.2498 6.99979 67.749924 0.25"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" points="41 0.25 41 13.74707 67.749924 13.74979 72.2498 6.99979 67.749924 0.25"></polygon>
+                            <text id="Home" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="48.1338008" y="9.2498">Home</tspan>
+                            </text>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="14" y="0.25" width="13.5" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#FFFFFF" x="14" y="0.25" width="13.5" height="13.5"></rect>
+                            <polygon id="Shape" fill="#000000" points="18.125 4 23.375 7 18.125 10"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="18.125 4 23.375 7 18.125 10"></polygon>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0.25" width="13.5" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#FFFFFF" x="0.5" y="0.25" width="13.5" height="13.5"></rect>
+                            <polygon id="Shape" fill="#000000" points="9.5 10 5 7 9.5 4"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="9.5 10 5 7 9.5 4"></polygon>
+                            <path d="M5,4.625 L5,9.125" id="Shape" stroke="#000000"></path>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="27.5" y="0.25" width="13.5" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#FFFFFF" x="27.5" y="0.25" width="13.5" height="13.5"></rect>
+                            <polygon id="Shape" fill="#000000" points="31.375 4 35.875 7 31.375 10"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="31.375 4 35.875 7 31.375 10"></polygon>
+                            <path d="M36.125,9.20799 L36.125,4.70799" id="Shape" stroke="#000000"></path>
+                            <polygon id="Shape" fill="#000000" points="376.375 4.75 376.90823 6.39108 378.63376 6.39108 377.23776 7.40533 377.771 9.04642 376.375 8.03217 374.979 9.04642 375.51224 7.40533 374.11624 6.39108 375.84177 6.39108"></polygon>
+                            <polygon id="Shape" stroke="#000000" stroke-width="0.5" points="376.375 4.75 376.90823 6.39108 378.63376 6.39108 377.23776 7.40533 377.771 9.04642 376.375 8.03217 374.979 9.04642 375.51224 7.40533 374.11624 6.39108 375.84177 6.39108"></polygon>
+                            <text id="Restore" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="401.554001" y="9.25">Restore</tspan>
+                            </text>
+                            <polygon id="Shape" fill="#000000" points="431.12186 5.51671 429.20007 8.48283 427.2783 5.51671"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="431.12186 5.51671 429.20007 8.48283 427.2783 5.51671"></polygon>
+                            <polygon id="Shape" fill="#000000" points="386.75 6 386.75 8.00002 388.4643 8.00002 390.1786 10 390.1786 4 388.4643 6"></polygon>
+                            <path d="M391.036,7 L392.75,7" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <path d="M391.036,8 L392.17899,9" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <path d="M391.036,6 L392.17899,5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <use id="border" stroke="#000000" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                    <g id="header" transform="translate(4.500000, 4.000000)">
+                        <text id="Freeplay-Music" fill="#000000" font-family="Helvetica" font-size="10" font-weight="normal">
+                            <tspan x="4" y="21">Freeplay Music</tspan>
+                        </text>
+                        <circle id="Oval" fill="#FFFFFF" cx="3.5" cy="3.5" r="3.0000055"></circle>
+                        <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="3.5" cy="3.5" r="3.0000055"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="12.5" cy="3.5" r="3.0000055"></circle>
+                        <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="12.5" cy="3.5" r="3.0000055"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="21.5" cy="3.5" r="3.0000055"></circle>
+                        <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="21.5" cy="3.5" r="3.0000055"></circle>
+                        <text id="Licensing-&amp;-Pricing" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                            <tspan x="337.608" y="6">Licensing &amp; Pricing Information   Submit Music   Contact &amp; Support</tspan>
+                        </text>
+                        <text id="Go-back-to-Music-Browsing" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="8.900002" y="37.89999">Go back to Music Browsing</tspan>
+                        </text>
+                        <polygon id="Shape" fill="#000000" points="5.75 37.97191 3.25 36.33595 5.75 34.7"></polygon>
+                        <text id="Close" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="504.173996" y="38.5">Close</tspan>
+                        </text>
+                        <g id="close-symbol" transform="translate(523.500000, 33.000000)">
+                            <g>
+                                <circle id="Oval" fill="#666666" cx="2.5" cy="3.25" r="2.500005"></circle>
+                                <circle id="Oval" stroke="#666666" stroke-width="2" cx="2.5" cy="3.25" r="2.500005"></circle>
+                                <path d="M0.833,4.91701 L4.167,1.58299" id="Shape" stroke="#FFFFFF"></path>
+                                <path d="M0.833,1.58299 L4.167,4.91701" id="Shape" stroke="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="49.5" width="540" height="274.5"></rect>
+                    <path d="M104,49.5 L104,337.5" id="divider" stroke="#000000" stroke-width="0.25"></path>
+                    <g id="sidebar-info" transform="translate(5.000000, 56.000000)">
+                        <g id="licensing-pricing">
+                            <g id="title" transform="translate(4.000000, 0.000000)" font-size="9" font-family="Helvetica-Light, Helvetica" fill="#000000" font-weight="300">
+                                <text id="Licensing-&amp;-Pricing">
+                                    <tspan x="0" y="9.5">Licensing &amp; Pricing</tspan>
+                                </text>
+                                <text id="Information">
+                                    <tspan x="0" y="20.5">Information</tspan>
+                                </text>
+                            </g>
+                            <g id="selection-rate-cards" transform="translate(0.000000, 47.000000)">
+                                <rect id="Rectangle-path" fill="#999999" x="0" y="0.5" width="94.5" height="9"></rect>
+                                <text id="Rate-Cards" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                    <tspan x="4" y="7">Rate Cards</tspan>
+                                </text>
+                            </g>
+                            <text id="Terms-of-Use" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="3.5" y="63">Terms of Use</tspan>
+                            </text>
+                            <text id="Searchable-Hard-Drive" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="3.5" y="45">Searchable Hard Drive</tspan>
+                            </text>
+                            <text id="Licensing-Freeplay" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="3.5" y="36">Licensing Freeplay</tspan>
+                            </text>
+                        </g>
+                        <g id="submit-music" transform="translate(3.000000, 74.000000)" fill="#000000">
+                            <text id="Send-us-your-music" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="0.5" y="20.5">Send us your music</tspan>
+                            </text>
+                            <text id="Submit-Music" font-family="Helvetica-Light, Helvetica" font-size="9" font-weight="300">
+                                <tspan x="1" y="9.5">Submit Music</tspan>
+                            </text>
+                        </g>
+                        <g id="contact-support" transform="translate(3.000000, 106.000000)" fill="#000000">
+                            <text id="Contact-&amp;-Support" font-family="Helvetica-Light, Helvetica" font-size="9" font-weight="300">
+                                <tspan x="1" y="9">Contact &amp; Support</tspan>
+                            </text>
+                            <text id="Support" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="0.5" y="69.5">Support</tspan>
+                            </text>
+                            <text id="Contact-Us" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="0.5" y="24.5">Contact Us</tspan>
+                            </text>
+                            <text id="About-Freeplay" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="0.5" y="33.5">About Freeplay</tspan>
+                            </text>
+                            <text id="FAQs" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="0.5" y="51.5">FAQs</tspan>
+                            </text>
+                            <text id="Send-us-your-feedback" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="0.5" y="60.5">Send us your feedback</tspan>
+                            </text>
+                            <text id="What's-new?" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="0.5" y="42.5">What's new?</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="rate-cards" transform="translate(117.000000, 56.000000)">
+                        <g id="table" transform="translate(0.000000, 108.000000)">
+                            <g id="table-row" transform="translate(0.000000, 38.000000)">
+                                <g id="cell-3" transform="translate(230.000000, 0.000000)">
+                                    <path d="M0.9,0 L58.4999,0" id="Path" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="Request-a-quote" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="5.9" y="9">Request a quote</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-2" transform="translate(191.000000, 0.000000)">
+                                    <path d="M0.02301,0 L39.8999,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="$100.00" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="18.21591" y="9">$100.00</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-1">
+                                    <path d="M0.5,0 L191.02301,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="nisi-ut-aliquip-ex-ea-commodo-consequat" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="16">nisi ut aliquip ex ea commodo consequat</tspan>
+                                    </text>
+                                    <text id="Ut-enim-ad-minim-veniam,-quis-nostrud-exercitation-ullamco-laboris" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="9">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="table-row" transform="translate(0.000000, 16.000000)">
+                                <g id="cell-3" transform="translate(230.000000, 0.000000)">
+                                    <path d="M0.9,0 L58.4999,0" id="Path" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="Request-a-quote" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="5.9" y="9">Request a quote</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-2" transform="translate(191.000000, 0.000000)">
+                                    <path d="M0.02301,0 L39.8999,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="$100.00" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="18.21591" y="9">$100.00</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-1">
+                                    <path d="M0.5,0 L191.02301,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="nisi-ut-aliquip-ex-ea-commodo-consequat" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="16">nisi ut aliquip ex ea commodo consequat</tspan>
+                                    </text>
+                                    <text id="Ut-enim-ad-minim-veniam,-quis-nostrud-exercitation-ullamco-laboris" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="9">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="table-row" transform="translate(0.000000, 83.000000)">
+                                <g id="cell-3" transform="translate(230.000000, 0.000000)">
+                                    <path d="M0.9,0 L58.4999,0" id="Path" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="Request-a-quote" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="5.9" y="9">Request a quote</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-2" transform="translate(191.000000, 0.000000)">
+                                    <path d="M0.02301,0 L39.8999,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="$100.00" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="18.21591" y="9">$100.00</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-1">
+                                    <path d="M0.5,0 L191.02301,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="nisi-ut-aliquip-ex-ea-commodo-consequat" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="16">nisi ut aliquip ex ea commodo consequat</tspan>
+                                    </text>
+                                    <text id="Ut-enim-ad-minim-veniam,-quis-nostrud-exercitation-ullamco-laboris" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="9">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="table-row" transform="translate(0.000000, 61.000000)">
+                                <g id="cell-3" transform="translate(230.000000, 0.000000)">
+                                    <path d="M0.9,0 L58.4999,0" id="Path" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="Request-a-quote" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="5.9" y="9">Request a quote</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-2" transform="translate(191.000000, 0.000000)">
+                                    <path d="M0.02301,0 L39.8999,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="$100.00" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="18.21591" y="9">$100.00</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-1">
+                                    <path d="M0.5,0 L191.02301,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="nisi-ut-aliquip-ex-ea-commodo-consequat" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="16">nisi ut aliquip ex ea commodo consequat</tspan>
+                                    </text>
+                                    <text id="Ut-enim-ad-minim-veniam,-quis-nostrud-exercitation-ullamco-laboris" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="9">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="table-row" transform="translate(0.000000, 106.000000)">
+                                <g id="cell-3" transform="translate(230.000000, 0.000000)">
+                                    <path d="M0.9,0 L58.4999,0" id="Path" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="Request-a-quote" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="5.9" y="9">Request a quote</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-2" transform="translate(191.000000, 0.000000)">
+                                    <path d="M0.02301,0 L39.8999,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="$100.00" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="18.21591" y="9">$100.00</tspan>
+                                    </text>
+                                </g>
+                                <g id="cell-1">
+                                    <path d="M0.5,0 L191.02301,0" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                                    <text id="nisi-ut-aliquip-ex-ea-commodo-consequat" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="16">nisi ut aliquip ex ea commodo consequat</tspan>
+                                    </text>
+                                    <text id="Ut-enim-ad-minim-veniam,-quis-nostrud-exercitation-ullamco-laboris" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                        <tspan x="0.5" y="9">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="table-header" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <g id="Group-2" transform="translate(201.000000, 0.000000)">
+                                    <text id="Per-Opening">
+                                        <tspan x="0.2699106" y="5.5">Per Opening</tspan>
+                                    </text>
+                                    <text id="or-Closing">
+                                        <tspan x="5.46491" y="11.5">or Closing</tspan>
+                                    </text>
+                                </g>
+                                <text id="Per-Episode">
+                                    <tspan x="0.5" y="11.5">Per Episode</tspan>
+                                </text>
+                                <text id="Blanket-License">
+                                    <tspan x="235.9" y="11.5">Blanket License</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="blurb" transform="translate(302.000000, 115.000000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Duis-aute-irure-dolor-in-reprehenderit-in">
+                                <tspan x="0" y="6">Duis aute irure dolor in reprehenderit in</tspan>
+                            </text>
+                            <text id="voluptate-velit-esse-cillum-dolore-eu">
+                                <tspan x="0" y="13">voluptate velit esse cillum dolore eu</tspan>
+                            </text>
+                            <text id="fugiat-nulla-pariatur.-Excepteur-sint">
+                                <tspan x="0" y="20">fugiat nulla pariatur. Excepteur sint</tspan>
+                            </text>
+                            <text id="occaecat-cupidatat-non-proident,-sunt">
+                                <tspan x="0" y="27">occaecat cupidatat non proident, sunt</tspan>
+                            </text>
+                            <text id="in-culpa-qui-officia-deserunt-mollit-anim">
+                                <tspan x="0" y="34">in culpa qui officia deserunt mollit anim</tspan>
+                            </text>
+                            <text id="id-est-laborum.">
+                                <tspan x="0" y="41">id est laborum.</tspan>
+                            </text>
+                        </g>
+                        <text id="National-TV-Broadcast" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
+                            <tspan x="0.5" y="104">National TV Broadcast</tspan>
+                        </text>
+                        <g id="list-1" transform="translate(0.500000, 28.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="National-TV-Broadcast">
+                                <tspan x="0" y="6">National TV Broadcast</tspan>
+                            </text>
+                            <text id="TV-Broadcast">
+                                <tspan x="0" y="14">TV Broadcast</tspan>
+                            </text>
+                            <text id="Advertising-and-Promos">
+                                <tspan x="0" y="22">Advertising and Promos</tspan>
+                            </text>
+                            <text id="Radio-Broadcast">
+                                <tspan x="0" y="30">Radio Broadcast</tspan>
+                            </text>
+                            <text id="Multimedia-Productions-for-Distribution">
+                                <tspan x="0" y="38">Multimedia Productions for Distribution</tspan>
+                            </text>
+                            <text id="Audio-Productions-for-Distribution">
+                                <tspan x="0" y="46">Audio Productions for Distribution</tspan>
+                            </text>
+                            <text id="Non-Broadcast-Multimedia-Presentations">
+                                <tspan x="0" y="54">Non-Broadcast Multimedia Presentations</tspan>
+                            </text>
+                        </g>
+                        <g id="list-2" transform="translate(140.000000, 28.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Music-On-Hold">
+                                <tspan x="0" y="6">Music On Hold</tspan>
+                            </text>
+                            <text id="Internet---Web-Page-Use---Blog">
+                                <tspan x="0" y="14">Internet - Web Page Use - Blog</tspan>
+                            </text>
+                            <text id="Web-Videos-/-Viral-Videos-/-Podcasting">
+                                <tspan x="0" y="22">Web Videos / Viral Videos / Podcasting</tspan>
+                            </text>
+                            <text id="Film-Festivals---Non-Student">
+                                <tspan x="0" y="30">Film Festivals - Non Student</tspan>
+                            </text>
+                            <text id="Film-Festivals---Student">
+                                <tspan x="0" y="38">Film Festivals - Student</tspan>
+                            </text>
+                            <text id="All-Other-Uses">
+                                <tspan x="0" y="46">All Other Uses</tspan>
+                            </text>
+                        </g>
+                        <text id="Rate-Cards" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="14" font-weight="bold">
+                            <tspan x="0" y="14">Rate Cards</tspan>
+                        </text>
+                    </g>
+                    <rect id="border" stroke="#000000" x="0.5" y="0" width="540" height="337.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

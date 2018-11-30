@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="608px" height="363px" viewBox="0 0 608 363" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fpm-context-search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.5,2.5 L442,2.5 L442,88.9 C311.04999,78.1 136.45,121.3 5.5,99.7 L5.5,2.5 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0.25" y="0.5" width="6.5" height="6.5"></rect>
+        <linearGradient x1="100%" y1="-1.11022302e-14%" x2="0%" y2="0%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-6" x="0" y="0" width="7" height="7.022827"></rect>
+        <path d="M5.5,5 L442,5 L442,55.39999 C311.04999,49.10001 136.45,74.3 5.5,61.7 L5.5,5 Z" id="path-8"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-10" x="0" y="0" width="7" height="7.022827"></rect>
+    </defs>
+    <g id="Advanced-&amp;-Contextual-Search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-44.000000, -117.000000)">
+            <g id="fpm-context-search" transform="translate(36.000000, 117.000000)">
+                <g id="context-search-crud" transform="translate(8.000000, 250.000000)">
+                    <g id="desc" transform="translate(455.000000, 32.000000)">
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="2" width="9" height="13.5"></rect>
+                        <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="0.5 15.5 9.5 15.5 9.5 2 0.5 2"></polyline>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="18.5" y="2" width="128.86902" height="40.5"></rect>
+                        <g id="Group" transform="translate(18.500000, 0.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Results,-both-from-quick-and-advanced">
+                                <tspan x="0" y="6">Results, both from quick and advanced</tspan>
+                            </text>
+                            <text id="search,-can-be-saved,-edited-or-refreshed-at">
+                                <tspan x="0" y="13">search, can be saved, edited or refreshed at</tspan>
+                            </text>
+                            <text id="any-time.">
+                                <tspan x="0" y="20">any time.</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <g id="Shape">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="5.501" y="70" width="14.028198" height="13.5"></rect>
+                            <path d="M5.501,70 L19.529198,70 M19.529198,83.5 L5.501,83.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="19.530098" y="70" width="84.97091" height="13.5"></rect>
+                            <path d="M19.530098,70 L104.50101,70 M104.50101,83.5 L19.530098,83.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(22.530106, 75.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                                <text id="Title">
+                                    <tspan x="0" y="5">Title</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="221.5" y="70" width="157.49597" height="13.5"></rect>
+                            <path d="M221.5,70 L378.99597,70 M378.99597,83.5 L221.5,83.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(224.500000, 75.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                                <text id="Composer">
+                                    <tspan x="0" y="5">Composer</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle-path" fill="#F3F3F3" x="104.5" y="70" width="117" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="104.5" y="70" width="117" height="13.5"></rect>
+                            <g id="Group" transform="translate(110.500000, 75.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                                <text id="Album">
+                                    <tspan x="0" y="5">Album</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="356.501" y="70" width="58.499023" height="13.5"></rect>
+                            <path d="M356.501,70 L415.00003,70 M415.00003,83.5 L356.501,83.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(388.501000, 75.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                                <text id="Versions">
+                                    <tspan x="0.129002" y="5">Versions</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="410.501" y="70" width="31.499023" height="13.5"></rect>
+                            <path d="M410.501,70 L442.00003,70 M442.00003,83.5 L410.501,83.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <polygon id="Shape" fill="#000000" points="216.34418 76.56339 214.4224 79.50015 212.50061 76.56339"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="216.34418 76.56339 214.4224 79.50015 212.50061 76.56339"></polygon>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="145" y="34" width="297" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#FFFFFF" x="145" y="34" width="297" height="13.5"></rect>
+                            <g id="Group" transform="translate(165.000000, 36.674990)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="15-songs">
+                                    <tspan x="0" y="6">15 songs</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#4C4C4C" points="12.252403 34.0023 12.252403 47.5006 158.50104 47.4983 163.0004 40.74823 158.50133 34"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" points="12.252403 34.0023 12.252403 47.5006 158.50104 47.4983 163.0004 40.74823 158.50133 34"></polygon>
+                            <g id="Group" transform="translate(41.252396, 37.000600)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                                <text id="Results-for-search-&quot;Terror-+-Suspense...&quot;">
+                                    <tspan x="0.431999" y="6">Results for search "Terror + Suspense..."</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#7F7F7F" points="5.5 34.00284 5.5 47.5 32.49971 47.49982 36.9998 40.74976 32.49971 34"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" points="5.5 34.00284 5.5 47.5 32.49971 47.49982 36.9998 40.74976 32.49971 34"></polygon>
+                            <g id="Group" transform="translate(11.999800, 37.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                                <text id="Home">
+                                    <tspan x="0.55400085" y="6">Home</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(364.000000, 37.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Run-again">
+                                    <tspan x="0.10000038" y="6">Run again</tspan>
+                                </text>
+                            </g>
+                            <rect id="path" x="395.25" y="37.5" width="6.5" height="6.5"></rect>
+                            <g id="Clipped" transform="translate(395.000000, 37.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="path"></g>
+                            </g>
+                            <g id="Group" transform="translate(408.500000, 37.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Edit...">
+                                    <tspan x="0.606" y="6">Edit...</tspan>
+                                </text>
+                            </g>
+                            <circle id="Oval" fill="#FFFFFF" cx="430.59674" cy="40.3468" r="2.3667679"></circle>
+                            <circle id="Oval" stroke="#333333" cx="430.59674" cy="40.3468" r="2.3667679"></circle>
+                            <path d="M433.995,44 L432.5497,42.44626" id="Shape" stroke="#333333" stroke-width="1.5"></path>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="5.5" y="47.5" width="436.5" height="22.5"></rect>
+                            <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="5.5" y="47.5" width="436.5" height="22.5"></rect>
+                            <path d="M323.501,52 L344.501,52 C346.15787,52 347.501,53.34314 347.501,55 L347.501,62.5 C347.501,64.15686 346.15787,65.5 344.501,65.5 L323.501,65.5 C321.84415,65.5 320.501,64.15686 320.501,62.5 L320.501,62.5 L320.501,55 C320.501,53.34314 321.84415,52 323.501,52 L323.501,52 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M323.501,52 L344.501,52 C346.15787,52 347.501,53.34314 347.501,55 L347.501,62.5 C347.501,64.15686 346.15787,65.5 344.501,65.5 L323.501,65.5 C321.84415,65.5 320.501,64.15686 320.501,62.5 L320.501,62.5 L320.501,55 C320.501,53.34314 321.84415,52 323.501,52 L323.501,52 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(323.501000, 55.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Shuffle">
+                                    <tspan x="0.8850002" y="6">Shuffle</tspan>
+                                </text>
+                            </g>
+                            <path d="M358.751,52 L412.751,52 C416.47894,52 419.501,55.02206 419.501,58.75 L419.501,58.75 C419.501,62.47794 416.47894,65.5 412.751,65.5 L358.751,65.5 C355.02307,65.5 352.001,62.47794 352.001,58.75 L352.001,58.75 L352.001,58.75 C352.001,55.02206 355.02307,52 358.751,52 L358.751,52 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M358.751,52 L412.751,52 C416.47894,52 419.501,55.02206 419.501,58.75 L419.501,58.75 C419.501,62.47794 416.47894,65.5 412.751,65.5 L358.751,65.5 C355.02307,65.5 352.001,62.47794 352.001,58.75 L352.001,58.75 L352.001,58.75 C352.001,55.02206 355.02307,52 358.751,52 L358.751,52 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(360.001000, 55.000000)" font-weight="normal" font-size="6" font-family="Helvetica-Oblique, Helvetica" fill="#999999" font-style="italic">
+                                <text id="Filter-Text-Field">
+                                    <tspan x="0" y="6">Filter Text Field</tspan>
+                                </text>
+                            </g>
+                            <circle id="Oval" fill="#FFFFFF" cx="429.62598" cy="58.75" r="3.374995"></circle>
+                            <circle id="Oval" stroke="#4C4C4C" stroke-width="2" cx="429.62598" cy="58.75" r="3.374995"></circle>
+                            <path d="M17.5,52 L52,52 C53.65685,52 55,53.34314 55,55 L55,62.5 C55,64.15686 53.65685,65.5 52,65.5 L17.5,65.5 C15.843147,65.5 14.5,64.15686 14.5,62.5 L14.5,62.5 L14.5,55 C14.5,53.34314 15.843147,52 17.5,52 L17.5,52 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M17.5,52 L52,52 C53.65685,52 55,53.34314 55,55 L55,62.5 C55,64.15686 53.65685,65.5 52,65.5 L17.5,65.5 C15.843147,65.5 14.5,64.15686 14.5,62.5 L14.5,62.5 L14.5,55 C14.5,53.34314 15.843147,52 17.5,52 L17.5,52 Z" id="Shape" stroke="#999999"></path>
+                            <path d="M41.125,52 L52,52 C53.65685,52 55,53.34314 55,55 L55,62.5 C55,64.15686 53.65685,65.5 52,65.5 L41.125,65.5 C39.468147,65.5 38.125,64.15686 38.125,62.5 L38.125,62.5 L38.125,55 C38.125,53.34314 39.468147,52 41.125,52 L41.125,52 Z" id="Shape" fill="#000000"></path>
+                            <path d="M41.125,52 L52,52 C53.65685,52 55,53.34314 55,55 L55,62.5 C55,64.15686 53.65685,65.5 52,65.5 L41.125,65.5 C39.468147,65.5 38.125,64.15686 38.125,62.5 L38.125,62.5 L38.125,55 C38.125,53.34314 39.468147,52 41.125,52 L41.125,52 Z" id="Shape" stroke="#000000"></path>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="28" y="52" width="13.5" height="13.5"></rect>
+                            <path d="M28,52 L41.5,52 M41.5,65.5 L28,65.5" id="Shape" stroke="#999999"></path>
+                            <path d="M28,52 L28,65.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <rect id="Rectangle-path" fill="#000000" x="18.312" y="55.812" width="2.9225502" height="2.9225464"></rect>
+                            <rect id="Rectangle-path" fill="#000000" x="21.765" y="55.812" width="2.9225464" height="2.9225464"></rect>
+                            <rect id="Rectangle-path" fill="#000000" x="18.312" y="59.26501" width="2.9225502" height="2.9225464"></rect>
+                            <rect id="Rectangle-path" fill="#000000" x="21.765" y="59.26501" width="2.9225464" height="2.9225464"></rect>
+                            <rect id="Rectangle-path" fill="#000000" x="31.561996" y="55.812" width="2.7782593" height="2.7782593"></rect>
+                            <path d="M34.75,56.376 L38.125,56.376" id="Shape" stroke="#000000"></path>
+                            <path d="M34.75,57.854 L38.125,57.854" id="Shape" stroke="#000000"></path>
+                            <rect id="Rectangle-path" fill="#000000" x="31.561996" y="59.39001" width="2.7633362" height="2.7633667"></rect>
+                            <path d="M34.75,59.954 L38.125,59.954" id="Shape" stroke="#000000"></path>
+                            <path d="M34.75,61.439 L38.125,61.439" id="Shape" stroke="#000000"></path>
+                            <path d="M44.875,56.031 L51.625,56.031" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
+                            <path d="M44.875,58.769 L51.625,58.769" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
+                            <path d="M44.875,61.506 L51.625,61.506" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
+                            <polyline id="Shape" stroke="#000000" points="5.5 2.5 442 2.5 442 88"></polyline>
+                            <g id="Group" transform="translate(264.000000, 6.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Licensing-&amp;-Pricing-Information-Submit-Music-Contact-&amp;-Support">
+                                    <tspan x="0" y="6">Licensing &amp; Pricing Information Submit Music Contact &amp; Support</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(332.000000, 18.500000)" font-size="9" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Account-Settings-Sign-out">
+                                    <tspan x="0" y="9">Account Settings Sign out</tspan>
+                                </text>
+                            </g>
+                            <g id="left-blend">
+                                <rect id="Rectangle-path" fill="url(#linearGradient-5)" x="6" y="0" width="25" height="113"></rect>
+                                <rect id="Rectangle-path" fill="#FFFFFF" x="0.34518" y="0" width="6.5" height="113"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="context-search-rules" transform="translate(8.000000, 81.000000)">
+                    <g id="desc-2-rule" transform="translate(455.000000, 63.000000)">
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="14" width="9" height="22.5"></rect>
+                        <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="0.5 36.5 9.5 36.5 9.5 14 0.5 14"></polyline>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="18.5" y="0.5" width="130.5" height="40.5"></rect>
+                        <g id="Group" transform="translate(18.500000, 9.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="If-a-search-is-contextual,-a-search-rule-is-gen-">
+                                <tspan x="0" y="6">If a search is contextual, a search rule is gen-</tspan>
+                            </text>
+                            <text id="erated-from-the-current-browsing-location.">
+                                <tspan x="0" y="13">erated from the current browsing location.</tspan>
+                            </text>
+                            <text id="Rules-can-subsequently-be-added-or-removed.">
+                                <tspan x="0" y="20">Rules can subsequently be added or removed.</tspan>
+                            </text>
+                            <text id="The-user-can-chain-rules-at-will.">
+                                <tspan x="0" y="27">The user can chain rules at will.</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="desc-1-submit" transform="translate(455.000000, 108.000000)">
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="23" width="9" height="13.5"></rect>
+                        <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="0.5 36.5 9.5 36.5 9.5 23 0.5 23"></polyline>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="18.5" y="0.5" width="130.5" height="40.5"></rect>
+                        <g id="Group" transform="translate(18.500000, 2.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Search-results-can-be-limited-before-being-re-">
+                                <tspan x="0" y="6">Search results can be limited before being re-</tspan>
+                            </text>
+                            <text id="turned-by-the-server.-They-can-also-be-shuffled">
+                                <tspan x="0" y="13">turned by the server. They can also be shuffled</tspan>
+                            </text>
+                            <text id="before-they-are-truncated-so-that-results-are-al-">
+                                <tspan x="0" y="20">before they are truncated so that results are al-</tspan>
+                            </text>
+                            <text id="ways-different-sets,-instead-of-just-different-list">
+                                <tspan x="0" y="27">ways different sets, instead of just different list</tspan>
+                            </text>
+                            <text id="orderings.">
+                                <tspan x="0" y="34">orderings.</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <g id="id34525_Graphic" transform="translate(1.000000, 32.000000)">
+                                <rect id="Rectangle-path" fill="#FFFFFF" x="0" y="0" width="445.5" height="117"></rect>
+                                <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="445.5" height="117"></rect>
+                            </g>
+                            <path d="M5.5,0.5 L442,0.5 L442,119.29999 C311.04999,104.45001 136.45,163.85 5.5,134.15 L5.5,0.5 Z" id="Shape" fill="#FFFFFF"></path>
+                            <polyline id="Shape" stroke="#000000" points="5.5 0.5 442 0.5 442 86"></polyline>
+                            <g id="Group" transform="translate(264.000000, 4.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Licensing-&amp;-Pricing-Information-Submit-Music-Contact-&amp;-Support">
+                                    <tspan x="0" y="6">Licensing &amp; Pricing Information Submit Music Contact &amp; Support</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(332.000000, 16.500000)" font-size="9" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Account-Settings-Sign-out">
+                                    <tspan x="0" y="9">Account Settings Sign out</tspan>
+                                </text>
+                            </g>
+                            <g id="id34525_Graphic" transform="translate(1.000000, 32.000000)">
+                                <rect id="Rectangle-path" fill="#FFFFFF" x="0" y="0" width="445.5" height="117"></rect>
+                                <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="445.5" height="117"></rect>
+                            </g>
+                            <g id="Group" transform="translate(30.000000, 62.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Search-for">
+                                    <tspan x="0.21399975" y="6">Search for</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(127.500000, 62.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="that-match">
+                                    <tspan x="0.361" y="6">that match</tspan>
+                                </text>
+                            </g>
+                            <path d="M67,59 L119.5,59 C121.15686,59 122.5,60.34314 122.5,62 L122.5,69.5 C122.5,71.15686 121.15686,72.5 119.5,72.5 L67,72.5 C65.34315,72.5 64,71.15686 64,69.5 L64,69.5 L64,62 C64,60.34314 65.34315,59 67,59 L67,59 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M67,59 L119.5,59 C121.15686,59 122.5,60.34314 122.5,62 L122.5,69.5 C122.5,71.15686 121.15686,72.5 119.5,72.5 L67,72.5 C65.34315,72.5 64,71.15686 64,69.5 L64,69.5 L64,62 C64,60.34314 65.34315,59 67,59 L67,59 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(69.000000, 62.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Songs">
+                                    <tspan x="0" y="6">Songs</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#000000" points="117.71915 64.2814 115.79738 67.21817 113.87561 64.2814"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="117.71915 64.2814 115.79738 67.21817 113.87561 64.2814"></polygon>
+                            <path d="M109,59 L109,72.5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <path d="M166,59 L218.5,59 C220.15686,59 221.5,60.34314 221.5,62 L221.5,69.5 C221.5,71.15686 220.15686,72.5 218.5,72.5 L166,72.5 C164.34314,72.5 163,71.15686 163,69.5 L163,69.5 L163,62 C163,60.34314 164.34314,59 166,59 L166,59 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M166,59 L218.5,59 C220.15686,59 221.5,60.34314 221.5,62 L221.5,69.5 C221.5,71.15686 220.15686,72.5 218.5,72.5 L166,72.5 C164.34314,72.5 163,71.15686 163,69.5 L163,69.5 L163,62 C163,60.34314 164.34314,59 166,59 L166,59 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(168.000000, 62.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Any">
+                                    <tspan x="0" y="6">Any</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#000000" points="216.71918 64.2814 214.7974 67.21817 212.87561 64.2814"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="216.71918 64.2814 214.7974 67.21817 212.87561 64.2814"></polygon>
+                            <path d="M208,59 L208,72.5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(226.500000, 62.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="of-these-constraints:">
+                                    <tspan x="0.460001" y="6">of these constraints:</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="64" y="77" width="378" height="22.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="64" y="77" width="378" height="22.5"></rect>
+                            <path d="M71.5,81.5 L124,81.5 C125.65686,81.5 127,82.84314 127,84.5 L127,92 C127,93.65686 125.65686,95 124,95 L71.5,95 C69.84315,95 68.5,93.65686 68.5,92 L68.5,92 L68.5,84.5 C68.5,82.84314 69.84315,81.5 71.5,81.5 L71.5,81.5 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M71.5,81.5 L124,81.5 C125.65686,81.5 127,82.84314 127,84.5 L127,92 C127,93.65686 125.65686,95 124,95 L71.5,95 C69.84315,95 68.5,93.65686 68.5,92 L68.5,92 L68.5,84.5 C68.5,82.84314 69.84315,81.5 71.5,81.5 L71.5,81.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(73.500000, 84.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Has">
+                                    <tspan x="0" y="6">Has</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#000000" points="122.21915 86.7814 120.29738 89.71817 118.37561 86.7814"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="122.21915 86.7814 120.29738 89.71817 118.37561 86.7814"></polygon>
+                            <path d="M113.5,81.5 L113.5,95" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <path d="M134.5,81.5 L187,81.5 C188.65686,81.5 190,82.84314 190,84.5 L190,92 C190,93.65686 188.65686,95 187,95 L134.5,95 C132.84314,95 131.5,93.65686 131.5,92 L131.5,92 L131.5,84.5 C131.5,82.84314 132.84314,81.5 134.5,81.5 L134.5,81.5 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M134.5,81.5 L187,81.5 C188.65686,81.5 190,82.84314 190,84.5 L190,92 C190,93.65686 188.65686,95 187,95 L134.5,95 C132.84314,95 131.5,93.65686 131.5,92 L131.5,92 L131.5,84.5 C131.5,82.84314 132.84314,81.5 134.5,81.5 L134.5,81.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(136.500000, 84.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Mood">
+                                    <tspan x="0" y="6">Mood</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#000000" points="185.21915 86.7814 183.29738 89.71817 181.37561 86.7814"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="185.21915 86.7814 183.29738 89.71817 181.37561 86.7814"></polygon>
+                            <path d="M176.5,81.5 L176.5,95" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <path d="M201.25,81.5 L430.75,81.5 C434.47794,81.5 437.5,84.52206 437.5,88.25 L437.5,88.25 C437.5,91.97794 434.47794,95 430.75,95 L201.25,95 C197.52208,95 194.5,91.97794 194.5,88.25 L194.5,88.25 L194.5,88.25 C194.5,84.52206 197.52208,81.5 201.25,81.5 L201.25,81.5 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M201.25,81.5 L430.75,81.5 C434.47794,81.5 437.5,84.52206 437.5,88.25 L437.5,88.25 C437.5,91.97794 434.47794,95 430.75,95 L201.25,95 C197.52208,95 194.5,91.97794 194.5,88.25 L194.5,88.25 L194.5,88.25 C194.5,84.52206 197.52208,81.5 201.25,81.5 L201.25,81.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(202.500000, 84.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Terror-+-Suspense,-Terror-+-Climatic">
+                                    <tspan x="0" y="6">Terror + Suspense, Terror + Climatic</tspan>
+                                </text>
+                            </g>
+                            <path d="M391,131 L439,131 C440.65686,131 442,132.34314 442,134 L442,141.5 C442,143.15686 440.65686,144.5 439,144.5 L391,144.5 C389.34314,144.5 388,143.15686 388,141.5 L388,141.5 L388,134 C388,132.34314 389.34314,131 391,131 L391,131 Z" id="Shape" stroke="#000000"></path>
+                            <g id="Group" transform="translate(393.000000, 134.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Get-results">
+                                    <tspan x="0" y="6">Get results</tspan>
+                                </text>
+                            </g>
+                            <circle id="Oval" fill="#FFFFFF" cx="431.59674" cy="137.3468" r="2.3667679"></circle>
+                            <circle id="Oval" stroke="#000000" cx="431.59674" cy="137.3468" r="2.3667679"></circle>
+                            <path d="M434.995,141 L433.5497,139.44626" id="Shape" stroke="#000000" stroke-width="1.5"></path>
+                            <path d="M8.5,131 L74.5,131 C76.15685,131 77.5,132.34314 77.5,134 L77.5,141.5 C77.5,143.15686 76.15685,144.5 74.5,144.5 L8.5,144.5 C6.843147,144.5 5.5,143.15686 5.5,141.5 L5.5,141.5 L5.5,134 C5.5,132.34314 6.843147,131 8.5,131 L8.5,131 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M8.5,131 L74.5,131 C76.15685,131 77.5,132.34314 77.5,134 L77.5,141.5 C77.5,143.15686 76.15685,144.5 74.5,144.5 L8.5,144.5 C6.843147,144.5 5.5,143.15686 5.5,141.5 L5.5,141.5 L5.5,134 C5.5,132.34314 6.843147,131 8.5,131 L8.5,131 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(9.500000, 134.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Remove-all-constraints">
+                                    <tspan x="0.3740005" y="6">Remove all constraints</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="64" y="99.5" width="378" height="22.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="64" y="99.5" width="378" height="22.5"></rect>
+                            <path d="M71.5,104 L124,104 C125.65686,104 127,105.34314 127,107 L127,114.5 C127,116.15686 125.65686,117.5 124,117.5 L71.5,117.5 C69.84315,117.5 68.5,116.15686 68.5,114.5 L68.5,114.5 L68.5,107 C68.5,105.34314 69.84315,104 71.5,104 L71.5,104 Z" id="Shape" fill="#E6E6E6"></path>
+                            <path d="M71.5,104 L124,104 C125.65686,104 127,105.34314 127,107 L127,114.5 C127,116.15686 125.65686,117.5 124,117.5 L71.5,117.5 C69.84315,117.5 68.5,116.15686 68.5,114.5 L68.5,114.5 L68.5,107 C68.5,105.34314 69.84315,104 71.5,104 L71.5,104 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <polygon id="Shape" fill="#999999" points="122.21915 109.2814 120.29738 112.21817 118.37561 109.2814"></polygon>
+                            <path d="M113.5,104 L113.5,117.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <path d="M134.5,104 L187,104 C188.65686,104 190,105.34314 190,107 L190,114.5 C190,116.15686 188.65686,117.5 187,117.5 L134.5,117.5 C132.84314,117.5 131.5,116.15686 131.5,114.5 L131.5,114.5 L131.5,107 C131.5,105.34314 132.84314,104 134.5,104 L134.5,104 Z" id="Shape" fill="#E6E6E6"></path>
+                            <path d="M134.5,104 L187,104 C188.65686,104 190,105.34314 190,107 L190,114.5 C190,116.15686 188.65686,117.5 187,117.5 L134.5,117.5 C132.84314,117.5 131.5,116.15686 131.5,114.5 L131.5,114.5 L131.5,107 C131.5,105.34314 132.84314,104 134.5,104 L134.5,104 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <polygon id="Shape" fill="#999999" points="185.21915 109.2814 183.29738 112.21817 181.37561 109.2814"></polygon>
+                            <path d="M176.5,104 L176.5,117.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <path d="M201.25,104 L430.75,104 C434.47794,104 437.5,107.02206 437.5,110.75 L437.5,110.75 C437.5,114.47794 434.47794,117.5 430.75,117.5 L201.25,117.5 C197.52208,117.5 194.5,114.47794 194.5,110.75 L194.5,110.75 L194.5,110.75 C194.5,107.02206 197.52208,104 201.25,104 L201.25,104 Z" id="Shape" fill="#E6E6E6"></path>
+                            <path d="M201.25,104 L430.75,104 C434.47794,104 437.5,107.02206 437.5,110.75 L437.5,110.75 C437.5,114.47794 434.47794,117.5 430.75,117.5 L201.25,117.5 C197.52208,117.5 194.5,114.47794 194.5,110.75 L194.5,110.75 L194.5,110.75 C194.5,107.02206 197.52208,104 201.25,104 L201.25,104 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <path d="M13,104 L52,104 C53.65685,104 55,105.34314 55,107 L55,114.5 C55,116.15686 53.65685,117.5 52,117.5 L13,117.5 C11.343147,117.5 10,116.15686 10,114.5 L10,114.5 L10,107 C10,105.34314 11.343147,104 13,104 L13,104 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M13,104 L52,104 C53.65685,104 55,105.34314 55,107 L55,114.5 C55,116.15686 53.65685,117.5 52,117.5 L13,117.5 C11.343147,117.5 10,116.15686 10,114.5 L10,114.5 L10,107 C10,105.34314 11.343147,104 13,104 L13,104 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(38.000000, 107.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Add">
+                                    <tspan x="0.666" y="6">Add</tspan>
+                                </text>
+                            </g>
+                            <path d="M20.156998,110.75 L14.5,110.75" id="Shape" stroke="#000000"></path>
+                            <path d="M17.328,113.578 L17.328,107.922" id="Shape" stroke="#000000"></path>
+                            <path d="M13,81.5 L52,81.5 C53.65685,81.5 55,82.84314 55,84.5 L55,92 C55,93.65686 53.65685,95 52,95 L13,95 C11.343147,95 10,93.65686 10,92 L10,92 L10,84.5 C10,82.84314 11.343147,81.5 13,81.5 L13,81.5 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M13,81.5 L52,81.5 C53.65685,81.5 55,82.84314 55,84.5 L55,92 C55,93.65686 53.65685,95 52,95 L13,95 C11.343147,95 10,93.65686 10,92 L10,92 L10,84.5 C10,82.84314 11.343147,81.5 13,81.5 L13,81.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(27.000000, 84.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Remove">
+                                    <tspan x="0.212" y="6">Remove</tspan>
+                                </text>
+                            </g>
+                            <path d="M20.156998,88.25 L14.5,88.25" id="Shape" stroke="#000000"></path>
+                            <g id="Group" transform="translate(277.500000, 134.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Limit-results-to">
+                                    <tspan x="0" y="6">Limit results to</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="267.081" y="133.831" width="7.838684" height="7.838684"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="267.081" y="133.831" width="7.838684" height="7.838684"></rect>
+                            <g id="Group" transform="translate(345.000000, 134.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="items">
+                                    <tspan x="0" y="6">items</tspan>
+                                </text>
+                            </g>
+                            <path d="M323.5,131 L340,131 C341.65686,131 343,132.34314 343,134 L343,141.5 C343,143.15686 341.65686,144.5 340,144.5 L323.5,144.5 C321.84314,144.5 320.5,143.15686 320.5,141.5 L320.5,141.5 L320.5,134 C320.5,132.34314 321.84314,131 323.5,131 L323.5,131 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M323.5,131 L340,131 C341.65686,131 343,132.34314 343,134 L343,141.5 C343,143.15686 341.65686,144.5 340,144.5 L323.5,144.5 C321.84314,144.5 320.5,143.15686 320.5,141.5 L320.5,141.5 L320.5,134 C320.5,132.34314 321.84314,131 323.5,131 L323.5,131 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <g id="Group" transform="translate(324.500000, 134.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#999999" font-weight="bold">
+                                <text id="--">
+                                    <tspan x="0" y="6">--</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#999999" points="340.42218 138.5314 338.5004 141.46817 336.57861 138.5314"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="340.42218 138.5314 338.5004 141.46817 336.57861 138.5314"></polygon>
+                            <path d="M334,131 L334,144.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                            <polygon id="Shape" fill="#999999" points="336.57861 136.96817 338.5004 134.0314 340.42218 136.96817"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="336.57861 136.96817 338.5004 134.0314 340.42218 136.96817"></polygon>
+                            <g id="Group" transform="translate(201.000000, 134.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Shuffle-results">
+                                    <tspan x="0" y="6">Shuffle results</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="190.581" y="133.831" width="7.8387146" height="7.838684"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="190.581" y="133.831" width="7.8387146" height="7.838684"></rect>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="147.25" y="36.5" width="294.75" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#FFFFFF" x="147.25" y="36.5" width="294.75" height="13.5"></rect>
+                            <polygon id="Shape" fill="#4C4C4C" points="30.25 36.50284 30.25 50.00012 149.49936 49.99976 153.99899 43.25 149.4996 36.50003"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" points="30.25 36.50284 30.25 50.00012 149.49936 49.99976 153.99899 43.25 149.4996 36.50003"></polygon>
+                            <g id="Group" transform="translate(42.250000, 39.500100)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                                <text id="Editing-search-&quot;Terror-+-Suspense...&quot;">
+                                    <tspan x="0.9990005" y="6">Editing search "Terror + Suspense..."</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#7F7F7F" points="5.5 36.50284 5.5 50 32.49971 49.99982 36.9998 43.24977 32.49971 36.5"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" points="5.5 36.50284 5.5 50 32.49971 49.99982 36.9998 43.24977 32.49971 36.5"></polygon>
+                            <g id="Group" transform="translate(11.999800, 39.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                                <text id="Home">
+                                    <tspan x="0.55400085" y="6">Home</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(408.000000, 39.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Discard">
+                                    <tspan x="0.266" y="6">Discard</tspan>
+                                </text>
+                            </g>
+                            <circle id="Oval" fill="#666666" cx="435.25" cy="43.25" r="2.2499907"></circle>
+                            <circle id="Oval" stroke="#666666" stroke-width="2" cx="435.25" cy="43.25" r="2.2499907"></circle>
+                            <path d="M433.75,44.75 L436.75,41.75" id="Shape" stroke="#FFFFFF"></path>
+                            <path d="M433.75,41.75 L436.75,44.75" id="Shape" stroke="#FFFFFF"></path>
+                            <g id="Group" transform="translate(378.000000, 39.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Save">
+                                    <tspan x="0.32600021" y="6">Save</tspan>
+                                </text>
+                            </g>
+                            <rect id="path_3" x="395" y="40" width="7" height="7.022827"></rect>
+                            <g id="Clipped" transform="translate(395.000000, 40.000000)">
+                                <mask id="mask-7" fill="white">
+                                    <use xlink:href="#path-6"></use>
+                                </mask>
+                                <g id="path_3"></g>
+                            </g>
+                            <g id="left-blend">
+                                <rect id="Rectangle-path" fill="url(#linearGradient-5)" x="6" y="0" width="25" height="169"></rect>
+                                <rect id="Rectangle-path" fill="#FFFFFF" x="0.34518" y="0" width="6.5" height="169"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="context-search-breadcrumbs" transform="translate(8.000000, 0.000000)">
+                    <g id="desc" transform="translate(455.000000, 34.000000)">
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="2.5" width="9" height="13.5"></rect>
+                        <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="0.5 16 9.5 16 9.5 2.5 0.5 2.5"></polyline>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="18.5" y="2.5" width="128.86902" height="18"></rect>
+                        <g id="Group" transform="translate(18.500000, 0.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Any-browsing-location-can-be-selectively-tar-">
+                                <tspan x="0" y="6">Any browsing location can be selectively tar-</tspan>
+                            </text>
+                            <text id="geted-for-a-search.">
+                                <tspan x="0" y="13">geted for a search.</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <g id="Shape">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            </g>
+                            <g id="Group" transform="translate(264.000000, 9.000000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Licensing-&amp;-Pricing-Information-Submit-Music-Contact-&amp;-Support">
+                                    <tspan x="0" y="6">Licensing &amp; Pricing Information Submit Music Contact &amp; Support</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(332.000000, 21.000000)" font-size="9" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="Account-Settings-Sign-out">
+                                    <tspan x="0" y="9">Account Settings Sign out</tspan>
+                                </text>
+                            </g>
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="167.5" y="36.5" width="274.5" height="13.5"></rect>
+                            <rect id="Rectangle-path" stroke="#FFFFFF" x="167.5" y="36.5" width="274.5" height="13.5"></rect>
+                            <g id="Group" transform="translate(187.500000, 39.175000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <text id="5-songs">
+                                    <tspan x="0" y="6">5 songs</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#4C4C4C" points="57.25101 36.50284 57.25101 50.00012 176.50037 49.99976 181 43.25 176.50061 36.50003"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" points="57.25101 36.50284 57.25101 50.00012 176.50037 49.99976 181 43.25 176.50061 36.50003"></polygon>
+                            <g id="Group" transform="translate(72.251000, 39.500110)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                                <text id="Terror-+-Suspense,-Terror-+-Climatic">
+                                    <tspan x="0.0630035" y="6">Terror + Suspense, Terror + Climatic</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#7F7F7F" points="12.25 36.50293 12.25 50 64.00073 49.99992 68.5 43.24963 64.00073 36.5"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" points="12.25 36.50293 12.25 50 64.00073 49.99992 68.5 43.24963 64.00073 36.5"></polygon>
+                            <g id="Group" transform="translate(41.250000, 39.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                                <text id="Moods">
+                                    <tspan x="0.02" y="6">Moods</tspan>
+                                </text>
+                            </g>
+                            <polygon id="Shape" fill="#7F7F7F" points="5.5 36.50284 5.5 50 32.49971 49.99982 36.9998 43.24977 32.49971 36.5"></polygon>
+                            <polygon id="Shape" stroke="#FFFFFF" points="5.5 36.50284 5.5 50 32.49971 49.99982 36.9998 43.24977 32.49971 36.5"></polygon>
+                            <g id="Group" transform="translate(11.999800, 39.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                                <text id="Home">
+                                    <tspan x="0.55400085" y="6">Home</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(372.500000, 39.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Search-from-here...">
+                                    <tspan x="0.023998" y="6">Search from here...</tspan>
+                                </text>
+                            </g>
+                            <circle id="Oval" fill="#FFFFFF" cx="430.59674" cy="42.84677" r="2.3667812"></circle>
+                            <circle id="Oval" stroke="#333333" cx="430.59674" cy="42.84677" r="2.3667812"></circle>
+                            <path d="M433.995,46.5 L432.54968,44.94624" id="Shape" stroke="#333333" stroke-width="1.5"></path>
+                            <g id="Group" transform="translate(340.000000, 39.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <text id="Save">
+                                    <tspan x="0.658" y="6">Save</tspan>
+                                </text>
+                            </g>
+                            <rect id="path_2" x="359" y="40" width="7" height="7.022827"></rect>
+                            <g id="Clipped" transform="translate(359.000000, 40.000000)">
+                                <mask id="mask-11" fill="white">
+                                    <use xlink:href="#path-10"></use>
+                                </mask>
+                                <g id="path_2"></g>
+                            </g>
+                            <polyline id="Shape" stroke="#000000" points="5.5 5 442 5 442 54.875"></polyline>
+                            <g id="left-blend-copy-2">
+                                <rect id="Rectangle-path" fill="url(#linearGradient-5)" x="6" y="0" width="25" height="72"></rect>
+                                <rect id="Rectangle-path" fill="#FFFFFF" x="0.34518" y="0" width="6.5" height="72"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

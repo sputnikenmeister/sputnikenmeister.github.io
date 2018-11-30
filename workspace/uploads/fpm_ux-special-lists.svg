@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="694px" height="389px" viewBox="0 0 694 389" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>fpm-special-lists</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.47302" y="0" width="4.0273438" height="7"></rect>
+        <rect id="path-3" x="0.974" y="0.5" width="4.0274048" height="7"></rect>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-5">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Special-Lists" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-31.000000, -112.000000)">
+            <g id="fpm-special-lists" transform="translate(31.000000, 113.000000)">
+                <g id="shopping-cart-alt" transform="translate(341.000000, 351.000000)">
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="60" y="0" width="126" height="36"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="60" y="0" width="126" height="36"></rect>
+                    <polyline id="Shape" stroke="#000000" points="60 36 186 36 186 0"></polyline>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="33" y="0" width="9" height="31.5"></rect>
+                    <g id="Group" transform="translate(0.000000, 8.325000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                        <text id="If-no-user-is">
+                            <tspan x="5.9979992" y="6">If no user is</tspan>
+                        </text>
+                        <text id="authenticated">
+                            <tspan x="0.3219986" y="13">authenticated</tspan>
+                        </text>
+                    </g>
+                    <polyline id="Shape" stroke="#000000" stroke-width="0.5" points="33 31.5 42 31.5 42 0 33 0"></polyline>
+                    <path d="M42,15.75 L47.3,15.75" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                    <path d="M144,13.5 L174,13.5 C175.65686,13.5 177,14.84314 177,16.5 L177,24 C177,25.65686 175.65686,27 174,27 L144,27 C142.34314,27 141,25.65686 141,24 L141,24 L141,16.5 C141,14.84314 142.34314,13.5 144,13.5 L144,13.5 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M144,13.5 L174,13.5 C175.65686,13.5 177,14.84314 177,16.5 L177,24 C177,25.65686 175.65686,27 174,27 L144,27 C142.34314,27 141,25.65686 141,24 L141,24 L141,16.5 C141,14.84314 142.34314,13.5 144,13.5 L144,13.5 Z" id="Shape" stroke="#000000"></path>
+                    <g id="Group" transform="translate(145.000000, 16.500000)" font-size="7" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                        <text id="Register">
+                            <tspan x="0" y="6">Register</tspan>
+                        </text>
+                    </g>
+                    <g id="Group" transform="translate(73.500000, 3.000000)" font-size="7" font-family="Helvetica" fill="#000000" font-weight="normal">
+                        <text id="Your-billing-information-is-needed">
+                            <tspan x="0.148002625" y="6">Your billing information is needed</tspan>
+                        </text>
+                    </g>
+                    <g id="Group" transform="translate(130.000000, 16.500000)" font-size="7" font-family="Helvetica" fill="#000000" font-weight="normal">
+                        <text id="or">
+                            <tspan x="0.651" y="6">or</tspan>
+                        </text>
+                    </g>
+                    <path d="M99,13.5 L124.5,13.5 C126.15686,13.5 127.5,14.84314 127.5,16.5 L127.5,24 C127.5,25.65686 126.15686,27 124.5,27 L99,27 C97.34314,27 96,25.65686 96,24 L96,24 L96,16.5 C96,14.84314 97.34314,13.5 99,13.5 L99,13.5 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M99,13.5 L124.5,13.5 C126.15686,13.5 127.5,14.84314 127.5,16.5 L127.5,24 C127.5,25.65686 126.15686,27 124.5,27 L99,27 C97.34314,27 96,25.65686 96,24 L96,24 L96,16.5 C96,14.84314 97.34314,13.5 99,13.5 L99,13.5 Z" id="Shape" stroke="#000000"></path>
+                    <g id="Group" transform="translate(100.000000, 16.500000)" font-size="7" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                        <text id="Sign-in">
+                            <tspan x="0" y="6">Sign in</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="shopping-cart" transform="translate(0.000000, 220.000000)">
+                    <g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="0.5" width="333" height="166.5"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="301.999" y="45.5" width="22.500977" height="9"></rect>
+                        <circle id="Oval" fill="#666666" cx="317.75" cy="50" r="2.2499852"></circle>
+                        <circle id="Oval" stroke="#666666" stroke-width="2" cx="317.75" cy="50" r="2.2499852"></circle>
+                        <path d="M316.25,51.5 L319.25,48.5" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M316.25,48.5 L319.25,51.5" id="Shape" stroke="#FFFFFF"></path>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="0.5" y="117.5" width="101.25" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="0.5" y="81.5" width="101.25" height="9"></rect>
+                        <g id="Group" transform="translate(8.500000, 83.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Poem-of-Haste-&amp;-Rest">
+                                <tspan x="0" y="5">Poem of Haste &amp; Rest</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="0.5" y="99.5" width="101.25" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="0.5" y="63.5" width="101.25" height="9"></rect>
+                        <g id="Group" transform="translate(8.500000, 65.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Arriving-Abroad">
+                                <tspan x="0" y="5">Arriving Abroad</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="0.5" y="45.5" width="101.25" height="9"></rect>
+                        <g id="Group" transform="translate(8.500000, 47.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Sit-dolor-tenet">
+                                <tspan x="0" y="5">Sit dolor tenet</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(8.500000, 74.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Untameable-Fire">
+                                <tspan x="0" y="5">Untameable Fire</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(8.500000, 92.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Nightwalk">
+                                <tspan x="0" y="5">Nightwalk</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(8.500000, 56.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Poem-of-Haste-&amp;-Rest">
+                                <tspan x="0" y="5">Poem of Haste &amp; Rest</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(8.500000, 38.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="A-Little-Chronology">
+                                <tspan x="0" y="5">A Little Chronology</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="23" width="101.25" height="13.5"></rect>
+                        <path d="M0.5,23 L101.75,23 M101.75,36.5 L0.5,36.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(8.500000, 28.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Title">
+                                <tspan x="0" y="5">Title</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="248" y="117.5" width="31.5" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="80.19899" y="117.5" width="77.798798" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="279.499" y="117.5" width="25.700989" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="149" y="117.5" width="99" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="80.382004" y="81.5" width="91.1178" height="9"></rect>
+                        <g id="Group" transform="translate(83.382004, 83.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Marco-Mastrocola,-BMI">
+                                <tspan x="0" y="5">Marco Mastrocola, BMI</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="80.19899" y="99.5" width="77.798798" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="80.382004" y="63.5" width="91.1178" height="9"></rect>
+                        <g id="Group" transform="translate(83.382004, 65.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Vincent-Varco,-ASCAP">
+                                <tspan x="0" y="5">Vincent Varco, ASCAP</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="261.5" y="45.5" width="43.700012" height="9"></rect>
+                        <g id="Group" transform="translate(289.500000, 47.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="$0.99">
+                                <tspan x="0.19" y="5">$0.99</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="80.382004" y="45.5" width="91.1178" height="9"></rect>
+                        <g id="Group" transform="translate(83.382004, 47.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Vincent-Varco,-ASCAP">
+                                <tspan x="0" y="5">Vincent Varco, ASCAP</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(83.199000, 74.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Marco-Mastrocola,-BMI">
+                                <tspan x="0" y="5">Marco Mastrocola, BMI</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(83.199000, 92.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Marco-Mastrocola,-BMI">
+                                <tspan x="0" y="5">Marco Mastrocola, BMI</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(83.199000, 56.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Vincent-Varco,-ASCAP">
+                                <tspan x="0" y="5">Vincent Varco, ASCAP</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(289.502010, 38.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="$0.99">
+                                <tspan x="0.188299" y="5">$0.99</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(83.199000, 38.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Vincent-Varco,-ASCAP">
+                                <tspan x="0" y="5">Vincent Varco, ASCAP</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="79.129" y="23" width="92.36609" height="13.5"></rect>
+                        <path d="M79.129,23 L171.49509,23 M171.49509,36.5 L79.129,36.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(82.129000, 28.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Composer">
+                                <tspan x="0" y="5">Composer</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="270.5" y="23" width="33.6344" height="13.5"></rect>
+                        <path d="M270.5,23 L304.1344,23 M304.1344,36.5 L270.5,36.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(288.500000, 28.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Price">
+                                <tspan x="0.3244" y="5">Price</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="170.267" y="23" width="100.233" height="13.5"></rect>
+                        <path d="M170.267,23 L270.5,23 M270.5,36.5 L170.267,36.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(176.267000, 28.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Album">
+                                <tspan x="0" y="5">Album</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="261.5" y="63.5" width="43.700012" height="9"></rect>
+                        <g id="Group" transform="translate(289.500000, 65.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="$0.99">
+                                <tspan x="0.19" y="5">$0.99</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(289.502010, 56.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="$0.99">
+                                <tspan x="0.188299" y="5">$0.99</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="261.5" y="81.5" width="43.700012" height="9"></rect>
+                        <g id="Group" transform="translate(289.500000, 83.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="$0.99">
+                                <tspan x="0.19" y="5">$0.99</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(289.502010, 74.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="$0.99">
+                                <tspan x="0.188299" y="5">$0.99</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(289.502010, 92.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="$0.99">
+                                <tspan x="0.188299" y="5">$0.99</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(175.500000, 38.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Acid-Jazz-Volume-1">
+                                <tspan x="0" y="5">Acid Jazz Volume 1</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="171.5" y="45.5" width="99" height="9"></rect>
+                        <g id="Group" transform="translate(175.500000, 47.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Acid-Jazz-Volume-1">
+                                <tspan x="0" y="5">Acid Jazz Volume 1</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(175.500000, 56.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Acid-Jazz-Volume-1">
+                                <tspan x="0" y="5">Acid Jazz Volume 1</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="171.5" y="63.5" width="99" height="9"></rect>
+                        <g id="Group" transform="translate(175.500000, 65.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Acid-Jazz-Volume-1">
+                                <tspan x="0" y="5">Acid Jazz Volume 1</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(175.500000, 74.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Acid-Jazz-Volume-2">
+                                <tspan x="0" y="5">Acid Jazz Volume 2</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="171.5" y="81.5" width="99" height="9"></rect>
+                        <g id="Group" transform="translate(175.500000, 83.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Acid-Jazz-Volume-2">
+                                <tspan x="0" y="5">Acid Jazz Volume 2</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(175.500000, 92.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Acid-Jazz-Volume-2">
+                                <tspan x="0" y="5">Acid Jazz Volume 2</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="149" y="99.5" width="99" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="279.5" y="99.5" width="25.700989" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="230" y="99.5" width="49.5" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="301.999" y="117.5" width="22.500977" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="301.999" y="99.5" width="22.500977" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="301.999" y="81.5" width="22.500977" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="301.999" y="63.5" width="22.500977" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="302" y="23" width="26.8844" height="13.5"></rect>
+                        <path d="M302,23 L328.8844,23 M328.8844,36.5 L302,36.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(306.000000, 28.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Remove">
+                                <tspan x="0.3493996" y="5">Remove</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="324.55814" y="36.49985" width="8.9417114" height="9"></rect>
+                        <polygon id="Shape" fill="#000000" points="327.0756 42.37418 328.99738 39.4374 330.91916 42.37418"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="327.0756 42.37418 328.99738 39.4374 330.91916 42.37418"></polygon>
+                        <polygon id="Shape" fill="#000000" points="330.92218 120.5314 329.0004 123.46817 327.07861 120.5314"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="330.92218 120.5314 329.0004 123.46817 327.07861 120.5314"></polygon>
+                        <rect id="Rectangle-path" fill-opacity="0" fill="#F3F3F3" x="77" y="81.5" width="9" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="0.5" width="333" height="22.5"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0.5" y="0.5" width="333" height="22.5"></rect>
+                        <path d="M80,144.5 L137,144.5 C138.65686,144.5 140,145.84314 140,147.5 L140,155 C140,156.65686 138.65686,158 137,158 L80,158 C78.34315,158 77,156.65686 77,155 L77,155 L77,147.5 C77,145.84314 78.34315,144.5 80,144.5 L80,144.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M80,144.5 L137,144.5 C138.65686,144.5 140,145.84314 140,147.5 L140,155 C140,156.65686 138.65686,158 137,158 L80,158 C78.34315,158 77,156.65686 77,155 L77,155 L77,147.5 C77,145.84314 78.34315,144.5 80,144.5 L80,144.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(82.000000, 147.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Use-another-card...">
+                                <tspan x="0.1540012" y="6">Use another card...</tspan>
+                            </text>
+                        </g>
+                        <path d="M251,135.5 L321.5,135.5 C323.15686,135.5 324.5,136.84314 324.5,138.5 L324.5,146 C324.5,147.65686 323.15686,149 321.5,149 L251,149 C249.34314,149 248,147.65686 248,146 L248,146 L248,138.5 C248,136.84314 249.34314,135.5 251,135.5 L251,135.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M251,135.5 L321.5,135.5 C323.15686,135.5 324.5,136.84314 324.5,138.5 L324.5,146 C324.5,147.65686 323.15686,149 321.5,149 L251,149 C249.34314,149 248,147.65686 248,146 L248,146 L248,138.5 C248,136.84314 249.34314,135.5 251,135.5 L251,135.5 Z" id="Shape" stroke="#000000"></path>
+                        <g id="Group" transform="translate(252.000000, 138.500000)" font-size="7" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Finalize-Purchase">
+                                <tspan x="0" y="6">Finalize Purchase</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#E6E6E6" x="324.49823" y="45.49976" width="8.9417114" height="72.000183"></rect>
+                        <rect id="Rectangle-path" stroke="#808080" stroke-width="0.5" x="324.49869" y="36.5003" width="9.000427" height="89.999817"></rect>
+                        <rect id="Rectangle-path" stroke="#000000" x="0.498993" y="0.5" width="333" height="166.5"></rect>
+                        <g id="Group" transform="translate(299.750000, 5.500000)" font-size="10" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="$6.93">
+                                <tspan x="0.73" y="10">$6.93</tspan>
+                            </text>
+                        </g>
+                        <circle id="Oval" fill="#666666" cx="317.75" cy="41" r="2.2499852"></circle>
+                        <circle id="Oval" stroke="#666666" stroke-width="2" cx="317.75" cy="41" r="2.2499852"></circle>
+                        <path d="M316.25,42.5 L319.25,39.5" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M316.25,39.5 L319.25,42.5" id="Shape" stroke="#FFFFFF"></path>
+                        <circle id="Oval" fill="#666666" cx="317.75" cy="59" r="2.2499852"></circle>
+                        <circle id="Oval" stroke="#666666" stroke-width="2" cx="317.75" cy="59" r="2.2499852"></circle>
+                        <path d="M316.25,60.5 L319.25,57.5" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M316.25,57.5 L319.25,60.5" id="Shape" stroke="#FFFFFF"></path>
+                        <circle id="Oval" fill="#666666" cx="317.75" cy="68" r="2.2499852"></circle>
+                        <circle id="Oval" stroke="#666666" stroke-width="2" cx="317.75" cy="68" r="2.2499852"></circle>
+                        <path d="M316.25,69.5 L319.25,66.5" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M316.25,66.5 L319.25,69.5" id="Shape" stroke="#FFFFFF"></path>
+                        <circle id="Oval" fill="#666666" cx="317.75" cy="77" r="2.2499852"></circle>
+                        <circle id="Oval" stroke="#666666" stroke-width="2" cx="317.75" cy="77" r="2.2499852"></circle>
+                        <path d="M316.25,78.5 L319.25,75.5" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M316.25,75.5 L319.25,78.5" id="Shape" stroke="#FFFFFF"></path>
+                        <circle id="Oval" fill="#666666" cx="317.75" cy="86" r="2.2499852"></circle>
+                        <circle id="Oval" stroke="#666666" stroke-width="2" cx="317.75" cy="86" r="2.2499852"></circle>
+                        <path d="M316.25,87.5 L319.25,84.5" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M316.25,84.5 L319.25,87.5" id="Shape" stroke="#FFFFFF"></path>
+                        <circle id="Oval" fill="#666666" cx="317.75" cy="95" r="2.2499852"></circle>
+                        <circle id="Oval" stroke="#666666" stroke-width="2" cx="317.75" cy="95" r="2.2499852"></circle>
+                        <path d="M316.25,96.5 L319.25,93.5" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M316.25,93.5 L319.25,96.5" id="Shape" stroke="#FFFFFF"></path>
+                        <polygon id="Shape" fill="#000000" points="315.5 140 320 142.25 315.5 144.5"></polygon>
+                        <g id="Group" transform="translate(168.000000, 152.000000)" font-size="7" fill="#000000">
+                            <text id="$6.93" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                                <tspan x="0.1089935" y="6">$6.93</tspan>
+                            </text>
+                            <text id="will-be-billed-immediately-to-your-credit-card" font-family="Helvetica" font-weight="normal">
+                                <tspan x="20" y="6">will be billed immediately to your credit card</tspan>
+                            </text>
+                        </g>
+                        <path d="M12.5,144.5 L69.5,144.5 C71.15685,144.5 72.5,145.84314 72.5,147.5 L72.5,155 C72.5,156.65686 71.15685,158 69.5,158 L12.5,158 C10.843147,158 9.5,156.65686 9.5,155 L9.5,155 L9.5,147.5 C9.5,145.84314 10.843147,144.5 12.5,144.5 L12.5,144.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M12.5,144.5 L69.5,144.5 C71.15685,144.5 72.5,145.84314 72.5,147.5 L72.5,155 C72.5,156.65686 71.15685,158 69.5,158 L12.5,158 C10.843147,158 9.5,156.65686 9.5,155 L9.5,155 L9.5,147.5 C9.5,145.84314 10.843147,144.5 12.5,144.5 L12.5,144.5 Z" id="Shape" stroke="#000000"></path>
+                        <g id="Group" transform="translate(14.500000, 147.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Amex-...0014">
+                                <tspan x="0" y="6">Amex ...0014</tspan>
+                            </text>
+                        </g>
+                        <polygon id="Shape" fill="#000000" points="67.71916 149.7814 65.797386 152.71817 63.87561 149.7814"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="67.71916 149.7814 65.797386 152.71817 63.87561 149.7814"></polygon>
+                        <path d="M59,144.5 L59,158" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(9.500000, 133.500000)" font-size="7" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Billing-Information">
+                                <tspan x="0" y="6">Billing Information</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(9.500000, 6.500000)" font-size="10" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Shopping-Cart">
+                                <tspan x="0" y="10">Shopping Cart</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="download-progress" transform="translate(351.000000, 220.000000)">
+                    <g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="0.5" width="342" height="117"></rect>
+                        <g id="Group" transform="translate(17.189000, 38.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="A-Little-Chronology">
+                                <tspan x="0" y="5">A Little Chronology</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="90.5" y="36.5" width="9" height="9"></rect>
+                        <polygon id="Shape" fill="#000000" points="92 40 92 42 93.7143 42 95.4286 44 95.4286 38 93.7143 40"></polygon>
+                        <path d="M96.286,41 L98,41" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <path d="M96.286,42 L97.42899,43" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <path d="M96.286,40 L97.42899,39" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(188.500000, 38.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="1.2Mb">
+                                <tspan x="0.73" y="5">1.2Mb</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="144.5" y="45.5" width="63" height="9"></rect>
+                        <g id="Group" transform="translate(188.500000, 47.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="1.5Mb">
+                                <tspan x="0.73" y="5">1.5Mb</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(188.500000, 56.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="1.2Mb">
+                                <tspan x="0.73" y="5">1.2Mb</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="144.5" y="63.5" width="63" height="9"></rect>
+                        <g id="Group" transform="translate(188.500000, 65.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="1.5Mb">
+                                <tspan x="0.73" y="5">1.5Mb</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(188.500000, 74.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="1.2Mb">
+                                <tspan x="0.735" y="5">1.2Mb</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="144.5" y="81.5" width="63" height="9"></rect>
+                        <g id="Group" transform="translate(188.500000, 83.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="1.5Mb">
+                                <tspan x="0.735" y="5">1.5Mb</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(188.500000, 92.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="1.2Mb">
+                                <tspan x="0.735" y="5">1.2Mb</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="144.5" y="99.5" width="63" height="9"></rect>
+                        <g id="Group" transform="translate(188.500000, 101.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="1.5Mb">
+                                <tspan x="0.735" y="5">1.5Mb</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="207.5" y="63.5" width="126" height="9"></rect>
+                        <circle id="Oval" fill="#666666" cx="326.75" cy="68" r="2.2499814"></circle>
+                        <circle id="Oval" stroke="#666666" stroke-width="2" cx="326.75" cy="68" r="2.2499814"></circle>
+                        <path d="M325.25,69.5 L328.25,66.5" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M325.25,66.5 L328.25,69.5" id="Shape" stroke="#FFFFFF"></path>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="99.5" y="23" width="54" height="13.5"></rect>
+                        <path d="M99.5,23 L153.5,23 M153.5,36.5 L99.5,36.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(102.500000, 28.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Versions">
+                                <tspan x="0" y="5">Versions</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="99.5" y="63.5" width="45" height="9"></rect>
+                        <g id="Group" transform="translate(102.500000, 65.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Vocal">
+                                <tspan x="0" y="5">Vocal</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(102.500000, 56.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Instrumental">
+                                <tspan x="0" y="5">Instrumental</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="13.189" y="81.5" width="86.310974" height="9"></rect>
+                        <g id="Group" transform="translate(17.189000, 83.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="A-Little-Chronology">
+                                <tspan x="0" y="5">A Little Chronology</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="0.5" y="81.5" width="12.686096" height="9"></rect>
+                        <g id="Group" transform="translate(7.500000, 83.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="6">
+                                <tspan x="0.9061003" y="5">6</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="207.5" y="45.5" width="126" height="9"></rect>
+                        <g id="Group" transform="translate(210.500000, 47.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Finished">
+                                <tspan x="0" y="5">Finished</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="0.5" y="63.5" width="12.686096" height="9"></rect>
+                        <g id="Group" transform="translate(7.500000, 65.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="4">
+                                <tspan x="0.9061003" y="5">4</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="13.189" y="63.5" width="86.310974" height="9"></rect>
+                        <g id="Group" transform="translate(17.189000, 65.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Nightwalk">
+                                <tspan x="0" y="5">Nightwalk</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="13.189" y="99.5" width="86.310974" height="9"></rect>
+                        <g id="Group" transform="translate(17.189000, 101.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="Walkin-The-Dog">
+                                <tspan x="0" y="5">Walkin The Dog</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="0.5" y="99.5" width="12.686096" height="9"></rect>
+                        <g id="Group" transform="translate(7.500000, 101.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="8">
+                                <tspan x="0.9061003" y="5">8</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="13.189" y="45.5" width="86.310974" height="9"></rect>
+                        <g id="Group" transform="translate(17.189000, 47.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Sit-dolor-tenet">
+                                <tspan x="0" y="5">Sit dolor tenet</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="0.5" y="45.5" width="12.686096" height="9"></rect>
+                        <g id="Group" transform="translate(7.500000, 47.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="2">
+                                <tspan x="0.9061003" y="5">2</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(7.500000, 92.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="7">
+                                <tspan x="0.9061003" y="5">7</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(17.189000, 92.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="Arriving-Abroad">
+                                <tspan x="0" y="5">Arriving Abroad</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(17.189000, 74.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="Nightwalk">
+                                <tspan x="0" y="5">Nightwalk</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(7.500000, 74.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="5">
+                                <tspan x="0.9061003" y="5">5</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(7.500000, 56.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="3">
+                                <tspan x="0.9061003" y="5">3</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(17.189000, 56.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Nightwalk">
+                                <tspan x="0" y="5">Nightwalk</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(7.500000, 38.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="1">
+                                <tspan x="0.9061003" y="5">1</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="333.5581" y="36.49985" width="8.9417725" height="9"></rect>
+                        <polygon id="Shape" fill="#000000" points="336.07562 42.37418 337.99738 39.4374 339.91913 42.37418"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="336.07562 42.37418 337.99738 39.4374 339.91913 42.37418"></polygon>
+                        <polygon id="Shape" fill="#000000" points="339.9221 111.5314 338.00037 114.46817 336.0786 111.5314"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="339.9221 111.5314 338.00037 114.46817 336.0786 111.5314"></polygon>
+                        <rect id="Rectangle-path" fill="#E6E6E6" x="333.49823" y="45.49976" width="8.9417725" height="63.000183"></rect>
+                        <rect id="Rectangle-path" stroke="#808080" stroke-width="0.5" x="333.49866" y="36.5003" width="9.0004883" height="80.999817"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="23" width="14.028198" height="13.5"></rect>
+                        <path d="M0.5,23 L14.5282,23 M14.5282,36.5 L0.5,36.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="14.529" y="23" width="84.970886" height="13.5"></rect>
+                        <path d="M14.529,23 L99.49988,23 M99.49988,36.5 L14.529,36.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(17.529000, 28.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Title">
+                                <tspan x="0" y="5">Title</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="207.5" y="23" width="135" height="13.5"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="207.5" y="23" width="135" height="13.5"></rect>
+                        <g id="Group" transform="translate(213.500000, 28.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Progress">
+                                <tspan x="0" y="5">Progress</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="0.5" width="342" height="22.5"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0.5" y="0.5" width="342" height="22.5"></rect>
+                        <path d="M147.5,5 L177.5,5 C179.15686,5 180.5,6.34314 180.5,8 L180.5,15.5 C180.5,17.15686 179.15686,18.5 177.5,18.5 L147.5,18.5 C145.84314,18.5 144.5,17.15686 144.5,15.5 L144.5,15.5 L144.5,8 C144.5,6.34314 145.84314,5 147.5,5 L147.5,5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M147.5,5 L177.5,5 C179.15686,5 180.5,6.34314 180.5,8 L180.5,15.5 C180.5,17.15686 179.15686,18.5 177.5,18.5 L147.5,18.5 C145.84314,18.5 144.5,17.15686 144.5,15.5 L144.5,15.5 L144.5,8 C144.5,6.34314 145.84314,5 147.5,5 L147.5,5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(148.500000, 8.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Change...">
+                                <tspan x="0.7729998" y="6">Change...</tspan>
+                            </text>
+                        </g>
+                        <path d="M287,5 L317,5 C318.65686,5 320,6.34314 320,8 L320,15.5 C320,17.15686 318.65686,18.5 317,18.5 L287,18.5 C285.34314,18.5 284,17.15686 284,15.5 L284,15.5 L284,8 C284,6.34314 285.34314,5 287,5 L287,5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M287,5 L317,5 C318.65686,5 320,6.34314 320,8 L320,15.5 C320,17.15686 318.65686,18.5 317,18.5 L287,18.5 C285.34314,18.5 284,17.15686 284,15.5 L284,15.5 L284,8 C284,6.34314 285.34314,5 287,5 L287,5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(289.000000, 8.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Schedule">
+                                <tspan x="0.052" y="6">Schedule</tspan>
+                            </text>
+                        </g>
+                        <path d="M255.5,5 L276.5,5 C278.15686,5 279.5,6.34314 279.5,8 L279.5,15.5 C279.5,17.15686 278.15686,18.5 276.5,18.5 L255.5,18.5 C253.84314,18.5 252.5,17.15686 252.5,15.5 L252.5,15.5 L252.5,8 C252.5,6.34314 253.84314,5 255.5,5 L255.5,5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M255.5,5 L276.5,5 C278.15686,5 279.5,6.34314 279.5,8 L279.5,15.5 C279.5,17.15686 278.15686,18.5 276.5,18.5 L255.5,18.5 C253.84314,18.5 252.5,17.15686 252.5,15.5 L252.5,15.5 L252.5,8 C252.5,6.34314 253.84314,5 255.5,5 L255.5,5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(256.500000, 8.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Pause">
+                                <tspan x="0.8839998" y="6">Pause</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#000000" x="0.49902" y="0.5" width="342.00098" height="117"></rect>
+                        <polygon id="Shape" fill="#000000" points="242.84314 29.06339 240.9214 32.00015 238.99963 29.06339"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="242.84314 29.06339 240.9214 32.00015 238.99963 29.06339"></polygon>
+                        <circle id="Oval" fill="#FFFFFF" cx="330.125" cy="11.75" r="3.3750186"></circle>
+                        <circle id="Oval" stroke="#4C4C4C" stroke-width="2" cx="330.125" cy="11.75" r="3.3750186"></circle>
+                        <rect id="Rectangle-path" x="207.5" y="54.5" width="85.5" height="9"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.25" x="207.5" y="54.5" width="85.5" height="9"></rect>
+                        <rect id="Rectangle-path" stroke="#B3B3B3" stroke-width="0.25" x="234.5" y="54.5" width="99" height="9"></rect>
+                        <g id="Group" transform="translate(295.500000, 56.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="%68-0.9-Mb">
+                                <tspan x="0.170002" y="5">%68 0.9 Mb</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(210.500000, 38.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Finished">
+                                <tspan x="0" y="5">Finished</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(287.500000, 65.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Continue-later">
+                                <tspan x="0.3" y="5">Continue later</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="99.5" y="81.5" width="45" height="9"></rect>
+                        <g id="Group" transform="translate(102.500000, 83.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="30-Seconds">
+                                <tspan x="0" y="5">30 Seconds</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(102.500000, 74.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="30-Seconds">
+                                <tspan x="0" y="5">30 Seconds</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="99.5" y="99.5" width="45" height="9"></rect>
+                        <g id="Group" transform="translate(102.500000, 101.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="20-Seconds">
+                                <tspan x="0" y="5">20 Seconds</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(102.500000, 92.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="10-Seconds">
+                                <tspan x="0" y="5">10 Seconds</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="99.5" y="45.5" width="45" height="9"></rect>
+                        <g id="Group" transform="translate(102.500000, 47.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Vocal">
+                                <tspan x="0" y="5">Vocal</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(102.500000, 38.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="10-Seconds">
+                                <tspan x="0" y="5">10 Seconds</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="153.5" y="23" width="54" height="13.5"></rect>
+                        <path d="M153.5,23 L207.5,23 M207.5,36.5 L153.5,36.5" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(193.500000, 28.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Size">
+                                <tspan x="0" y="5">Size</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="207.5" y="81.5" width="126" height="9"></rect>
+                        <g id="Group" transform="translate(210.500000, 83.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="Pending">
+                                <tspan x="0" y="5">Pending</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(210.500000, 74.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="Pending">
+                                <tspan x="0" y="5">Pending</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="207.5" y="99.5" width="126" height="9"></rect>
+                        <g id="Group" transform="translate(210.500000, 101.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="Pending">
+                                <tspan x="0" y="5">Pending</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(210.500000, 92.000000)" font-weight="normal" font-size="5" font-family="Helvetica-Oblique, Helvetica" fill="#000000" font-style="italic">
+                            <text id="Pending">
+                                <tspan x="0" y="5">Pending</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(7.000000, 8.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Downloading-8-files-to-//Users/Media/Freeplay/">
+                                <tspan x="0" y="6">Downloading 8 files to //Users/Media/Freeplay/</tspan>
+                            </text>
+                        </g>
+                        <rect id="path_2" x="329.47302" y="70" width="4.0273438" height="7"></rect>
+                        <g id="Clipped" transform="translate(329.000000, 70.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="path_2"></g>
+                            <image id="Bitmap" mask="url(#mask-2)" x="-0.02698" y="-0.5" width="4.02739873" height="7.00000256" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAABJCAYAAABLo7SvAAAABGdBTUEAANbY1E9YMgAAAbxJREFUaAXtmluLhDAMhbdewBfB//8rxSfB29YFQTynGCfddQOZFzUmNf3iMR1nQtu229flMwxDuJhePyxez0CYgCcqBCV2M0N0Fw2IqSxLmOk8z68KzAxRTxTuHaXBDNFQ1zWIaZommH9VVWCLfn8mMDNEPVG4T5QGM0RpZ+q6Dubf9z3YWAfbnX6ji5kh6onCfaI0mCEamqaBzjSOI8yfCWfbIPQnbl1XiI++qi5mhqgnCrVXGpyoEiCE0xYaAgqUKZw9CfYrLMsCF9KuZ730gFRpcKJKgBBOxQRe0VAUCJ8JbI9ldqlAU60Wr86y/Ac2TzR3EcwQreKbEpg8e1PCxBS/xEHsbmC+bI3KgqPo6CLXDFFPlJVVYzNDlHYmqRieLPNSHUdK2QxRT1RaUqmfE5WSkvqJWyhTbardpZ4G0qSYn5eeUdHYnKiGHosNsV3C+i++6cBXJSw6YUuJ7OrOBHr1OY699AeJXFsnmovkMU6lFc4x0HkrXc+eY+72vfR3hJ6ed6JPid35h9gd7nyynNd2Ky99ljKcBnGiJxhZdvFfV1mGlQ3CfiRLRXrpU2Q+tTvRT8ml4swQ/QbLyGp8PprfGAAAAABJRU5ErkJggg=="></image>
+                        </g>
+                        <rect id="Rectangle-path" x="207.5" y="63.5" width="36" height="9"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.25" x="207.5" y="63.5" width="36" height="9"></rect>
+                    </g>
+                </g>
+                <g id="artist-header">
+                    <g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.501007" y="0" width="333" height="202.5"></rect>
+                        <path d="M158,0 L320,0 M320,26.99991 L158,26.99991" id="Shape" stroke="#999999" stroke-width="0.25"></path>
+                        <g id="Group" transform="translate(162.000000, 17.499910)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Featured-Songs">
+                                <tspan x="0" y="6">Featured Songs</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.501" y="94.5" width="14.028198" height="13.5"></rect>
+                        <path d="M0.501,94.5 L14.529198,94.5 M14.529198,108 L0.501,108" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="248.001" y="193.5" width="49.5" height="9"></rect>
+                        <g id="Group" transform="translate(251.001000, 195.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="161.69" y="193.5" width="86.311005" height="9"></rect>
+                        <g id="Group" transform="translate(165.690000, 195.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Untameable-Fire">
+                                <tspan x="0" y="5">Untameable Fire</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="149.00101" y="193.5" width="12.686096" height="9"></rect>
+                        <g id="Group" transform="translate(156.001010, 195.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="1">
+                                <tspan x="0.9061003" y="5">1</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="293.001" y="193.5" width="31.499695" height="9"></rect>
+                        <g id="Group" transform="translate(298.001000, 195.000000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Download">
+                                <tspan x="0.9097004" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <path d="M9.5,108 L324.501,108 M324.501,193.5 L9.5,193.5" id="Shape" stroke="#4C4C4C" stroke-width="0.25"></path>
+                        <g id="Group" transform="translate(9.500000, 175.000000)" font-size="10" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Acid-Jazz-Volume-1">
+                                <tspan x="0" y="10">Acid Jazz Volume 1</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="248.001" y="94.5" width="54" height="13.5"></rect>
+                        <path d="M248.001,94.5 L302.001,94.5 M302.001,108 L248.001,108" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(251.001000, 99.500000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Versions">
+                                <tspan x="0" y="5">Versions</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="266.001" y="117" width="31.5" height="9"></rect>
+                        <g id="Group" transform="translate(269.001000, 118.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(251.001000, 109.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="248.001" y="135" width="49.5" height="9"></rect>
+                        <g id="Group" transform="translate(251.001000, 136.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(251.001000, 127.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="248.001" y="153" width="49.5" height="9"></rect>
+                        <g id="Group" transform="translate(251.001000, 154.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(251.001000, 145.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="248.001" y="171" width="49.5" height="9"></rect>
+                        <g id="Group" transform="translate(251.001000, 172.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(251.001000, 163.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(251.001000, 181.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6-Versions">
+                                <tspan x="0" y="5">6 Versions</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="161.69" y="153" width="86.311005" height="9"></rect>
+                        <g id="Group" transform="translate(165.690000, 154.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="A-Little-Chronology">
+                                <tspan x="0" y="5">A Little Chronology</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="149.00101" y="153" width="12.686096" height="9"></rect>
+                        <g id="Group" transform="translate(156.001010, 154.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="6">
+                                <tspan x="0.9061003" y="5">6</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="161.69" y="171" width="86.311005" height="9"></rect>
+                        <g id="Group" transform="translate(165.690000, 172.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Walkin-The-Dog">
+                                <tspan x="0" y="5">Walkin The Dog</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="149.00101" y="171" width="12.686096" height="9"></rect>
+                        <g id="Group" transform="translate(156.001010, 172.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="8">
+                                <tspan x="0.9061003" y="5">8</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="149.00101" y="135" width="12.686096" height="9"></rect>
+                        <g id="Group" transform="translate(156.001010, 136.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="4">
+                                <tspan x="0.9061003" y="5">4</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="161.69" y="135" width="86.311005" height="9"></rect>
+                        <g id="Group" transform="translate(165.690000, 136.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Arriving-Abroad">
+                                <tspan x="0" y="5">Arriving Abroad</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="297.5" y="117" width="25.700989" height="9"></rect>
+                        <g id="Group" transform="translate(307.500000, 118.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="$0.99">
+                                <tspan x="0.191" y="5">$0.99</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="161.69" y="117" width="86.311005" height="9"></rect>
+                        <g id="Group" transform="translate(165.690000, 118.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Sit-dolor-tenet">
+                                <tspan x="0" y="5">Sit dolor tenet</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="149.00101" y="117" width="12.686096" height="9"></rect>
+                        <g id="Group" transform="translate(156.001010, 118.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="2">
+                                <tspan x="0.9061003" y="5">2</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(156.001010, 163.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="7">
+                                <tspan x="0.9061003" y="5">7</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(165.690000, 163.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Arriving-Abroad">
+                                <tspan x="0" y="5">Arriving Abroad</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(165.690000, 145.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Untameable-Fire">
+                                <tspan x="0" y="5">Untameable Fire</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(156.001010, 145.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="5">
+                                <tspan x="0.9061003" y="5">5</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(156.001010, 181.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="9">
+                                <tspan x="0.9061003" y="5">9</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(165.690000, 181.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Soul-Thang">
+                                <tspan x="0" y="5">Soul Thang</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(165.690000, 127.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Poem-of-Haste-&amp;-Rest">
+                                <tspan x="0" y="5">Poem of Haste &amp; Rest</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(156.001010, 127.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="3">
+                                <tspan x="0.9061003" y="5">3</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(156.001010, 109.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="1">
+                                <tspan x="0.9061003" y="5">1</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(298.000000, 109.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Download">
+                                <tspan x="0.9109001" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(165.690000, 109.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="A-Little-Chronology">
+                                <tspan x="0" y="5">A Little Chronology</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="324.50113" y="193.49985" width="8.9417114" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="324.55914" y="107.99988" width="8.9417114" height="9"></rect>
+                        <polygon id="Shape" fill="#000000" points="327.0766 113.87415 328.99838 110.93738 330.92017 113.87415"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="327.0766 113.87415 328.99838 110.93738 330.92017 113.87415"></polygon>
+                        <polygon id="Shape" fill="#000000" points="330.92316 196.5314 329.00137 199.46817 327.0796 196.5314"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="330.92316 196.5314 329.00137 199.46817 327.0796 196.5314"></polygon>
+                        <rect id="Rectangle-path" fill="#E6E6E6" x="324.49924" y="116.99976" width="8.9417114" height="76.500183"></rect>
+                        <rect id="Rectangle-path" stroke="#808080" stroke-width="0.5" x="324.4997" y="108.0003" width="9.000427" height="94.499817"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="149.00101" y="94.5" width="14.028198" height="13.5"></rect>
+                        <path d="M149.00101,94.5 L163.0292,94.5 M163.0292,108 L149.00101,108" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="163.03" y="94.5" width="84.970886" height="13.5"></rect>
+                        <path d="M163.03,94.5 L248.00089,94.5 M248.00089,108 L163.03,108" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(166.030000, 99.500000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#191919" font-weight="bold">
+                            <text id="Title">
+                                <tspan x="0" y="5">Title</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="302.001" y="94.5" width="24.6344" height="13.5"></rect>
+                        <path d="M302.001,94.5 L326.6354,94.5 M326.6354,108 L302.001,108" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="9.501" y="94.5" width="139.49899" height="13.5"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="9.501" y="94.5" width="139.49899" height="13.5"></rect>
+                        <g id="Group" transform="translate(15.501000, 99.500000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Album">
+                                <tspan x="0" y="5">Album</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="293" y="135" width="31.500977" height="9"></rect>
+                        <g id="Group" transform="translate(298.000000, 136.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Download">
+                                <tspan x="0.9109993" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(298.001000, 127.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Download">
+                                <tspan x="0.9097004" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="293" y="153" width="31.500977" height="9"></rect>
+                        <g id="Group" transform="translate(298.000000, 154.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Download">
+                                <tspan x="0.9109993" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(298.001000, 145.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Download">
+                                <tspan x="0.9097004" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="293" y="171" width="31.500977" height="9"></rect>
+                        <g id="Group" transform="translate(298.000000, 172.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Download">
+                                <tspan x="0.9109993" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(298.001000, 163.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Download">
+                                <tspan x="0.9097004" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(298.001000, 181.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Download">
+                                <tspan x="0.9097004" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="234.501" y="126" width="9" height="9"></rect>
+                        <polygon id="Shape" fill="#000000" points="236.001 129.5 236.001 131.50002 237.7153 131.50002 239.4296 133.5 239.4296 127.5 237.7153 129.5"></polygon>
+                        <path d="M240.28699,130.5 L242.001,130.5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <path d="M240.28699,131.5 L241.43,132.5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <path d="M240.28699,129.5 L241.43,128.5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <circle id="Oval" fill="#4C4C4C" cx="239.001" cy="121.5" r="3.000012"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="238.215 120.469 240.215 121.61185 238.215 122.7547"></polygon>
+                        <path d="M249.267,117 L321.767,117 C322.87158,117 323.767,117.89543 323.767,119 L323.767,124 C323.767,125.10457 322.87158,126 321.767,126 L249.267,126 C248.16241,126 247.267,125.10457 247.267,124 L247.267,124 L247.267,119 C247.267,117.89543 248.16241,117 249.267,117 L249.267,117 Z" id="Shape" fill="#666666"></path>
+                        <path d="M249.267,117 L321.767,117 C322.87158,117 323.767,117.89543 323.767,119 L323.767,124 C323.767,125.10457 322.87158,126 321.767,126 L249.267,126 C248.16241,126 247.267,125.10457 247.267,124 L247.267,124 L247.267,119 C247.267,117.89543 248.16241,117 249.267,117 L249.267,117 Z" id="Shape" stroke="#FFFFFF" stroke-width="0.5"></path>
+                        <path d="M292.267,117 L292.267,126" id="Shape" stroke="#FFFFFF"></path>
+                        <g id="Group" transform="translate(297.501310, 118.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                            <text id="Download">
+                                <tspan x="0.65999985" y="5">Download</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(250.267000, 118.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                            <text id="Select-Version">
+                                <tspan x="0" y="5">Select Version</tspan>
+                            </text>
+                        </g>
+                        <polygon id="Shape" fill="#FFFFFF" points="288.0621 120.87526 286.78091 122.83311 285.49973 120.87526"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="288.0621 120.87526 286.78091 122.83311 285.49973 120.87526"></polygon>
+                        <rect id="path" x="225.974" y="121.5" width="4.0274048" height="7"></rect>
+                        <g id="Clipped" transform="translate(225.000000, 121.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="path"></g>
+                            <image id="Bitmap" mask="url(#mask-4)" x="0.474" y="0" width="4.02739873" height="7.00000256" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAABJCAYAAABLo7SvAAAABGdBTUEAANbY1E9YMgAAAbxJREFUaAXtmluLhDAMhbdewBfB//8rxSfB29YFQTynGCfddQOZFzUmNf3iMR1nQtu229flMwxDuJhePyxez0CYgCcqBCV2M0N0Fw2IqSxLmOk8z68KzAxRTxTuHaXBDNFQ1zWIaZommH9VVWCLfn8mMDNEPVG4T5QGM0RpZ+q6Dubf9z3YWAfbnX6ji5kh6onCfaI0mCEamqaBzjSOI8yfCWfbIPQnbl1XiI++qi5mhqgnCrVXGpyoEiCE0xYaAgqUKZw9CfYrLMsCF9KuZ730gFRpcKJKgBBOxQRe0VAUCJ8JbI9ldqlAU60Wr86y/Ac2TzR3EcwQreKbEpg8e1PCxBS/xEHsbmC+bI3KgqPo6CLXDFFPlJVVYzNDlHYmqRieLPNSHUdK2QxRT1RaUqmfE5WSkvqJWyhTbardpZ4G0qSYn5eeUdHYnKiGHosNsV3C+i++6cBXJSw6YUuJ7OrOBHr1OY699AeJXFsnmovkMU6lFc4x0HkrXc+eY+72vfR3hJ6ed6JPid35h9gd7nyynNd2Ky99ljKcBnGiJxhZdvFfV1mGlQ3CfiRLRXrpU2Q+tTvRT8ml4swQ/QbLyGp8PprfGAAAAABJRU5ErkJggg=="></image>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.501007" y="72" width="333" height="22.499908"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0.501007" y="72" width="333" height="22.499908"></rect>
+                        <rect id="Rectangle-path" stroke="#000000" x="0.5" y="0" width="333" height="202.5"></rect>
+                        <polygon id="Shape" fill="#000000" points="38.20096 101.36339 36.279182 104.30016 34.357407 101.36339"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="38.20096 101.36339 36.279182 104.30016 34.357407 101.36339"></polygon>
+                        <g id="Group" transform="translate(9.000000, 117.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.501003" y="0" width="49.498997" height="49.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.501003" y="0" width="49.498997" height="49.5"></rect>
+                            <g transform="translate(5.501000, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <rect id="Rectangle-path" fill-opacity="0" fill="#FFFFFF" x="234.501" y="171" width="9" height="9"></rect>
+                        <polygon id="Shape" fill="#000000" points="239.00134 173.167 239.5252 174.7793 241.22049 174.7793 239.84897 175.77576 240.37283 177.38803 239.00134 176.3916 237.62985 177.38803 238.15372 175.77576 236.7822 174.7793 238.47748 174.7793"></polygon>
+                        <g id="Group" transform="translate(68.000000, 117.000000)" font-size="5" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Joel-Stein,-ASCAP">
+                                <tspan x="0" y="4.9999995">Joel Stein, ASCAP</tspan>
+                            </text>
+                            <text id="Freeplay-Music,-BMI">
+                                <tspan x="0" y="11.999999">Freeplay Music, BMI</tspan>
+                            </text>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="50.750137" cy="158.25" r="3.2999816"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="49.885597 157.116 52.085564 158.37314 49.885597 159.63028"></polygon>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="158" y="54" width="162" height="9"></rect>
+                        <g id="Group" transform="translate(162.000000, 55.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="A-Little-Chronology">
+                                <tspan x="0" y="5">A Little Chronology</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#F3F3F3" x="158" y="36" width="162" height="9"></rect>
+                        <g id="Group" transform="translate(162.000000, 37.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Arriving-Abroad">
+                                <tspan x="0" y="5">Arriving Abroad</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(162.000000, 46.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Untameable-Fire">
+                                <tspan x="0" y="5">Untameable Fire</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(162.000000, 28.500000)" font-size="5" font-family="Helvetica" fill="#000000" font-weight="normal">
+                            <text id="Poem-of-Haste-&amp;-Rest">
+                                <tspan x="0" y="5">Poem of Haste &amp; Rest</tspan>
+                            </text>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="314" cy="31.39999" r="3.000012"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="313.21399 30.369 315.21399 31.51186 313.21399 32.65471"></polygon>
+                        <circle id="Oval" fill="#4C4C4C" cx="314" cy="40.39999" r="3.000012"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="313.21399 39.369 315.21399 40.51186 313.21399 41.65471"></polygon>
+                        <circle id="Oval" fill="#4C4C4C" cx="314" cy="49.39999" r="3.000012"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="313.21399 48.369 315.21399 49.51186 313.21399 50.65471"></polygon>
+                        <circle id="Oval" fill="#4C4C4C" cx="314" cy="58.39999" r="3.000012"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="313.21399 57.369 315.21399 58.51186 313.21399 59.65471"></polygon>
+                        <path d="M251,9 L317,9 C318.65686,9 320,10.34315 320,12 L320,19.5 C320,21.15686 318.65686,22.5 317,22.5 L251,22.5 C249.34314,22.5 248,21.15686 248,19.5 L248,19.5 L248,12 C248,10.34315 249.34314,9 251,9 L251,9 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M251,9 L317,9 C318.65686,9 320,10.34315 320,12 L320,19.5 C320,21.15686 318.65686,22.5 317,22.5 L251,22.5 C249.34314,22.5 248,21.15686 248,19.5 L248,19.5 L248,12 C248,10.34315 249.34314,9 251,9 L251,9 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(253.000000, 12.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Visit-Joel's-homepage">
+                                <tspan x="0.5680008" y="6">Visit Joel's homepage</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(9.500000, 6.000000)" font-size="10" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Joel-Stein">
+                                <tspan x="0" y="10">Joel Stein</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(9.500000, 38.500000)" font-size="5" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#000000" font-weight="400">
+                            <text id="Lorem-ipsum-dolor-sit-amet,-consectetur-adipisicing-elit,-sed">
+                                <tspan x="0" y="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</tspan>
+                            </text>
+                            <text id="do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna">
+                                <tspan x="0" y="11">do eiusmod tempor incididunt ut labore et dolore magna</tspan>
+                            </text>
+                            <text id="aliqua.-Ut-enim-ad-minim-veniam,-quis-nostrud-exercitation">
+                                <tspan x="0" y="17">aliqua. Ut enim ad minim veniam, quis nostrud exercitation</tspan>
+                            </text>
+                            <text id="ullamco-laboris-nisi-ut-aliquip.">
+                                <tspan x="0" y="23">ullamco laboris nisi ut aliquip.</tspan>
+                            </text>
+                        </g>
+                        <path d="M12.5,76.5 L47,76.5 C48.656853,76.5 50,77.84314 50,79.5 L50,87 C50,88.65686 48.656853,90 47,90 L12.5,90 C10.843147,90 9.5,88.65686 9.5,87 L9.5,87 L9.5,79.5 C9.5,77.84314 10.843147,76.5 12.5,76.5 L12.5,76.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M12.5,76.5 L47,76.5 C48.656853,76.5 50,77.84314 50,79.5 L50,87 C50,88.65686 48.656853,90 47,90 L12.5,90 C10.843147,90 9.5,88.65686 9.5,87 L9.5,87 L9.5,79.5 C9.5,77.84314 10.843147,76.5 12.5,76.5 L12.5,76.5 Z" id="Shape" stroke="#999999"></path>
+                        <rect id="Rectangle-path" fill="#000000" x="23" y="76.5" width="13.5" height="13.5"></rect>
+                        <path d="M23,76.5 L36.5,76.5 M36.5,90 L23,90" id="Shape" stroke="#000000"></path>
+                        <rect id="Rectangle-path" fill="#000000" x="13.313" y="80.312" width="2.9225616" height="2.9225464"></rect>
+                        <rect id="Rectangle-path" fill="#000000" x="16.765" y="80.312" width="2.9225616" height="2.9225464"></rect>
+                        <rect id="Rectangle-path" fill="#000000" x="13.313" y="83.952" width="2.9225616" height="2.9225464"></rect>
+                        <rect id="Rectangle-path" fill="#000000" x="16.765" y="83.952" width="2.9225616" height="2.9225464"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="26.563" y="80.312" width="2.7782593" height="2.7782593"></rect>
+                        <path d="M29.75,80.87601 L33.125,80.87601" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M29.75,82.354 L33.125,82.354" id="Shape" stroke="#FFFFFF"></path>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="26.563004" y="84.077" width="2.7633362" height="2.7633362"></rect>
+                        <path d="M29.75,84.64101 L33.125,84.64101" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M29.75,86.12601 L33.125,86.12601" id="Shape" stroke="#FFFFFF"></path>
+                        <path d="M39.875,80.53101 L46.625,80.53101" id="Shape" stroke="#000000" stroke-width="1.5"></path>
+                        <path d="M39.875,83.269 L46.625,83.269" id="Shape" stroke="#000000" stroke-width="1.5"></path>
+                        <path d="M39.875,86.194 L46.625,86.194" id="Shape" stroke="#000000" stroke-width="1.5"></path>
+                        <path d="M71,153 L92,153 C93.65685,153 95,154.34314 95,156 L95,163.5 C95,165.15686 93.65685,166.5 92,166.5 L71,166.5 C69.34315,166.5 68,165.15686 68,163.5 L68,163.5 L68,156 C68,154.34314 69.34315,153 71,153 L71,153 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M71,153 L92,153 C93.65685,153 95,154.34314 95,156 L95,163.5 C95,165.15686 93.65685,166.5 92,166.5 L71,166.5 C69.34315,166.5 68,165.15686 68,163.5 L68,163.5 L68,156 C68,154.34314 69.34315,153 71,153 L71,153 Z" id="Shape" stroke="#999999"></path>
+                        <g id="Group" transform="translate(73.000000, 156.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="$8.99">
+                                <tspan x="0.994" y="6">$8.99</tspan>
+                            </text>
+                        </g>
+                        <path d="M185.75101,76.5 L206.751,76.5 C208.40787,76.5 209.751,77.84314 209.751,79.5 L209.751,87 C209.751,88.65686 208.40787,90 206.751,90 L185.75101,90 C184.09415,90 182.75101,88.65686 182.75101,87 L182.75101,87 L182.75101,79.5 C182.75101,77.84314 184.09415,76.5 185.75101,76.5 L185.75101,76.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M185.75101,76.5 L206.751,76.5 C208.40787,76.5 209.751,77.84314 209.751,79.5 L209.751,87 C209.751,88.65686 208.40787,90 206.751,90 L185.75101,90 C184.09415,90 182.75101,88.65686 182.75101,87 L182.75101,87 L182.75101,79.5 C182.75101,77.84314 184.09415,76.5 185.75101,76.5 L185.75101,76.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(185.751010, 79.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Shuffle">
+                                <tspan x="0.8850002" y="6">Shuffle</tspan>
+                            </text>
+                        </g>
+                        <path d="M221.001,76.5 L275.001,76.5 C278.72894,76.5 281.751,79.52208 281.751,83.25 L281.751,83.25 C281.751,86.97792 278.72894,90 275.001,90 L221.001,90 C217.27309,90 214.251,86.97792 214.251,83.25 L214.251,83.25 L214.251,83.25 C214.251,79.52208 217.27309,76.5 221.001,76.5 L221.001,76.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M221.001,76.5 L275.001,76.5 C278.72894,76.5 281.751,79.52208 281.751,83.25 L281.751,83.25 C281.751,86.97792 278.72894,90 275.001,90 L221.001,90 C217.27309,90 214.251,86.97792 214.251,83.25 L214.251,83.25 L214.251,83.25 C214.251,79.52208 217.27309,76.5 221.001,76.5 L221.001,76.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(222.251000, 79.500000)" font-weight="normal" font-size="6" font-family="Helvetica-Oblique, Helvetica" fill="#999999" font-style="italic">
+                            <text id="Filter-Album-Names">
+                                <tspan x="0" y="6">Filter Album Names</tspan>
+                            </text>
+                        </g>
+                        <circle id="Oval" fill="#FFFFFF" cx="291.876" cy="83.25" r="3.3750014"></circle>
+                        <circle id="Oval" stroke="#4C4C4C" stroke-width="2" cx="291.876" cy="83.25" r="3.3750014"></circle>
+                        <path d="M305,76.5 L326,76.5 C327.65686,76.5 329,77.84314 329,79.5 L329,87 C329,88.65686 327.65686,90 326,90 L305,90 C303.34314,90 302,88.65686 302,87 L302,87 L302,79.5 C302,77.84314 303.34314,76.5 305,76.5 L305,76.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M305,76.5 L326,76.5 C327.65686,76.5 329,77.84314 329,79.5 L329,87 C329,88.65686 327.65686,90 326,90 L305,90 C303.34314,90 302,88.65686 302,87 L302,87 L302,79.5 C302,77.84314 303.34314,76.5 305,76.5 L305,76.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(306.000000, 79.500000)" font-size="7" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Info">
+                                <tspan x="0" y="6">Info</tspan>
+                            </text>
+                        </g>
+                        <polygon id="Shape" fill="#000000" points="321.4 81 325.4 83.25 321.4 85.5"></polygon>
+                    </g>
+                </g>
+                <g id="generic-header" transform="translate(351.000000, 0.000000)">
+                    <g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="0" width="342" height="202.5"></rect>
+                        <rect id="Rectangle-path" fill="url(#linearGradient-5)" x="0.5" y="1e-05" width="342" height="71.99981"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0.5" y="1e-05" width="342" height="71.99981"></rect>
+                        <path d="M171.5,0 L324.5,0 M324.5,26.99991 L171.5,26.99991" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(171.500000, 17.499910)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Featured-Albums">
+                                <tspan x="0" y="6">Featured Albums</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(9.500000, 153.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Album-Title">
+                                <tspan x="0" y="6">Album Title</tspan>
+                            </text>
+                        </g>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="333.50012" y="179.99985" width="8.9417725" height="9"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="333.5581" y="94.49988" width="8.9417725" height="9"></rect>
+                        <polygon id="Shape" fill="#000000" points="336.07562 100.37415 337.99738 97.43738 339.91913 100.37415"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="336.07562 100.37415 337.99738 97.43738 339.91913 100.37415"></polygon>
+                        <polygon id="Shape" fill="#000000" points="339.9221 196.5314 338.00037 199.46817 336.0786 196.5314"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="339.9221 196.5314 338.00037 199.46817 336.0786 196.5314"></polygon>
+                        <rect id="Rectangle-path" fill="#E6E6E6" x="333.49823" y="103.49979" width="8.9417725" height="90.000183"></rect>
+                        <rect id="Rectangle-path" stroke="#808080" stroke-width="0.5" x="333.4988" y="94.50021" width="9.0004883" height="108"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="72" width="342" height="22.499786"></rect>
+                        <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0.5" y="72" width="342" height="22.499786"></rect>
+                        <g id="Group" transform="translate(9.000000, 103.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <g transform="translate(5.500000, 3.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="47" cy="141" r="3.000012"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="46.214 139.969 48.214 141.11185 46.214 142.2547"></polygon>
+                        <g id="Group" transform="translate(63.500000, 153.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Album-Title">
+                                <tspan x="0" y="6">Album Title</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(63.000000, 103.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <g transform="translate(5.500000, 3.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="101" cy="141" r="3.000012"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="100.214 139.969 102.214 141.11185 100.214 142.2547"></polygon>
+                        <g id="Group" transform="translate(117.500000, 153.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Album-Title">
+                                <tspan x="0" y="6">Album Title</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(117.000000, 103.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <g transform="translate(5.500000, 3.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="155" cy="141" r="3.0000052"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="154.214 139.969 156.214 141.11185 154.214 142.2547"></polygon>
+                        <g id="Group" transform="translate(171.500000, 153.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Album-Title">
+                                <tspan x="0" y="6">Album Title</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(171.000000, 103.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <g transform="translate(5.500000, 3.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="209" cy="141" r="3.0000052"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="208.214 139.969 210.214 141.11185 208.214 142.2547"></polygon>
+                        <g id="Group" transform="translate(225.500000, 153.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Album-Title">
+                                <tspan x="0" y="6">Album Title</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(225.000000, 103.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <g transform="translate(5.500000, 3.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="263" cy="141" r="3.0000052"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="262.214 139.969 264.214 141.11185 262.214 142.2547"></polygon>
+                        <g id="Group" transform="translate(279.500000, 153.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Album-Title">
+                                <tspan x="0" y="6">Album Title</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(279.000000, 103.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0.5" width="45" height="45"></rect>
+                            <g transform="translate(5.500000, 3.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="317" cy="141" r="3.0000052"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="316.214 139.969 318.214 141.11185 316.214 142.2547"></polygon>
+                        <g id="Group" transform="translate(9.000000, 171.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <g transform="translate(5.500000, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group" transform="translate(63.000000, 171.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <g transform="translate(5.500000, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group" transform="translate(117.000000, 171.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <g transform="translate(5.500000, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group" transform="translate(171.000000, 171.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <g transform="translate(5.500000, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group" transform="translate(225.000000, 171.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <g transform="translate(5.500000, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group" transform="translate(279.000000, 171.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="45" height="31.5"></rect>
+                            <g transform="translate(5.500000, 3.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#4C4C4C" font-weight="bold">
+                                <text id="Drag-this">
+                                    <tspan x="0" y="6">Drag this</tspan>
+                                </text>
+                                <text id="cover...">
+                                    <tspan x="0" y="13">cover...</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#000000" x="0.5" y="0" width="341.99902" height="202.5"></rect>
+                        <g id="Group" transform="translate(9.500000, 6.000000)" font-size="10" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                            <text id="Indie-Music">
+                                <tspan x="0" y="10">Indie Music</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(9.500000, 38.500000)" font-size="5" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#FFFFFF" font-weight="400">
+                            <text id="Lorem-ipsum-dolor-sit-amet,-consectetur-adipisicing-elit,-sed">
+                                <tspan x="0" y="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</tspan>
+                            </text>
+                            <text id="do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna">
+                                <tspan x="0" y="11">do eiusmod tempor incididunt ut labore et dolore magna</tspan>
+                            </text>
+                            <text id="aliqua.-Ut-enim-ad-minim-veniam,-quis-nostrud-exercitation">
+                                <tspan x="0" y="17">aliqua. Ut enim ad minim veniam, quis nostrud exercitation</tspan>
+                            </text>
+                            <text id="ullamco-laboris-nisi-ut-aliquip.">
+                                <tspan x="0" y="23">ullamco laboris nisi ut aliquip.</tspan>
+                            </text>
+                        </g>
+                        <g id="Group" transform="translate(171.000000, 36.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="27.000244" height="27.000214"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="27.000244" height="27.000214"></rect>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="193.35742" cy="57.85742" r="2.571444"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="192.683 56.97301 194.3972 57.95259 192.683 58.93217"></polygon>
+                        <g id="Group" transform="translate(203.000000, 36.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0" y="0" width="27.000244" height="27.000214"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="27.000244" height="27.000214"></rect>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="224.85742" cy="57.85742" r="2.571444"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="224.183 56.97301 225.8972 57.95259 224.183 58.93217"></polygon>
+                        <g id="Group" transform="translate(234.000000, 36.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="27.000244" height="27.000214"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="27.000244" height="27.000214"></rect>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="256.35742" cy="57.85742" r="2.571444"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="255.683 56.97301 257.3972 57.95259 255.683 58.93217"></polygon>
+                        <g id="Group" transform="translate(266.000000, 36.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0" y="0" width="27.000244" height="27.000214"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="27.000244" height="27.000214"></rect>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="287.85742" cy="57.85742" r="2.571444"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="287.183 56.97301 288.8972 57.95259 287.183 58.93217"></polygon>
+                        <g id="Group" transform="translate(297.000000, 36.000000)">
+                            <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="27.000244" height="27.000214"></rect>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="27.000244" height="27.000214"></rect>
+                        </g>
+                        <circle id="Oval" fill="#4C4C4C" cx="319.35742" cy="57.85742" r="2.571405"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="318.683 56.97301 320.3972 57.95259 318.683 58.93217"></polygon>
+                        <path d="M12.5,76.5 L47,76.5 C48.65686,76.5 50,77.84314 50,79.5 L50,87 C50,88.65686 48.65686,90 47,90 L12.5,90 C10.84314,90 9.5,88.65686 9.5,87 L9.5,87 L9.5,79.5 C9.5,77.84314 10.84314,76.5 12.5,76.5 L12.5,76.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M12.5,76.5 L47,76.5 C48.65686,76.5 50,77.84314 50,79.5 L50,87 C50,88.65686 48.65686,90 47,90 L12.5,90 C10.84314,90 9.5,88.65686 9.5,87 L9.5,87 L9.5,79.5 C9.5,77.84314 10.84314,76.5 12.5,76.5 L12.5,76.5 Z" id="Shape" stroke="#999999"></path>
+                        <path d="M12.5,76.5 L23.375,76.5 C25.03186,76.5 26.375,77.84314 26.375,79.5 L26.375,87 C26.375,88.65686 25.03186,90 23.375,90 L12.5,90 C10.84314,90 9.5,88.65686 9.5,87 L9.5,87 L9.5,79.5 C9.5,77.84314 10.84314,76.5 12.5,76.5 L12.5,76.5 Z" id="Shape" fill="#000000"></path>
+                        <path d="M12.5,76.5 L23.375,76.5 C25.03186,76.5 26.375,77.84314 26.375,79.5 L26.375,87 C26.375,88.65686 25.03186,90 23.375,90 L12.5,90 C10.84314,90 9.5,88.65686 9.5,87 L9.5,87 L9.5,79.5 C9.5,77.84314 10.84314,76.5 12.5,76.5 L12.5,76.5 Z" id="Shape" stroke="#000000"></path>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="23" y="76.5" width="13.5" height="13.5"></rect>
+                        <path d="M23,76.5 L36.5,76.5 M36.5,90 L23,90" id="Shape" stroke="#999999"></path>
+                        <path d="M36.5,76.5 L36.5,90" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="12.875" y="79.875" width="2.9225464" height="2.9225464"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="16.703" y="79.875" width="2.9225464" height="2.9225464"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="12.875" y="83.702" width="2.9225464" height="2.9225464"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="16.703" y="83.702" width="2.9225464" height="2.9225464"></rect>
+                        <rect id="Rectangle-path" fill="#000000" x="26.375" y="79.875" width="2.7782593" height="2.7782593"></rect>
+                        <path d="M29.75,80.595 L33.125,80.595" id="Shape" stroke="#000000"></path>
+                        <path d="M29.75,82.073 L33.125,82.073" id="Shape" stroke="#000000"></path>
+                        <rect id="Rectangle-path" fill="#000000" x="26.375" y="83.827" width="2.7633667" height="2.7633362"></rect>
+                        <path d="M29.75,84.547 L33.125,84.547" id="Shape" stroke="#000000"></path>
+                        <path d="M29.75,86.033 L33.125,86.033" id="Shape" stroke="#000000"></path>
+                        <path d="M39.875,80.494 L46.625,80.494" id="Shape" stroke="#000000" stroke-width="1.5"></path>
+                        <path d="M39.875,83.41901 L46.625,83.41901" id="Shape" stroke="#000000" stroke-width="1.5"></path>
+                        <path d="M39.875,86.34399 L46.625,86.34399" id="Shape" stroke="#000000" stroke-width="1.5"></path>
+                        <path d="M194.75,76.5 L215.75,76.5 C217.40686,76.5 218.75,77.84314 218.75,79.5 L218.75,87 C218.75,88.65686 217.40686,90 215.75,90 L194.75,90 C193.09314,90 191.75,88.65686 191.75,87 L191.75,87 L191.75,79.5 C191.75,77.84314 193.09314,76.5 194.75,76.5 L194.75,76.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M194.75,76.5 L215.75,76.5 C217.40686,76.5 218.75,77.84314 218.75,79.5 L218.75,87 C218.75,88.65686 217.40686,90 215.75,90 L194.75,90 C193.09314,90 191.75,88.65686 191.75,87 L191.75,87 L191.75,79.5 C191.75,77.84314 193.09314,76.5 194.75,76.5 L194.75,76.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(194.750000, 79.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Shuffle">
+                                <tspan x="0.8850002" y="6">Shuffle</tspan>
+                            </text>
+                        </g>
+                        <path d="M230,76.5 L284,76.5 C287.7279,76.5 290.75,79.52208 290.75,83.25 L290.75,83.25 C290.75,86.97792 287.7279,90 284,90 L230,90 C226.2721,90 223.25,86.97792 223.25,83.25 L223.25,83.25 L223.25,83.25 C223.25,79.52208 226.2721,76.5 230,76.5 L230,76.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M230,76.5 L284,76.5 C287.7279,76.5 290.75,79.52208 290.75,83.25 L290.75,83.25 C290.75,86.97792 287.7279,90 284,90 L230,90 C226.2721,90 223.25,86.97792 223.25,83.25 L223.25,83.25 L223.25,83.25 C223.25,79.52208 226.2721,76.5 230,76.5 L230,76.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(231.250000, 79.500000)" font-weight="normal" font-size="6" font-family="Helvetica-Oblique, Helvetica" fill="#999999" font-style="italic">
+                            <text id="Filter-Album-Names">
+                                <tspan x="0" y="6">Filter Album Names</tspan>
+                            </text>
+                        </g>
+                        <circle id="Oval" fill="#FFFFFF" cx="300.875" cy="83.25" r="3.375025"></circle>
+                        <circle id="Oval" stroke="#4C4C4C" stroke-width="2" cx="300.875" cy="83.25" r="3.375025"></circle>
+                        <path d="M313.99902,76.5 L334.99902,76.5 C336.6559,76.5 337.99902,77.84314 337.99902,79.5 L337.99902,87 C337.99902,88.65686 336.6559,90 334.99902,90 L313.99902,90 C312.34216,90 310.99902,88.65686 310.99902,87 L310.99902,87 L310.99902,79.5 C310.99902,77.84314 312.34216,76.5 313.99902,76.5 L313.99902,76.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M313.99902,76.5 L334.99902,76.5 C336.6559,76.5 337.99902,77.84314 337.99902,79.5 L337.99902,87 C337.99902,88.65686 336.6559,90 334.99902,90 L313.99902,90 C312.34216,90 310.99902,88.65686 310.99902,87 L310.99902,87 L310.99902,79.5 C310.99902,77.84314 312.34216,76.5 313.99902,76.5 L313.99902,76.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <g id="Group" transform="translate(314.999020, 79.500000)" font-size="7" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                            <text id="Info">
+                                <tspan x="0" y="6">Info</tspan>
+                            </text>
+                        </g>
+                        <polygon id="Shape" fill="#000000" points="330.399 81 334.399 83.25 330.399 85.5"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

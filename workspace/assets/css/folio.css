@@ -46,7 +46,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
-.carousel .mdown p, .article-view.mdown p, .app.small-stretch .carousel .mdown h6, .app.small-stretch .carousel .mdown h5, .app.small-stretch .carousel .mdown p,
+.article-view.mdown h5, .article-view.mdown h6, .article-view.mdown p, .carousel .mdown p, .app.small-stretch .carousel .mdown h6, .app.small-stretch .carousel .mdown h5, .app.small-stretch .carousel .mdown p,
 .app.small-stretch .article-view.mdown h6,
 .app.small-stretch .article-view.mdown h5,
 .app.small-stretch .article-view.mdown p {
@@ -59,12 +59,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .app.small-stretch .article-view.mdown h4, .app.small-stretch #bundle-list, .app.small-stretch #site-name, .app.small-stretch .article-button, .app.small-stretch .media-caption-stack .content p {
   letter-spacing: -0.05ch; }
 
-.carousel .mdown p, .article-view.mdown p, .app.small-stretch .carousel .mdown h6, .app.small-stretch .carousel .mdown h5, .app.small-stretch .carousel .mdown p,
+.article-view.mdown h5, .article-view.mdown h6, .article-view.mdown p, .carousel .mdown p, .app.small-stretch .carousel .mdown h6, .app.small-stretch .carousel .mdown h5, .app.small-stretch .carousel .mdown p,
 .app.small-stretch .article-view.mdown h6,
 .app.small-stretch .article-view.mdown h5,
 .app.small-stretch .article-view.mdown p {
   margin-left: unset; }
-  .carousel .mdown p:first-child, .article-view.mdown p:first-child, .app.small-stretch .carousel .mdown h6:first-child, .app.small-stretch .carousel .mdown h5:first-child, .app.small-stretch .carousel .mdown p:first-child,
+  .article-view.mdown h5:first-child, .article-view.mdown h6:first-child, .article-view.mdown p:first-child, .carousel .mdown p:first-child, .app.small-stretch .carousel .mdown h6:first-child, .app.small-stretch .carousel .mdown h5:first-child, .app.small-stretch .carousel .mdown p:first-child,
   .app.small-stretch .article-view.mdown h6:first-child,
   .app.small-stretch .article-view.mdown h5:first-child,
   .app.small-stretch .article-view.mdown p:first-child {
@@ -122,7 +122,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 2rem; }
 
 .carousel .mdown h4, .article-view.mdown h1, .article-view.mdown h2 {
-  margin-bottom: 1rem; }
+  margin-bottom: 2rem; }
 
 /* 1p2_2f6 */
 /* .media-caption-stack */
@@ -151,15 +151,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .app.small-stretch .article-view.mdown h4 {
   margin-bottom: 1rem; }
 
+/* 1f22_1f3 */
+.article-view.mdown h5, .article-view.mdown h6, .article-view.mdown p {
+  font-size: 1.22rem;
+  line-height: 1.5rem;
+  letter-spacing: 0; }
+
+.article-view.mdown h5, .article-view.mdown h6, .article-view.mdown p {
+  margin-bottom: 1rem; }
+
 /* 1f1_1f6 */
-.carousel .mdown p, .article-view.mdown p, .app.small-stretch .carousel .mdown h6, .app.small-stretch .carousel .mdown h5, .app.small-stretch .carousel .mdown p,
+.carousel .mdown p, .app.small-stretch .carousel .mdown h6, .app.small-stretch .carousel .mdown h5, .app.small-stretch .carousel .mdown p,
 .app.small-stretch .article-view.mdown h6,
 .app.small-stretch .article-view.mdown h5,
 .app.small-stretch .article-view.mdown p {
   font-size: 1.1rem;
-  line-height: 1.333333333rem; }
+  line-height: 1.333333333rem;
+  letter-spacing: 0; }
 
-.carousel .mdown p, .article-view.mdown p, .app.small-stretch .carousel .mdown h6, .app.small-stretch .carousel .mdown h5, .app.small-stretch .carousel .mdown p,
+.carousel .mdown p, .app.small-stretch .carousel .mdown h6, .app.small-stretch .carousel .mdown h5, .app.small-stretch .carousel .mdown p,
 .app.small-stretch .article-view.mdown h6,
 .app.small-stretch .article-view.mdown h5,
 .app.small-stretch .article-view.mdown p {
@@ -1123,6 +1133,7 @@ body {
     opacity: 0; }
 
 .article-view {
+  position: relative;
   width: 680px;
   margin: 0 auto 1rem;
   padding-top: 1.5rem;
@@ -1130,15 +1141,23 @@ body {
   padding-left: 20px;
   padding-right: 20px; }
   .article-view.mdown > *:first-child {
-    margin-top: 0 !important; }
+    min-height: 22vh;
+    margin-top: 0 !important;
+    margin-bottom: auto; }
   .article-view.mdown > * {
     padding-left: 200px; }
-  .article-view.mdown h3, .article-view.mdown h4 {
+  .article-view.mdown h3, .article-view.mdown h5 {
     margin-top: 0;
     padding-left: 0;
-    width: 180px;
-    float: left;
-    clear: both; }
+    width: 180px; }
+    .article-view.mdown h3:not(:last-child), .article-view.mdown h5:not(:last-child) {
+      float: left;
+      clear: both; }
+    .article-view.mdown h3:last-child, .article-view.mdown h5:last-child {
+      float: none;
+      clear: none;
+      position: absolute;
+      bottom: 1.5rem; }
 
 .app.medium-wide {
   /* body */
@@ -1436,13 +1455,17 @@ body {
     padding-left: 6vw;
     padding-right: 2vw;
     padding-top: 20vh; }
+    .app.small-stretch .article-view.mdown > *:first-child {
+      min-height: 0; }
     .app.small-stretch .article-view.mdown > * {
       padding-left: 2vw;
       padding-right: 2vw; }
     .app.small-stretch .article-view.mdown h3, .app.small-stretch .article-view.mdown h4 {
       width: auto;
       float: none;
-      clear: none; }
+      clear: none;
+      position: static;
+      bottom: auto; }
 HTML.xsmall-stretch {
   font-size: 10px; }
 
