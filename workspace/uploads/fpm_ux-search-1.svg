@@ -13,7 +13,8 @@
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+        <!-- 
+<filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
@@ -22,8 +23,10 @@
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
+ -->
         <rect id="path-3" x="20.5" y="0" width="446.5" height="118"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+        <!-- 
+<filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
@@ -32,6 +35,7 @@
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
+ -->
     </defs>
     <g id="Search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="fpm_ux-search-1">
@@ -75,7 +79,7 @@
                         <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="53.7191 5.78139 51.79736 8.71815 49.8756 5.78139"></polygon>
                         <path d="M45,0.5 L45,14" id="Shape" stroke="#000000" stroke-width="0.5"></path>
                     </g>
-                    <g id="overlay" filter="url(#filter-2)" transform="translate(0.000000, 14.000000)">
+                    <g id="overlay" filter="url(#filter-1)" transform="translate(0.000000, 14.000000)">
                         <path d="M3,0 L55.5,0 C57.15686,0 58.5,1.34314 58.5,3 L58.5,28.5 C58.5,30.15686 57.15686,31.5 55.5,31.5 L3,31.5 C1.34314,31.5 0,30.15686 0,28.5 L0,28.5 L0,3 C0,1.34314 1.34314,0 3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
                         <path d="M3,0 L55.5,0 C57.15686,0 58.5,1.34314 58.5,3 L58.5,28.5 C58.5,30.15686 57.15686,31.5 55.5,31.5 L3,31.5 C1.34314,31.5 0,30.15686 0,28.5 L0,28.5 L0,3 C0,1.34314 1.34314,0 3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
                         <rect id="Rectangle-path" fill="#000000" x="0" y="11.25" width="58.5" height="9"></rect>
@@ -113,7 +117,7 @@
                 <path d="M9.75,18 L3.75,18 C2.093147,18 0.75,19.34314 0.75,21 L0.75,134.25 C0.75,135.90686 2.093147,137.25 3.75,137.25 L8.3,137.25" id="connector"></path>
             </g>
             <g id="panel-border+shadow">
-                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-1)" xlink:href="#path-3"></use>
                 <use stroke="#000000" stroke-width="1" xlink:href="#path-3"></use>
             </g>
             <g id="search-panel" transform="translate(21.000000, 0.000000)">

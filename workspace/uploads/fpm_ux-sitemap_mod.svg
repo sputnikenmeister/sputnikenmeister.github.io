@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="27 89.5 701 414" width="701pt" height="414pt">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="27 89.5 701 414" width="1402pt" height="818pt">
 	<!-- viewBox="0 0 756 553" -->
 	<style>
-		/* <![CDATA[ */  text,  tspan {  font-family: Helvetica, sans-serif;  }  /* ]]> */
+		/* <![CDATA[ */
+		@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+		text,  tspan {
+			font-family: 'Libre Franklin', FranklinGothicFS, sans-serif;
+		}
+		/* ]]> */
 	</style>
 	<defs>
 		<marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="SharpArrow_Marker" viewBox="-4 -4 10 8" markerWidth="10" markerHeight="8" color="black">
