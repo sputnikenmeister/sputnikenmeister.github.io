@@ -1140,10 +1140,6 @@ body {
   padding-bottom: 1.5rem;
   padding-left: 20px;
   padding-right: 20px; }
-  .article-view.mdown > *:first-child {
-    min-height: 22vh;
-    margin-top: 0 !important;
-    margin-bottom: auto; }
   .article-view.mdown > * {
     padding-left: 200px; }
   .article-view.mdown h3, .article-view.mdown h5 {
@@ -1400,8 +1396,6 @@ body {
   .app.medium-wide-stretch .article-view {
     width: 72vw;
     padding-right: 18vw; }
-    .app.medium-wide-stretch .article-view.mdown > *:first-child {
-      min-height: 20vh; }
     .app.medium-wide-stretch .article-view.mdown > * {
       padding-left: 18vw; }
     .app.medium-wide-stretch .article-view.mdown h3, .app.medium-wide-stretch .article-view.mdown h5 {
