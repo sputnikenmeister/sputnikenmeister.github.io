@@ -181,19 +181,15 @@ module.exports = function(grunt) {
 	});
 	grunt.config('gitcommit.main', {
 		options: {
-			message: '---'
+			message: '---',
+			allowEmpty: true
 		}
 	});
 	grunt.config('gitpush.main', {
 		options: {}
 	});
 
-	// grunt.registerTask('gitrunner', 'force git', function() {
-	// 	grunt.option('force', true);
-	// 	grunt.task.run(['gitadd:main']);
-	// });
-
-
+	grunt.registerTask("deploy", ["gitadd:main", "gitcommit:main", "gitpush:main"]);
 	grunt.registerTask("build", ["clean:resources", "clean:scripts", "copy", "http-assets", "http:index", "string-replace", "htmlmin"]);
 	grunt.registerTask("default", ["build"]);
 };
