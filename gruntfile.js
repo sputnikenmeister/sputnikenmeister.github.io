@@ -168,29 +168,30 @@ module.exports = function(grunt) {
 		},
 	});
 
+	/* --------------------------------
+	 * git
+	 * -------------------------------- */
+
 	grunt.loadNpmTasks('grunt-git');
 	grunt.config('gitadd.main', {
 		options: {
 			all: true,
 			force: false
-		},
-		// files: {
-		// 	src: ['*', 'workspace/**/*']
-		// }
+		}, // files: { src: ['*', 'workspace/**/*'] }
 	});
 	grunt.config('gitcommit.main', {
 		options: {
 			message: '---'
 		}
 	});
-
-	grunt.registerTask('gitrunner', 'force git', function() {
-		var tasks = ['gitadd:main'];
-
-		// Use the force option for all tasks declared in the previous line
-		grunt.option('force', true);
-		grunt.task.run(tasks);
+	grunt.config('gitpush.main', {
+		options: {}
 	});
+
+	// grunt.registerTask('gitrunner', 'force git', function() {
+	// 	grunt.option('force', true);
+	// 	grunt.task.run(['gitadd:main']);
+	// });
 
 
 	grunt.registerTask("build", ["clean:resources", "clean:scripts", "copy", "http-assets", "http:index", "string-replace", "htmlmin"]);
