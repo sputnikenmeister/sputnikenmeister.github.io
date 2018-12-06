@@ -2,15 +2,15 @@
   "name": "@folio/github.io",
   "version": "0.1.1",
   "private": true,
-  "dependencies": {
-    "@folio/workspace-uploads": "file:../folio-workspace-uploads",
-    "@folio/workspace-assets": "file:../folio-workspace-assets"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@folio/workspace-assets": "file:../folio-workspace-assets",
+    "@folio/workspace-uploads": "file:../folio-workspace-uploads",
     "grunt": "^1.0.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-git": "^1.0.10",
     "grunt-http": "^2.0.0",
     "grunt-string-replace": "^1.0.0"
   },

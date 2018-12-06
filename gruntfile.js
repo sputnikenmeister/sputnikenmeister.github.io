@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 		"destRoot": "",
 		"srcRoot": "http://localhost/projects/folio-sym",
 		"fontFiles": "{eot,otf,svg,ttf,woff,woff2}",
-		"mediaFiles": "{ico,gif,jpg,jpeg,mp4,png,svg,webp,webm}",
+		"mediaFiles": "{ico,cur,gif,jpg,jpeg,mp4,png,svg,webp,webm}",
 	});
 
 	/* --------------------------------
@@ -53,7 +53,9 @@ module.exports = function(grunt) {
 				cwd: "node_modules/@folio/workspace-assets/",
 				src: [
 					"fonts/**/*.<%= paths.fontFiles %>",
-					"images/{mockup,symbols,favicons/black}/*.<%= paths.mediaFiles %>",
+					"images/{mockup,symbols,cursors}/*.<%= paths.mediaFiles %>",
+					"images/favicons/black/*.<%= paths.mediaFiles %>",
+					// "images/{debug,favicons/white}/*.<%= paths.mediaFiles %>",
 				]
 			}]
 		},
@@ -165,6 +167,31 @@ module.exports = function(grunt) {
 			}
 		},
 	});
+
+	grunt.loadNpmTasks('grunt-git');
+	grunt.config('gitadd.main', {
+		options: {
+			all: true,
+			force: false
+		},
+		// files: {
+		// 	src: ['*', 'workspace/**/*']
+		// }
+	});
+	grunt.config('gitcommit.main', {
+		options: {
+			message: '---'
+		}
+	});
+
+	grunt.registerTask('gitrunner', 'force git', function() {
+		var tasks = ['gitadd:main'];
+
+		// Use the force option for all tasks declared in the previous line
+		grunt.option('force', true);
+		grunt.task.run(tasks);
+	});
+
 
 	grunt.registerTask("build", ["clean:resources", "clean:scripts", "copy", "http-assets", "http:index", "string-replace", "htmlmin"]);
 	grunt.registerTask("default", ["build"]);
