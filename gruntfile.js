@@ -190,6 +190,7 @@ module.exports = function(grunt) {
 	});
 
 	grunt.registerTask("deploy", ["gitadd:main", "gitcommit:main", "gitpush:main"]);
+
 	grunt.registerTask("build", ["clean:resources", "clean:scripts", "copy", "http-assets", "http:index", "string-replace", "htmlmin"]);
 	grunt.registerTask("default", ["build"]);
 };
