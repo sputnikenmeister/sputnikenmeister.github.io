@@ -1,117 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="580px" height="398px" viewBox="0 0 580 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
     <title>fpm_ux-assembled-highlights</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="14" width="580" height="384"></rect>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="580" height="384" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <rect id="path-3" x="0" y="0" width="580" height="15"></rect>
-        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="580" height="15" fill="white">
-            <use xlink:href="#path-3"></use>
-        </mask>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
-            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
+        <rect id="path-1" x="0" y="0" width="540" height="338" rx="4"></rect>
+        <filter x="-1.3%" y="-1.5%" width="102.6%" height="104.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-6" x="0" y="0" width="540" height="338" rx="4"></rect>
-        <rect id="path-8" x="0" y="0" width="436.5" height="153"></rect>
+        <rect id="path-4" x="0" y="0" width="436.5" height="153"></rect>
+        <rect id="path-6" x="0" y="0" width="58.5" height="55.4"></rect>
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-8" x="0" y="0" width="58.5" height="55.4"></rect>
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
         <rect id="path-10" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-11">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-11">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <rect id="path-12" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-13">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-13">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <rect id="path-14" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-15">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-15">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <rect id="path-16" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-17">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <rect id="path-18" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-19">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-19">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <rect id="path-20" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-21">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-21">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <rect id="path-22" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-23">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-23">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <rect id="path-24" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-25">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-25">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <rect id="path-26" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-27">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-27">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <rect id="path-28" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-29">
+        <filter x="-12.0%" y="-9.0%" width="123.9%" height="125.3%" filterUnits="objectBoundingBox" id="filter-29">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-30" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-31">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-32" x="0" y="0" width="58.5" height="55.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-33">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-34">
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-30">
             <stop stop-color="#000000" offset="0%"></stop>
             <stop stop-color="#FFFFFF" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-35" x="0" y="0" width="540" height="32"></rect>
-        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.25" y="-0.25" width="540.5" height="32.5">
-            <rect x="-0.25" y="-0.25" width="540.5" height="32.5" fill="white"></rect>
-            <use xlink:href="#path-35" fill="black"></use>
-        </mask>
+        <rect id="path-31" x="0" y="0" width="540" height="32"></rect>
     </defs>
-    <g id="Assembled:-Highlights" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-30.000000, -104.000000)">
+    <g id="Assembled:-Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Highlights" transform="translate(-30.000000, -104.000000)">
             <g id="fpm_ux-assembled-highlights" transform="translate(30.000000, 104.000000)">
                 <g id="desktop-app-frame" opacity="0.33">
                     <g id="desktop">
-                        <use id="desktop-rect" stroke="#7F7F7F" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
-                        <use id="bar-rect" stroke="#7F7F7F" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                        <rect id="desktop-rect" stroke="#7F7F7F" x="0.5" y="14.5" width="579" height="383"></rect>
+                        <rect id="bar-rect" stroke="#7F7F7F" x="0.5" y="0.5" width="579" height="14"></rect>
                         <text id="File-Edit-Account-Wi" fill="#7F7F7F" font-family="Helvetica" font-size="7" font-weight="normal">
                             <tspan x="68" y="10">File   Edit   Account   Window</tspan>
                         </text>
@@ -120,24 +105,33 @@
                         </text>
                     </g>
                 </g>
-                <g id="app" filter="url(#filter-5)" transform="translate(20.000000, 31.000000)">
-                    <mask id="mask-7" fill="white">
-                        <use xlink:href="#path-6"></use>
+                <g id="app" transform="translate(20.000000, 31.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
                     </mask>
-                    <use id="app-rect" fill="#FFFFFF" xlink:href="#path-6"></use>
-                    <g id="Breadcrumbs" mask="url(#mask-7)">
-                        <g transform="translate(80.000000, 27.000000)">
+                    <g id="app-rect">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="539" height="337" rx="4"></rect>
+                    </g>
+                    <g id="Breadcrumbs-highlights" mask="url(#mask-2)">
+                        <g transform="translate(80.000000, 27.000000)" id="Breadcrumbs">
                             <g>
                                 <rect id="Rectangle-path" fill="#E6E6E6" x="23" y="0.5" width="438" height="22.5"></rect>
                                 <rect id="Rectangle-path" stroke="#FFFFFF" x="23" y="0.5" width="438" height="22.5"></rect>
-                                <g id="Group" transform="translate(368.500000, 8.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
-                                    <text id="Start-a-search-from">
-                                        <tspan x="0" y="6">Start a search from here...</tspan>
-                                    </text>
+                                <g id="Breadcrumbs-search-button" transform="translate(368.500000, 8.000000)">
+                                    <g id="search" transform="translate(0.000000, -1.000000)">
+                                        <text id="Search-here…" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                            <tspan x="34.6464844" y="6.5">Search here…</tspan>
+                                        </text>
+                                        <g id="loupe" transform="translate(78.000000, 1.000000)">
+                                            <g>
+                                                <path d="M4.35685508,5.44250696 C3.97653244,5.62892249 3.54885865,5.7335834 3.09674,5.7335834 C1.51345466,5.7335834 0.2299483,4.45007704 0.2299483,2.8667917 C0.2299483,1.28350636 1.51345466,0 3.09674,0 C4.68002534,0 5.9635317,1.28350636 5.9635317,2.8667917 C5.9635317,3.45241742 5.78793355,3.99702999 5.48651757,4.4508491 L7.02533009,5.98966161 L5.96466991,7.05032179 L4.35685508,5.44250696 L4.35685508,5.44250696 Z" id="Combined-Shape" fill="#333333"></path>
+                                                <path d="M1.2299483,2.8468 C1.2299483,1.81579941 2.06573941,0.9800083 3.09674,0.9800083 C4.12774059,0.9800083 4.9635317,1.81579941 4.9635317,2.8468 C4.9635317,3.87780059 4.12774059,4.7135917 3.09674,4.7135917 C2.06573941,4.7135917 1.2299483,3.87780059 1.2299483,2.8468 Z" id="Oval" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                            </g>
+                                        </g>
+                                    </g>
                                 </g>
-                                <circle id="Oval" fill="#FFFFFF" cx="448.09674" cy="11.34677" r="2.3668048"></circle>
-                                <circle id="Oval" stroke="#333333" cx="448.09674" cy="11.34677" r="2.3668048"></circle>
-                                <path d="M451.495,15 L450.04968,13.44626" id="Shape" stroke="#333333" stroke-width="1.5"></path>
                                 <polygon id="Shape" fill="#666666" points="0.5 0.5 0.5 22.99341 45.50012 23 53.00018 11.75009 45.50012 0.50023"></polygon>
                                 <polygon id="Shape" stroke="#FFFFFF" points="0.5 0.5 0.5 22.99341 45.50012 23 53.00018 11.75009 45.50012 0.50023"></polygon>
                                 <g id="Group" transform="translate(28.500000, 7.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
@@ -148,23 +142,23 @@
                             </g>
                         </g>
                     </g>
-                    <g id="Table" mask="url(#mask-7)">
+                    <g id="Table" mask="url(#mask-2)">
                         <g transform="translate(103.000000, 45.000000)">
                             <g id="table" transform="translate(0.000000, 95.000000)">
                                 <g id="covers_row-+-covers_row-Mask">
-                                    <mask id="mask-9" fill="white">
-                                        <use xlink:href="#path-8"></use>
+                                    <mask id="mask-5" fill="white">
+                                        <use xlink:href="#path-4"></use>
                                     </mask>
-                                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-8"></use>
-                                    <g id="covers_row" mask="url(#mask-9)">
+                                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-4"></use>
+                                    <g id="covers_row" mask="url(#mask-5)">
                                         <g transform="translate(9.000000, 9.000000)" id="cover_card">
                                             <g>
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-6"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -175,11 +169,11 @@
                                             </g>
                                             <g transform="translate(70.000000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-12"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-8"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -190,11 +184,11 @@
                                             </g>
                                             <g transform="translate(140.400000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-14"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-10"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -205,11 +199,11 @@
                                             </g>
                                             <g transform="translate(210.600000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-16"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-12"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -220,11 +214,11 @@
                                             </g>
                                             <g transform="translate(280.800000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-18"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-14"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -235,11 +229,11 @@
                                             </g>
                                             <g transform="translate(351.000000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-21)" xlink:href="#path-20"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-20"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-16"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -250,15 +244,15 @@
                                             </g>
                                         </g>
                                     </g>
-                                    <g id="covers_row" mask="url(#mask-9)">
+                                    <g id="covers_row" mask="url(#mask-5)">
                                         <g transform="translate(9.000000, 90.000000)" id="cover_card">
                                             <g>
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-22"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-22"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-18"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -269,11 +263,11 @@
                                             </g>
                                             <g transform="translate(70.000000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-25)" xlink:href="#path-24"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-24"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-21)" xlink:href="#path-20"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-20"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -284,11 +278,11 @@
                                             </g>
                                             <g transform="translate(140.400000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-27)" xlink:href="#path-26"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-26"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-22"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-22"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -299,11 +293,11 @@
                                             </g>
                                             <g transform="translate(210.600000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-29)" xlink:href="#path-28"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-28"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-25)" xlink:href="#path-24"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-24"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -314,11 +308,11 @@
                                             </g>
                                             <g transform="translate(280.800000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-31)" xlink:href="#path-30"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-30"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-27)" xlink:href="#path-26"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-26"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -329,11 +323,11 @@
                                             </g>
                                             <g transform="translate(351.000000, 0.000000)">
                                                 <g id="Rectangle-path">
-                                                    <use fill="black" fill-opacity="1" filter="url(#filter-33)" xlink:href="#path-32"></use>
-                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-32"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-29)" xlink:href="#path-28"></use>
+                                                    <use fill="#E6E6E6" fill-rule="evenodd" xlink:href="#path-28"></use>
                                                 </g>
                                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="58.5" height="55.4"></rect>
-                                                <ellipse id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" rx="3.9" ry="3.9"></ellipse>
+                                                <circle id="Oval" fill="#4C4C4C" fill-rule="evenodd" cx="48" cy="45" r="3.9"></circle>
                                                 <polygon id="Shape" fill="#FFFFFF" fill-rule="evenodd" points="47 43.3 49.6 45 47 46.7"></polygon>
                                                 <text id="Drag-this-cover..." fill="#4C4C4C" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                                     <tspan x="5" y="9">Drag this cover...</tspan>
@@ -412,7 +406,7 @@
                                 </g>
                             </g>
                             <g id="header">
-                                <rect id="Rectangle-path" fill="url(#linearGradient-34)" x="0" y="9.99999997e-06" width="437" height="71.99981"></rect>
+                                <rect id="Rectangle-path" fill="url(#linearGradient-30)" x="0" y="9.99999997e-06" width="437" height="71.99981"></rect>
                                 <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0" y="9.99999997e-06" width="437" height="71.99981"></rect>
                                 <g id="Blurb" transform="translate(8.000000, 38.000000)" font-size="5" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#FFFFFF" font-weight="400">
                                     <text id="Lorem-ipsum-dolor-sit-amet,-consectetur-adipisicing-elit,-sed">
@@ -459,7 +453,7 @@
                             </g>
                         </g>
                     </g>
-                    <g id="sidebar" mask="url(#mask-7)">
+                    <g id="sidebar" mask="url(#mask-2)">
                         <g transform="translate(0.000000, 32.000000)">
                             <g>
                                 <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="103.5" height="306"></rect>
@@ -632,7 +626,7 @@
                             </g>
                         </g>
                     </g>
-                    <g id="player-full" mask="url(#mask-7)">
+                    <g id="player-full" mask="url(#mask-2)">
                         <g transform="translate(104.000000, 293.000000)">
                             <g>
                                 <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="436.5" height="45"></rect>
@@ -701,7 +695,7 @@
                                 <g id="breadcrumbs">
                                     <rect id="Rectangle-path" fill="#E6E6E6" x="72.5" y="0" width="364.5" height="13.5"></rect>
                                     <rect id="Rectangle-path" stroke="#FFFFFF" x="72.5" y="0" width="364.5" height="13.5"></rect>
-                                    <text id="23-Songs" fill="#4C4C4C" font-family="Helvetica-Light, Helvetica" font-size="6" font-weight="300">
+                                    <text id="23-Songs" fill="#4C4C4C" font-family="Helvetica" font-size="6" font-weight="normal">
                                         <tspan x="92.5" y="9">23 Songs</tspan>
                                     </text>
                                     <polygon id="Shape" fill="#E6E6E6" points="13.999977 0 13.9999 13.49713 83.5 13.4998 88.0001 6.74954 83.5 0"></polygon>
@@ -726,10 +720,10 @@
                             </g>
                         </g>
                     </g>
-                    <g id="header" mask="url(#mask-7)">
+                    <g id="header" mask="url(#mask-2)">
                         <g id="Rectangle-path">
-                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-35"></use>
-                            <use stroke="#000000" mask="url(#mask-36)" stroke-width="0.5" xlink:href="#path-35"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-31"></use>
+                            <rect stroke="#000000" stroke-width="0.25" x="-0.125" y="-0.125" width="540.25" height="32.25"></rect>
                         </g>
                         <text id="Account-Settings-Sig" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="9" font-weight="normal">
                             <tspan x="421.938965" y="25">Account Settings   Sign Out</tspan>

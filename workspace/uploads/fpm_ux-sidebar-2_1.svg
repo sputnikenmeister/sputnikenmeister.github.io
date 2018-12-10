@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="360px" height="360px" viewBox="0 0 360 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
     <title>fpm_ux-sidebar-2_1</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <path d="M75,0.5 L75,0.5 C78.72792,0.5 81.75,3.52208 81.75,7.25 L81.75,7.25 C81.75,10.97792 78.72792,14 75,14 L75,14 C71.27208,14 68.25,10.97792 68.25,7.25 L68.25,7.25 L68.25,7.25 C68.25,3.52208 71.27208,0.5 75,0.5 L75,0.5 Z" id="path-1"></path>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="13.5" height="13.5" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+        <path d="M3.5,0 L60.5,0 C62.15686,0 63.5,1.34315 63.5,3 L63.5,37.5 C63.5,39.15686 62.15686,40.5 60.5,40.5 L3.5,40.5 C1.84314,40.5 0.5,39.15686 0.5,37.5 L0.5,37.5 L0.5,3 C0.5,1.34315 1.84314,0 3.5,0 L3.5,0 Z" id="path-2"></path>
+        <filter x="-11.5%" y="-13.0%" width="123.0%" height="135.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.33 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M3,0.25 L60,0.25 C61.65686,0.25 63,1.59314 63,3.25 L63,19.75 C63,21.40686 61.65686,22.75 60,22.75 L3,22.75 C1.34314,22.75 0,21.40686 0,19.75 L0,19.75 L0,3.25 C0,1.59314 1.34314,0.25 3,0.25 L3,0.25 Z" id="path-4"></path>
+        <filter x="-11.5%" y="-23.3%" width="123.0%" height="164.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.33 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-6" x="6" y="1" width="104" height="306"></rect>
+        <filter x="-6.7%" y="-1.6%" width="113.5%" height="104.6%" filterUnits="objectBoundingBox" id="filter-7">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
+        <rect id="path-8" x="0" y="0" width="104" height="306"></rect>
+        <rect id="path-10" x="0" y="0.5" width="104" height="13.5"></rect>
     </defs>
     <g id="Sidebar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="fpm_ux-sidebar-2_1">
@@ -55,7 +59,10 @@
                         <circle id="Oval" fill="#FFFFFF" cx="89.35178" cy="6.09679" r="2.3667827"></circle>
                         <circle id="Oval" stroke="#000000" cx="89.35178" cy="6.09679" r="2.3667827"></circle>
                         <path d="M92.75,9.75 L91.3047,8.19625" id="Shape" stroke="#000000" stroke-width="1.5"></path>
-                        <use id="Shape" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="3" fill="#000000" xlink:href="#path-1"></use>
+                        <g id="Shape">
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke="#FFFFFF" stroke-width="1.5" d="M75,1.25 C71.6862936,1.25 69,3.93629356 69,7.25 C69,10.5637064 71.6862936,13.25 75,13.25 C78.3137064,13.25 81,10.5637064 81,7.25 C81,3.93629356 78.3137064,1.25 75,1.25 Z"></path>
+                        </g>
                         <polygon id="Shape" fill="#FFFFFF" points="77.09354 6.25 75.17177 9.18677 73.25 6.25"></polygon>
                         <path d="M7.505,0.5 L75.005,0.5 C78.73293,0.5 81.755,3.52208 81.755,7.25 L81.755,7.25 C81.755,10.97792 78.73293,14 75.005,14 L7.505,14 C3.77708,14 0.755005,10.97792 0.755005,7.25 L0.755005,7.25 L0.755005,7.25 C0.755005,3.52208 3.77708,0.5 7.505,0.5 L7.505,0.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
                         <g id="Group" transform="translate(5.755005, 3.500000)" font-weight="normal" font-size="6" font-family="Helvetica-Oblique, Helvetica" fill="#999999" font-style="italic">
@@ -64,8 +71,11 @@
                             </text>
                         </g>
                     </g>
-                    <g id="overlay" filter="url(#filter-3)" transform="translate(18.000000, 14.000000)">
-                        <path d="M3.5,0 L60.5,0 C62.15686,0 63.5,1.34315 63.5,3 L63.5,37.5 C63.5,39.15686 62.15686,40.5 60.5,40.5 L3.5,40.5 C1.84314,40.5 0.5,39.15686 0.5,37.5 L0.5,37.5 L0.5,3 C0.5,1.34315 1.84314,0 3.5,0 L3.5,0 Z" id="Shape" fill="#FFFFFF"></path>
+                    <g id="overlay" transform="translate(18.000000, 14.000000)">
+                        <g id="Shape">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use stroke="#4A4A4A" stroke-width="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
                         <path d="M3.5,0 L60.5,0 C62.15686,0 63.5,1.34315 63.5,3 L63.5,37.5 C63.5,39.15686 62.15686,40.5 60.5,40.5 L3.5,40.5 C1.84314,40.5 0.5,39.15686 0.5,37.5 L0.5,37.5 L0.5,3 C0.5,1.34315 1.84314,0 3.5,0 L3.5,0 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
                         <rect id="Rectangle-path" fill="#000000" x="0.5" y="20.25" width="63" height="9"></rect>
                         <g id="Group" transform="translate(5.500000, 20.750000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
@@ -202,34 +212,35 @@
             </g>
             <polyline id="bracket" stroke="#000000" stroke-width="0.5" points="118.5 289 127.5 289 127.5 275.5 118.5 275.5"></polyline>
             <g id="desc-context-3" transform="translate(136.000000, 276.000000)">
-                <g id="ui" transform="translate(0.000000, -22.000000)">
-                    <path d="M3.5,22.5 L26.75,22.5 C28.40686,22.5 29.75,23.84314 29.75,25.5 L29.75,33 C29.75,34.65686 28.40686,36 26.75,36 L3.5,36 C1.84314,36 0.5,34.65686 0.5,33 L0.5,33 L0.5,25.5 C0.5,23.84314 1.84314,22.5 3.5,22.5 L3.5,22.5 Z" id="Shape" fill="#FFFFFF"></path>
-                    <path d="M3.5,22.5 L26.75,22.5 C28.40686,22.5 29.75,23.84314 29.75,25.5 L29.75,33 C29.75,34.65686 28.40686,36 26.75,36 L3.5,36 C1.84314,36 0.5,34.65686 0.5,33 L0.5,33 L0.5,25.5 C0.5,23.84314 1.84314,22.5 3.5,22.5 L3.5,22.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                    <g id="Group" transform="translate(5.500000, 25.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
-                        <text id="New">
-                            <tspan x="0" y="6">New</tspan>
+                <g id="ui" transform="translate(0.000000, -23.000000)">
+                    <g id="Group" transform="translate(0.500000, 23.500000)">
+                        <path d="M3,0 L26.25,0 C27.90686,0 29.25,1.34314 29.25,3 L29.25,10.5 C29.25,12.15686 27.90686,13.5 26.25,13.5 L3,13.5 C1.34314,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.34314,0 3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M3,0 L26.25,0 C27.90686,0 29.25,1.34314 29.25,3 L29.25,10.5 C29.25,12.15686 27.90686,13.5 26.25,13.5 L3,13.5 C1.34314,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.34314,0 3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <text id="New" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5" y="9">New</tspan>
                         </text>
+                        <polygon id="Shape" fill="#000000" points="24.42215 5.7814 22.50038 8.71817 20.57861 5.7814"></polygon>
                     </g>
-                    <polygon id="Shape" fill="#000000" points="24.92215 28.2814 23.00038 31.21817 21.07861 28.2814"></polygon>
-                    <path d="M39.5,22.5 L62.75,22.5 C64.40686,22.5 65.75,23.84314 65.75,25.5 L65.75,33 C65.75,34.65686 64.40686,36 62.75,36 L39.5,36 C37.84314,36 36.5,34.65686 36.5,33 L36.5,33 L36.5,25.5 C36.5,23.84314 37.84314,22.5 39.5,22.5 L39.5,22.5 Z" id="Shape" fill="#000000"></path>
-                    <path d="M39.5,22.5 L62.75,22.5 C64.40686,22.5 65.75,23.84314 65.75,25.5 L65.75,33 C65.75,34.65686 64.40686,36 62.75,36 L39.5,36 C37.84314,36 36.5,34.65686 36.5,33 L36.5,33 L36.5,25.5 C36.5,23.84314 37.84314,22.5 39.5,22.5 L39.5,22.5 Z" id="Shape" stroke="#FFFFFF" stroke-width="0.5"></path>
-                    <g id="Group" transform="translate(41.500000, 25.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
-                        <text id="New">
-                            <tspan x="0" y="6">New</tspan>
+                    <g id="Group" transform="translate(36.500000, 23.500000)">
+                        <path d="M3,0 L26.25,0 C27.90686,0 29.25,1.34314 29.25,3 L29.25,10.5 C29.25,12.15686 27.90686,13.5 26.25,13.5 L3,13.5 C1.34314,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.34314,0 3,0 L3,0 Z" id="Shape" fill="#000000"></path>
+                        <path d="M3,0 L26.25,0 C27.90686,0 29.25,1.34314 29.25,3 L29.25,10.5 C29.25,12.15686 27.90686,13.5 26.25,13.5 L3,13.5 C1.34314,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.34314,0 3,0 L3,0 Z" id="Shape" stroke="#FFFFFF" stroke-width="0.5"></path>
+                        <text id="New" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5" y="9">New</tspan>
                         </text>
+                        <polygon id="Shape" fill="#FFFFFF" points="24.42215 5.9064 22.50038 8.84317 20.57861 5.9064"></polygon>
                     </g>
-                    <polygon id="Shape" fill="#FFFFFF" points="60.92215 28.4064 59.00038 31.34317 57.07861 28.4064"></polygon>
-                    <path d="M39.5,0 L96.5,0 C98.15686,0 99.5,1.34314 99.5,3 L99.5,19.5 C99.5,21.15686 98.15686,22.5 96.5,22.5 L39.5,22.5 C37.84314,22.5 36.5,21.15686 36.5,19.5 L36.5,19.5 L36.5,3 C36.5,1.34314 37.84314,0 39.5,0 L39.5,0 Z" id="Shape" fill="#FFFFFF"></path>
-                    <path d="M39.5,0 L96.5,0 C98.15686,0 99.5,1.34314 99.5,3 L99.5,19.5 C99.5,21.15686 98.15686,22.5 96.5,22.5 L39.5,22.5 C37.84314,22.5 36.5,21.15686 36.5,19.5 L36.5,19.5 L36.5,3 C36.5,1.34314 37.84314,0 39.5,0 L39.5,0 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                    <rect id="Rectangle-path" fill="#000000" x="36.5" y="2.25" width="63" height="9"></rect>
-                    <g id="Group" transform="translate(41.500000, 2.750000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
-                        <text id="Playlist">
-                            <tspan x="0" y="6">Playlist</tspan>
+                    <g id="Group" transform="translate(36.500000, 0.750000)">
+                        <g id="Shape">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use stroke="#4A4A4A" stroke-width="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                        <path d="M3,0.25 L60,0.25 C61.65686,0.25 63,1.59314 63,3.25 L63,19.75 C63,21.40686 61.65686,22.75 60,22.75 L3,22.75 C1.34314,22.75 0,21.40686 0,19.75 L0,19.75 L0,3.25 C0,1.59314 1.34314,0.25 3,0.25 L3,0.25 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <rect id="Rectangle-path" fill="#000000" x="0" y="2.5" width="63" height="9"></rect>
+                        <text id="Playlist" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5" y="9">Playlist</tspan>
                         </text>
-                    </g>
-                    <g id="Group" transform="translate(41.500000, 11.750000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
-                        <text id="Advanced-Search">
-                            <tspan x="0" y="6">Advanced Search</tspan>
+                        <text id="Advanced-Search" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                            <tspan x="5" y="18">Advanced Search</tspan>
                         </text>
                     </g>
                 </g>
@@ -266,152 +277,186 @@
                     </text>
                 </g>
             </g>
+            <g id="sidebar-shadow">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                <rect stroke="#000000" stroke-width="1" x="6.5" y="1.5" width="103" height="305"></rect>
+            </g>
             <g id="sidebar-2" transform="translate(6.000000, 1.000000)">
-                <g id="base" filter="url(#filter-4)" stroke-width="1" fill-rule="evenodd" stroke="#000000" fill="#FFFFFF">
-                    <rect id="Rectangle-path" stroke-width="0.5" x="0" y="0" width="103.5" height="306"></rect>
-                </g>
-                <g id="sidebar-statusbar" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 274.000000)">
-                    <rect id="Rectangle-path" fill="#FFFFFF" x="0" y="18.5" width="103.5" height="13.5"></rect>
-                    <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="0" y="18.5" width="103.5" height="13.5"></rect>
-                    <text id="Application-Status" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                        <tspan x="5" y="27.5">Application Status</tspan>
-                    </text>
-                    <g id="btn-more-2" transform="translate(56.250000, 0.500000)">
-                        <path d="M3,0 L10.5,0 C12.15685,0 13.5,1.34314 13.5,3 L13.5,10.5 C13.5,12.15686 12.15685,13.5 10.5,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
-                        <path d="M3,0 L10.5,0 C12.15685,0 13.5,1.34314 13.5,3 L13.5,10.5 C13.5,12.15686 12.15685,13.5 10.5,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,2"></path>
-                        <text id="..." fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                            <tspan x="4.2480001" y="9">...</tspan>
-                        </text>
+                <g id="Group-2">
+                    <mask id="mask-9" fill="white">
+                        <use xlink:href="#path-8"></use>
+                    </mask>
+                    <g id="Rectangle-path">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        <rect stroke="#000000" stroke-width="0.5" x="-0.25" y="-0.25" width="104.5" height="306.5"></rect>
                     </g>
-                    <g id="btn-more-1" transform="translate(38.250000, 0.500000)">
-                        <path d="M3,0 L10.5,0 C12.156853,0 13.5,1.34314 13.5,3 L13.5,10.5 C13.5,12.15686 12.156853,13.5 10.5,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
-                        <path d="M3,0 L10.5,0 C12.156853,0 13.5,1.34314 13.5,3 L13.5,10.5 C13.5,12.15686 12.156853,13.5 10.5,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,2"></path>
-                        <text id="..." fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                            <tspan x="4.2480001" y="9">...</tspan>
-                        </text>
+                    <g id="sidebar-statusbar" mask="url(#mask-9)">
+                        <g transform="translate(0.000000, 292.000000)">
+                            <g id="Rectangle-path" fill="none">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                <rect stroke="#000000" stroke-width="0.25" x="-0.125" y="0.375" width="104.25" height="13.75"></rect>
+                            </g>
+                            <text id="Application-Status" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="5" y="9.5">Application Status</tspan>
+                            </text>
+                        </g>
                     </g>
-                    <g id="btn-new" transform="translate(4.500000, 0.500000)">
-                        <path d="M3,0 L26.25,0 C27.906853,0 29.25,1.34314 29.25,3 L29.25,10.5 C29.25,12.15686 27.906853,13.5 26.25,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
-                        <path d="M3,0 L26.25,0 C27.906853,0 29.25,1.34314 29.25,3 L29.25,10.5 C29.25,12.15686 27.906853,13.5 26.25,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                        <text id="New" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                            <tspan x="5" y="9">New</tspan>
-                        </text>
-                        <polygon id="Shape" fill="#000000" points="24.42216 5.7814 22.500385 8.71817 20.57861 5.7814"></polygon>
+                    <g id="sidebar-actions" mask="url(#mask-9)">
+                        <g transform="translate(4.000000, 274.000000)">
+                            <g id="btn-more-2" transform="translate(52.250000, 0.500000)">
+                                <path d="M3,0 L10.5,0 C12.15685,0 13.5,1.34314 13.5,3 L13.5,10.5 C13.5,12.15686 12.15685,13.5 10.5,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
+                                <path d="M3,0 L10.5,0 C12.15685,0 13.5,1.34314 13.5,3 L13.5,10.5 C13.5,12.15686 12.15685,13.5 10.5,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,2"></path>
+                                <text id="..." fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                    <tspan x="4.2480001" y="9">...</tspan>
+                                </text>
+                            </g>
+                            <g id="btn-more-1" transform="translate(34.250000, 0.500000)">
+                                <path d="M3,0 L10.5,0 C12.156853,0 13.5,1.34314 13.5,3 L13.5,10.5 C13.5,12.15686 12.156853,13.5 10.5,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
+                                <path d="M3,0 L10.5,0 C12.156853,0 13.5,1.34314 13.5,3 L13.5,10.5 C13.5,12.15686 12.156853,13.5 10.5,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,2"></path>
+                                <text id="..." fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                    <tspan x="4.2480001" y="9">...</tspan>
+                                </text>
+                            </g>
+                            <g id="btn-new" transform="translate(0.500000, 0.500000)">
+                                <path d="M3,0 L26.25,0 C27.906853,0 29.25,1.34314 29.25,3 L29.25,10.5 C29.25,12.15686 27.906853,13.5 26.25,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
+                                <path d="M3,0 L26.25,0 C27.906853,0 29.25,1.34314 29.25,3 L29.25,10.5 C29.25,12.15686 27.906853,13.5 26.25,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                                <text id="New" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                    <tspan x="5" y="9">New</tspan>
+                                </text>
+                                <polygon id="Shape" fill="#000000" points="24.42216 5.7814 22.500385 8.71817 20.57861 5.7814"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="sidebar-search" mask="url(#mask-9)">
+                        <g transform="translate(6.000000, 204.000000)">
+                            <rect id="Rectangle-path" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="0.75" y="0.75" width="9" height="9"></rect>
+                            <text id="Untitled-Search-(+1)" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="11.75" y="7.75">Untitled Search (+1)</tspan>
+                            </text>
+                            <path d="M3,2.25 L7.5,2.25 L7.5,7.04999 C6.150002,6.45001 4.349998,8.85 3,7.65 L3,2.25 Z" id="Shape" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path>
+                            <path d="M3,2.25 L7.5,2.25 L7.5,7.04999 C6.150002,6.45001 4.349998,8.85 3,7.65 L3,2.25 Z" id="Shape" stroke="#000000" stroke-width="0.5" fill="none"></path>
+                        </g>
+                    </g>
+                    <g id="sidebar-playlist" mask="url(#mask-9)">
+                        <g transform="translate(7.000000, 196.000000)">
+                            <text id="Untitled-Playlist" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="10.75" y="7">Untitled Playlist</tspan>
+                            </text>
+                            <rect id="Rectangle-path" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="9" height="9"></rect>
+                            <path d="M6.5,3.37744 C6.5,2.85645 6.442848,2.79196 6.025387,2.27634 L6.020973,2.27103 C5.601303,1.75 5.59694,1.75 5.166245,1.75 L2,1.75 L2,7.25 L6.5,7.25 L6.5,3.37744 L6.5,3.37744 Z" id="Shape" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path>
+                            <path d="M6.5,3.37744 C6.5,2.85645 6.442848,2.79196 6.025387,2.27634 L6.020973,2.27103 C5.601303,1.75 5.59694,1.75 5.166245,1.75 L2,1.75 L2,7.25 L6.5,7.25 L6.5,3.37744 L6.5,3.37744 Z M6.5,3.35062 C6.5,2.85645 6.49559,2.85645 5.59694,2.85645 L5.59694,2.85645 C5.59694,1.7554 5.59694,1.75 5.192616,1.75 L6.5,3.35062 Z" id="Shape" stroke="#000000" stroke-width="0.5" fill="none"></path>
+                            <g id="speaker" stroke="none" fill="none" transform="translate(86.000000, 1.000000)">
+                                <polygon id="Shape" fill="#000000" fill-rule="evenodd" points="0 2.25 0 4.25 1.71428 4.25 3.42856 6.25 3.42856 0.25 1.71428 2.25"></polygon>
+                                <path d="M4.285995,3.25 L6,3.25" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                                <path d="M4.285995,4.25 L5.429,5.25" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                                <path d="M4.285995,2.25 L5.429,1.25" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="sidebar-starred" mask="url(#mask-9)">
+                        <g transform="translate(6.000000, 186.000000)">
+                            <rect id="Rectangle-path" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="0.75" y="0.75" width="9" height="9"></rect>
+                            <text id="Starred-Songs" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="11.75" y="7.75">Starred Songs</tspan>
+                            </text>
+                            <polygon id="Shape" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="5.25 2 5.979671 4.2457 8.340935 4.2457 6.43063 5.6336 7.160301 7.8793 5.25 6.4914 3.339699 7.8793 4.06937 5.6336 2.159065 4.2457 4.520329 4.2457"></polygon>
+                            <polygon id="Shape" stroke="#000000" stroke-width="0.5" fill="none" points="5.25 2 5.979671 4.2457 8.340935 4.2457 6.43063 5.6336 7.160301 7.8793 5.25 6.4914 3.339699 7.8793 4.06937 5.6336 2.159065 4.2457 4.520329 4.2457"></polygon>
+                        </g>
+                    </g>
+                    <g id="sidebar-downloads" mask="url(#mask-9)">
+                        <g transform="translate(6.000000, 173.000000)">
+                            <rect id="Rectangle-path" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="0.75" y="0.25" width="9" height="9"></rect>
+                            <text id="Downloads-(3)" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="11.75" y="7.25">Downloads (3)</tspan>
+                            </text>
+                            <polygon id="Shape" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="4.071453 2.4289 6.428585 2.4289 6.428585 4.64319 7.714298 4.64319 5.25002 7.07172 2.78574 4.64319 4.071453 4.64319"></polygon>
+                            <polygon id="Shape" stroke="#000000" stroke-width="0.5" fill="none" points="4.071453 2.4289 6.428585 2.4289 6.428585 4.64319 7.714298 4.64319 5.25002 7.07172 2.78574 4.64319 4.071453 4.64319"></polygon>
+                            <g id="waiting-wheel" stroke="none" fill="none" transform="translate(87.000000, 1.000000)" fill-rule="evenodd">
+                                <path d="M2.77867,0.75876 L2.77867,1.96475 C2.77867,2.10742 2.87758,2.2232 2.999435,2.2232 C3.12129,2.2232 3.2202,2.10742 3.2202,1.96475 L3.2202,0.75876 C3.2202,0.61609 3.12129,0.5003 2.999435,0.5003 C2.87758,0.5003 2.77867,0.61609 2.77867,0.75876" id="Shape" fill="#000000"></path>
+                                <path d="M2.77867,5.03577 L2.77867,6.24176 C2.77867,6.38443 2.87758,6.50021 2.999435,6.50021 C3.12129,6.50021 3.2202,6.38443 3.2202,6.24176 L3.2202,5.03577 C3.2202,4.8931 3.12129,4.77731 2.999435,4.77731 C2.87758,4.77731 2.77867,4.8931 2.77867,5.03577" id="Shape" fill="#999999"></path>
+                                <path d="M5.74133,3.279 L4.5354,3.279 C4.39276,3.279 4.27699,3.3779 4.27699,3.49976 C4.27699,3.62161 4.39276,3.72052 4.5354,3.72052 L5.74133,3.72052 C5.88397,3.72052 5.99974,3.62161 5.99974,3.49976 C5.99974,3.3779 5.88397,3.279 5.74133,3.279" id="Shape" fill="#999999"></path>
+                                <path d="M1.46434,3.279 L0.25841,3.279 C0.11577,3.279 0,3.3779 0,3.49976 C0,3.62161 0.11577,3.72052 0.25841,3.72052 L1.46434,3.72052 C1.60698,3.72052 1.72275,3.62161 1.72275,3.49976 C1.72275,3.3779 1.60698,3.279 1.46434,3.279" id="Shape" fill="#666666"></path>
+                                <path d="M4.17975,1.03113 L3.57678,2.0756 C3.50546,2.19916 3.53322,2.34885 3.63875,2.40979 C3.74428,2.4707 3.88782,2.41986 3.95914,2.29633 L4.5621,1.25186 C4.63342,1.1283 4.60567,0.9786 4.50014,0.91766 C4.39461,0.85675 4.25107,0.9076 4.17975,1.03113" id="Shape" fill="#999999"></path>
+                                <path d="M2.04176,4.73514 L1.4388,5.7796 C1.36748,5.90317 1.39523,6.05286 1.50076,6.1138 C1.60629,6.17471 1.74983,6.12387 1.82115,6.00034 L2.42412,4.95587 C2.49544,4.8323 2.46768,4.68262 2.36215,4.62167 C2.25662,4.56076 2.11308,4.6116 2.04176,4.73514" id="Shape" fill="#999999"></path>
+                                <path d="M5.3204,2.07162 L4.22934,2.58694 C4.10028,2.64789 4.030045,2.77042 4.072556,2.86041 C4.11507,2.95044 4.2543,2.97403 4.38336,2.91306 L5.47443,2.39774 C5.603485,2.3368 5.67372,2.21426 5.63121,2.12427 C5.5887,2.03424 5.44946,2.01065 5.3204,2.07162" id="Shape" fill="#999999"></path>
+                                <path d="M1.61639,4.2106 L0.52533,4.72592 C0.39627,4.78687 0.326035,4.9094 0.368546,4.99939 C0.41106,5.08942 0.55029,5.113 0.67935,5.05203 L1.77042,4.53671 C1.899475,4.47577 1.96971,4.35324 1.9272,4.26324 C1.88469,4.17322 1.74545,4.14963 1.61639,4.2106" id="Shape" fill="#7F7F7F"></path>
+                                <path d="M5.47443,4.72592 L4.38336,4.2106 C4.2543,4.14963 4.11507,4.17322 4.072556,4.26324 C4.030045,4.35324 4.10028,4.47577 4.22934,4.53671 L5.3204,5.05203 C5.44946,5.113 5.5887,5.08942 5.63121,4.99939 C5.67372,4.9094 5.603485,4.78687 5.47443,4.72592" id="Shape" fill="#999999"></path>
+                                <path d="M1.77042,2.58694 L0.67935,2.07162 C0.55029,2.01065 0.41106,2.03424 0.368546,2.12427 C0.326035,2.21426 0.39627,2.3368 0.52533,2.39774 L1.61639,2.91306 C1.74545,2.97403 1.88469,2.95044 1.9272,2.86041 C1.96971,2.77042 1.899475,2.64789 1.77042,2.58694" id="Shape" fill="#4C4C4C"></path>
+                                <path d="M4.5621,5.7796 L3.95914,4.73514 C3.88782,4.6116 3.74428,4.56076 3.63875,4.62167 C3.53322,4.68262 3.50546,4.8323 3.57678,4.95587 L4.17975,6.00034 C4.25107,6.12387 4.39461,6.17471 4.50014,6.1138 C4.60567,6.05286 4.63342,5.90317 4.5621,5.7796" id="Shape" fill="#999999"></path>
+                                <path d="M2.42412,2.0756 L1.82115,1.03113 C1.74983,0.9076 1.60629,0.85675 1.50076,0.91766 C1.39523,0.9786 1.36748,1.1283 1.4388,1.25186 L2.04176,2.29633 C2.11308,2.41986 2.25662,2.4707 2.36215,2.40979 C2.46768,2.34885 2.49544,2.19916 2.42412,2.0756" id="Shape" fill="#333333"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="sidebar-cart" mask="url(#mask-9)">
+                        <g transform="translate(6.000000, 164.000000)">
+                            <rect id="Rectangle-path" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="0.75" y="0.25" width="9" height="9"></rect>
+                            <text id="Shopping-Cart-(8)" stroke="none" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="11.75" y="7.25">Shopping Cart (8)</tspan>
+                            </text>
+                            <polygon id="Shape" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="7.714298 2.4289 7.714298 7.07172 2.78574 6.14316 2.78574 3.35745"></polygon>
+                            <polygon id="Shape" stroke="#000000" stroke-width="0.5" fill="none" points="7.714298 2.4289 7.714298 7.07172 2.78574 6.14316 2.78574 3.35745"></polygon>
+                        </g>
+                    </g>
+                    <text id="User-Selections" fill="#000000" mask="url(#mask-9)" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
+                        <tspan x="7" y="159.75">User Selections</tspan>
+                    </text>
+                    <g id="Catalog" mask="url(#mask-9)">
+                        <g transform="translate(0.000000, 78.000000)">
+                            <text id="Catalog" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
+                                <tspan x="7" y="9.75">Catalog</tspan>
+                            </text>
+                            <text id="Tempos" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="8" y="65.75">Tempos</tspan>
+                            </text>
+                            <text id="Instruments" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="8" y="56.75">Instruments</tspan>
+                            </text>
+                            <rect id="Rectangle-path" fill="#999999" x="0" y="41.25" width="103.5" height="9"></rect>
+                            <text id="Moods" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                <tspan x="8" y="47.75">Moods</tspan>
+                            </text>
+                            <text id="Genres" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="8" y="38.75">Genres</tspan>
+                            </text>
+                            <text id="Artists" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="8" y="29.75">Artists</tspan>
+                            </text>
+                            <text id="Labels" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="8" y="20.75">Labels</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Hilghlights" mask="url(#mask-9)" fill="#000000">
+                        <g transform="translate(7.000000, 33.000000)">
+                            <text id="Highlights" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
+                                <tspan x="0" y="9.75">Highlights</tspan>
+                            </text>
+                            <text id="Staff-Picks" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="1" y="38.75">Staff Picks</tspan>
+                            </text>
+                            <text id="Featured-Artists" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="1" y="29.75">Featured Artists</tspan>
+                            </text>
+                            <text id="New-Additions" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="1" y="20.75">New Additions</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="quick-search" mask="url(#mask-9)">
+                        <g transform="translate(4.000000, 4.000000)">
+                            <path d="M7.25,0.5 L74.75,0.5 C78.47792,0.5 81.5,3.52208 81.5,7.25 L81.5,7.25 C81.5,10.97792 78.47792,14 74.75,14 L7.25,14 C3.52208,14 0.5,10.97792 0.5,7.25 L0.5,7.25 L0.5,7.25 C0.5,3.52208 3.52208,0.5 7.25,0.5 L7.25,0.5 Z" id="Shape" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path>
+                            <path d="M7.25,0.5 L74.75,0.5 C78.47792,0.5 81.5,3.52208 81.5,7.25 L81.5,7.25 C81.5,10.97792 78.47792,14 74.75,14 L7.25,14 C3.52208,14 0.5,10.97792 0.5,7.25 L0.5,7.25 L0.5,7.25 C0.5,3.52208 3.52208,0.5 7.25,0.5 L7.25,0.5 Z" id="Shape" stroke="#999999" stroke-width="0.5" fill="none"></path>
+                            <text id="Quick-Search" stroke="none" fill="#999999" fill-rule="evenodd" font-family="Helvetica-Oblique, Helvetica" font-size="6" font-style="italic" font-weight="normal">
+                                <tspan x="5.5" y="9.5">Quick Search</tspan>
+                            </text>
+                            <circle id="Oval" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="89.09678" cy="6.09679" r="2.3667793"></circle>
+                            <circle id="Oval" stroke="#000000" stroke-width="1" fill="none" cx="89.09678" cy="6.09679" r="2.3667793"></circle>
+                            <path d="M92.495,9.75 L91.049706,8.19625" id="Shape" stroke="#000000" stroke-width="1.5" fill="none"></path>
+                            <polygon id="Shape" stroke="none" fill="#4C4C4C" fill-rule="evenodd" points="77.00016 6.06339 75.078384 9.00016 73.15661 6.06339"></polygon>
+                        </g>
                     </g>
                 </g>
-                <g id="sidebar-search" stroke-width="1" fill-rule="evenodd" transform="translate(6.000000, 204.000000)">
-                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.75" y="0.75" width="9" height="9"></rect>
-                    <text id="Untitled-Search-(+1)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="11.75" y="7.75">Untitled Search (+1)</tspan>
-                    </text>
-                    <path d="M3,2.25 L7.5,2.25 L7.5,7.04999 C6.150002,6.45001 4.349998,8.85 3,7.65 L3,2.25 Z" id="Shape" fill="#FFFFFF"></path>
-                    <path d="M3,2.25 L7.5,2.25 L7.5,7.04999 C6.150002,6.45001 4.349998,8.85 3,7.65 L3,2.25 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                </g>
-                <g id="sidebar-playlist" stroke-width="1" fill-rule="evenodd" transform="translate(7.000000, 196.000000)">
-                    <text id="Untitled-Playlist" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="10.75" y="7">Untitled Playlist</tspan>
-                    </text>
-                    <rect id="Rectangle-path" fill="#FFFFFF" x="0" y="0" width="9" height="9"></rect>
-                    <path d="M6.5,3.37744 C6.5,2.85645 6.442848,2.79196 6.025387,2.27634 L6.020973,2.27103 C5.601303,1.75 5.59694,1.75 5.166245,1.75 L2,1.75 L2,7.25 L6.5,7.25 L6.5,3.37744 L6.5,3.37744 Z" id="Shape" fill="#FFFFFF"></path>
-                    <path d="M6.5,3.37744 C6.5,2.85645 6.442848,2.79196 6.025387,2.27634 L6.020973,2.27103 C5.601303,1.75 5.59694,1.75 5.166245,1.75 L2,1.75 L2,7.25 L6.5,7.25 L6.5,3.37744 L6.5,3.37744 Z M6.5,3.35062 C6.5,2.85645 6.49559,2.85645 5.59694,2.85645 L5.59694,2.85645 C5.59694,1.7554 5.59694,1.75 5.192616,1.75 L6.5,3.35062 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                    <g id="speaker" transform="translate(86.000000, 1.000000)">
-                        <polygon id="Shape" fill="#000000" fill-rule="evenodd" points="0 2.25 0 4.25 1.71428 4.25 3.42856 6.25 3.42856 0.25 1.71428 2.25"></polygon>
-                        <path d="M4.285995,3.25 L6,3.25" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                        <path d="M4.285995,4.25 L5.429,5.25" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                        <path d="M4.285995,2.25 L5.429,1.25" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                    </g>
-                </g>
-                <g id="sidebar-starred" stroke-width="1" fill-rule="evenodd" transform="translate(6.000000, 186.000000)">
-                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.75" y="0.75" width="9" height="9"></rect>
-                    <text id="Starred-Songs" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="11.75" y="7.75">Starred Songs</tspan>
-                    </text>
-                    <polygon id="Shape" fill="#FFFFFF" points="5.25 2 5.979671 4.2457 8.340935 4.2457 6.43063 5.6336 7.160301 7.8793 5.25 6.4914 3.339699 7.8793 4.06937 5.6336 2.159065 4.2457 4.520329 4.2457"></polygon>
-                    <polygon id="Shape" stroke="#000000" stroke-width="0.5" points="5.25 2 5.979671 4.2457 8.340935 4.2457 6.43063 5.6336 7.160301 7.8793 5.25 6.4914 3.339699 7.8793 4.06937 5.6336 2.159065 4.2457 4.520329 4.2457"></polygon>
-                </g>
-                <g id="sidebar-downloads" stroke-width="1" fill-rule="evenodd" transform="translate(6.000000, 173.000000)">
-                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.75" y="0.25" width="9" height="9"></rect>
-                    <text id="Downloads-(3)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="11.75" y="7.25">Downloads (3)</tspan>
-                    </text>
-                    <polygon id="Shape" fill="#FFFFFF" points="4.071453 2.4289 6.428585 2.4289 6.428585 4.64319 7.714298 4.64319 5.25002 7.07172 2.78574 4.64319 4.071453 4.64319"></polygon>
-                    <polygon id="Shape" stroke="#000000" stroke-width="0.5" points="4.071453 2.4289 6.428585 2.4289 6.428585 4.64319 7.714298 4.64319 5.25002 7.07172 2.78574 4.64319 4.071453 4.64319"></polygon>
-                    <g id="waiting-wheel" transform="translate(87.000000, 1.000000)">
-                        <path d="M2.77867,0.75876 L2.77867,1.96475 C2.77867,2.10742 2.87758,2.2232 2.999435,2.2232 C3.12129,2.2232 3.2202,2.10742 3.2202,1.96475 L3.2202,0.75876 C3.2202,0.61609 3.12129,0.5003 2.999435,0.5003 C2.87758,0.5003 2.77867,0.61609 2.77867,0.75876" id="Shape" fill="#000000"></path>
-                        <path d="M2.77867,5.03577 L2.77867,6.24176 C2.77867,6.38443 2.87758,6.50021 2.999435,6.50021 C3.12129,6.50021 3.2202,6.38443 3.2202,6.24176 L3.2202,5.03577 C3.2202,4.8931 3.12129,4.77731 2.999435,4.77731 C2.87758,4.77731 2.77867,4.8931 2.77867,5.03577" id="Shape" fill="#999999"></path>
-                        <path d="M5.74133,3.279 L4.5354,3.279 C4.39276,3.279 4.27699,3.3779 4.27699,3.49976 C4.27699,3.62161 4.39276,3.72052 4.5354,3.72052 L5.74133,3.72052 C5.88397,3.72052 5.99974,3.62161 5.99974,3.49976 C5.99974,3.3779 5.88397,3.279 5.74133,3.279" id="Shape" fill="#999999"></path>
-                        <path d="M1.46434,3.279 L0.25841,3.279 C0.11577,3.279 0,3.3779 0,3.49976 C0,3.62161 0.11577,3.72052 0.25841,3.72052 L1.46434,3.72052 C1.60698,3.72052 1.72275,3.62161 1.72275,3.49976 C1.72275,3.3779 1.60698,3.279 1.46434,3.279" id="Shape" fill="#666666"></path>
-                        <path d="M4.17975,1.03113 L3.57678,2.0756 C3.50546,2.19916 3.53322,2.34885 3.63875,2.40979 C3.74428,2.4707 3.88782,2.41986 3.95914,2.29633 L4.5621,1.25186 C4.63342,1.1283 4.60567,0.9786 4.50014,0.91766 C4.39461,0.85675 4.25107,0.9076 4.17975,1.03113" id="Shape" fill="#999999"></path>
-                        <path d="M2.04176,4.73514 L1.4388,5.7796 C1.36748,5.90317 1.39523,6.05286 1.50076,6.1138 C1.60629,6.17471 1.74983,6.12387 1.82115,6.00034 L2.42412,4.95587 C2.49544,4.8323 2.46768,4.68262 2.36215,4.62167 C2.25662,4.56076 2.11308,4.6116 2.04176,4.73514" id="Shape" fill="#999999"></path>
-                        <path d="M5.3204,2.07162 L4.22934,2.58694 C4.10028,2.64789 4.030045,2.77042 4.072556,2.86041 C4.11507,2.95044 4.2543,2.97403 4.38336,2.91306 L5.47443,2.39774 C5.603485,2.3368 5.67372,2.21426 5.63121,2.12427 C5.5887,2.03424 5.44946,2.01065 5.3204,2.07162" id="Shape" fill="#999999"></path>
-                        <path d="M1.61639,4.2106 L0.52533,4.72592 C0.39627,4.78687 0.326035,4.9094 0.368546,4.99939 C0.41106,5.08942 0.55029,5.113 0.67935,5.05203 L1.77042,4.53671 C1.899475,4.47577 1.96971,4.35324 1.9272,4.26324 C1.88469,4.17322 1.74545,4.14963 1.61639,4.2106" id="Shape" fill="#7F7F7F"></path>
-                        <path d="M5.47443,4.72592 L4.38336,4.2106 C4.2543,4.14963 4.11507,4.17322 4.072556,4.26324 C4.030045,4.35324 4.10028,4.47577 4.22934,4.53671 L5.3204,5.05203 C5.44946,5.113 5.5887,5.08942 5.63121,4.99939 C5.67372,4.9094 5.603485,4.78687 5.47443,4.72592" id="Shape" fill="#999999"></path>
-                        <path d="M1.77042,2.58694 L0.67935,2.07162 C0.55029,2.01065 0.41106,2.03424 0.368546,2.12427 C0.326035,2.21426 0.39627,2.3368 0.52533,2.39774 L1.61639,2.91306 C1.74545,2.97403 1.88469,2.95044 1.9272,2.86041 C1.96971,2.77042 1.899475,2.64789 1.77042,2.58694" id="Shape" fill="#4C4C4C"></path>
-                        <path d="M4.5621,5.7796 L3.95914,4.73514 C3.88782,4.6116 3.74428,4.56076 3.63875,4.62167 C3.53322,4.68262 3.50546,4.8323 3.57678,4.95587 L4.17975,6.00034 C4.25107,6.12387 4.39461,6.17471 4.50014,6.1138 C4.60567,6.05286 4.63342,5.90317 4.5621,5.7796" id="Shape" fill="#999999"></path>
-                        <path d="M2.42412,2.0756 L1.82115,1.03113 C1.74983,0.9076 1.60629,0.85675 1.50076,0.91766 C1.39523,0.9786 1.36748,1.1283 1.4388,1.25186 L2.04176,2.29633 C2.11308,2.41986 2.25662,2.4707 2.36215,2.40979 C2.46768,2.34885 2.49544,2.19916 2.42412,2.0756" id="Shape" fill="#333333"></path>
-                    </g>
-                </g>
-                <g id="sidebar-cart" stroke-width="1" fill-rule="evenodd" transform="translate(6.000000, 164.000000)">
-                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.75" y="0.25" width="9" height="9"></rect>
-                    <text id="Shopping-Cart-(8)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="11.75" y="7.25">Shopping Cart (8)</tspan>
-                    </text>
-                    <polygon id="Shape" fill="#FFFFFF" points="7.714298 2.4289 7.714298 7.07172 2.78574 6.14316 2.78574 3.35745"></polygon>
-                    <polygon id="Shape" stroke="#000000" stroke-width="0.5" points="7.714298 2.4289 7.714298 7.07172 2.78574 6.14316 2.78574 3.35745"></polygon>
-                </g>
-                <text id="User-Selections" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
-                    <tspan x="7" y="159.75">User Selections</tspan>
-                </text>
-                <g id="Catalog" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 78.000000)">
-                    <text fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
-                        <tspan x="7" y="9.75">Catalog</tspan>
-                    </text>
-                    <text id="Tempos" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="8" y="65.75">Tempos</tspan>
-                    </text>
-                    <text id="Instruments" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="8" y="56.75">Instruments</tspan>
-                    </text>
-                    <rect id="Rectangle-path" fill="#999999" x="0" y="41.25" width="103.5" height="9"></rect>
-                    <text id="Moods" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                        <tspan x="8" y="47.75">Moods</tspan>
-                    </text>
-                    <text id="Genres" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="8" y="38.75">Genres</tspan>
-                    </text>
-                    <text id="Artists" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="8" y="29.75">Artists</tspan>
-                    </text>
-                    <text id="Labels" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="8" y="20.75">Labels</tspan>
-                    </text>
-                </g>
-                <g id="Hilghlights" stroke-width="1" fill-rule="evenodd" transform="translate(7.000000, 33.000000)" fill="#000000">
-                    <text id="Highlights" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
-                        <tspan x="0" y="9.75">Highlights</tspan>
-                    </text>
-                    <text id="Staff-Picks" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="1" y="38.75">Staff Picks</tspan>
-                    </text>
-                    <text id="Featured-Artists" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="1" y="29.75">Featured Artists</tspan>
-                    </text>
-                    <text id="New-Additions" font-family="Helvetica" font-size="6" font-weight="normal">
-                        <tspan x="1" y="20.75">New Additions</tspan>
-                    </text>
-                </g>
-                <g id="quick-search" stroke-width="1" fill-rule="evenodd" transform="translate(4.000000, 4.000000)">
-                    <path d="M7.25,0.5 L74.75,0.5 C78.47792,0.5 81.5,3.52208 81.5,7.25 L81.5,7.25 C81.5,10.97792 78.47792,14 74.75,14 L7.25,14 C3.52208,14 0.5,10.97792 0.5,7.25 L0.5,7.25 L0.5,7.25 C0.5,3.52208 3.52208,0.5 7.25,0.5 L7.25,0.5 Z" id="Shape" fill="#FFFFFF"></path>
-                    <path d="M7.25,0.5 L74.75,0.5 C78.47792,0.5 81.5,3.52208 81.5,7.25 L81.5,7.25 C81.5,10.97792 78.47792,14 74.75,14 L7.25,14 C3.52208,14 0.5,10.97792 0.5,7.25 L0.5,7.25 L0.5,7.25 C0.5,3.52208 3.52208,0.5 7.25,0.5 L7.25,0.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
-                    <text id="Quick-Search" fill="#999999" font-family="Helvetica-Oblique, Helvetica" font-size="6" font-style="italic" font-weight="normal">
-                        <tspan x="5.5" y="9.5">Quick Search</tspan>
-                    </text>
-                    <circle id="Oval" fill="#FFFFFF" cx="89.09678" cy="6.09679" r="2.3667793"></circle>
-                    <circle id="Oval" stroke="#000000" cx="89.09678" cy="6.09679" r="2.3667793"></circle>
-                    <path d="M92.495,9.75 L91.049706,8.19625" id="Shape" stroke="#000000" stroke-width="1.5"></path>
-                    <polygon id="Shape" fill="#4C4C4C" points="77.00016 6.06339 75.078384 9.00016 73.15661 6.06339"></polygon>
-                </g>
-                <rect id="Rectangle-path" stroke="#000000" stroke-width="1" x="0" y="0" width="103.5" height="306"></rect>
             </g>
         </g>
     </g>

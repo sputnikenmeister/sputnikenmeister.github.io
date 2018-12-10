@@ -1,45 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="580px" height="398px" viewBox="0 0 580 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
     <title>fpm_ux-assembled-catalog</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="14" width="580" height="384"></rect>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="580" height="384" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <rect id="path-3" x="0" y="0" width="580" height="15"></rect>
-        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="580" height="15" fill="white">
-            <use xlink:href="#path-3"></use>
-        </mask>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
-            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
+        <rect id="path-1" x="0" y="0" width="540" height="338" rx="4"></rect>
+        <filter x="-1.3%" y="-1.5%" width="102.6%" height="104.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-6" x="0" y="0" width="540" height="338" rx="4"></rect>
-        <rect id="path-8" x="0" y="0" width="104" height="248"></rect>
-        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="104" height="248" fill="white">
-            <use xlink:href="#path-8"></use>
-        </mask>
-        <rect id="path-10" x="0.473" y="0" width="4.0274048" height="7"></rect>
-        <rect id="path-12" x="0" y="0" width="540" height="32"></rect>
-        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.25" y="-0.25" width="540.5" height="32.5">
-            <rect x="-0.25" y="-0.25" width="540.5" height="32.5" fill="white"></rect>
-            <use xlink:href="#path-12" fill="black"></use>
-        </mask>
+        <rect id="path-4" x="0.473" y="0" width="4.0274048" height="7"></rect>
+        <rect id="path-6" x="0" y="0" width="540" height="32"></rect>
     </defs>
     <g id="Assembled:-Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-30.000000, -104.000000)">
+        <g id="Catalog" transform="translate(-30.000000, -104.000000)">
             <g id="fpm_ux-assembled-catalog" transform="translate(30.000000, 104.000000)">
                 <g id="desktop-app-frame" opacity="0.33">
                     <g id="desktop">
-                        <use id="desktop-rect" stroke="#7F7F7F" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
-                        <use id="bar-rect" stroke="#7F7F7F" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                        <rect id="desktop-rect" stroke="#7F7F7F" x="0.5" y="14.5" width="579" height="383"></rect>
+                        <rect id="bar-rect" stroke="#7F7F7F" x="0.5" y="0.5" width="579" height="14"></rect>
                         <text id="File-Edit-Account-Wi" fill="#7F7F7F" font-family="Helvetica" font-size="7" font-weight="normal">
                             <tspan x="68" y="10">File   Edit   Account   Window</tspan>
                         </text>
@@ -48,49 +29,58 @@
                         </text>
                     </g>
                 </g>
-                <g id="app" filter="url(#filter-5)" transform="translate(20.000000, 31.000000)">
-                    <mask id="mask-7" fill="white">
-                        <use xlink:href="#path-6"></use>
+                <g id="app" transform="translate(20.000000, 31.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
                     </mask>
-                    <use id="app-rect" fill="#FFFFFF" xlink:href="#path-6"></use>
-                    <g id="Breadcrumbs" mask="url(#mask-7)">
-                        <g transform="translate(80.000000, 27.000000)">
+                    <g id="app-rect">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="539" height="337" rx="4"></rect>
+                    </g>
+                    <g id="Breadcrumbs-catalog" mask="url(#mask-2)">
+                        <g transform="translate(80.000000, 27.000000)" id="Breadcrumbs">
                             <g>
                                 <rect id="Rectangle-path" fill="#E6E6E6" x="23" y="0.5" width="436.5" height="22.5"></rect>
                                 <rect id="Rectangle-path" stroke="#FFFFFF" x="23" y="0.5" width="436.5" height="22.5"></rect>
-                                <g id="Group" transform="translate(368.500000, 8.000000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
-                                    <text id="Start-a-search-from">
-                                        <tspan x="0" y="6">Start a search from here...</tspan>
+                                <g id="Breadcrumbs-search-button" transform="translate(368.500000, 8.000000)">
+                                    <g id="search" transform="translate(0.000000, -1.000000)">
+                                        <text id="Search-here…" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                            <tspan x="34.6464844" y="6.5">Search here…</tspan>
+                                        </text>
+                                        <g id="loupe" transform="translate(78.000000, 1.000000)">
+                                            <g>
+                                                <path d="M4.35685508,5.44250696 C3.97653244,5.62892249 3.54885865,5.7335834 3.09674,5.7335834 C1.51345466,5.7335834 0.2299483,4.45007704 0.2299483,2.8667917 C0.2299483,1.28350636 1.51345466,0 3.09674,0 C4.68002534,0 5.9635317,1.28350636 5.9635317,2.8667917 C5.9635317,3.45241742 5.78793355,3.99702999 5.48651757,4.4508491 L7.02533009,5.98966161 L5.96466991,7.05032179 L4.35685508,5.44250696 L4.35685508,5.44250696 Z" id="Combined-Shape" fill="#333333"></path>
+                                                <path d="M1.2299483,2.8468 C1.2299483,1.81579941 2.06573941,0.9800083 3.09674,0.9800083 C4.12774059,0.9800083 4.9635317,1.81579941 4.9635317,2.8468 C4.9635317,3.87780059 4.12774059,4.7135917 3.09674,4.7135917 C2.06573941,4.7135917 1.2299483,3.87780059 1.2299483,2.8468 Z" id="Oval" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Group" transform="translate(41.000000, 0.499800)">
+                                    <polygon id="Shape" fill="#666666" points="0 0.00229 0 22.49745 101.24957 22.49999 108.749 11.24976 101.24957 0.0002"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" points="0 0.00229 0 22.49745 101.24957 22.49999 108.749 11.24976 101.24957 0.0002"></polygon>
+                                    <text id="Hopeful,-Cunning" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="51.5" y="13">Hopeful, Cunning</tspan>
                                     </text>
                                 </g>
-                                <circle id="Oval" fill="#FFFFFF" cx="446.59674" cy="11.34677" r="2.3668048"></circle>
-                                <circle id="Oval" stroke="#333333" cx="446.59674" cy="11.34677" r="2.3668048"></circle>
-                                <path d="M449.995,15 L448.54968,13.44623" id="Shape" stroke="#333333" stroke-width="1.5"></path>
-                                <polygon id="Shape" fill="#666666" points="41 0.50209 41 22.99725 142.24957 22.99979 149.749 11.74956 142.24957 0.5"></polygon>
-                                <polygon id="Shape" stroke="#FFFFFF" points="41 0.50209 41 22.99725 142.24957 22.99979 149.749 11.74956 142.24957 0.5"></polygon>
-                                <g id="Group" transform="translate(93.000000, 7.499800)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
-                                    <text id="Hopeful,-Cunning">
-                                        <tspan x="0.629002" y="6">Hopeful, Cunning</tspan>
+                                <g id="Group" transform="translate(26.000000, 0.500000)">
+                                    <polygon id="Shape" fill="#666666" points="0 0 0 22.5 52.5 22.5 60 11.25012 52.5 0.00023"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" points="0 0 0 22.5 52.5 22.5 60 11.25012 52.5 0.00023"></polygon>
+                                    <text id="Moods" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="32.77" y="13">Moods</tspan>
                                     </text>
                                 </g>
-                                <polygon id="Shape" fill="#666666" points="26 0.5 26 23 78.5 23 86 11.75012 78.5 0.50023"></polygon>
-                                <polygon id="Shape" stroke="#FFFFFF" points="26 0.5 26 23 78.5 23 86 11.75012 78.5 0.50023"></polygon>
-                                <g id="Group" transform="translate(58.000000, 7.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
-                                    <text id="Moods">
-                                        <tspan x="0.77" y="6">Moods</tspan>
-                                    </text>
-                                </g>
-                                <polygon id="Shape" fill="#666666" points="0.5 0.5 0.5 22.99341 45.50012 23 53.00018 11.75009 45.50012 0.50023"></polygon>
-                                <polygon id="Shape" stroke="#FFFFFF" points="0.5 0.5 0.5 22.99341 45.50012 23 53.00018 11.75009 45.50012 0.50023"></polygon>
-                                <g id="Group" transform="translate(28.500000, 7.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
-                                    <text id="Home">
-                                        <tspan x="0.054199" y="6">Home</tspan>
+                                <g id="Group" transform="translate(0.500000, 0.500000)">
+                                    <polygon id="Shape" fill="#666666" points="0 0 0 22.49341 45.00012 22.5 52.50018 11.25009 45.00012 0.00023"></polygon>
+                                    <polygon id="Shape" stroke="#FFFFFF" points="0 0 0 22.49341 45.00012 22.5 52.50018 11.25009 45.00012 0.00023"></polygon>
+                                    <text id="Home" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                                        <tspan x="28.054199" y="13">Home</tspan>
                                     </text>
                                 </g>
                             </g>
                         </g>
                     </g>
-                    <g id="table-focused" mask="url(#mask-7)">
+                    <g id="table-focused" mask="url(#mask-2)">
                         <g transform="translate(206.000000, 45.000000)" id="table-catalog">
                             <g>
                                 <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="0.5" width="333" height="247.5"></rect>
@@ -1031,9 +1021,9 @@
                             </g>
                         </g>
                     </g>
-                    <g id="keywords-filtered" mask="url(#mask-7)">
+                    <g id="keywords-filtered" mask="url(#mask-2)">
                         <g transform="translate(104.000000, 45.000000)">
-                            <g id="keywords-filtered" stroke="none" fill-rule="evenodd">
+                            <g id="keywords-filtered" stroke="none" stroke-width="1" fill-rule="evenodd">
                                 <g id="Group">
                                     <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="103.5" height="247.5"></rect>
                                     <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.5" y="0" width="103.5" height="247.5"></rect>
@@ -1138,7 +1128,7 @@
                                 <path d="M7.249,45 L10.999,45" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
                                 <path d="M7.249,36 L10.999,36" id="Shape" stroke="#CCCCCC" stroke-width="0.5"></path>
                             </g>
-                            <g id="scrollbar" stroke="none" fill-rule="evenodd" transform="translate(95.000000, 20.000000)">
+                            <g id="scrollbar" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(95.000000, 20.000000)">
                                 <rect id="Rectangle-path" fill="#E6E6E6" x="0.000120000001" y="0" width="9" height="228"></rect>
                                 <g id="down" transform="translate(0.000000, 219.000000)">
                                     <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="9" height="9"></rect>
@@ -1152,7 +1142,7 @@
                                 </g>
                                 <rect id="Rectangle-path" stroke="#808080" stroke-width="0.5" x="-1.13686838e-13" y="2.85155105e-14" width="9.0004883" height="228"></rect>
                             </g>
-                            <g id="keywords-filter-field" stroke="none" fill-rule="evenodd">
+                            <g id="keywords-filter-field" stroke="none" stroke-width="1" fill-rule="evenodd">
                                 <rect id="Rectangle-path" fill="#FFFFFF" x="0.499" y="0" width="103.5" height="20.25"></rect>
                                 <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0.499" y="0" width="103.5" height="20.25"></rect>
                                 <path d="M10.624,4.5 L80.37418,4.5 C83.48077,4.5 85.99918,7.018394 85.99918,10.125 L85.99918,10.125 C85.99918,13.2316 83.48077,15.75 80.37418,15.75 L10.624,15.75 C7.5174,15.75 4.999,13.2316 4.999,10.125 L4.999,10.125 L4.999,10.125 C4.999,7.018394 7.5174,4.5 10.624,4.5 L10.624,4.5 Z" id="Shape" fill="#FFFFFF"></path>
@@ -1169,21 +1159,21 @@
                                 <path d="M78.375,12.125 L82.375,8.125" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
                                 <path d="M78.375,8.125 L82.375,12.125" id="Shape" stroke="#FFFFFF" stroke-width="1.5"></path>
                             </g>
-                            <use id="Rectangle-path" stroke="#000000" mask="url(#mask-9)" xlink:href="#path-8"></use>
+                            <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.25" y="0.25" width="103.5" height="247.5"></rect>
                         </g>
                     </g>
-                    <g id="pointer" mask="url(#mask-7)">
+                    <g id="pointer" mask="url(#mask-2)">
                         <g transform="translate(283.000000, 95.000000)" id="Clipped">
                             <g>
-                                <mask id="mask-11" fill="white">
-                                    <use xlink:href="#path-10"></use>
+                                <mask id="mask-5" fill="white">
+                                    <use xlink:href="#path-4"></use>
                                 </mask>
                                 <g id="path_2"></g>
-                                <image id="Bitmap" mask="url(#mask-11)" x="-0.027" y="-0.5" width="4.02739873" height="7.00000256" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAABJCAYAAABLo7SvAAAABGdBTUEAANbY1E9YMgAAAbxJREFUaAXtmluLhDAMhbdewBfB//8rxSfB29YFQTynGCfddQOZFzUmNf3iMR1nQtu229flMwxDuJhePyxez0CYgCcqBCV2M0N0Fw2IqSxLmOk8z68KzAxRTxTuHaXBDNFQ1zWIaZommH9VVWCLfn8mMDNEPVG4T5QGM0RpZ+q6Dubf9z3YWAfbnX6ji5kh6onCfaI0mCEamqaBzjSOI8yfCWfbIPQnbl1XiI++qi5mhqgnCrVXGpyoEiCE0xYaAgqUKZw9CfYrLMsCF9KuZ730gFRpcKJKgBBOxQRe0VAUCJ8JbI9ldqlAU60Wr86y/Ac2TzR3EcwQreKbEpg8e1PCxBS/xEHsbmC+bI3KgqPo6CLXDFFPlJVVYzNDlHYmqRieLPNSHUdK2QxRT1RaUqmfE5WSkvqJWyhTbardpZ4G0qSYn5eeUdHYnKiGHosNsV3C+i++6cBXJSw6YUuJ7OrOBHr1OY699AeJXFsnmovkMU6lFc4x0HkrXc+eY+72vfR3hJ6ed6JPid35h9gd7nyynNd2Ky99ljKcBnGiJxhZdvFfV1mGlQ3CfiRLRXrpU2Q+tTvRT8ml4swQ/QbLyGp8PprfGAAAAABJRU5ErkJggg=="></image>
+                                <image id="Bitmap" mask="url(#mask-5)" x="-0.027" y="-0.5" width="4.02739873" height="7.00000256" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAABJCAYAAABLo7SvAAAABGdBTUEAANbY1E9YMgAAAbxJREFUaAXtmluLhDAMhbdewBfB//8rxSfB29YFQTynGCfddQOZFzUmNf3iMR1nQtu229flMwxDuJhePyxez0CYgCcqBCV2M0N0Fw2IqSxLmOk8z68KzAxRTxTuHaXBDNFQ1zWIaZommH9VVWCLfn8mMDNEPVG4T5QGM0RpZ+q6Dubf9z3YWAfbnX6ji5kh6onCfaI0mCEamqaBzjSOI8yfCWfbIPQnbl1XiI++qi5mhqgnCrVXGpyoEiCE0xYaAgqUKZw9CfYrLMsCF9KuZ730gFRpcKJKgBBOxQRe0VAUCJ8JbI9ldqlAU60Wr86y/Ac2TzR3EcwQreKbEpg8e1PCxBS/xEHsbmC+bI3KgqPo6CLXDFFPlJVVYzNDlHYmqRieLPNSHUdK2QxRT1RaUqmfE5WSkvqJWyhTbardpZ4G0qSYn5eeUdHYnKiGHosNsV3C+i++6cBXJSw6YUuJ7OrOBHr1OY699AeJXFsnmovkMU6lFc4x0HkrXc+eY+72vfR3hJ6ed6JPid35h9gd7nyynNd2Ky99ljKcBnGiJxhZdvFfV1mGlQ3CfiRLRXrpU2Q+tTvRT8ml4swQ/QbLyGp8PprfGAAAAABJRU5ErkJggg=="></image>
                             </g>
                         </g>
                     </g>
-                    <g id="sidebar" mask="url(#mask-7)">
+                    <g id="sidebar" mask="url(#mask-2)">
                         <g transform="translate(0.000000, 32.000000)">
                             <g>
                                 <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="103.5" height="306"></rect>
@@ -1356,7 +1346,7 @@
                             </g>
                         </g>
                     </g>
-                    <g id="sidebar-selection" mask="url(#mask-7)">
+                    <g id="sidebar-selection" mask="url(#mask-2)">
                         <g transform="translate(-0.500000, 139.500000)">
                             <rect id="Rectangle-path" fill="#999999" x="0" y="0.5" width="103.5" height="9"></rect>
                             <text id="Moods" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
@@ -1364,7 +1354,7 @@
                             </text>
                         </g>
                     </g>
-                    <g id="player-full" mask="url(#mask-7)">
+                    <g id="player-full" mask="url(#mask-2)">
                         <g transform="translate(104.000000, 293.000000)">
                             <g>
                                 <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="0" width="436.5" height="45"></rect>
@@ -1433,7 +1423,7 @@
                                 <g id="breadcrumbs">
                                     <rect id="Rectangle-path" fill="#E6E6E6" x="72.5" y="0" width="364.5" height="13.5"></rect>
                                     <rect id="Rectangle-path" stroke="#FFFFFF" x="72.5" y="0" width="364.5" height="13.5"></rect>
-                                    <text id="23-Songs" fill="#4C4C4C" font-family="Helvetica-Light, Helvetica" font-size="6" font-weight="300">
+                                    <text id="23-Songs" fill="#4C4C4C" font-family="Helvetica" font-size="6" font-weight="normal">
                                         <tspan x="92.5" y="9">23 Songs</tspan>
                                     </text>
                                     <polygon id="Shape" fill="#E6E6E6" points="13.999977 0 13.9999 13.49713 83.5 13.4998 88.0001 6.74954 83.5 0"></polygon>
@@ -1458,10 +1448,10 @@
                             </g>
                         </g>
                     </g>
-                    <g id="header" mask="url(#mask-7)">
+                    <g id="header" mask="url(#mask-2)">
                         <g id="Rectangle-path">
-                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
-                            <use stroke="#000000" mask="url(#mask-13)" stroke-width="0.5" xlink:href="#path-12"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <rect stroke="#000000" stroke-width="0.25" x="-0.125" y="-0.125" width="540.25" height="32.25"></rect>
                         </g>
                         <text id="Account-Settings-Sig" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="9" font-weight="normal">
                             <tspan x="421.938965" y="25">Account Settings   Sign Out</tspan>
