@@ -1415,9 +1415,6 @@ body {
       width: 18vw; }
 .app.small-stretch {
   /* body */ }
-  @media (orientation: landscape) {
-    #container {
-      min-height: calc(100% + 1px); } }
   .app.small-stretch #navigation {
     width: auto;
     max-width: none;
