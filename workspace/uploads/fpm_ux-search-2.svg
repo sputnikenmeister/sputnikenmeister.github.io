@@ -476,87 +476,106 @@
                 <use stroke="#4A4A4A" stroke-width="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-14"></use>
             </g>
             <g id="search-panel" transform="translate(20.000000, 0.500000)">
-                <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0.5" width="445.5" height="117"></rect>
-                <text id="Search-for" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="29.2139997" y="36.5">Search for</tspan>
-                </text>
-                <text id="that-match" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="126.861" y="36.5">that match</tspan>
-                </text>
-                <path d="M66,27.5 L118.5,27.5 C120.15686,27.5 121.5,28.84314 121.5,30.5 L121.5,38 C121.5,39.65686 120.15686,41 118.5,41 L66,41 C64.34315,41 63,39.65686 63,38 L63,38 L63,30.5 C63,28.84314 64.34315,27.5 66,27.5 L66,27.5 Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd"></path>
-                <path d="M66,27.5 L118.5,27.5 C120.15686,27.5 121.5,28.84314 121.5,30.5 L121.5,38 C121.5,39.65686 120.15686,41 118.5,41 L66,41 C64.34315,41 63,39.65686 63,38 L63,38 L63,30.5 C63,28.84314 64.34315,27.5 66,27.5 L66,27.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                <text id="Songs" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="68" y="36.5">Songs</tspan>
-                </text>
-                <polygon id="Shape" fill="#000000" fill-rule="evenodd" points="116.71915 32.78139 114.79738 35.718155 112.87561 32.78139"></polygon>
-                <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="116.71915 32.78139 114.79738 35.718155 112.87561 32.78139"></polygon>
-                <path d="M108,27.5 L108,41" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                <path d="M165,27.5 L217.5,27.5 C219.15686,27.5 220.5,28.84314 220.5,30.5 L220.5,38 C220.5,39.65686 219.15686,41 217.5,41 L165,41 C163.34314,41 162,39.65686 162,38 L162,38 L162,30.5 C162,28.84314 163.34314,27.5 165,27.5 L165,27.5 Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd"></path>
-                <path d="M165,27.5 L217.5,27.5 C219.15686,27.5 220.5,28.84314 220.5,30.5 L220.5,38 C220.5,39.65686 219.15686,41 217.5,41 L165,41 C163.34314,41 162,39.65686 162,38 L162,38 L162,30.5 C162,28.84314 163.34314,27.5 165,27.5 L165,27.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                <text id="Any" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="167" y="36.5">Any</tspan>
-                </text>
-                <polygon id="Shape" fill="#000000" fill-rule="evenodd" points="215.71918 32.78139 213.7974 35.718155 211.87561 32.78139"></polygon>
-                <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="215.71918 32.78139 213.7974 35.718155 211.87561 32.78139"></polygon>
-                <path d="M207,27.5 L207,41" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                <text id="of-these-constraints:" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="225.960001" y="36.5">of these constraints:</tspan>
-                </text>
-                <rect id="Rectangle-path" fill="#E6E6E6" fill-rule="evenodd" x="63" y="45.5" width="378" height="22.5"></rect>
-                <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="63" y="45.5" width="378" height="22.5"></rect>
-                <path d="M70.5,50 L123,50 C124.65686,50 126,51.34314 126,53 L126,60.5 C126,62.15686 124.65686,63.5 123,63.5 L70.5,63.5 C68.84315,63.5 67.5,62.15686 67.5,60.5 L67.5,60.5 L67.5,53 C67.5,51.34314 68.84315,50 70.5,50 L70.5,50 Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd"></path>
-                <path d="M70.5,50 L123,50 C124.65686,50 126,51.34314 126,53 L126,60.5 C126,62.15686 124.65686,63.5 123,63.5 L70.5,63.5 C68.84315,63.5 67.5,62.15686 67.5,60.5 L67.5,60.5 L67.5,53 C67.5,51.34314 68.84315,50 70.5,50 L70.5,50 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                <text id="Has" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="72.5" y="59">Has</tspan>
-                </text>
-                <polygon id="Shape" fill="#000000" fill-rule="evenodd" points="121.21915 55.28139 119.29738 58.21815 117.37561 55.28139"></polygon>
-                <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="121.21915 55.28139 119.29738 58.21815 117.37561 55.28139"></polygon>
-                <path d="M112.5,50 L112.5,63.5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                <path d="M133.5,50 L186,50 C187.65686,50 189,51.34314 189,53 L189,60.5 C189,62.15686 187.65686,63.5 186,63.5 L133.5,63.5 C131.84314,63.5 130.5,62.15686 130.5,60.5 L130.5,60.5 L130.5,53 C130.5,51.34314 131.84314,50 133.5,50 L133.5,50 Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd"></path>
-                <path d="M133.5,50 L186,50 C187.65686,50 189,51.34314 189,53 L189,60.5 C189,62.15686 187.65686,63.5 186,63.5 L133.5,63.5 C131.84314,63.5 130.5,62.15686 130.5,60.5 L130.5,60.5 L130.5,53 C130.5,51.34314 131.84314,50 133.5,50 L133.5,50 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                <text id="Mood" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="135.5" y="59">Mood</tspan>
-                </text>
-                <polygon id="Shape" fill="#000000" fill-rule="evenodd" points="184.21915 55.28139 182.29738 58.21815 180.37561 55.28139"></polygon>
-                <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="184.21915 55.28139 182.29738 58.21815 180.37561 55.28139"></polygon>
-                <path d="M175.5,50 L175.5,63.5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                <path d="M200.25,50 L429.75,50 C433.47794,50 436.5,53.02208 436.5,56.75 L436.5,56.75 C436.5,60.47792 433.47794,63.5 429.75,63.5 L200.25,63.5 C196.52208,63.5 193.5,60.47792 193.5,56.75 L193.5,56.75 L193.5,56.75 C193.5,53.02208 196.52208,50 200.25,50 L200.25,50 Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd"></path>
-                <path d="M200.25,50 L429.75,50 C433.47794,50 436.5,53.02208 436.5,56.75 L436.5,56.75 C436.5,60.47792 433.47794,63.5 429.75,63.5 L200.25,63.5 C196.52208,63.5 193.5,60.47792 193.5,56.75 L193.5,56.75 L193.5,56.75 C193.5,53.02208 196.52208,50 200.25,50 L200.25,50 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
-                <text id="Terror-+-Suspense,-Terror-+-Climatic" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="6" font-weight="normal">
-                    <tspan x="201.5" y="59">Terror + Suspense, Terror + Climatic</tspan>
-                </text>
-                <path d="M390,99.5 L438,99.5 C439.65686,99.5 441,100.84314 441,102.5 L441,110 C441,111.65686 439.65686,113 438,113 L390,113 C388.34314,113 387,111.65686 387,110 L387,110 L387,102.5 C387,100.84314 388.34314,99.5 390,99.5 L390,99.5 Z" id="Shape" stroke="#000000" stroke-width="1"></path>
-                <text id="Get-results" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="392" y="108.5">Get results</tspan>
-                </text>
-                <circle id="Oval" fill="#FFFFFF" fill-rule="evenodd" cx="430.59674" cy="105.84677" r="2.3667812"></circle>
-                <circle id="Oval" stroke="#000000" stroke-width="1" cx="430.59674" cy="105.84677" r="2.3667812"></circle>
-                <path d="M433.995,109.5 L432.54968,107.94624" id="Shape" stroke="#000000" stroke-width="1.5"></path>
-                <g id="remove-rules" stroke-width="1" fill-rule="evenodd" transform="translate(4.000000, 100.000000)">
+                <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" fill="#FFFFFF" x="0" y="0.5" width="445.5" height="117"></rect>
+                <g id="search-for" stroke-width="1" transform="translate(29.000000, 27.000000)">
+                    <text id="Search-for" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="0.21399975" y="9.5">Search for</tspan>
+                    </text>
+                    <text id="that-match" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="97.861" y="9.5">that match</tspan>
+                    </text>
+                    <g id="dd2" transform="translate(34.000000, 0.000000)">
+                        <path d="M3,0.5 L55.5,0.5 C57.15686,0.5 58.5,1.84314 58.5,3.5 L58.5,11 C58.5,12.65686 57.15686,14 55.5,14 L3,14 C1.34315,14 0,12.65686 0,11 L0,11 L0,3.5 C0,1.84314 1.34315,0.5 3,0.5 L3,0.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M3,0.5 L55.5,0.5 C57.15686,0.5 58.5,1.84314 58.5,3.5 L58.5,11 C58.5,12.65686 57.15686,14 55.5,14 L3,14 C1.34315,14 0,12.65686 0,11 L0,11 L0,3.5 C0,1.84314 1.34315,0.5 3,0.5 L3,0.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <text id="Songs" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5" y="9.5">Songs</tspan>
+                        </text>
+                        <polygon id="Shape" fill="#000000" points="53.71915 5.78139 51.79738 8.718155 49.87561 5.78139"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="53.71915 5.78139 51.79738 8.718155 49.87561 5.78139"></polygon>
+                        <path d="M45,0.5 L45,14" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                    </g>
+                    <g id="dd1" transform="translate(133.000000, 0.000000)">
+                        <path d="M3,0.5 L55.5,0.5 C57.15686,0.5 58.5,1.84314 58.5,3.5 L58.5,11 C58.5,12.65686 57.15686,14 55.5,14 L3,14 C1.34314,14 0,12.65686 0,11 L0,11 L0,3.5 C0,1.84314 1.34314,0.5 3,0.5 L3,0.5 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M3,0.5 L55.5,0.5 C57.15686,0.5 58.5,1.84314 58.5,3.5 L58.5,11 C58.5,12.65686 57.15686,14 55.5,14 L3,14 C1.34314,14 0,12.65686 0,11 L0,11 L0,3.5 C0,1.84314 1.34314,0.5 3,0.5 L3,0.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <text id="Any" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5" y="9.5">Any</tspan>
+                        </text>
+                        <polygon id="Shape" fill="#000000" points="53.71918 5.78139 51.7974 8.718155 49.87561 5.78139"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="53.71918 5.78139 51.7974 8.718155 49.87561 5.78139"></polygon>
+                        <path d="M45,0.5 L45,14" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                    </g>
+                    <text id="of-these-constraints:" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="196.960001" y="9.5">of these constraints:</tspan>
+                    </text>
+                </g>
+                <g id="constraint-1" stroke-width="1" transform="translate(63.000000, 45.000000)">
+                    <rect id="Rectangle-path" fill="#E6E6E6" x="0" y="0.5" width="378" height="22.5"></rect>
+                    <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="0" y="0.5" width="378" height="22.5"></rect>
+                    <g id="dd1" transform="translate(4.000000, 5.000000)">
+                        <path d="M3.5,0 L56,0 C57.65686,0 59,1.34314 59,3 L59,10.5 C59,12.15686 57.65686,13.5 56,13.5 L3.5,13.5 C1.84315,13.5 0.5,12.15686 0.5,10.5 L0.5,10.5 L0.5,3 C0.5,1.34314 1.84315,0 3.5,0 L3.5,0 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M3.5,0 L56,0 C57.65686,0 59,1.34314 59,3 L59,10.5 C59,12.15686 57.65686,13.5 56,13.5 L3.5,13.5 C1.84315,13.5 0.5,12.15686 0.5,10.5 L0.5,10.5 L0.5,3 C0.5,1.34314 1.84315,0 3.5,0 L3.5,0 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <text id="Has" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.5" y="9">Has</tspan>
+                        </text>
+                        <polygon id="Shape" fill="#000000" points="54.21915 5.28139 52.29738 8.21815 50.37561 5.28139"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="54.21915 5.28139 52.29738 8.21815 50.37561 5.28139"></polygon>
+                        <path d="M45.5,0 L45.5,13.5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                    </g>
+                    <g id="dd2" transform="translate(67.000000, 5.000000)">
+                        <path d="M3.5,0 L56,0 C57.65686,0 59,1.34314 59,3 L59,10.5 C59,12.15686 57.65686,13.5 56,13.5 L3.5,13.5 C1.84314,13.5 0.5,12.15686 0.5,10.5 L0.5,10.5 L0.5,3 C0.5,1.34314 1.84314,0 3.5,0 L3.5,0 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M3.5,0 L56,0 C57.65686,0 59,1.34314 59,3 L59,10.5 C59,12.15686 57.65686,13.5 56,13.5 L3.5,13.5 C1.84314,13.5 0.5,12.15686 0.5,10.5 L0.5,10.5 L0.5,3 C0.5,1.34314 1.84314,0 3.5,0 L3.5,0 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                        <text id="Mood" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                            <tspan x="5.5" y="9">Mood</tspan>
+                        </text>
+                        <polygon id="Shape" fill="#000000" points="54.21915 5.28139 52.29738 8.21815 50.37561 5.28139"></polygon>
+                        <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="54.21915 5.28139 52.29738 8.21815 50.37561 5.28139"></polygon>
+                        <path d="M45.5,0 L45.5,13.5" id="Shape" stroke="#000000" stroke-width="0.5"></path>
+                    </g>
+                    <g id="txt-field" transform="translate(130.000000, 5.000000)">
+                        <path d="M7.25,0 L236.75,0 C240.47794,0 243.5,3.02208 243.5,6.75 L243.5,6.75 C243.5,10.47792 240.47794,13.5 236.75,13.5 L7.25,13.5 C3.52208,13.5 0.5,10.47792 0.5,6.75 L0.5,6.75 L0.5,6.75 C0.5,3.02208 3.52208,0 7.25,0 L7.25,0 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M7.25,0 L236.75,0 C240.47794,0 243.5,3.02208 243.5,6.75 L243.5,6.75 C243.5,10.47792 240.47794,13.5 236.75,13.5 L7.25,13.5 C3.52208,13.5 0.5,10.47792 0.5,6.75 L0.5,6.75 L0.5,6.75 C0.5,3.02208 3.52208,0 7.25,0 L7.25,0 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                        <text id="Terror-+-Suspense,-Terror-+-Climatic" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
+                            <tspan x="8.5" y="9">Terror + Suspense, Terror + Climatic</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="get-results" stroke-width="1" transform="translate(387.000000, 99.000000)">
+                    <path d="M3,0.5 L51,0.5 C52.65686,0.5 54,1.84314 54,3.5 L54,11 C54,12.65686 52.65686,14 51,14 L3,14 C1.34314,14 0,12.65686 0,11 L0,11 L0,3.5 C0,1.84314 1.34314,0.5 3,0.5 L3,0.5 Z" id="Shape" stroke="#000000"></path>
+                    <text id="Get-results" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="5" y="9.5">Get results</tspan>
+                    </text>
+                    <g id="loupe" transform="translate(41.000000, 4.000000)">
+                        <g>
+                            <path d="M4.35685508,5.44250696 C3.97653244,5.62892249 3.54885865,5.7335834 3.09674,5.7335834 C1.51345466,5.7335834 0.2299483,4.45007704 0.2299483,2.8667917 C0.2299483,1.28350636 1.51345466,0 3.09674,0 C4.68002534,0 5.9635317,1.28350636 5.9635317,2.8667917 C5.9635317,3.45241742 5.78793355,3.99702999 5.48651757,4.4508491 L7.02533009,5.98966161 L5.96466991,7.05032179 L4.35685508,5.44250696 L4.35685508,5.44250696 Z" id="Combined-Shape" fill="#333333"></path>
+                            <path d="M1.2299483,2.8468 C1.2299483,1.81579941 2.06573941,0.9800083 3.09674,0.9800083 C4.12774059,0.9800083 4.9635317,1.81579941 4.9635317,2.8468 C4.9635317,3.87780059 4.12774059,4.7135917 3.09674,4.7135917 C2.06573941,4.7135917 1.2299483,3.87780059 1.2299483,2.8468 Z" id="Oval" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="remove-rules" stroke-width="1" transform="translate(4.000000, 100.000000)">
                     <rect id="Path" stroke="#000000" stroke-width="0.5" x="0" y="0" width="78" height="13" rx="2.5"></rect>
                     <text id="Remove-all-constraints" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                         <tspan x="6.05371094" y="9">Remove all constraints</tspan>
                     </text>
                 </g>
-                <rect id="Rectangle-path" fill="#E6E6E6" fill-rule="evenodd" x="63" y="68" width="378" height="22.5"></rect>
-                <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="63" y="68" width="378" height="22.5"></rect>
-                <g id="dd1-disabled" stroke-width="1" fill-rule="evenodd" transform="translate(67.000000, 72.000000)">
-                    <path d="M3.5,0.5 L56,0.5 C57.65686,0.5 59,1.84314 59,3.5 L59,11 C59,12.65686 57.65686,14 56,14 L3.5,14 C1.84315,14 0.5,12.65686 0.5,11 L0.5,11 L0.5,3.5 C0.5,1.84314 1.84315,0.5 3.5,0.5 L3.5,0.5 Z" id="Shape" fill="#E6E6E6"></path>
-                    <path d="M3.5,0.5 L56,0.5 C57.65686,0.5 59,1.84314 59,3.5 L59,11 C59,12.65686 57.65686,14 56,14 L3.5,14 C1.84315,14 0.5,12.65686 0.5,11 L0.5,11 L0.5,3.5 C0.5,1.84314 1.84315,0.5 3.5,0.5 L3.5,0.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
-                    <polygon id="Shape" fill="#999999" points="54.21915 5.78139 52.29738 8.71815 50.37561 5.78139"></polygon>
-                    <path d="M45.5,0.5 L45.5,14" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                <g id="dd1-disabled" stroke-width="1" transform="translate(63.000000, 68.000000)">
+                    <rect id="Rectangle-path" fill="#E6E6E6" x="0" y="0" width="378" height="22.5"></rect>
+                    <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="0" y="0" width="378" height="22.5"></rect>
+                    <path d="M7.5,4.5 L60,4.5 C61.65686,4.5 63,5.84314 63,7.5 L63,15 C63,16.65686 61.65686,18 60,18 L7.5,18 C5.84315,18 4.5,16.65686 4.5,15 L4.5,15 L4.5,7.5 C4.5,5.84314 5.84315,4.5 7.5,4.5 L7.5,4.5 Z" id="Shape" fill="#E6E6E6"></path>
+                    <path d="M7.5,4.5 L60,4.5 C61.65686,4.5 63,5.84314 63,7.5 L63,15 C63,16.65686 61.65686,18 60,18 L7.5,18 C5.84315,18 4.5,16.65686 4.5,15 L4.5,15 L4.5,7.5 C4.5,5.84314 5.84315,4.5 7.5,4.5 L7.5,4.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
+                    <polygon id="Shape" fill="#999999" points="58.21915 9.78139 56.29738 12.71815 54.37561 9.78139"></polygon>
+                    <path d="M49.5,4.5 L49.5,18" id="Shape" stroke="#999999" stroke-width="0.5"></path>
                 </g>
-                <g id="dd2-disabled" stroke-width="1" fill-rule="evenodd" transform="translate(130.000000, 72.000000)">
+                <g id="dd2-disabled" stroke-width="1" transform="translate(130.000000, 72.000000)">
                     <path d="M3.5,0.5 L56,0.5 C57.65686,0.5 59,1.84314 59,3.5 L59,11 C59,12.65686 57.65686,14 56,14 L3.5,14 C1.84314,14 0.5,12.65686 0.5,11 L0.5,11 L0.5,3.5 C0.5,1.84314 1.84314,0.5 3.5,0.5 L3.5,0.5 Z" id="Shape" fill="#E6E6E6"></path>
                     <path d="M3.5,0.5 L56,0.5 C57.65686,0.5 59,1.84314 59,3.5 L59,11 C59,12.65686 57.65686,14 56,14 L3.5,14 C1.84314,14 0.5,12.65686 0.5,11 L0.5,11 L0.5,3.5 C0.5,1.84314 1.84314,0.5 3.5,0.5 L3.5,0.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
                     <polygon id="Shape" fill="#999999" points="54.21915 5.78139 52.29738 8.71815 50.37561 5.78139"></polygon>
                     <path d="M45.5,0.5 L45.5,14" id="Shape" stroke="#999999" stroke-width="0.5"></path>
                 </g>
-                <g id="freetext-field" stroke-width="1" fill-rule="evenodd" transform="translate(193.000000, 72.000000)">
+                <g id="freetext-field" stroke-width="1" transform="translate(193.000000, 72.000000)">
                     <path d="M7.25,0.5 L236.75,0.5 C240.47794,0.5 243.5,3.52208 243.5,7.25 L243.5,7.25 C243.5,10.97792 240.47794,14 236.75,14 L7.25,14 C3.52208,14 0.5,10.97792 0.5,7.25 L0.5,7.25 L0.5,7.25 C0.5,3.52208 3.52208,0.5 7.25,0.5 L7.25,0.5 Z" id="Shape" fill="#E6E6E6"></path>
                     <path d="M7.25,0.5 L236.75,0.5 C240.47794,0.5 243.5,3.52208 243.5,7.25 L243.5,7.25 C243.5,10.97792 240.47794,14 236.75,14 L7.25,14 C3.52208,14 0.5,10.97792 0.5,7.25 L0.5,7.25 L0.5,7.25 C0.5,3.52208 3.52208,0.5 7.25,0.5 L7.25,0.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
                 </g>
-                <g id="add-btn" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 72.000000)">
+                <g id="add-btn" stroke-width="1" transform="translate(9.000000, 72.000000)">
                     <path d="M3,0.5 L42,0.5 C43.65685,0.5 45,1.84314 45,3.5 L45,11 C45,12.65686 43.65685,14 42,14 L3,14 C1.343147,14 0,12.65686 0,11 L0,11 L0,3.5 C0,1.84314 1.343147,0.5 3,0.5 L3,0.5 Z" id="Shape" fill="#FFFFFF"></path>
                     <path d="M3,0.5 L42,0.5 C43.65685,0.5 45,1.84314 45,3.5 L45,11 C45,12.65686 43.65685,14 42,14 L3,14 C1.343147,14 0,12.65686 0,11 L0,11 L0,3.5 C0,1.84314 1.343147,0.5 3,0.5 L3,0.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
                     <text id="Add" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
@@ -565,7 +584,7 @@
                     <path d="M10.156998,7.25 L4.5,7.25" id="Shape" stroke="#000000"></path>
                     <path d="M7.328003,10.078 L7.328003,4.422" id="Shape" stroke="#000000"></path>
                 </g>
-                <g id="remove-btn" stroke-width="1" fill-rule="evenodd" transform="translate(9.000000, 50.000000)">
+                <g id="remove-btn" stroke-width="1" transform="translate(9.000000, 50.000000)">
                     <path d="M3,0 L42,0 C43.65685,0 45,1.34314 45,3 L45,10.5 C45,12.15686 43.65685,13.5 42,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 Z" id="Shape" fill="#FFFFFF"></path>
                     <path d="M3,0 L42,0 C43.65685,0 45,1.34314 45,3 L45,10.5 C45,12.15686 43.65685,13.5 42,13.5 L3,13.5 C1.343147,13.5 0,12.15686 0,10.5 L0,10.5 L0,3 C0,1.34314 1.343147,0 3,0 L3,0 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
                     <text id="Remove" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
@@ -573,7 +592,7 @@
                     </text>
                     <path d="M10.156998,6.75 L4.5,6.75" id="Shape" stroke="#000000"></path>
                 </g>
-                <g id="limit-results" stroke-width="1" fill-rule="evenodd" transform="translate(263.000000, 99.000000)">
+                <g id="limit-results" stroke-width="1" transform="translate(263.000000, 99.000000)">
                     <text id="Limit-results-to" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                         <tspan x="10.5" y="9.5">Limit results to</tspan>
                     </text>
@@ -593,35 +612,39 @@
                     <polygon id="Shape" fill="#999999" points="72.57861 6.46815 74.5004 3.53139 76.42218 6.46815"></polygon>
                     <polygon id="Shape" stroke="#FFFFFF" stroke-width="0.25" points="72.57861 6.46815 74.5004 3.53139 76.42218 6.46815"></polygon>
                 </g>
-                <text id="Shuffle-results" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="200" y="108.5">Shuffle results</tspan>
-                </text>
-                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="evenodd" x="189.581" y="102.331" width="7.8387146" height="7.8387146"></rect>
-                <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="189.581" y="102.331" width="7.8387146" height="7.8387146"></rect>
-                <rect id="Rectangle-path" fill="#E6E6E6" fill-rule="evenodd" x="146.25" y="5" width="294.75" height="13.5"></rect>
-                <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="1" x="146.25" y="5" width="294.75" height="13.5"></rect>
-                <polygon id="Shape" fill="#4C4C4C" fill-rule="evenodd" points="29.25 5.00284 29.25 18.50014 148.49936 18.49977 152.99899 11.75 148.4996 5.00003"></polygon>
-                <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" points="29.25 5.00284 29.25 18.50014 148.49936 18.49977 152.99899 11.75 148.4996 5.00003"></polygon>
-                <text id="Editing-Search-&quot;Terror-+-Suspense...&quot;" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="41.4749985" y="14.00011">Editing Search "Terror + Suspense..."</tspan>
-                </text>
-                <polygon id="Shape" fill="#7F7F7F" fill-rule="evenodd" points="4.5 5.00284 4.5 18.5 31.49971 18.49982 35.9998 11.74977 31.49971 5"></polygon>
-                <polygon id="Shape" stroke="#FFFFFF" stroke-width="1" points="4.5 5.00284 4.5 18.5 31.49971 18.49982 35.9998 11.74977 31.49971 5"></polygon>
-                <text id="Home" fill="#FFFFFF" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="11.5538009" y="14">Home</tspan>
-                </text>
-                <text id="Discard" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="407.266" y="14">Discard</tspan>
-                </text>
-                <circle id="Oval" fill="#666666" fill-rule="evenodd" cx="434.25" cy="11.75" r="2.2499955"></circle>
-                <circle id="Oval" stroke="#666666" stroke-width="2" cx="434.25" cy="11.75" r="2.2499955"></circle>
-                <path d="M432.75,13.25 L435.75,10.25" id="Shape" stroke="#FFFFFF" stroke-width="1"></path>
-                <path d="M432.75,10.25 L435.75,13.25" id="Shape" stroke="#FFFFFF" stroke-width="1"></path>
-                <text id="Save" fill="#000000" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
-                    <tspan x="375.658" y="14">Save</tspan>
-                </text>
-                <path d="M394.895113,8.00080978 C394.322288,8.00091839 394.000125,8.2914131 394,8.88489623 L394,15.0033584 C394.000125,15.5586172 394.289775,15.8493027 394.861837,15.8499279 L401.129289,15.8499279 C401.702295,15.8493027 401.992388,15.5730937 401.99279,15.0033584 L401.99279,8.88489623 C401.992388,8.3058896 401.702295,8.00091839 401.110987,8.00080978 C401.110987,8.00080978 394.893407,7.99898778 394.895113,8.00080978 L394.895113,8.00080978 L394.895113,8.00080978 Z" id="Fill-1" fill="#000000" fill-rule="evenodd"></path>
-                <polyline id="Fill-3" fill="#FFFFFF" fill-rule="evenodd" points="400.157643 10.5160509 400.157643 13.9789931 396.625442 13.9789931 395.459133 12.8371845 398.147799 12.8371845 395.507383 10.2485416 396.360901 9.41012802 398.992998 11.9889842 398.992998 9.36934915 400.157643 10.5160509"></polyline>
+                <g id="shuffle-btn" stroke-width="1" transform="translate(189.000000, 102.000000)">
+                    <text id="Shuffle-results" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="11" y="6.5">Shuffle results</tspan>
+                    </text>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.581" y="0.331" width="7.8387146" height="7.8387146"></rect>
+                    <rect id="Rectangle-path" stroke="#000000" stroke-width="0.5" x="0.581" y="0.331" width="7.8387146" height="7.8387146"></rect>
+                </g>
+                <g id="breadcrumbs" stroke-width="1" transform="translate(4.000000, 5.000000)">
+                    <rect id="Rectangle-path" fill="#E6E6E6" x="142.25" y="0" width="294.75" height="13.5"></rect>
+                    <rect id="Rectangle-path" stroke="#FFFFFF" x="142.25" y="0" width="294.75" height="13.5"></rect>
+                    <polygon id="Shape" fill="#4C4C4C" points="25.25 0.00284 25.25 13.50014 144.49936 13.49977 148.99899 6.75 144.4996 3e-05"></polygon>
+                    <polygon id="Shape" stroke="#FFFFFF" points="25.25 0.00284 25.25 13.50014 144.49936 13.49977 148.99899 6.75 144.4996 3e-05"></polygon>
+                    <text id="Editing-Search-&quot;Terror-+-Suspense...&quot;" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="37.4749985" y="9.00011">Editing Search "Terror + Suspense..."</tspan>
+                    </text>
+                    <polygon id="Shape" fill="#7F7F7F" points="0.5 0.00284 0.5 13.5 27.49971 13.49982 31.9998 6.74977 27.49971 0"></polygon>
+                    <polygon id="Shape" stroke="#FFFFFF" points="0.5 0.00284 0.5 13.5 27.49971 13.49982 31.9998 6.74977 27.49971 0"></polygon>
+                    <text id="Home" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="7.55380085" y="9">Home</tspan>
+                    </text>
+                    <text id="Discard" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="403.266" y="9">Discard</tspan>
+                    </text>
+                    <circle id="Oval" fill="#666666" cx="430.25" cy="6.75" r="2.2499955"></circle>
+                    <circle id="Oval" stroke="#666666" stroke-width="2" cx="430.25" cy="6.75" r="2.2499955"></circle>
+                    <path d="M428.75,8.25 L431.75,5.25" id="Shape" stroke="#FFFFFF"></path>
+                    <path d="M428.75,5.25 L431.75,8.25" id="Shape" stroke="#FFFFFF"></path>
+                    <text id="Save" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
+                        <tspan x="371.658" y="9">Save</tspan>
+                    </text>
+                    <path d="M390.895113,3.00080978 C390.322288,3.00091839 390.000125,3.2914131 390,3.88489623 L390,10.0033584 C390.000125,10.5586172 390.289775,10.8493027 390.861837,10.8499279 L397.129289,10.8499279 C397.702295,10.8493027 397.992388,10.5730937 397.99279,10.0033584 L397.99279,3.88489623 C397.992388,3.3058896 397.702295,3.00091839 397.110987,3.00080978 C397.110987,3.00080978 390.893407,2.99898778 390.895113,3.00080978 L390.895113,3.00080978 L390.895113,3.00080978 Z" id="Fill-1" fill="#000000"></path>
+                    <polyline id="Fill-3" fill="#FFFFFF" points="396.157643 5.51605088 396.157643 8.97899308 392.625442 8.97899308 391.459133 7.83718454 394.147799 7.83718454 391.507383 5.24854159 392.360901 4.41012802 394.992998 6.98898418 394.992998 4.36934915 396.157643 5.51605088"></polyline>
+                </g>
             </g>
         </g>
     </g>

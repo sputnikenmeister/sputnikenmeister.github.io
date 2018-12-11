@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="580px" height="398px" viewBox="0 0 580 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+<svg width="548px" height="346px" viewBox="0 0 548 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fpm_ux-assembled-highlights</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="540" height="338" rx="4"></rect>
+        <rect id="path-1" x="0" y="0" width="540" height="338" rx="2"></rect>
         <filter x="-1.3%" y="-1.5%" width="102.6%" height="104.1%" filterUnits="objectBoundingBox" id="filter-3">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
@@ -88,31 +88,17 @@
             <stop stop-color="#000000" offset="0%"></stop>
             <stop stop-color="#FFFFFF" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-31" x="0" y="0" width="540" height="32"></rect>
     </defs>
-    <g id="Assembled:-Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Highlights" transform="translate(-30.000000, -104.000000)">
+    <g id="Assembled:-Highlights,-Catalog,-Search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Highlights" transform="translate(-46.000000, -133.000000)">
             <g id="fpm_ux-assembled-highlights" transform="translate(30.000000, 104.000000)">
-                <g id="desktop-app-frame" opacity="0.33">
-                    <g id="desktop">
-                        <rect id="desktop-rect" stroke="#7F7F7F" x="0.5" y="14.5" width="579" height="383"></rect>
-                        <rect id="bar-rect" stroke="#7F7F7F" x="0.5" y="0.5" width="579" height="14"></rect>
-                        <text id="File-Edit-Account-Wi" fill="#7F7F7F" font-family="Helvetica" font-size="7" font-weight="normal">
-                            <tspan x="68" y="10">File   Edit   Account   Window</tspan>
-                        </text>
-                        <text id="Freeplay-Music" fill="#7F7F7F" font-family="Helvetica-Bold, Helvetica" font-size="7" font-weight="bold">
-                            <tspan x="10" y="10">Freeplay Music</tspan>
-                        </text>
-                    </g>
-                </g>
                 <g id="app" transform="translate(20.000000, 31.000000)">
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
                     </mask>
                     <g id="app-rect">
                         <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                        <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="539" height="337" rx="4"></rect>
+                        <rect stroke="#000000" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="0.5" y="0.5" width="539" height="337" rx="2"></rect>
                     </g>
                     <g id="Breadcrumbs-highlights" mask="url(#mask-2)">
                         <g transform="translate(80.000000, 27.000000)" id="Breadcrumbs">
@@ -134,7 +120,7 @@
                                 </g>
                                 <polygon id="Shape" fill="#666666" points="0.5 0.5 0.5 22.99341 45.50012 23 53.00018 11.75009 45.50012 0.50023"></polygon>
                                 <polygon id="Shape" stroke="#FFFFFF" points="0.5 0.5 0.5 22.99341 45.50012 23 53.00018 11.75009 45.50012 0.50023"></polygon>
-                                <g id="Group" transform="translate(28.500000, 7.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#FFFFFF" font-weight="bold">
+                                <g id="Group" transform="translate(28.500000, 7.500000)" fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                     <text id="Home">
                                         <tspan x="0.054199" y="6">Home</tspan>
                                     </text>
@@ -408,7 +394,7 @@
                             <g id="header">
                                 <rect id="Rectangle-path" fill="url(#linearGradient-30)" x="0" y="9.99999997e-06" width="437" height="71.99981"></rect>
                                 <rect id="Rectangle-path" stroke="#999999" stroke-width="0.5" x="0" y="9.99999997e-06" width="437" height="71.99981"></rect>
-                                <g id="Blurb" transform="translate(8.000000, 38.000000)" font-size="5" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#FFFFFF" font-weight="400">
+                                <g id="Blurb" transform="translate(8.000000, 38.000000)" fill="#FFFFFF" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="5" font-weight="400">
                                     <text id="Lorem-ipsum-dolor-sit-amet,-consectetur-adipisicing-elit,-sed">
                                         <tspan x="0.5" y="5.5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</tspan>
                                     </text>
@@ -462,13 +448,13 @@
                                 <rect id="Rectangle-path" stroke="#E6E6E6" stroke-width="0.25" x="0.5" y="0" width="103.5" height="306"></rect>
                                 <rect id="Rectangle-path" fill="#FFFFFF" x="0.5" y="292.5" width="103.5" height="13.5"></rect>
                                 <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" x="0.5" y="292.5" width="103.5" height="13.5"></rect>
-                                <g id="Group" transform="translate(5.500000, 295.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <g id="Group" transform="translate(5.500000, 295.500000)" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                     <text id="Application-Status">
                                         <tspan x="0" y="6">Application Status</tspan>
                                     </text>
                                 </g>
                                 <rect id="Rectangle-path" fill="#FFFFFF" x="7.25" y="193.5" width="9" height="9"></rect>
-                                <g id="Group" transform="translate(18.250000, 194.500000)" font-size="6" fill="#000000">
+                                <g id="Group" transform="translate(18.250000, 194.500000)" fill="#000000" font-size="6">
                                     <text id="Untitled-Search" font-family="Helvetica" font-weight="normal">
                                         <tspan x="0" y="6">Untitled Search</tspan>
                                     </text>
@@ -479,7 +465,7 @@
                                 <path d="M9.5,195 L14,195 L14,199.79999 C12.65,199.20001 10.85,201.6 9.5,200.4 L9.5,195 Z" id="Shape" fill="#FFFFFF"></path>
                                 <path d="M9.5,195 L14,195 L14,199.79999 C12.65,199.20001 10.85,201.6 9.5,200.4 L9.5,195 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
                                 <rect id="Rectangle-path" fill="#FFFFFF" x="7.25" y="175.5" width="9" height="9"></rect>
-                                <g id="Group" transform="translate(18.250000, 176.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(18.250000, 176.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Starred-Songs">
                                         <tspan x="0" y="6">Starred Songs</tspan>
                                     </text>
@@ -487,75 +473,75 @@
                                 <polygon id="Shape" fill="#FFFFFF" points="11.75 176.75 12.47967 178.9957 14.840935 178.9957 12.93063 180.3836 13.6603 182.6293 11.75 181.2414 9.8397 182.6293 10.56937 180.3836 8.659065 178.9957 11.02033 178.9957"></polygon>
                                 <polygon id="Shape" stroke="#000000" stroke-width="0.5" points="11.75 176.75 12.47967 178.9957 14.840935 178.9957 12.93063 180.3836 13.6603 182.6293 11.75 181.2414 9.8397 182.6293 10.56937 180.3836 8.659065 178.9957 11.02033 178.9957"></polygon>
                                 <rect id="Rectangle-path" fill="#FFFFFF" x="7.25" y="162" width="9" height="9"></rect>
-                                <g id="Group" transform="translate(18.250000, 163.000000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(18.250000, 163.000000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Downloads">
                                         <tspan x="0" y="6">Downloads</tspan>
                                     </text>
                                 </g>
                                 <polygon id="Shape" fill="#FFFFFF" points="10.571453 164.1789 12.928585 164.1789 12.928585 166.39319 14.2143 166.39319 11.75002 168.82172 9.28574 166.39319 10.571453 166.39319"></polygon>
                                 <polygon id="Shape" stroke="#000000" stroke-width="0.5" points="10.571453 164.1789 12.928585 164.1789 12.928585 166.39319 14.2143 166.39319 11.75002 168.82172 9.28574 166.39319 10.571453 166.39319"></polygon>
-                                <g id="Group" transform="translate(7.500000, 67.500000)" font-size="9" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <g id="Group" transform="translate(7.500000, 67.500000)" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
                                     <text id="Catalog">
                                         <tspan x="0" y="9">Catalog</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(8.500000, 126.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(8.500000, 126.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Tempos">
                                         <tspan x="0" y="6">Tempos</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(8.500000, 117.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(8.500000, 117.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Instruments">
                                         <tspan x="0" y="6">Instruments</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(8.500000, 108.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(8.500000, 108.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Moods">
                                         <tspan x="0" y="6">Moods</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(8.500000, 99.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(8.500000, 99.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Genres">
                                         <tspan x="0" y="6">Genres</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(8.500000, 90.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(8.500000, 90.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Artists">
                                         <tspan x="0" y="6">Artists</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(8.500000, 81.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(8.500000, 81.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Labels">
                                         <tspan x="0" y="6">Labels</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(7.500000, 22.500000)" font-size="9" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <g id="Group" transform="translate(7.500000, 22.500000)" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
                                     <text id="Highlights">
                                         <tspan x="0" y="9">Highlights</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(8.500000, 54.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(8.500000, 54.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Staff-Picks">
                                         <tspan x="0" y="6">Staff Picks</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(8.500000, 45.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(8.500000, 45.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Featured-Artists">
                                         <tspan x="0" y="6">Featured Artists</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(8.500000, 36.500000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(8.500000, 36.500000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="New-Additions">
                                         <tspan x="0" y="6">New Additions</tspan>
                                     </text>
                                 </g>
-                                <g id="Group" transform="translate(7.500000, 139.500000)" font-size="9" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <g id="Group" transform="translate(7.500000, 139.500000)" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="9" font-weight="bold">
                                     <text id="User-Selections">
                                         <tspan x="0" y="9">User Selections</tspan>
                                     </text>
                                 </g>
                                 <rect id="Rectangle-path" fill="#E6E6E6" x="0.5" y="184.75" width="103.5" height="9"></rect>
-                                <g id="Group" transform="translate(18.250000, 185.750000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(18.250000, 185.750000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Untitled-Playlist">
                                         <tspan x="0" y="6">Untitled Playlist</tspan>
                                     </text>
@@ -570,21 +556,21 @@
                                 </g>
                                 <path d="M41.75,274.5 L58.25,274.5 C59.90685,274.5 61.25,275.84314 61.25,277.5 L61.25,285 C61.25,286.65686 59.90685,288 58.25,288 L41.75,288 C40.093147,288 38.75,286.65686 38.75,285 L38.75,285 L38.75,277.5 C38.75,275.84314 40.093147,274.5 41.75,274.5 L41.75,274.5 Z" id="Shape" fill="#FFFFFF"></path>
                                 <path d="M41.75,274.5 L58.25,274.5 C59.90685,274.5 61.25,275.84314 61.25,277.5 L61.25,285 C61.25,286.65686 59.90685,288 58.25,288 L41.75,288 C40.093147,288 38.75,286.65686 38.75,285 L38.75,285 L38.75,277.5 C38.75,275.84314 40.093147,274.5 41.75,274.5 L41.75,274.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                                <g id="Group" transform="translate(43.750000, 277.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <g id="Group" transform="translate(43.750000, 277.500000)" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                     <text id="Edit">
                                         <tspan x="0.8050003" y="6">Edit</tspan>
                                     </text>
                                 </g>
                                 <path d="M68.75,274.5 L89.75,274.5 C91.40686,274.5 92.75,275.84314 92.75,277.5 L92.75,285 C92.75,286.65686 91.40686,288 89.75,288 L68.75,288 C67.09315,288 65.75,286.65686 65.75,285 L65.75,285 L65.75,277.5 C65.75,275.84314 67.09315,274.5 68.75,274.5 L68.75,274.5 Z" id="Shape" fill="#FFFFFF"></path>
                                 <path d="M68.75,274.5 L89.75,274.5 C91.40686,274.5 92.75,275.84314 92.75,277.5 L92.75,285 C92.75,286.65686 91.40686,288 89.75,288 L68.75,288 C67.09315,288 65.75,286.65686 65.75,285 L65.75,285 L65.75,277.5 C65.75,275.84314 67.09315,274.5 68.75,274.5 L68.75,274.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                                <g id="Group" transform="translate(69.750000, 277.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <g id="Group" transform="translate(69.750000, 277.500000)" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                     <text id="Delete">
                                         <tspan x="0.6079998" y="6">Delete</tspan>
                                     </text>
                                 </g>
                                 <path d="M8,274.5 L31.25,274.5 C32.906853,274.5 34.25,275.84314 34.25,277.5 L34.25,285 C34.25,286.65686 32.906853,288 31.25,288 L8,288 C6.343147,288 5,286.65686 5,285 L5,285 L5,277.5 C5,275.84314 6.343147,274.5 8,274.5 L8,274.5 Z" id="Shape" fill="#FFFFFF"></path>
                                 <path d="M8,274.5 L31.25,274.5 C32.906853,274.5 34.25,275.84314 34.25,277.5 L34.25,285 C34.25,286.65686 32.906853,288 31.25,288 L8,288 C6.343147,288 5,286.65686 5,285 L5,285 L5,277.5 C5,275.84314 6.343147,274.5 8,274.5 L8,274.5 Z" id="Shape" stroke="#000000" stroke-width="0.5"></path>
-                                <g id="Group" transform="translate(10.000000, 277.500000)" font-size="6" font-family="Helvetica-Bold, Helvetica" fill="#000000" font-weight="bold">
+                                <g id="Group" transform="translate(10.000000, 277.500000)" fill="#000000" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold">
                                     <text id="New">
                                         <tspan x="0" y="6">New</tspan>
                                     </text>
@@ -592,7 +578,7 @@
                                 <polygon id="Shape" fill="#000000" points="29.422157 280.2814 27.50038 283.21817 25.578606 280.2814"></polygon>
                                 <path d="M11.75,4.5 L92.75,4.5 C96.47792,4.5 99.5,7.52208 99.5,11.25 L99.5,11.25 C99.5,14.97792 96.47792,18 92.75,18 L11.75,18 C8.02208,18 5,14.97792 5,11.25 L5,11.25 L5,11.25 C5,7.52208 8.02208,4.5 11.75,4.5 L11.75,4.5 Z" id="Shape" fill="#FFFFFF"></path>
                                 <path d="M11.75,4.5 L92.75,4.5 C96.47792,4.5 99.5,7.52208 99.5,11.25 L99.5,11.25 C99.5,14.97792 96.47792,18 92.75,18 L11.75,18 C8.02208,18 5,14.97792 5,11.25 L5,11.25 L5,11.25 C5,7.52208 8.02208,4.5 11.75,4.5 L11.75,4.5 Z" id="Shape" stroke="#999999" stroke-width="0.5"></path>
-                                <g id="Group" transform="translate(10.000000, 7.500000)" font-weight="normal" font-size="6" font-family="Helvetica-Oblique, Helvetica" fill="#999999" font-style="italic">
+                                <g id="Group" transform="translate(10.000000, 7.500000)" fill="#999999" font-family="Helvetica-Oblique, Helvetica" font-size="6" font-style="italic" font-weight="normal">
                                     <text id="Quick-Search">
                                         <tspan x="0" y="6">Quick Search</tspan>
                                     </text>
@@ -616,7 +602,7 @@
                                     <path d="M2.42412,2.0756 L1.82115,1.03113 C1.74983,0.9076 1.60629,0.85675 1.50076,0.91766 C1.39523,0.9786 1.36748,1.1283 1.4388,1.25186 L2.04176,2.29633 C2.11308,2.41986 2.25662,2.4707 2.36215,2.40979 C2.46768,2.34885 2.49544,2.19916 2.42412,2.0756" id="Shape" fill="#333333"></path>
                                 </g>
                                 <rect id="Rectangle-path" fill="#FFFFFF" x="7.25" y="153" width="9" height="9"></rect>
-                                <g id="Group" transform="translate(18.250000, 154.000000)" font-size="6" font-family="Helvetica" fill="#000000" font-weight="normal">
+                                <g id="Group" transform="translate(18.250000, 154.000000)" fill="#000000" font-family="Helvetica" font-size="6" font-weight="normal">
                                     <text id="Shopping-Cart">
                                         <tspan x="0" y="6">Shopping Cart</tspan>
                                     </text>
@@ -721,14 +707,11 @@
                         </g>
                     </g>
                     <g id="header" mask="url(#mask-2)">
-                        <g id="Rectangle-path">
-                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-31"></use>
-                            <rect stroke="#000000" stroke-width="0.25" x="-0.125" y="-0.125" width="540.25" height="32.25"></rect>
-                        </g>
-                        <text id="Account-Settings-Sig" fill="#000000" fill-rule="evenodd" font-family="Helvetica" font-size="9" font-weight="normal">
+                        <rect id="Rectangle-path" stroke="#000000" stroke-width="0.25" fill="#FFFFFF" x="-0.125" y="-0.125" width="540.25" height="32.25"></rect>
+                        <text id="Account-Settings-Sig" fill="#000000" font-family="Helvetica" font-size="9" font-weight="normal">
                             <tspan x="421.938965" y="25">Account Settings   Sign Out</tspan>
                         </text>
-                        <g id="Left" stroke-width="1" fill-rule="evenodd" transform="translate(4.000000, 5.000000)">
+                        <g id="Left" stroke-width="1" transform="translate(4.000000, 5.000000)">
                             <circle id="Oval" fill="#FFFFFF" cx="3" cy="3" r="3.0000114"></circle>
                             <circle id="Oval" stroke="#000000" stroke-width="0.5" cx="3" cy="3" r="3.0000114"></circle>
                             <circle id="Oval" fill="#FFFFFF" cx="11.999992" cy="3" r="3.0000107"></circle>
@@ -741,7 +724,7 @@
                         </g>
                     </g>
                 </g>
-                <rect id="app-rect" stroke="#000000" x="20" y="31" width="540" height="338" rx="4"></rect>
+                <rect id="app-rect" stroke="#000000" x="20" y="31" width="540" height="338" rx="2"></rect>
             </g>
         </g>
     </g>
