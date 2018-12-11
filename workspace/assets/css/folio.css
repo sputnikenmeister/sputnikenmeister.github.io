@@ -1150,6 +1150,8 @@ body {
   padding-bottom: 1.5rem;
   padding-left: 20px;
   padding-right: 20px; }
+  .article-view.mdown > *:first-child {
+    margin-top: 0 !important; }
   .article-view.mdown > * {
     padding-left: 200px; }
   .article-view.mdown h3, .article-view.mdown h5 {
@@ -1181,11 +1183,16 @@ body {
   .app.medium-wide .transform-wrapper {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); }
+  .app.medium-wide #site-name-wrapper, .app.medium-wide #article-list-wrapper {
+    margin-top: auto;
+    margin-bottom: auto;
+    -webkit-transform: translate(0, 1.5rem);
+            transform: translate(0, 1.5rem); }
   .app.medium-wide.without-article.without-bundle #bundle-list, .app.medium-wide.without-article.without-bundle #keyword-list, .app.medium-wide.route-root #bundle-list, .app.medium-wide.route-root #keyword-list {
     padding-top: 5.5rem; }
   .app.medium-wide.without-article.without-bundle #site-name-wrapper, .app.medium-wide.without-article.without-bundle #article-list-wrapper, .app.medium-wide.route-root #site-name-wrapper, .app.medium-wide.route-root #article-list-wrapper {
-    -webkit-transform: translate(0, 4rem);
-            transform: translate(0, 4rem); }
+    -webkit-transform: translate(0, 5.5rem);
+            transform: translate(0, 5.5rem); }
   .app.medium-wide #bundle-list {
     width: 220px; }
   .app.medium-wide #bundle-list-wrapper {
@@ -1221,9 +1228,7 @@ body {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); }
   .app.medium-wide #site-name-wrapper {
-    width: 220px;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
+    width: 220px; }
   .app.medium-wide.with-bundle .container-expanded .article-button {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); }
@@ -1302,11 +1307,16 @@ body {
   .app.medium-wide-stretch .transform-wrapper {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); }
+  .app.medium-wide-stretch #site-name-wrapper, .app.medium-wide-stretch #article-list-wrapper {
+    margin-top: auto;
+    margin-bottom: auto;
+    -webkit-transform: translate(0, 1.5rem);
+            transform: translate(0, 1.5rem); }
   .app.medium-wide-stretch.without-article.without-bundle #bundle-list, .app.medium-wide-stretch.without-article.without-bundle #keyword-list, .app.medium-wide-stretch.route-root #bundle-list, .app.medium-wide-stretch.route-root #keyword-list {
     padding-top: 10vh; }
   .app.medium-wide-stretch.without-article.without-bundle #site-name-wrapper, .app.medium-wide-stretch.without-article.without-bundle #article-list-wrapper, .app.medium-wide-stretch.route-root #site-name-wrapper, .app.medium-wide-stretch.route-root #article-list-wrapper {
-    -webkit-transform: translate(0, calc(10vh - 1.5rem));
-            transform: translate(0, calc(10vh - 1.5rem)); }
+    -webkit-transform: translate(0, 10vh);
+            transform: translate(0, 10vh); }
   .app.medium-wide-stretch #bundle-list {
     width: 18vw; }
   .app.medium-wide-stretch #bundle-list-wrapper {
@@ -1342,9 +1352,7 @@ body {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); }
   .app.medium-wide-stretch #site-name-wrapper {
-    width: 18vw;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
+    width: 18vw; }
   .app.medium-wide-stretch.with-bundle .container-expanded .article-button {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); }
